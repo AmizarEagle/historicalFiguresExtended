@@ -1,0 +1,294 @@
+country_decisions = {
+
+	monarch_ASK_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ASK
+			has_ruler = "Yoshimasa I"
+			NOT = { is_year = 1489 }
+			NOT = { has_global_flag = monarch_ASK_No.00a }
+		}
+		allow = {
+			is_year = 1465
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ASK_No.00a
+			define_heir = {
+				name = "Yoshihisa"
+				monarch_name = "Yoshihisa"
+				dynasty = "Ashikaga"
+				birth_date = 1465.12.11
+				death_date = 1489.4.26
+				claim = 90
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ASK_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ASK
+			has_ruler = "Yoshihisa"
+			NOT = { is_year = 1490 }
+			NOT = { has_global_flag = monarch_ASK_No.01a }
+		}
+		allow = {
+			is_year = 1475
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ASK_No.01a
+			define_heir = {
+				name = "Yoshimasa"
+				monarch_name = "Yoshimasa"
+				dynasty = "Ashikaga"
+				birth_date = 1436.1.20
+				death_date = 1490.1.27
+				adm = 2
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ASK_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ASK
+			has_ruler = "Yoshimasa"
+			NOT = { is_year = 1491 }
+			NOT = { has_global_flag = monarch_ASK_No.02a }
+		}
+		allow = {
+			is_year = 1489
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ASK_No.02a
+			define_heir = {
+				name = "Yoshitane"
+				monarch_name = "Yoshitane"
+				dynasty = "Ashikaga"
+				birth_date = 1466.9.9
+				death_date = 1523.5.23
+				claim = 90
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ASK_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ASK
+			has_ruler = "Yoshitane"
+			NOT = { is_year = 1511 }
+			NOT = { has_global_flag = monarch_ASK_No.03a }
+		}
+		allow = {
+			is_year = 1491
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ASK_No.03a
+			define_heir = {
+				name = "Yoshizumi"
+				monarch_name = "Yoshizumi"
+				dynasty = "Ashikaga"
+				birth_date = 1481.1.15
+				death_date = 1511.9.6
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ASK_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ASK
+			has_ruler = "Yoshizumi"
+			NOT = { is_year = 1523 }
+			NOT = { has_global_flag = monarch_ASK_No.04a }
+		}
+		allow = {
+			is_year = 1508
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ASK_No.04a
+			define_heir = {
+				name = "Yoshitane"
+				monarch_name = "Yoshitane"
+				dynasty = "Ashikaga"
+				birth_date = 1466.9.9
+				death_date = 1523.5.23
+				claim = 90
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ASK_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ASK
+			has_ruler = "Yoshitane"
+			NOT = { is_year = 1550 }
+			NOT = { has_global_flag = monarch_ASK_No.05a }
+		}
+		allow = {
+			is_year = 1511
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ASK_No.05a
+			define_heir = {
+				name = "Yoshiharu"
+				monarch_name = "Yoshiharu"
+				dynasty = "Ashikaga"
+				birth_date = 1511.4.2
+				death_date = 1550.5.20
+				adm = 2
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ASK_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ASK
+			has_ruler = "Yoshiharu"
+			NOT = { is_year = 1565 }
+			NOT = { has_global_flag = monarch_ASK_No.06a }
+		}
+		allow = {
+			is_year = 1536
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ASK_No.06a
+			define_heir = {
+				name = "Yoshiteru"
+				monarch_name = "Yoshiteru"
+				dynasty = "Ashikaga"
+				birth_date = 1536.3.31
+				death_date = 1565.6.17
+				claim = 90
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ASK_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ASK
+			has_ruler = "Yoshiteru"
+			NOT = { is_year = 1568 }
+			NOT = { has_global_flag = monarch_ASK_No.07a }
+		}
+		allow = {
+			is_year = 1547
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ASK_No.07a
+			define_heir = {
+				name = "Yoshihide"
+				monarch_name = "Yoshihide"
+				dynasty = "Ashikaga"
+				birth_date = 1538.1.1
+				death_date = 1568.10.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ASK_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ASK
+			has_ruler = "Yoshihide"
+			NOT = { is_year = 1597 }
+			NOT = { has_global_flag = monarch_ASK_No.08a }
+		}
+		allow = {
+			is_year = 1566
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ASK_No.08a
+			define_heir = {
+				name = "Yoshiaki"
+				monarch_name = "Yoshiaki"
+				dynasty = "Ashikaga"
+				birth_date = 1537.12.15
+				death_date = 1597.10.9
+				adm = 2
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,569 @@
+country_decisions = {
+
+	monarch_WUR_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Ulrich V"
+			NOT = { is_year = 1496 }
+			NOT = { has_global_flag = monarch_WUR_No.00a }
+		}
+		allow = {
+			is_year = 1447
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.00a
+			define_heir = {
+				name = "Eberhard"
+				monarch_name = "Eberhard I"
+				dynasty = "von Wurttemberg"
+				birth_date = 1447.2.1
+				death_date = 1504.2.17
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Eberhard I"
+			NOT = { is_year = 1504 }
+			NOT = { has_global_flag = monarch_WUR_No.01a }
+		}
+		allow = {
+			is_year = 1457
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.01a
+			define_heir = {
+				name = "Eberhard"
+				monarch_name = "Eberhard II"
+				dynasty = "von Wurttemberg"
+				birth_date = 1447.2.1
+				death_date = 1504.2.17
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Eberhard II"
+			NOT = { is_year = 1550 }
+			NOT = { has_global_flag = monarch_WUR_No.02a }
+		}
+		allow = {
+			is_year = 1496
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.02a
+			define_heir = {
+				name = "Ulrich"
+				monarch_name = "Ulrich"
+				dynasty = "von Wurttemberg"
+				birth_date = 1487.2.8
+				death_date = 1550.11.6
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 3
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Ulrich"
+			NOT = { is_year = 1568 }
+			NOT = { has_global_flag = monarch_WUR_No.03a }
+		}
+		allow = {
+			is_year = 1515
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.03a
+			define_heir = {
+				name = "Cristoph"
+				monarch_name = "Cristoph"
+				dynasty = "von Wurttemberg"
+				birth_date = 1515.5.2
+				death_date = 1568.12.28
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Cristoph"
+			NOT = { is_year = 1593 }
+			NOT = { has_global_flag = monarch_WUR_No.04a }
+		}
+		allow = {
+			is_year = 1554
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.04a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig der Fromme"
+				dynasty = "von Wurttemberg"
+				birth_date = 1554.1.1
+				death_date = 1593.8.28
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Ludwig der Fromme"
+			NOT = { is_year = 1608 }
+			NOT = { has_global_flag = monarch_WUR_No.05a }
+		}
+		allow = {
+			is_year = 1568
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.05a
+			define_heir = {
+				name = "Friedrich"
+				monarch_name = "Friedrich I"
+				dynasty = "von Wurttemberg"
+				birth_date = 1557.8.19
+				death_date = 1608.1.29
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Friedrich I"
+			NOT = { is_year = 1628 }
+			NOT = { has_global_flag = monarch_WUR_No.06a }
+		}
+		allow = {
+			is_year = 1593
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.06a
+			define_heir = {
+				name = "Johann Friedrich"
+				monarch_name = "Johann Friedrich"
+				dynasty = "von Wurttemberg"
+				birth_date = 1582.5.5
+				death_date = 1628.7.18
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Johann Friedrich"
+			NOT = { is_year = 1674 }
+			NOT = { has_global_flag = monarch_WUR_No.07a }
+		}
+		allow = {
+			is_year = 1614
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.07a
+			define_heir = {
+				name = "Eberhard"
+				monarch_name = "Eberhard III"
+				dynasty = "von Wurttemberg"
+				birth_date = 1614.12.16
+				death_date = 1674.7.2
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Eberhard III"
+			NOT = { is_year = 1677 }
+			NOT = { has_global_flag = monarch_WUR_No.08a }
+		}
+		allow = {
+			is_year = 1647
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.08a
+			define_heir = {
+				name = "Wilhelm Ludwig"
+				monarch_name = "Wilhelm Ludwig"
+				dynasty = "von Wurttemberg"
+				birth_date = 1647.1.7
+				death_date = 1677.6.23
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Wilhelm Ludwig"
+			NOT = { is_year = 1697 }
+			NOT = { has_global_flag = monarch_WUR_No.09a }
+		}
+		allow = {
+			is_year = 1674
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.09a
+			define_heir = {
+				name = "Friedrich Karl"
+				monarch_name = "Friedrich Karl"
+				dynasty = "von Wurttemberg"
+				birth_date = 1652.9.12
+				death_date = 1697.12.20
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Friedrich Karl"
+			NOT = { is_year = 1733 }
+			NOT = { has_global_flag = monarch_WUR_No.10a }
+		}
+		allow = {
+			is_year = 1677
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.10a
+			define_heir = {
+				name = "Eberhard Ludwig"
+				monarch_name = "Eberhard Ludwig"
+				dynasty = "von Wurttemberg"
+				birth_date = 1676.9.18
+				death_date = 1733.10.31
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Eberhard Ludwig"
+			NOT = { is_year = 1737 }
+			NOT = { has_global_flag = monarch_WUR_No.11a }
+		}
+		allow = {
+			is_year = 1693
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.11a
+			define_heir = {
+				name = "Karl Alexander"
+				monarch_name = "Karl Alexander"
+				dynasty = "von Wurttemberg"
+				birth_date = 1684.5.24
+				death_date = 1737.3.12
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Karl Alexander"
+			NOT = { is_year = 1793 }
+			NOT = { has_global_flag = monarch_WUR_No.12a }
+		}
+		allow = {
+			is_year = 1733
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.12a
+			define_heir = {
+				name = "Karl Eugen"
+				monarch_name = "Karl Eugen"
+				dynasty = "von Wurttemberg"
+				birth_date = 1728.2.11
+				death_date = 1793.10.24
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Karl Eugen"
+			NOT = { is_year = 1795 }
+			NOT = { has_global_flag = monarch_WUR_No.13a }
+		}
+		allow = {
+			is_year = 1737
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.13a
+			define_heir = {
+				name = "Ludwig Eugen"
+				monarch_name = "Ludwig Eugen"
+				dynasty = "von Wurttemberg"
+				birth_date = 1731.1.6
+				death_date = 1795.5.20
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Ludwig Eugen"
+			NOT = { is_year = 1797 }
+			NOT = { has_global_flag = monarch_WUR_No.14a }
+		}
+		allow = {
+			is_year = 1793
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.14a
+			define_heir = {
+				name = "Friedrich Eugen"
+				monarch_name = "Friedrich II Eugen"
+				dynasty = "von Wurttemberg"
+				birth_date = 1732.1.21
+				death_date = 1797.12.23
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Friedrich II Eugen"
+			NOT = { is_year = 1816 }
+			NOT = { has_global_flag = monarch_WUR_No.15a }
+		}
+		allow = {
+			is_year = 1795
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.15a
+			define_heir = {
+				name = "Friedrich"
+				monarch_name = "Friedrich I"
+				dynasty = "von Wurttemberg"
+				birth_date = 1754.11.6
+				death_date = 1816.10.30
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WUR_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WUR
+			has_ruler = "Friedrich I"
+			NOT = { is_year = 1864 }
+			NOT = { has_global_flag = monarch_WUR_No.16a }
+		}
+		allow = {
+			is_year = 1797
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WUR_No.16a
+			define_heir = {
+				name = "William"
+				monarch_name = "William I"
+				dynasty = "von Wurttemberg"
+				birth_date = 1781.9.27
+				death_date = 1864.6.25
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

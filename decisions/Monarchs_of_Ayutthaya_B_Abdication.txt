@@ -1,0 +1,577 @@
+country_decisions = {
+
+	monarch_AYU_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Borommaracha II"
+			has_global_flag = monarch_AYU_No.00a
+			NOT = { is_year = 1488 }
+			NOT = { has_global_flag = monarch_AYU_No.00b }
+		}
+		allow = {
+			is_year = 1448
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Trailok"
+			has_global_flag = monarch_AYU_No.01a
+			NOT = { is_year = 1491 }
+			NOT = { has_global_flag = monarch_AYU_No.01b }
+		}
+		allow = {
+			is_year = 1488
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Borommaracha III"
+			has_global_flag = monarch_AYU_No.02a
+			NOT = { is_year = 1529 }
+			NOT = { has_global_flag = monarch_AYU_No.02b }
+		}
+		allow = {
+			is_year = 1491
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Rama T'ibodi II"
+			has_global_flag = monarch_AYU_No.03a
+			NOT = { is_year = 1533 }
+			NOT = { has_global_flag = monarch_AYU_No.03b }
+		}
+		allow = {
+			is_year = 1529
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Borommaracha IV"
+			has_global_flag = monarch_AYU_No.04a
+			NOT = { is_year = 1534 }
+			NOT = { has_global_flag = monarch_AYU_No.04b }
+		}
+		allow = {
+			is_year = 1533
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Ratsada"
+			has_global_flag = monarch_AYU_No.05a
+			NOT = { is_year = 1546 }
+			NOT = { has_global_flag = monarch_AYU_No.05b }
+		}
+		allow = {
+			is_year = 1534
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Chairacha"
+			has_global_flag = monarch_AYU_No.06a
+			NOT = { is_year = 1548 }
+			NOT = { has_global_flag = monarch_AYU_No.06b }
+		}
+		allow = {
+			is_year = 1546
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Keo Fa"
+			has_global_flag = monarch_AYU_No.07a
+			NOT = { is_year = 1569 }
+			NOT = { has_global_flag = monarch_AYU_No.07b }
+		}
+		allow = {
+			is_year = 1549
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Mahin"
+			has_global_flag = monarch_AYU_No.08a
+			NOT = { is_year = 1590 }
+			NOT = { has_global_flag = monarch_AYU_No.08b }
+		}
+		allow = {
+			is_year = 1569
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Thammaracha I"
+			has_global_flag = monarch_AYU_No.09a
+			NOT = { is_year = 1605 }
+			NOT = { has_global_flag = monarch_AYU_No.09b }
+		}
+		allow = {
+			is_year = 1590
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Naresuen"
+			has_global_flag = monarch_AYU_No.10a
+			NOT = { is_year = 1610 }
+			NOT = { has_global_flag = monarch_AYU_No.10b }
+		}
+		allow = {
+			is_year = 1605
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Ekathotsarot"
+			has_global_flag = monarch_AYU_No.11a
+			NOT = { is_year = 1611 }
+			NOT = { has_global_flag = monarch_AYU_No.11b }
+		}
+		allow = {
+			is_year = 1610
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Si Saowaphak"
+			has_global_flag = monarch_AYU_No.12a
+			NOT = { is_year = 1629 }
+			NOT = { has_global_flag = monarch_AYU_No.12b }
+		}
+		allow = {
+			is_year = 1628
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Chettha"
+			has_global_flag = monarch_AYU_No.13a
+			NOT = { is_year = 1640 }
+			NOT = { has_global_flag = monarch_AYU_No.13b }
+		}
+		allow = {
+			is_year = 1629
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Athittayawong"
+			has_global_flag = monarch_AYU_No.14a
+			NOT = { is_year = 1688 }
+			NOT = { has_global_flag = monarch_AYU_No.14b }
+		}
+		allow = {
+			is_year = 1656
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Chao Fa Jai"
+			has_global_flag = monarch_AYU_No.15a
+			NOT = { is_year = 1703 }
+			NOT = { has_global_flag = monarch_AYU_No.15b }
+		}
+		allow = {
+			is_year = 1688
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Phetracha"
+			has_global_flag = monarch_AYU_No.16a
+			NOT = { is_year = 1709 }
+			NOT = { has_global_flag = monarch_AYU_No.16b }
+		}
+		allow = {
+			is_year = 1703
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Suriyenthrathibodi"
+			has_global_flag = monarch_AYU_No.17a
+			NOT = { is_year = 1733 }
+			NOT = { has_global_flag = monarch_AYU_No.17b }
+		}
+		allow = {
+			is_year = 1709
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.18b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Thai Sa"
+			has_global_flag = monarch_AYU_No.18a
+			NOT = { is_year = 1758 }
+			NOT = { has_global_flag = monarch_AYU_No.18b }
+		}
+		allow = {
+			is_year = 1733
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.19b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Boromakot"
+			has_global_flag = monarch_AYU_No.19a
+			NOT = { is_year = 1759 }
+			NOT = { has_global_flag = monarch_AYU_No.19b }
+		}
+		allow = {
+			is_year = 1758
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.19b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.20b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Ekkathat"
+			has_global_flag = monarch_AYU_No.20a
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_AYU_No.20b }
+		}
+		allow = {
+			is_year = 1767
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.20b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.21b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Taksin"
+			has_global_flag = monarch_AYU_No.21a
+			NOT = { is_year = 1809 }
+			NOT = { has_global_flag = monarch_AYU_No.21b }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.21b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.22b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Rama I"
+			has_global_flag = monarch_AYU_No.22a
+			NOT = { is_year = 1824 }
+			NOT = { has_global_flag = monarch_AYU_No.22b }
+		}
+		allow = {
+			is_year = 1809
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.22b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

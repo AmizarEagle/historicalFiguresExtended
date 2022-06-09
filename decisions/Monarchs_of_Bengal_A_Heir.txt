@@ -1,0 +1,1049 @@
+country_decisions = {
+
+	monarch_BNG_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Nasir-ud-Din Mahmud"
+			NOT = { is_year = 1474 }
+			NOT = { has_global_flag = monarch_BNG_No.00a }
+		}
+		allow = {
+			is_year = 1430
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.00a
+			define_heir = {
+				name = "Barbak"
+				monarch_name = "Rukun-ud-Din Barbak"
+				dynasty = "Ilyas Shahi"
+				birth_date = 1430.1.1
+				death_date = 1474.1.1
+				claim = 95
+				ADM = 4
+				DIP = 4
+				MIL = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Rukun-ud-Din Barbak"
+			NOT = { is_year = 1481 }
+			NOT = { has_global_flag = monarch_BNG_No.01a }
+		}
+		allow = {
+			is_year = 1459
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.01a
+			define_heir = {
+				name = "Yusuf"
+				monarch_name = "Shams-ud-Din Yusuf"
+				dynasty = "Ilyas Shahi"
+				birth_date = 1459.1.1
+				death_Date = 1481.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Shams-ud-Din Yusuf"
+			NOT = { is_year = 1482 }
+			NOT = { has_global_flag = monarch_BNG_No.02a }
+		}
+		allow = {
+			is_year = 1474
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.02a
+			define_heir = {
+				name = "Sikandar"
+				monarch_name = "Sikandar II"
+				dynasty = "Ilyas Shahi"
+				birth_date = 1460.1.1
+				death_date = 1482.1.1
+				claim = 95
+				ADM = 1
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Sikandar II"
+			NOT = { is_year = 1487 }
+			NOT = { has_global_flag = monarch_BNG_No.03a }
+		}
+		allow = {
+			is_year = 1460
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.03a
+			define_heir = {
+				name = "Jalal ad-Din Fateh"
+				monarch_name = "Jalal ad-Din Fateh"
+				dynasty = "Ilyas Shahi"
+				birth_date = 1460.1.1
+				death_date = 1487.1.1
+				claim = 95
+				ADM = 3
+				DIP = 2
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Jalal ad-Din Fateh"
+			NOT = { is_year = 1488 }
+			NOT = { has_global_flag = monarch_BNG_No.04a }
+		}
+		allow = {
+			is_year = 1482
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.04a
+			define_heir = {
+				name = "Shahzada Barbak"
+				monarch_name = "Shahzada Barbak I"
+				dynasty = "Abyssinid"
+				birth_date = 1440.1.1
+				death_date = 1488.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Shahzada Barbak I"
+			NOT = { is_year = 1490 }
+			NOT = { has_global_flag = monarch_BNG_No.05a }
+		}
+		allow = {
+			is_year = 1487
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.05a
+			define_heir = {
+				name = "Sayf-ud-Din Firuz"
+				monarch_name = "Sayf ad-Din Firuz"
+				dynasty = "Abyssinid"
+				birth_date = 1460.1.1
+				death_date = 1490.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Sayf ad-Din Firuz"
+			NOT = { is_year = 1491 }
+			NOT = { has_global_flag = monarch_BNG_No.06a }
+		}
+		allow = {
+			is_year = 1488
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.06a
+			define_heir = {
+				name = "Nasir-ud-Din Mahmud"
+				monarch_name = "Nasir-ud-Din Mahmud II"
+				dynasty = "Abyssinid"
+				birth_date = 1488.1.1
+				death_date = 1491.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Nasir-ud-Din Mahmud II"
+			NOT = { is_year = 1493 }
+			NOT = { has_global_flag = monarch_BNG_No.07a }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.07a
+			define_heir = {
+				name = "Shams ad-Din Muzaffar"
+				monarch_name = "Shams ad-Din Muzaffar"
+				dynasty = "Abyssinid"
+				birth_date = 1465.1.1
+				death_date = 1493.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 1
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Shams ad-Din Muzaffar"
+			NOT = { is_year = 1519 }
+			NOT = { has_global_flag = monarch_BNG_No.08a }
+		}
+		allow = {
+			is_year = 1491
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.08a
+			define_heir = {
+				name = "Ala-ud-din Husain"
+				monarch_name = "Ala-ud-din Husain I"
+				dynasty = "Hussein Shahi"
+				birth_date = 1470.1.1
+				death_date = 1519.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Ala-ud-din Husain I"
+			NOT = { is_year = 1533 }
+			NOT = { has_global_flag = monarch_BNG_No.09a }
+		}
+		allow = {
+			is_year = 1500
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.09a
+			define_heir = {
+				name = "Nasir ad-Din Nasrat"
+				monarch_name = "Nasir ad-Din Nasrat"
+				dynasty = "Hussein Shahi"
+				birth_date = 1500.1.1
+				death_date = 1533.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Nasir ad-Din Nasrat"
+			NOT = { is_year = 1533 }
+			NOT = { has_global_flag = monarch_BNG_No.10a }
+		}
+		allow = {
+			is_year = 1519
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.10a
+			define_heir = {
+				name = "Ala-ud-din Firuz"
+				monarch_name = "'Ala' ad-Din Firuz III"
+				dynasty = "Hussein Shahi"
+				birth_date = 1519.1.1
+				death_date = 1533.3.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "'Ala' ad-Din Firuz III"
+			NOT = { is_year = 1538 }
+			NOT = { has_global_flag = monarch_BNG_No.11a }
+		}
+		allow = {
+			is_year = 1533
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.11a
+			define_heir = {
+				name = "Ghiyasuddin Mahmud"
+				monarch_name = "Ghiyasuddin Mahmud"
+				dynasty = "Hussein Shahi"
+				birth_date = 1510.1.1
+				death_date = 1538.4.1
+				claim = 95
+				ADM = 1
+				DIP = 1
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Ghiyasuddin Mahmud"
+			NOT = { is_year = 1545 }
+			NOT = { has_global_flag = monarch_BNG_No.12a }
+		}
+		allow = {
+			is_year = 1533
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.12a
+			define_heir = {
+				name = "Sher Shah"
+				monarch_name = "Sher Shah I"
+				dynasty = "Suri"
+				birth_date = 1472.1.1
+				death_date = 1545.5.22
+				claim = 95
+				adm = 6
+				dip = 4
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Sher Shah I"
+			NOT = { is_year = 1543 }
+			NOT = { has_global_flag = monarch_BNG_No.13a }
+		}
+		allow = {
+			is_year = 1538
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.13a
+			define_heir = {
+				name = "Islam Shah"
+				monarch_name = "Islam Shah"
+				culture = afghani
+				dynasty = "Suri"
+				birth_date = 1510.1.1
+				death_date = 1553.4.23
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Islam Shah"
+			NOT = { is_year = 1555 }
+			NOT = { has_global_flag = monarch_BNG_No.14a }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.14a
+			define_heir = {
+				name = "Shams ud-Din Muhammad"
+				monarch_name = "Shams ud-Din Muhammad"
+				dynasty = "Suri"
+				birth_date = 1520.1.1
+				death_date = 1555.1.1
+				claim = 45
+				ADM = 3
+				DIP = 3
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Shams ud-Din Muhammad"
+			NOT = { is_year = 1561 }
+			NOT = { has_global_flag = monarch_BNG_No.15a }
+		}
+		allow = {
+			is_year = 1553
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.15a
+			define_heir = {
+				name = "Ghiyat ad-Din Bahadur"
+				monarch_name =  "Ghiyat ad-Din Bahadur"
+				dynasty = "Suri"
+				birth_date = 1530.1.1
+				death_Date = 1561.1.1
+				claim = 95
+				ADM = 4
+				DIP = 2
+				MIL = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Ghiyat ad-Din Bahadur"
+			NOT = { is_year = 1564 }
+			NOT = { has_global_flag = monarch_BNG_No.16a }
+		}
+		allow = {
+			is_year = 1555
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.16a
+			define_heir = {
+				name = "Ghiyat ad-Din Jalal"
+				monarch_name = "Ghiyat ad-Din Jalal"
+				dynasty = "Suri"
+				birth_date = 1530.1.1
+				death_date = 1564.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Ghiyat ad-Din Jalal"
+			NOT = { is_year = 1572 }
+			NOT = { has_global_flag = monarch_BNG_No.17a }
+		}
+		allow = {
+			is_year = 1561
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.17a
+			define_heir = {
+				name = "Sulayman Khan"
+				monarch_name = "Sulayman Khan I"
+				dynasty = "Karrani"
+				birth_date = 1530.1.1
+				death_date = 1572.10.11
+				claim = 95
+				ADM = 1
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Sulayman Khan I"
+			NOT = { is_year = 1576 }
+			NOT = { has_global_flag = monarch_BNG_No.18a }
+		}
+		allow = {
+			is_year = 1564
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.18a
+			define_heir = {
+				name = "Da'ud"
+				monarch_name = "Da'ud"
+				dynasty = "Karrani"
+				birth_date = 1550.1.1
+				death_Date = 1576.7.12
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Da'ud"
+			NOT = { is_year = 1707 }
+			NOT = { has_global_flag = monarch_BNG_No.19a }
+		}
+		allow = {
+			is_year = 1572
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.19a
+			define_heir = {
+				name = "Vizier"
+				monarch_name = "Vizier"
+				dynasty = "Chisti"
+				birth_date = 1550.1.1
+				death_Date = 1576.7.12
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.20a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Vizier"
+			NOT = { is_year = 1726 }
+			NOT = { has_global_flag = monarch_BNG_No.20a }
+		}
+		allow = {
+			is_year = 1706
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.20a
+			define_heir = {
+				name = "Murshid Quli"
+				monarch_name = "Murshid Quli I"
+				dynasty = "Nasiri"
+				birth_date = 1660.1.1
+				death_Date = 1726.1.1
+				claim = 95
+				ADM = 5
+				DIP = 3
+				MIL = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.21a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Murshid Quli I"
+			NOT = { is_year = 1739 }
+			NOT = { has_global_flag = monarch_BNG_No.21a }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.21a
+			define_heir = {
+				name = "Shuja' ad-Din Muhammad"
+				monarch_name = "Shuja' ad-Din Muhammad"
+				dynasty = "Nasiri"
+				birth_date = 1670.1.1
+				death_date = 1739.8.26
+				claim = 95
+				ADM = 4
+				DIP = 3
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.22a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Shuja' ad-Din Muhammad"
+			NOT = { is_year = 1740 }
+			NOT = { has_global_flag = monarch_BNG_No.22a }
+		}
+		allow = {
+			is_year = 1726
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.22a
+			define_heir = {
+				name = "'Ala' ad-Daula Sarafaraz"
+				monarch_name = "'Ala' ad-Daula Sarafaraz"
+				dynasty = "Nasiri"
+				birth_date = 1700.1.1
+				death_date = 1740.5.13
+				claim = 95
+				ADM = 0
+				DIP = 1
+				MIL = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.23a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "'Ala' ad-Daula Sarafaraz"
+			NOT = { is_year = 1756 }
+			NOT = { has_global_flag = monarch_BNG_No.23a }
+		}
+		allow = {
+			is_year = 1739
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.23a
+			define_heir = {
+				name = "Ali-Vardi Khan"
+				monarch_name = "Ali-Vardi Khan"
+				dynasty = "Afshar"
+				birth_date = 1671.5.10
+				death_date = 1756.4.9
+				claim = 95
+				ADM = 4
+				DIP = 3
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.24a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Ali-Vardi Khan"
+			NOT = { is_year = 1757 }
+			NOT = { has_global_flag = monarch_BNG_No.24a }
+		}
+		allow = {
+			is_year = 1740
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.24a
+			define_heir = {
+				name = "Mirza Mahmud Siraj"
+				monarch_name = "Mirza Mahmud Siraj"
+				dynasty = "Afshar"
+				birth_date = 1733.1.1
+				death_date = 1757.7.2
+				claim = 95
+				ADM = 0
+				DIP = 1
+				MIL = 2
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.25a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Mirza Mahmud Siraj"
+			NOT = { is_year = 1765 }
+			NOT = { has_global_flag = monarch_BNG_No.25a }
+		}
+		allow = {
+			is_year = 1756
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.25a
+			define_heir = {
+				name = "Mir Muhammad Ja'far"
+				monarch_name = "Mir Muhammad Ja'far I"
+				dynasty = "Afshar"
+				birth_date = 1691.1.1
+				death_date = 1765.2.5
+				claim = 95
+				ADM = 1
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.26a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Mir Muhammad Ja'far I"
+			NOT = { is_year = 1763 }
+			NOT = { has_global_flag = monarch_BNG_No.26a }
+		}
+		allow = {
+			is_year = 1757
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.26a
+			define_heir = {
+				name = "Mir Qasim 'Ali"
+				monarch_name = "Mir Qasim 'Ali"
+				dynasty = "Afshar"
+				birth_date = 1720.1.1
+				death_Date = 1763.7.8
+				claim = 95
+				ADM = 3
+				DIP = 2
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.27a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Mir Qasim 'Ali"
+			NOT = { is_year = 1765 }
+			NOT = { has_global_flag = monarch_BNG_No.27a }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.27a
+			define_heir = {
+				name = "Mir Muhammad Ja'far"
+				monarch_name = "Mir Muhammad Ja'far I"
+				dynasty = "Najafi"
+				birth_date = 1691.1.1
+				death_date = 1765.2.5
+				claim = 95
+				ADM = 1
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.28a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Mir Muhammad Ja'far I"
+			NOT = { is_year = 1766 }
+			NOT = { has_global_flag = monarch_BNG_No.28a }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.28a
+			define_heir = {
+				name = "Mir Phulwari Najm"
+				monarch_name = "Mir Phulwari Najm"
+				dynasty = "Najafi"
+				birth_date = 1730.1.1
+				death_date = 1766.5.9
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.29a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Mir Phulwari Najm"
+			NOT = { is_year = 1770 }
+			NOT = { has_global_flag = monarch_BNG_No.29a }
+		}
+		allow = {
+			is_year = 1765
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.29a
+			define_heir = {
+				name = "Sayf ad-Daula"
+				monarch_name = "Sayf ad-Daula"
+				dynasty = "Najafi"
+				birth_date = 1730.1.1
+				death_date = 1770.3.11
+				claim = 95
+				ADM = 1
+				DIP = 0
+				MIL = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.30a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Sayf ad-Daula"
+			NOT = { is_year = 1793 }
+			NOT = { has_global_flag = monarch_BNG_No.30a }
+		}
+		allow = {
+			is_year = 1766
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.30a
+			define_heir = {
+				name = "Mubarak ad-Daula"
+				monarch_name = "Mubarak ad-Daula"
+				dynasty = "Najafi"
+				birth_date = 1755.1.1
+				death_date = 1793.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

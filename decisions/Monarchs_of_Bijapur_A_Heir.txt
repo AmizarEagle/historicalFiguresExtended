@@ -1,0 +1,288 @@
+country_decisions = {
+
+	monarch_BIJ_No.00a = {
+		major = yes
+		potential = {
+			tag = BIJ
+			NOT = { has_global_flag = monarch_BIJ_No.00a }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BIJ_No.00a
+			define_ruler = {
+				name = "Yusuf"
+				dynasty = "Adil Shahi"
+				DIP = 4
+				ADM = 4
+				MIL = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BIJ_No.01a = {
+		major = yes
+		potential = {
+			tag = BIJ
+			has_ruler = "Yusuf"
+			NOT = { has_global_flag = monarch_BIJ_No.01a }
+		}
+		allow = {
+			is_year = 1511
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BIJ_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Ismail"
+				monarch_name = "Ismail"
+				dynasty = "Adil Shahi"
+				birth_date = 1498.1.1
+				death_date = 1534.8.27
+				claim = 95
+				ADM = 3
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BIJ_No.02a = {
+		major = yes
+		potential = {
+			tag = BIJ
+			has_ruler = "Ismail"
+			NOT = { has_global_flag = monarch_BIJ_No.02a }
+		}
+		allow = {
+			is_year = 1534
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BIJ_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Mallu"
+				monarch_name = "Mallu"
+				dynasty = "Adil Shahi"
+				birth_date = 1511.1.1
+				death_date = 1535.2.20
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BIJ_No.03a = {
+		major = yes
+		potential = {
+			tag = BIJ
+			has_ruler = "Mallu"
+			NOT = { has_global_flag = monarch_BIJ_No.03a }
+		}
+		allow = {
+			is_year = 1535
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BIJ_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Ibrahim I"
+				monarch_name = "Ibrahim I"
+				dynasty = "Adil Shahi"
+				birth_date = 1524.1.1
+				death_date = 1557.1.1
+				claim = 95
+				ADM = 3
+				DIP = 4
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BIJ_No.04a = {
+		major = yes
+		potential = {
+			tag = BIJ
+			has_ruler = "Ibrahim I"
+			NOT = { has_global_flag = monarch_BIJ_No.04a }
+		}
+		allow = {
+			is_year = 1557
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BIJ_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Ali"
+				monarch_name = "Ali"
+				dynasty = "Adil Shahi"
+				birth_date = 1535.2.20
+				death_date = 1580.4.11
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BIJ_No.05a = {
+		major = yes
+		potential = {
+			tag = BIJ
+			has_ruler = "Ali"
+			NOT = { has_global_flag = monarch_BIJ_No.05a }
+		}
+		allow = {
+			is_year = 1580
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BIJ_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Ibrahim II"
+				monarch_name = "Ibrahim II"
+				dynasty = "Adil Shahi"
+				birth_date = 1556.1.1
+				death_date = 1626.1.1
+				claim = 95
+				ADM = 4
+				DIP = 3
+				MIL = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BIJ_No.06a = {
+		major = yes
+		potential = {
+			tag = BIJ
+			has_ruler = "Ibrahim II"
+			NOT = { has_global_flag = monarch_BIJ_No.06a }
+		}
+		allow = {
+			is_year = 1626
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BIJ_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad"
+				monarch_name = "Muhammad"
+				dynasty = "Adil Shahi"
+				birth_date = 1616.1.1
+				death_date = 1656.1.1
+				claim = 95
+				ADM = 2
+				DIP = 3
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BIJ_No.07a = {
+		major = yes
+		potential = {
+			tag = BIJ
+			has_ruler = "Muhammad"
+			NOT = { has_global_flag = monarch_BIJ_No.07a }
+		}
+		allow = {
+			is_year = 1656
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BIJ_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Ali II"
+				monarch_name = "Ali II"
+				dynasty = "Adil Shahi"
+				birth_date = 1637.1.1
+				death_Date = 1673.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BIJ_No.08a = {
+		major = yes
+		potential = {
+			tag = BIJ
+			has_ruler = "Ali II"
+			NOT = { has_global_flag = monarch_BIJ_No.08a }
+		}
+		allow = {
+			is_year = 1673
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BIJ_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Sikandar"
+				monarch_name = "Sikandar"
+				dynasty = "Adil Shahi"
+				birth_date = 1668.1.1
+				death_date = 1686.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

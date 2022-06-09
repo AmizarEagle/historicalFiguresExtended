@@ -1,0 +1,402 @@
+country_decisions = {
+
+	monarch_TKG_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Nobumitsu"
+			has_global_flag = monarch_TKG_No.00a
+			NOT = { is_year = 1501 }
+			NOT = { has_global_flag = monarch_TKG_No.00b }
+		}
+		allow = {
+			is_year = 1488
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Chikatada"
+			has_global_flag = monarch_TKG_No.01a
+			NOT = { is_year = 1544 }
+			NOT = { has_global_flag = monarch_TKG_No.01b }
+		}
+		allow = {
+			is_year = 1501
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Nagachika"
+			has_global_flag = monarch_TKG_No.02a
+			NOT = { is_year = 1531 }
+			NOT = { has_global_flag = monarch_TKG_No.02b }
+		}
+		allow = {
+			is_year = 1503
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Nobutada"
+			has_global_flag = monarch_TKG_No.03a
+			NOT = { is_year = 1535 }
+			NOT = { has_global_flag = monarch_TKG_No.03b }
+		}
+		allow = {
+			is_year = 1523
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Kiyoyasu"
+			has_global_flag = monarch_TKG_No.04a
+			NOT = { is_year = 1549 }
+			NOT = { has_global_flag = monarch_TKG_No.04b }
+		}
+		allow = {
+			is_year = 1535
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Hirotada"
+			has_global_flag = monarch_TKG_No.05a
+			NOT = { is_year = 1616 }
+			NOT = { has_global_flag = monarch_TKG_No.05b }
+		}
+		allow = {
+			is_year = 1549
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ieyasu"
+			has_global_flag = monarch_TKG_No.06a
+			NOT = { is_year = 1679 }
+			NOT = { has_global_flag = monarch_TKG_No.06b }
+		}
+		allow = {
+			is_year = 1616
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Hidetada"
+			has_global_flag = monarch_TKG_No.07a
+			NOT = { is_year = 1651 }
+			NOT = { has_global_flag = monarch_TKG_No.07b }
+		}
+		allow = {
+			is_year = 1632
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Iemitsu"
+			has_global_flag = monarch_TKG_No.08a
+			NOT = { is_year = 1680 }
+			NOT = { has_global_flag = monarch_TKG_No.08b }
+		}
+		allow = {
+			is_year = 1651
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ietsuna"
+			has_global_flag = monarch_TKG_No.09a
+			NOT = { is_year = 1709 }
+			NOT = { has_global_flag = monarch_TKG_No.09b }
+		}
+		allow = {
+			is_year = 1680
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Tsunayoshi"
+			has_global_flag = monarch_TKG_No.10a
+			NOT = { is_year = 1712 }
+			NOT = { has_global_flag = monarch_TKG_No.10b }
+		}
+		allow = {
+			is_year = 1709
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ienobu"
+			has_global_flag = monarch_TKG_No.11a
+			NOT = { is_year = 1713 }
+			NOT = { has_global_flag = monarch_TKG_No.11b }
+		}
+		allow = {
+			is_year = 1712
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ietsugu"
+			has_global_flag = monarch_TKG_No.12a
+			NOT = { is_year = 1751 }
+			NOT = { has_global_flag = monarch_TKG_No.12b }
+		}
+		allow = {
+			is_year = 1716
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Yoshimune"
+			has_global_flag = monarch_TKG_No.13a
+			NOT = { is_year = 1761 }
+			NOT = { has_global_flag = monarch_TKG_No.13b }
+		}
+		allow = {
+			is_year = 1751
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ieshige"
+			has_global_flag = monarch_TKG_No.14a
+			NOT = { is_year = 1786 }
+			NOT = { has_global_flag = monarch_TKG_No.14b }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ieharu"
+			has_global_flag = monarch_TKG_No.15a
+			NOT = { is_year = 1841 }
+			NOT = { has_global_flag = monarch_TKG_No.15b }
+		}
+		allow = {
+			is_year = 1786
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

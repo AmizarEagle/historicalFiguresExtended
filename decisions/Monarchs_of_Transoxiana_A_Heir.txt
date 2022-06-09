@@ -1,0 +1,349 @@
+country_decisions = {
+
+	monarch_TRS_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TRS
+			has_ruler = "Ulugh Beg"
+			NOT = { is_year = 1450 }
+			NOT = { has_global_flag = monarch_TRS_No.00a }
+		}
+		allow = {
+			is_year = 1444
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRS_No.00a
+			define_heir = {
+				name = "'Abdal-Latif"
+				monarch_name = "'Abdal-Latif I"
+				dynasty = "Timurid"
+				birth_date = 1410.1.1
+				death_date = 1451.6.23
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 2
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRS_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TRS
+			has_ruler = "'Abdal-Latif I"
+			NOT = { is_year = 1451 }
+			NOT = { has_global_flag = monarch_TRS_No.01a }
+		}
+		allow = {
+			is_year = 1449
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRS_No.01a
+			define_heir = {
+				name = "'Abd Allah Mirza"
+				monarch_name = "'Abd Allah Mirza I"
+				dynasty = "Timurid"
+				birth_date = 1415.1.1
+				death_date = 1451.6.23
+				claim = 95
+				adm = 0
+				dip = 3
+				mil = 2
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRS_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TRS
+			has_ruler = "'Abd Allah Mirza I"
+			NOT = { is_year = 1469 }
+			NOT = { has_global_flag = monarch_TRS_No.02a }
+		}
+		allow = {
+			is_year = 1450
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRS_No.02a
+			define_heir = {
+				name = "Abu Sa'id"
+				monarch_name = "Abu Sa'id I"
+				dynasty = "Timurid"
+				birth_date = 1424.1.1
+				death_date = 1451.6.23
+				claim = 95
+				adm = 3
+				dip = 5
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRS_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TRS
+			has_ruler = "Abu Sa'id I"
+			NOT = { is_year = 1494 }
+			NOT = { has_global_flag = monarch_TRS_No.03a }
+		}
+		allow = {
+			is_year = 1452
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRS_No.03a
+			define_heir = {
+				name = "Ahmad"
+				monarch_name = "Ahmad I"
+				dynasty = "Timurid"
+				birth_date = 1451.1.1
+				death_date = 1494.1.1
+				claim = 95
+				dip = 0
+				adm = 0
+				mil = 2
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRS_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TRS
+			has_ruler = "Ahmad I"
+			NOT = { is_year = 1495 }
+			NOT = { has_global_flag = monarch_TRS_No.04a }
+		}
+		allow = {
+			is_year = 1470
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRS_No.04a
+			define_heir = {
+				name = "Mahmud"
+				monarch_name = "Mahmud I"
+				dynasty = "Timurid"
+				birth_date = 1453.6.30
+				death_date = 1495.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRS_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TRS
+			has_ruler = "Mahmud I"
+			NOT = { is_year = 1496 }
+			NOT = { has_global_flag = monarch_TRS_No.05a }
+		}
+		allow = {
+			is_year = 1494
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRS_No.05a
+			define_heir = {
+				name = "Mas'ud"
+				monarch_name = "Mas'ud I"
+				dynasty = "Timurid"
+				birth_date = 1455.6.30
+				death_date = 1496.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRS_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TRS
+			has_ruler = "Mas'ud I"
+			NOT = { is_year = 1497 }
+			NOT = { has_global_flag = monarch_TRS_No.06a }
+		}
+		allow = {
+			is_year = 1495
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRS_No.06a
+			define_heir = {
+				name = "Bay Sunqur"
+				monarch_name = "Bay Sunqur I"
+				dynasty = "Timurid"
+				birth_date = 1457.6.30
+				death_date = 1497.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRS_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TRS
+			has_ruler = "Bay Sunqur I"
+			NOT = { is_year = 1500 }
+			NOT = { has_global_flag = monarch_TRS_No.07a }
+		}
+		allow = {
+			is_year = 1495
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRS_No.07a
+			define_heir = {
+				name = "'Ali"
+				monarch_name = "'Ali I"
+				dynasty = "Timurid"
+				birth_date = 1458.6.30
+				death_date = 1497.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRS_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TRS
+			has_ruler = "'Ali I"
+			NOT = { is_year = 1530 }
+			NOT = { has_global_flag = monarch_TRS_No.08a }
+		}
+		allow = {
+			is_year = 1499
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRS_No.08a
+			define_heir = {
+				name = "Babur"
+				monarch_name = "Babur I"
+				dynasty = "Timurid"
+				birth_date = 1483.2.14
+				death_date = 1530.12.26
+				claim = 95
+				adm = 5
+				dip = 5
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRS_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TRS
+			has_ruler = "Babur I"
+			NOT = { is_year = 1556 }
+			NOT = { has_global_flag = monarch_TRS_No.09a }
+		}
+		allow = {
+			is_year = 1508
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRS_No.09a
+			define_heir = {
+				name = "Muhammad"
+				monarch_name = "Humayun"
+				dynasty = "Timurid"
+				birth_date = 1508.3.6
+				death_date = 1556.1.1
+				claim = 95
+				adm = 5
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

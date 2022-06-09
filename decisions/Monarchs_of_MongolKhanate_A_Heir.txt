@@ -1,0 +1,374 @@
+country_decisions = {
+
+	monarch_KHA_No.00a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Tayisung"
+			NOT = { has_global_flag = monarch_KHA_No.00a }
+		}
+		allow = {
+			is_year = 1453
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Agbarjin"
+				monarch_name = "Agbarjin"
+				dynasty = "Borjigin"
+				birth_date = 1418.1.1
+				death_date = 1465.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHA_No.01a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Agbarjin"
+			NOT = { has_global_flag = monarch_KHA_No.01a }
+		}
+		allow = {
+			is_year = 1454
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Markorgis"
+				dynasty = "Borjigin"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHA_No.02a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Markorgis"
+			NOT = { has_global_flag = monarch_KHA_No.02a }
+		}
+		allow = {
+			is_year = 1465
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Mulan"
+				monarch_name = "Mulan"
+				dynasty = "Borjigin"
+				birth_date = 1440.1.1
+				death_date = 1466.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHA_No.03a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Mulan"
+			NOT = { has_global_flag = monarch_KHA_No.03a }
+		}
+		allow = {
+			is_year = 1466
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Manduulun"
+				monarch_name = "Manduulun"
+				dynasty = "Borjigin"
+				birth_date = 1438.1.1
+				death_date = 1479.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHA_No.04a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Manduulun"
+			NOT = { has_global_flag = monarch_KHA_No.04a }
+		}
+		allow = {
+			is_year = 1479
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Dayan"
+				dynasty = "Borjigin"
+				adm = 5
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHA_No.05a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Dayan"
+			NOT = { has_global_flag = monarch_KHA_No.05a }
+		}
+		allow = {
+			is_year = 1524
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Bodi Alagh"
+				monarch_name = "Bodi Alagh"
+				dynasty = "Borjigin"
+				birth_date = 1504.1.1
+				death_date = 1547.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHA_No.06a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Bodi Alagh"
+			NOT = { has_global_flag = monarch_KHA_No.06a }
+		}
+		allow = {
+			is_year = 1547
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Darayisung Godeng"
+				monarch_name = "Darayisung Godeng"
+				dynasty = "Borjigin"
+				birth_date = 1520.1.1
+				death_Date = 1557.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHA_No.07a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Darayisung Godeng"
+			NOT = { has_global_flag = monarch_KHA_No.07a }
+		}
+		allow = {
+			is_year = 1551
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Altan"
+				dynasty = "Borjigin"
+				adm = 4
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHA_No.08a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Altan"
+			NOT = { has_global_flag = monarch_KHA_No.08a }
+		}
+		allow = {
+			is_year = 1582
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Tumen Jasaghtu"
+				monarch_name = "Tumen Jasaghtu"
+				dynasty = "Borjigin"
+				birth_date = 1547.1.1
+				death_date = 1592.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHA_No.09a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Tumen Jasaghtu"
+			NOT = { has_global_flag = monarch_KHA_No.09a }
+		}
+		allow = {
+			is_year = 1592
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Buyan Sechen"
+				monarch_name = "Buyan Sechen"
+				dynasty = "Borjigin"
+				birth_date = 1554.1.1
+				death_date = 1604.1.1
+				claim = 95 
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHA_No.10a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Buyan Sechen"
+			NOT = { has_global_flag = monarch_KHA_No.10a }
+		}
+		allow = {
+			is_year = 1604
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Lingdan Khutaghtu"
+				monarch_name = "Lingdan Khutaghtu"
+				dynasty = "Borjigin"
+				birth_date = 1588.1.1
+				death_date = 1634.1.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHA_No.11a = {
+		major = yes
+		potential = {
+			tag = KHA
+			has_ruler = "Lingdan Khutaghtu"
+			NOT = { has_global_flag = monarch_KHA_No.11a }
+		}
+		allow = {
+			is_year = 1634
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHA_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Ejei"
+				monarch_name = "Ejei"
+				dynasty = "Borjigin"
+				birth_date = 1610.1.1
+				death_date = 1661.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

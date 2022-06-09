@@ -1,0 +1,569 @@
+country_decisions = {
+
+	monarch_BAD_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Jakob I"
+			NOT = { is_year = 1458 }
+			NOT = { has_global_flag = monarch_BAD_No.00a }
+		}
+		allow = {
+			is_year = 1431
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.00a
+			define_heir = {
+				name = "Bernhard"
+				monarch_name = "Bernhard II"
+				birth_date = 1428.1.1
+				death_date = 1458.7.15
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Bernhard II"
+			NOT = { is_year = 1475 }
+			NOT = { has_global_flag = monarch_BAD_No.01a }
+		}
+		allow = {
+			is_year = 1453
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.01a
+			define_heir = {
+				name = "Karl"
+				monarch_name = "Karl I"
+				birth_date = 1427.1.1
+				death_date = 1475.2.24
+				claim = 90
+				adm = 2
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Karl I"
+			NOT = { is_year = 1527 }
+			NOT = { has_global_flag = monarch_BAD_No.02a }
+		}
+		allow = {
+			is_year = 1458
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.02a
+			define_heir = {
+				name = "Christoph"
+				monarch_name = "Christoph I"
+				birth_date = 1453.11.13
+				death_date = 1527.3.19
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 0
+				max_random_mil = 0
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Christoph I"
+			NOT = { is_year = 1536 }
+			NOT = { has_global_flag = monarch_BAD_No.03a }
+		}
+		allow = {
+			is_year = 1475
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.03a
+			define_heir = {
+				name = "Bernhard"
+				monarch_name = "Bernhard III"
+				birth_date = 1474.10.7
+				death_date = 1536.6.29
+				claim = 90
+				adm = 0
+				dip = 1
+				mil = 2
+				max_random_adm = 0
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Bernhard III"
+			NOT = { is_year = 1569 }
+			NOT = { has_global_flag = monarch_BAD_No.04a }
+		}
+		allow = {
+			is_year = 1536
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.04a
+			define_heir = {
+				name = "Philibert"
+				monarch_name = "Philibert I"
+				birth_date = 1536.1.22
+				death_date = 1569.10.3
+				claim = 95
+				adm = 3
+				dip = 0
+				mil = 3
+				dynasty = "von Zahringen"
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Philibert I"
+			NOT = { is_year = 1588 }
+			NOT = { has_global_flag = monarch_BAD_No.05a }
+		}
+		allow = {
+			is_year = 1559
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.05a
+			define_heir = {
+				name = "Philipp"
+				monarch_name = "Philipp II"
+				birth_date = 1559.2.19
+				death_date = 1588.6.7
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 2
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Philipp II"
+			NOT = { is_year = 1600 }
+			NOT = { has_global_flag = monarch_BAD_No.06a }
+		}
+		allow = {
+			is_year = 1569
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.06a
+			define_heir = {
+				name = "Eduard Fortunatus"
+				monarch_name = "Eduard Fortunatus I"
+				birth_date = 1565.9.17
+				death_date = 1600.6.18
+				claim = 95
+				adm = 0
+				dip = 3
+				mil = 3
+				dynasty = "von Zahringen"
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Eduard Fortunatus I"
+			NOT = { is_year = 1604 }
+			NOT = { has_global_flag = monarch_BAD_No.07a }
+		}
+		allow = {
+			is_year = 1588
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.07a
+			define_heir = {
+				name = "Ernst Friedrich"
+				monarch_name = "Ernst Friedrich I"
+				birth_date = 1560.10.17
+				death_date = 1604.4.14
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 4
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Ernst Friedrich I"
+			NOT = { is_year = 1638 }
+			NOT = { has_global_flag = monarch_BAD_No.08a }
+		}
+		allow = {
+			is_year = 1596
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.08a
+			define_heir = {
+				name = "Georg Friedrich"
+				monarch_name = "Georg Friedrich I"
+				birth_date = 1573.1.30
+				death_date = 1638.9.24
+				claim = 95
+				adm = 4
+				dip = 1
+				mil = 4
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Georg Friedrich I"
+			NOT = { is_year = 1677 }
+			NOT = { has_global_flag = monarch_BAD_No.09a }
+		}
+		allow = {
+			is_year = 1604
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.09a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm I"
+				birth_date = 1593.7.30
+				death_date = 1677.5.22
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 3
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Wilhelm I"
+			NOT = { is_year = 1707 }
+			NOT = { has_global_flag = monarch_BAD_No.10a }
+		}
+		allow = {
+			is_year = 1655
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.10a
+			define_heir = {
+				name = "Ludwig Wilhelm"
+				monarch_name = "Ludwig Wilhelm I"
+				birth_date = 1655.4.8
+				death_date = 1707.1.4
+				claim = 95
+				adm = 2
+				dip = 4
+				mil = 4
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Ludwig Wilhelm I"
+			NOT = { is_year = 1761 }
+			NOT = { has_global_flag = monarch_BAD_No.11a }
+		}
+		allow = {
+			is_year = 1702
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.11a
+			define_heir = {
+				name = "Ludwig Georg Simpert"
+				monarch_name = "Ludwig Georg I"
+				birth_date = 1702.6.7
+				death_date = 1761.10.22
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 1
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Ludwig Georg I"
+			NOT = { is_year = 1771 }
+			NOT = { has_global_flag = monarch_BAD_No.12a }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.12a
+			define_heir = {
+				name = "August Georg Simpert"
+				monarch_name = "August Georg I"
+				birth_date = 1706.1.14
+				death_date = 1771.10.21
+				claim = 95
+				adm = 2
+				dip = 5
+				mil = 0
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "August Georg I"
+			NOT = { is_year = 1811 }
+			NOT = { has_global_flag = monarch_BAD_No.13a }
+		}
+		allow = {
+			is_year = 1761
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.13a
+			define_heir = {
+				name = "Karl Friedrich"
+				monarch_name = "Karl Friedrich I"
+				birth_date = 1728.11.22
+				death_date = 1811.6.10
+				claim = 95
+				adm = 2
+				dip = 5
+				mil = 0
+				dynasty = "von Zahringen"
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Karl Friedrich I"
+			NOT = { is_year = 1818 }
+			NOT = { has_global_flag = monarch_BAD_No.14a }
+		}
+		allow = {
+			is_year = 1786
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.14a
+			define_heir = {
+				name = "Karl Ludwig Friedrich"
+				monarch_name = "Karl Ludwig Friedrich"
+				birth_date = 1786.6.8
+				death_date = 1818.12.8
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 1
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Karl Ludwig Friedrich"
+			NOT = { is_year = 1830 }
+			NOT = { has_global_flag = monarch_BAD_No.15a }
+		}
+		allow = {
+			is_year = 1811
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.15a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig I"
+				birth_date = 1763.2.9
+				death_date = 1830.3.30
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 1
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAD_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAD
+			has_ruler = "Ludwig I"
+			NOT = { is_year = 1852 }
+			NOT = { has_global_flag = monarch_BAD_No.16a }
+		}
+		allow = {
+			is_year = 1818
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAD_No.16a
+			define_heir = {
+				name = "Leopold"
+				monarch_name = "Leopold"
+				birth_date = 1790.8.29
+				death_date = 1852.4.24
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 1
+				dynasty = "von Zahringen"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

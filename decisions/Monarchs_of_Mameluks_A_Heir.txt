@@ -1,0 +1,369 @@
+country_decisions = {
+
+	monarch_MAM_No.00a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Jaqmaq"
+			NOT = { has_global_flag = monarch_MAM_No.00a }
+		}
+		allow = {
+			is_year = 1453
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Inal"
+				dynasty = "Burji"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.01a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Inal"
+			NOT = { has_global_flag = monarch_MAM_No.01a }
+		}
+		allow = {
+			is_year = 1461
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Khushqadam"
+				dynasty = "Burji"
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.02a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Khushqadam"
+			NOT = { has_global_flag = monarch_MAM_No.02a }
+		}
+		allow = {
+			is_year = 1467
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Qa'itbay"
+				birth_date = 1418.1.1
+				dynasty = "Burji"
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.03a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Qa'itbay"
+			NOT = { has_global_flag = monarch_MAM_No.03a }
+		}
+		allow = {
+			is_year = 1496
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad II"
+				dynasty = "Burji"
+				adm = 2
+				dip = 0
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.04a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Muhammad II"
+			NOT = { has_global_flag = monarch_MAM_No.04a }
+		}
+		allow = {
+			is_year = 1498
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Qansuh I"
+				dynasty = "Burji"
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.05a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Qansuh I"
+			NOT = { has_global_flag = monarch_MAM_No.05a }
+		}
+		allow = {
+			is_year = 1500
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Janbalat"
+				dynasty = "Burji"
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.06a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Janbalat"
+			NOT = { has_global_flag = monarch_MAM_No.06a }
+		}
+		allow = {
+			is_year = 1501
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Qansuh II"
+				dynasty = "Burji"
+				adm = 1
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.07a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Qansuh II"
+			NOT = { has_global_flag = monarch_MAM_No.07a }
+		}
+		allow = {
+			is_year = 1516
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Tuman Bay II"
+				dynasty = "Burji"
+				adm = 0
+				dip = 0
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.08a = {
+		major = yes
+		potential = {
+			tag = MAM
+			NOT = { has_global_flag = monarch_MAM_No.08a }
+		}
+		allow = {
+			is_year = 1768
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Ali l-Kabir"
+				dynasty = "Beg"
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.09a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Ali l-Kabir"
+			NOT = { has_global_flag = monarch_MAM_No.09a }
+		}
+		allow = {
+			is_year = 1773
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Mehmed"
+				dynasty = "Beg"
+				adm = 4
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.10a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Mehmed"
+			NOT = { has_global_flag = monarch_MAM_No.10a }
+		}
+		allow = {
+			is_year = 1775
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Murad"
+				dynasty = "Beg"
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.11a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Murad"
+			NOT = { has_global_flag = monarch_MAM_No.11a }
+		}
+		allow = {
+			is_year = 1801
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Osman"
+				dynasty = "Bardisi"
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAM_No.12a = {
+		major = yes
+		potential = {
+			tag = MAM
+			has_ruler = "Osman"
+			NOT = { has_global_flag = monarch_MAM_No.12a }
+		}
+		allow = {
+			is_year = 1804
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAM_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad 'Alî"
+				dynasty = "Muhammad"
+				adm = 6
+				dip = 4
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,478 @@
+country_decisions = {
+
+	monarch_PLB_No.00a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Arya"
+			NOT = { has_global_flag = monarch_PLB_No.00a }
+		}
+		allow = {
+			is_year = 1486
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Lautan"
+				dynasty = "Damar"
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.01a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Lautan"
+			NOT = { has_global_flag = monarch_PLB_No.01a }
+		}
+		allow = {
+			is_year = 1528
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Suro Tuo"
+				dynasty = "Damar"
+				adm = 2
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.02a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Suro Tuo"
+			NOT = { has_global_flag = monarch_PLB_No.02a }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Suro Mudo"
+				dynasty = "Damar"
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.03a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Suro Mudo"
+			NOT = { has_global_flag = monarch_PLB_No.03a }
+		}
+		allow = {
+			is_year = 1575
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Adipati"
+				dynasty = "Damar"
+				adm = 3
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.04a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Adipati"
+			NOT = { has_global_flag = monarch_PLB_No.04a }
+		}
+		allow = {
+			is_year = 1587
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Angsoko"
+				dynasty = "Damar"
+				adm = 2
+				dip = 1
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.05a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Angsoko"
+			NOT = { has_global_flag = monarch_PLB_No.05a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Madi Alit"
+				dynasty = "Damar"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.06a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Madi Alit"
+			NOT = { has_global_flag = monarch_PLB_No.06a }
+		}
+		allow = {
+			is_year = 1624
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Puro"
+				dynasty = "Damar"
+				adm = 3
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.07a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Puro"
+			NOT = { has_global_flag = monarch_PLB_No.07a }
+		}
+		allow = {
+			is_year = 1630
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Kenayan"
+				dynasty = "Damar"
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.08a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Kenayan"
+			NOT = { has_global_flag = monarch_PLB_No.08a }
+		}
+		allow = {
+			is_year = 1642
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Pasarean"
+				dynasty = "Damar"
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.09a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Pasarean"
+			NOT = { has_global_flag = monarch_PLB_No.09a }
+		}
+		allow = {
+			is_year = 1643
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Rejek"
+				dynasty = "Damar"
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.10a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Rejek"
+			NOT = { has_global_flag = monarch_PLB_No.10a }
+		}
+		allow = {
+			is_year = 1662
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdurrahman"
+				dynasty = "Palembang"
+				adm = 4
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.11a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Abdurrahman"
+			NOT = { has_global_flag = monarch_PLB_No.11a }
+		}
+		allow = {
+			is_year = 1706
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad"
+				dynasty = "Palembang"
+				adm = 3
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.12a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Muhammad"
+			NOT = { has_global_flag = monarch_PLB_No.12a }
+		}
+		allow = {
+			is_year = 1718
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Agung Komaruddin"
+				dynasty = "Palembang"
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.13a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Agung Komaruddin"
+			NOT = { has_global_flag = monarch_PLB_No.13a }
+		}
+		allow = {
+			is_year = 1727
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmud Badaruddin"
+				dynasty = "Palembang"
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.14a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Mahmud Badaruddin"
+			NOT = { has_global_flag = monarch_PLB_No.14a }
+		}
+		allow = {
+			is_year = 1756
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad Najamuddi"
+				dynasty = "Palembang"
+				adm = 3
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.15a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Ahmad Najamuddi"
+			NOT = { has_global_flag = monarch_PLB_No.15a }
+		}
+		allow = {
+			is_year = 1774
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Bahauddin"
+				dynasty = "Palembang"
+				adm = 1
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PLB_No.16a = {
+		major = yes
+		potential = {
+			tag = PLB
+			has_ruler = "Muhammad Bahauddin"
+			NOT = { has_global_flag = monarch_PLB_No.16a }
+		}
+		allow = {
+			is_year = 1803
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PLB_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmud Badaruddin II"
+				dynasty = "Palembang"
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

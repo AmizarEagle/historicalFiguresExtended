@@ -1,0 +1,196 @@
+country_decisions = {
+
+	monarch_URB_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = URB
+			has_ruler = "Federico III"
+			NOT = { is_year = 1508 }
+			NOT = { has_global_flag = monarch_URB_No.00a }
+		}
+		allow = {
+			is_year = 1472
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_URB_No.00a
+			define_heir = {
+				name = "Guidobaldo"
+				monarch_name = "Guidobaldo I"
+				dynasty = "da Montefeltro"
+				birth_date = 1472.1.17
+				death_date = 1508.4.10
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_URB_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = URB
+			has_ruler = "Guidobaldo I"
+			NOT = { is_year = 1538 }
+			NOT = { has_global_flag = monarch_URB_No.01a }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_URB_No.01a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco I"
+				dynasty = "della Rovere"
+				birth_date = 1490.3.22
+				death_date = 1538.10.20
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_URB_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = URB
+			has_ruler = "Francesco I"
+			NOT = { is_year = 1516 }
+			NOT = { has_global_flag = monarch_URB_No.02a }
+		}
+		allow = {
+			is_year = 1508
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_URB_No.02a
+			define_heir = {
+				name = "Lorenzo"
+				monarch_name = "Lorenzo I"
+				dynasty = "de' Medici"
+				birth_date = 1492.9.12
+				dip = 5
+				adm = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_URB_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = URB
+			has_ruler = "Lorenzo I"
+			NOT = { is_year = 1521 }
+			NOT = { has_global_flag = monarch_URB_No.03a }
+		}
+		allow = {
+			is_year = 1516
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_URB_No.03a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco I"
+				dynasty = "della Rovere"
+				birth_date = 1490.3.22
+				death_date = 1538.10.20
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_URB_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = URB
+			has_ruler = "Francesco I"
+			NOT = { is_year = 1549 }
+			NOT = { has_global_flag = monarch_URB_No.04a }
+		}
+		allow = {
+			is_year = 1521
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_URB_No.04a
+			define_heir = {
+				name = "Guidobaldo"
+				monarch_name = "Guidobaldo II"
+				dynasty = "della Rovere"
+				birth_date = 1514.4.2
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_URB_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = URB
+			has_ruler = "Guidobaldo II"
+			NOT = { is_year = 1631 }
+			NOT = { has_global_flag = monarch_URB_No.05a }
+		}
+		allow = {
+			is_year = 1549
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_URB_No.05a
+			define_heir = {
+				name = "Francesco Maria"
+				monarch_name = "Francesco Maria II"
+				dynasty = "della Rovere"
+				birth_date = 1549.2.20
+				death_date = 1631.4.23
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

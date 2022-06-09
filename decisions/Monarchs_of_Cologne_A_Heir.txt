@@ -1,0 +1,626 @@
+country_decisions = {
+
+	monarch_KOL_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			NOT = { is_year = 1480 }
+			NOT = { has_global_flag = monarch_KOL_No.00a }
+		}
+		allow = {
+			is_year = 1463
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Ruprecht I"
+				birth_date = 1427.2.27
+				adm = 3
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Ruprecht I"
+			NOT = { is_year = 1508 }
+			NOT = { has_global_flag = monarch_KOL_No.01a }
+		}
+		allow = {
+			is_year = 1480
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Hermann IV"
+				dynasty = "von Hessen"
+				birth_date = 1450.1.1
+				adm = 0
+				dip = 2
+				mil = 4
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Hermann IV"
+			NOT = { is_year = 1515 }
+			NOT = { has_global_flag = monarch_KOL_No.02a }
+		}
+		allow = {
+			is_year = 1508
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Phillip II"
+				birth_date = 1463.1.1
+				adm = 2
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Phillip II"
+			NOT = { is_year = 1546 }
+			NOT = { has_global_flag = monarch_KOL_No.03a }
+		}
+		allow = {
+			is_year = 1515
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Hermann V"
+				birth_date = 1477.1.14
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Hermann V"
+			NOT = { is_year = 1556 }
+			NOT = { has_global_flag = monarch_KOL_No.04a }
+		}
+		allow = {
+			is_year = 1546
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Adolf III"
+				birth_date = 1511.1.19
+				culture = hannoverian
+				adm = 4
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Adolf III"
+			NOT = { is_year = 1558 }
+			NOT = { has_global_flag = monarch_KOL_No.05a }
+		}
+		allow = {
+			is_year = 1556
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Anton I"
+				culture = hannoverian
+				birth_date = 1512.1.1
+				adm = 3
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Anton I"
+			NOT = { is_year = 1562 }
+			NOT = { has_global_flag = monarch_KOL_No.06a }
+		}
+		allow = {
+			is_year = 1558
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Gebhard I"
+				birth_date = 1524.1.1
+				adm = 1
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Gebhard I"
+			NOT = { is_year = 1567 }
+			NOT = { has_global_flag = monarch_KOL_No.07a }
+		}
+		allow = {
+			is_year = 1562
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Friedrich IV"
+				birth_date = 1518.1.1
+				adm = 0
+				dip = 4
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Friedrich IV"
+			NOT = { is_year = 1577 }
+			NOT = { has_global_flag = monarch_KOL_No.08a }
+		}
+		allow = {
+			is_year = 1567
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Salentin I"
+				birth_date = 1532.1.1
+				adm = 2
+				dip = 0
+				mil = 3
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Salentin I"
+			NOT = { is_year = 1583 }
+			NOT = { has_global_flag = monarch_KOL_No.09a }
+		}
+		allow = {
+			is_year = 1577
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Gebhard II"
+				birth_date = 1547.11.10
+				adm = 4
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Gebhard II"
+			NOT = { is_year = 1612 }
+			NOT = { has_global_flag = monarch_KOL_No.10a }
+		}
+		allow = {
+			is_year = 1583
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Ernst I"
+				culture = bavarian
+				birth_date = 1554.12.17
+				adm = 0
+				dip = 1
+				mil = 2
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Ernst I"
+			NOT = { is_year = 1650 }
+			NOT = { has_global_flag = monarch_KOL_No.11a }
+		}
+		allow = {
+			is_year = 1612
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Ferdinand I"
+				culture = bavarian
+				birth_date = 1577.10.6
+				adm = 0
+				dip = 2
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Ferdinand I"
+			NOT = { is_year = 1688 }
+			NOT = { has_global_flag = monarch_KOL_No.12a }
+		}
+		allow = {
+			is_year = 1650
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Maximilan Heinrich I"
+				culture = bavarian
+				birth_date = 1621.12.8
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Maximilan Heinrich I"
+			NOT = { is_year = 1723 }
+			NOT = { has_global_flag = monarch_KOL_No.13a }
+		}
+		allow = {
+			is_year = 1688
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Joseph Clemens I"
+				birth_date = 1671.12.5
+				culture = bavarian
+				adm = 3
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Joseph Clemens I"
+			NOT = { is_year = 1761 }
+			NOT = { has_global_flag = monarch_KOL_No.14a }
+		}
+		allow = {
+			is_year = 1723
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Clemens August I"
+				birth_date = 1700.8.16
+				culture = bavarian
+				adm = 4
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Clemens August I"
+			NOT = { is_year = 1784 }
+			NOT = { has_global_flag = monarch_KOL_No.16a }
+		}
+		allow = {
+			is_year = 1761
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Maximilian Friedrich I"
+				culture = austrian
+				birth_date = 1708.5.13
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Maximilian Friedrich I"
+			NOT = { is_year = 1801 }
+			NOT = { has_global_flag = monarch_KOL_No.17a }
+		}
+		allow = {
+			is_year = 1784
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Maximilian Franz I"
+				culture = austrian
+				birth_date = 1756.12.8
+				adm = 2
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Maximilian Franz I"
+			NOT = { is_year = 1806 }
+			NOT = { has_global_flag = monarch_KOL_No.18a }
+		}
+		allow = {
+			is_year = 1801
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Anton Viktor I"
+				culture = austrian
+				birth_date = 1779.8.31
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Anton Viktor I"
+			NOT = { is_year = 1809 }
+			NOT = { has_global_flag = monarch_KOL_No.19a }
+		}
+		allow = {
+			is_year = 1806
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Joachim I"
+				culture = cosmopolitan_french
+				adm = 1
+				dip = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOL_No.20a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOL
+			has_ruler = "Joachim I"
+			NOT = { is_year = 1820 }
+			NOT = { has_global_flag = monarch_KOL_No.20a }
+		}
+		allow = {
+			is_year = 1809
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOL_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Ludwig I"
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

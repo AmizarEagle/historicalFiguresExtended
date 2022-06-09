@@ -1,0 +1,440 @@
+country_decisions = {
+
+	monarch_AST_No.00a = {
+		major = yes
+		potential = {
+			tag = AST
+			NOT = { has_global_flag = monarch_AST_No.00a }
+		}
+		allow = {
+			is_year = 1459
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.00a
+			define_ruler = {
+				name = "Mahmud"
+				dynasty = "Genghisid"
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.01a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Mahmud"
+			NOT = { has_global_flag = monarch_AST_No.01a }
+		}
+		allow = {
+			is_year = 1476
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Qasim I"
+				monarch_name = "Qasim I"
+				dynasty = "Genghisid"
+				birth_date = 1445.1.1
+				death_date = 1495.1.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.02a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Qasim I"
+			NOT = { has_global_flag = monarch_AST_No.02a }
+		}
+		allow = {
+			is_year = 1495
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul-Karim"
+				monarch_name = "Abdul-Karim"
+				dynasty = "Gengishid"
+				birth_date = 1470.1.1
+				death_date = 1515.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.03a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Abdul-Karim"
+			NOT = { has_global_flag = monarch_AST_No.03a }
+		}
+		allow = {
+			is_year = 1515
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Jani Beg I"
+				monarch_name = "Jani Beg I"
+				dynasty = "Genghisid"
+				birth_date = 1484.1.1
+				death_date = 1523.1.1
+				claim = 95
+				adm = 2
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.04a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Jani Beg I"
+			NOT = { has_global_flag = monarch_AST_No.04a }
+		}
+		allow = {
+			is_year = 1523
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Husayn"
+				dynasty = "Genghisid"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.05a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Husayn"
+			NOT = { has_global_flag = monarch_AST_No.05a }
+		}
+		allow = {
+			is_year = 1531
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Qasim II"
+				dynasty = "Genghisid"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.06a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Qasim II"
+			NOT = { has_global_flag = monarch_AST_No.06a }
+		}
+		allow = {
+			is_year = 1532
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Ak Kobek"
+				dynasty = "Genghisid"
+				adm = 3
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.07a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Ak Kobek"
+			NOT = { has_global_flag = monarch_AST_No.07a }
+		}
+		allow = {
+			is_year = 1533
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul-Rahman"
+				dynasty = "Genghisid"
+				adm = 0
+				dip = 2
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.08a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Abdul-Rahman"
+			NOT = { has_global_flag = monarch_AST_No.08a }
+		}
+		allow = {
+			is_year = 1537
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Darwish Ali"
+				dynasty = "Genghisid"
+				adm = 2
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.09a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Darwish Ali"
+			NOT = { has_global_flag = monarch_AST_No.09a }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul-Rahman"
+				dynasty = "Genghisid"
+				adm = 0
+				dip = 2
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.10a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Abdul-Rahman"
+			NOT = { has_global_flag = monarch_AST_No.10a }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Ak Kobek"
+				dynasty = "Genghisid"
+				adm = 3
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.11a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Ak Kobek"
+			NOT = { has_global_flag = monarch_AST_No.11a }
+		}
+		allow = {
+			is_year = 1546
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Yamghurchi"
+				dynasty = "Genghisid"
+				adm = 1
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.12a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Yamghurchi"
+			NOT = { has_global_flag = monarch_AST_No.12a }
+		}
+		allow = {
+			is_year = 1547
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Ak Kobek"
+				dynasty = "Genghisid"
+				adm = 3
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.13a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Ak Kobek"
+			NOT = { has_global_flag = monarch_AST_No.13a }
+		}
+		allow = {
+			is_year = 1550
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Yamghurchi"
+				dynasty = "Genghisid"
+				adm = 1
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AST_No.14a = {
+		major = yes
+		potential = {
+			tag = AST
+			has_ruler = "Yamghurchi"
+			NOT = { has_global_flag = monarch_AST_No.14a }
+		}
+		allow = {
+			is_year = 1554
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AST_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Darwish Ali"
+				dynasty = "Genghisid"
+				adm = 2
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

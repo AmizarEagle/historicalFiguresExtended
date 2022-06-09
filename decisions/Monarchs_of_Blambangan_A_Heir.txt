@@ -1,0 +1,280 @@
+country_decisions = {
+
+	monarch_BLM_No.00a = {
+		major = yes
+		potential = {
+			tag = BLM
+			NOT = { has_global_flag = monarch_BLM_No.00a }
+		}
+		allow = {
+			is_year = 1527
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLM_No.00a
+			define_ruler = {
+				name = "Menak Pentor"
+				dynasty = "Blambangan"
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLM_No.01a = {
+		major = yes
+		potential = {
+			tag = BLM
+			has_ruler = "Menak Pentor"
+			NOT = { has_global_flag = monarch_BLM_No.01a }
+		}
+		allow = {
+			is_year = 1575
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLM_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Santaguna"
+				dynasty = "Blambangan"
+				adm = 4
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLM_No.02a = {
+		major = yes
+		potential = {
+			tag = BLM
+			has_ruler = "Santaguna"
+			NOT = { has_global_flag = monarch_BLM_No.02a }
+		}
+		allow = {
+			is_year = 1600
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLM_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Mas Karian"
+				dynasty = "Blambangan"
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLM_No.03a = {
+		major = yes
+		potential = {
+			tag = BLM
+			has_ruler = "Mas Karian"
+			NOT = { has_global_flag = monarch_BLM_No.03a }
+		}
+		allow = {
+			is_year = 1633
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLM_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Sunan Tawangalun"
+				dynasty = "Blambangan"
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLM_No.04a = {
+		major = yes
+		potential = {
+			tag = BLM
+			has_ruler = "Sunan Tawangalun"
+			NOT = { has_global_flag = monarch_BLM_No.04a }
+		}
+		allow = {
+			is_year = 1645
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLM_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Prabhu Tawangalun"
+				dynasty = "Blambangan"
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLM_No.05a = {
+		major = yes
+		potential = {
+			tag = BLM
+			has_ruler = "Prabhu Tawangalun"
+			NOT = { has_global_flag = monarch_BLM_No.05a }
+		}
+		allow = {
+			is_year = 1691
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLM_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Pangeran Pati"
+				dynasty = "Blambangan"
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLM_No.06a = {
+		major = yes
+		potential = {
+			tag = BLM
+			has_ruler = "Pangeran Pati"
+			NOT = { has_global_flag = monarch_BLM_No.06a }
+		}
+		allow = {
+			is_year = 1692
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLM_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Mancanagara"
+				dynasty = "Blambangan"
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLM_No.07a = {
+		major = yes
+		potential = {
+			tag = BLM
+			has_ruler = "Mancanagara"
+			NOT = { has_global_flag = monarch_BLM_No.07a }
+		}
+		allow = {
+			is_year = 1697
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLM_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Pangeran Putra"
+				dynasty = "Blambangan"
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLM_No.08a = {
+		major = yes
+		potential = {
+			tag = BLM
+			has_ruler = "Pangeran Putra"
+			NOT = { has_global_flag = monarch_BLM_No.08a }
+		}
+		allow = {
+			is_year = 1736
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLM_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Danuningrat"
+				dynasty = "Blambangan"
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLM_No.09a = {
+		major = yes
+		potential = {
+			tag = BLM
+			has_ruler = "Danuningrat"
+			NOT = { has_global_flag = monarch_BLM_No.09a }
+		}
+		allow = {
+			is_year = 1768
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLM_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Pangeran Wilis"
+				dynasty = "Blambangan"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

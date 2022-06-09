@@ -1,0 +1,271 @@
+country_decisions = {
+
+	monarch_MOD_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOD
+			has_ruler = "Cesare I"
+			NOT = { is_year = 1629 }
+			NOT = { has_global_flag = monarch_MOD_No.00a }
+		}
+		allow = {
+			is_year = 1597
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOD_No.00a
+			define_heir = {
+				name = "Alfonso"
+				monarch_name = "Alfonso III"
+				dynasty = "d'Este"
+				claim = 95
+				birth_date = 1591.10.22
+				death_date = 1644.5.26
+				adm = 2
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOD_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOD
+			has_ruler = "Alfonso III"
+			NOT = { is_year = 1658 }
+			NOT = { has_global_flag = monarch_MOD_No.01a }
+		}
+		allow = {
+			is_year = 1628
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOD_No.01a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco I"
+				dynasty = "d'Este"
+				birth_date = 1610.9.6
+				death_date = 1658.10.14
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOD_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOD
+			has_ruler = "Francesco I"
+			NOT = { is_year = 1662 }
+			NOT = { has_global_flag = monarch_MOD_No.02a }
+		}
+		allow = {
+			is_year = 1634
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOD_No.02a
+			define_heir = {
+				name = "Alfonso"
+				monarch_name = "Alfonso IV"
+				dynasty = "d'Este"
+				claim = 95
+				birth_date = 1634.10.14
+				death_date = 1662.7.16
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOD_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOD
+			has_ruler = "Alfonso IV"
+			NOT = { is_year = 1694 }
+			NOT = { has_global_flag = monarch_MOD_No.03a }
+		}
+		allow = {
+			is_year = 1660
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOD_No.03a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco II"
+				dynasty = "d'Este"
+				claim = 95
+				birth_date = 1660.3.6
+				death_date = 1694.9.6
+				adm = 0
+				dip = 2
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOD_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOD
+			has_ruler = "Francesco II"
+			NOT = { is_year = 1737 }
+			NOT = { has_global_flag = monarch_MOD_No.04a }
+		}
+		allow = {
+			is_year = 1662
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOD_No.04a
+			define_heir = {
+				name = "Rinaldo"
+				monarch_name = "Rinaldo III"
+				dynasty = "d'Este"
+				birth_date = 1655.4.26
+				death_date = 1737.10.26
+				claim = 95
+				adm = 2
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOD_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOD
+			has_ruler = "Rinaldo III"
+			NOT = { is_year = 1780 }
+			NOT = { has_global_flag = monarch_MOD_No.05a }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOD_No.05a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco III"
+				dynasty = "d'Este"
+				birth_date = 1698.7.2
+				death_date = 1780.2.22
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 3
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOD_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOD
+			has_ruler = "Francesco III"
+			NOT = { is_year = 1803 }
+			NOT = { has_global_flag = monarch_MOD_No.06a }
+		}
+		allow = {
+			is_year = 1780
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOD_No.06a
+			define_heir = {
+				name = "Ercole"
+				monarch_name = "Ercole III"
+				dynasty = "d'Este"
+				birth_date = 1727.11.22
+				death_date = 1803.10.14
+				claim = 95
+				adm = 2
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOD_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOD
+			has_ruler = "Ercole III"
+			NOT = { is_year = 1830 }
+			NOT = { has_global_flag = monarch_MOD_No.07a }
+		}
+		allow = {
+			is_year = 1780
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOD_No.07a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco IV"
+				dynasty = "von Habsburg"
+				birth_date = 1779.10.6
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

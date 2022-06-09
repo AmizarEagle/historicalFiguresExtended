@@ -1,0 +1,569 @@
+country_decisions = {
+
+	monarch_PRK_No.00a = {
+		major = yes
+		potential = {
+			tag = PRK
+			NOT = { has_global_flag = monarch_PRK_No.00a }
+		}
+		allow = {
+			is_year = 1528
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.00a
+			define_ruler = {
+				name = "Muzaffar Shah I"
+				dynasty = "Melaka"
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.01a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Muzaffar Shah I"
+			NOT = { has_global_flag = monarch_PRK_No.01a }
+		}
+		allow = {
+			is_year = 1549
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Mansur Shah"
+				monarch_name = "Mansur Shah"
+				dynasty = "Melaka"
+				birth_date = 1510.1.1
+				death_Date = 1577.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.02a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Mansur Shah"
+			NOT = { has_global_flag = monarch_PRK_No.02a }
+		}
+		allow = {
+			is_year = 1577
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad Tajuddin Shah"
+				monarch_name = "Ahmad Tajuddin Shah"
+				dynasty = "Melaka"
+				birth_date = 1535.1.1
+				death_Date = 1584.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.03a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Ahmad Tajuddin Shah"
+			NOT = { has_global_flag = monarch_PRK_No.03a }
+		}
+		allow = {
+			is_year = 1584
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Tajul Ariffin Shah"
+				monarch_name = "Tajul Ariffin Shah"
+				dynasty = "Melaka"
+				birth_date = 1560.1.1
+				death_Date = 1594.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.04a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Tajul Ariffin Shah"
+			NOT = { has_global_flag = monarch_PRK_No.04a }
+		}
+		allow = {
+			is_year = 1594
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Alauddin Shah"
+				monarch_name = "Alauddin Shah"
+				dynasty = "Melaka"
+				birth_date = 1572.1.1
+				death_Date = 1609.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.05a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Alauddin Shah"
+			NOT = { has_global_flag = monarch_PRK_No.05a }
+		}
+		allow = {
+			is_year = 1609
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Mukaddam Shah"
+				monarch_name = "Mukaddam Shah"
+				dynasty = "Melaka"
+				birth_date = 1590.1.1
+				death_Date = 1619.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.06a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Mukaddam Shah"
+			NOT = { has_global_flag = monarch_PRK_No.06a }
+		}
+		allow = {
+			is_year = 1619
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Mansur Shah II"
+				monarch_name = "Mansur Shah II"
+				dynasty = "Melaka"
+				birth_date = 1600.1.1
+				death_Date = 1627.1.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.07a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Mansur Shah II"
+			NOT = { has_global_flag = monarch_PRK_No.07a }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmud Shah"
+				monarch_name = "Mahmud Shah"
+				dynasty = "Melaka"
+				birth_date = 1614.1.1
+				death_Date = 1630.1.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.08a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Mahmud Shah"
+			NOT = { has_global_flag = monarch_PRK_No.08a }
+		}
+		allow = {
+			is_year = 1630
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Sallehuddin Shah"
+				monarch_name = "Sallehuddin Shah"
+				dynasty = "Melaka"
+				birth_date = 1620.1.1
+				death_Date = 1635.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.09a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Sallehuddin Shah"
+			NOT = { has_global_flag = monarch_PRK_No.09a }
+		}
+		allow = {
+			is_year = 1635
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.09a
+			add_stability = -1
+			define_ruler = {
+			name = "Muzaffar Shah II"
+				dynasty = "Siak"
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.10a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Muzaffar Shah II"
+			NOT = { has_global_flag = monarch_PRK_No.10a }
+		}
+		allow = {
+			is_year = 1654
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmud Iskandar Shah"
+				monarch_name = "Mahmud Iskandar Shah"
+				dynasty = "Siak"
+				birth_date = 1650.1.1
+				death_Date = 1720.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.11a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Mahmud Iskandar Shah"
+			NOT = { has_global_flag = monarch_PRK_No.11a }
+		}
+		allow = {
+			is_year = 1720
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Alauddin Mughayat Shah"
+				monarch_name = "Alauddin Mughayat Shah"
+				dynasty = "Siak"
+				birth_date = 1670.1.1
+				death_Date = 1728.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.12a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Alauddin Mughayat Shah"
+			NOT = { has_global_flag = monarch_PRK_No.12a }
+		}
+		allow = {
+			is_year = 1728
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Muzaffar Shah III"
+				monarch_name = "Muzaffar Shah III"
+				dynasty = "Siak"
+				birth_date = 1690.1.1
+				death_Date = 1754.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.13a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Muzaffar Shah III"
+			NOT = { has_global_flag = monarch_PRK_No.13a }
+		}
+		allow = {
+			is_year = 1754
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Iskandar Zulkarnain Shah"
+				monarch_name = "Iskandar Zulkarnain Shah"
+				dynasty = "Siak"
+				birth_date = 1720.1.1
+				death_Date = 1765.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.14a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Iskandar Zulkarnain Shah"
+			NOT = { has_global_flag = monarch_PRK_No.14a }
+		}
+		allow = {
+			is_year = 1765
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmud Shah II"
+				monarch_name = "Mahmud Shah II"
+				dynasty = "Siak"
+				birth_date = 1740.1.1
+				death_Date = 1786.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.15a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Mahmud Shah II"
+			NOT = { has_global_flag = monarch_PRK_No.15a }
+		}
+		allow = {
+			is_year = 1773
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Alauddin Mansur Sha"
+				monarch_name = "Alauddin Mansur Shah"
+				dynasty = "Siak"
+				birth_date = 1745.1.1
+				death_Date = 1786.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.16a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Alauddin Mansur Sha"
+			NOT = { has_global_flag = monarch_PRK_No.16a }
+		}
+		allow = {
+			is_year = 1786
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmaddin Shah"
+				monarch_name = "Ahmaddin Shah"
+				dynasty = "Siak"
+				birth_date = 1765.1.1
+				death_Date = 1806.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PRK_No.17a = {
+		major = yes
+		potential = {
+			tag = PRK
+			has_ruler = "Ahmaddin Shah"
+			NOT = { has_global_flag = monarch_PRK_No.17a }
+		}
+		allow = {
+			is_year = 1806
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRK_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul Malik Mansur Shah"
+				monarch_name = "Abdul Malik Mansur Shah"
+				dynasty = "Siak"
+				birth_date = 1780.1.1
+				death_Date = 1825.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

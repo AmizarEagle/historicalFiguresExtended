@@ -1,0 +1,290 @@
+country_decisions = {
+
+	monarch_BLI_No.00a = {
+		major = yes
+		potential = {
+			tag = BLI
+			has_ruler = "Dalem Ketut Ngulesir"
+			NOT = { has_global_flag = monarch_BLI_No.00a }
+		}
+		allow = {
+			is_year = 1460
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLI_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Watu Renggong"
+				monarch_name = "Watu Renggong"
+				dynasty = "Gelgel"
+				birth_date = 1450.1.1
+				death_Date = 1550.1.1
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLI_No.01a = {
+		major = yes
+		potential = {
+			tag = BLI
+			has_ruler = "Watu Renggong"
+			NOT = { has_global_flag = monarch_BLI_No.01a }
+		}
+		allow = {
+			is_year = 1550
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLI_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Dalem Bekung"
+				monarch_name = "Dalem Bekung"
+				dynasty = "Gelgel"
+				birth_date = 1540.1.1
+				death_Date = 1605.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLI_No.02a = {
+		major = yes
+		potential = {
+			tag = BLI
+			has_ruler = "Dalem Bekung"
+			NOT = { has_global_flag = monarch_BLI_No.02a }
+		}
+		allow = {
+			is_year = 1605
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLI_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Dalem Di Made"
+				monarch_name = "Dalem Di Made"
+				dynasty = "Gelgel"
+				birth_date = 1600.1.1
+				death_Date = 1686.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLI_No.03a = {
+		major = yes
+		potential = {
+			tag = BLI
+			has_ruler = "Dalem Di Made"
+			NOT = { has_global_flag = monarch_BLI_No.03a }
+		}
+		allow = {
+			is_year = 1686
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLI_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Dalem Di Made II"
+				monarch_name = "Dalem Di Made II"
+				dynasty = "Gelgel"
+				birth_date = 1645.1.1
+				death_Date = 1710.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLI_No.04a = {
+		major = yes
+		potential = {
+			tag = BLI
+			has_ruler = "Dalem Di Made II"
+			NOT = { has_global_flag = monarch_BLI_No.04a }
+		}
+		allow = {
+			is_year = 1710
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLI_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Dewa Agung Jambe"
+				monarch_name = "Dewa Agung Jambe"
+				dynasty = "Gelgel"
+				birth_date = 1686.1.1
+				death_Date = 1736.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLI_No.05a = {
+		major = yes
+		potential = {
+			tag = BLI
+			has_ruler = "Dewa Agung Jambe"
+			NOT = { has_global_flag = monarch_BLI_No.05a }
+		}
+		allow = {
+			is_year = 1736
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLI_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Dewa Agung Di Made"
+				monarch_name = "Dewa Agung Di Made"
+				dynasty = "Gelgel"
+				birth_date = 1690.1.1
+				death_Date = 1760.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLI_No.06a = {
+		major = yes
+		potential = {
+			tag = BLI
+			has_ruler = "Dewa Agung Di Made"
+			NOT = { has_global_flag = monarch_BLI_No.06a }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLI_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Dewa Agung Sakti"
+				monarch_name = "Dewa Agung Sakti"
+				dynasty = "Gelgel"
+				birth_date = 1730.1.1
+				death_Date = 1790.1.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLI_No.07a = {
+		major = yes
+		potential = {
+			tag = BLI
+			has_ruler = "Dewa Agung Sakti"
+			NOT = { has_global_flag = monarch_BLI_No.07a }
+		}
+		allow = {
+			is_year = 1790
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLI_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Dewa Agung Putra"
+				monarch_name = "Dewa Agung Putra"
+				dynasty = "Gelgel"
+				birth_date = 1760.1.1
+				death_Date = 1815.1.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BLI_No.08a = {
+		major = yes
+		potential = {
+			tag = BLI
+			has_ruler = "Dewa Agung Putra"
+			NOT = { has_global_flag = monarch_BLI_No.08a }
+		}
+		allow = {
+			is_year = 1815
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BLI_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Dewa Agung Putra II"
+				monarch_name = "Dewa Agung Putra II"
+				dynasty = "Gelgel"
+				birth_date = 1780.1.1
+				death_Date = 1836.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

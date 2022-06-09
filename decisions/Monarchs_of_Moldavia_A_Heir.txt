@@ -1,0 +1,1304 @@
+country_decisions = {
+
+	monarch_MOL_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			NOT = { is_year = 1448 }
+			has_ruler = "Stefan II"
+			NOT = { has_global_flag = monarch_MOL_No.00a }
+		}
+		allow = {
+			is_year = 1447
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Roman"
+				dynasty = "Musat"
+				birth_date = 1426.1.1
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Roman"
+			NOT = { is_year = 1449 }
+			NOT = { has_global_flag = monarch_MOL_No.01a }
+		}
+		allow = {
+			is_year = 1448
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Petru II"
+				dynasty = "Musat"
+				birth_date = 1400.1.1
+				adm = 3
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Petru II"
+			NOT = { is_year = 1451 }
+			NOT = { has_global_flag = monarch_MOL_No.02a }
+		}
+		allow = {
+			is_year = 1449
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Bogdan II"
+				dynasty = "Musat"
+				birth_date = 1409.1.1
+				adm = 1
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Bogdan II"
+			NOT = { is_year = 1457 }
+			NOT = { has_global_flag = monarch_MOL_No.03a }
+		}
+		allow = {
+			is_year = 1451
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Petru III Aron"
+				dynasty = "Musat"
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Petru III Aron"
+			NOT = { is_year = 1504 }
+			NOT = { has_global_flag = monarch_MOL_No.04a }
+		}
+		allow = {
+			is_year = 1457
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Stefan III cel Mare"
+				dynasty = "Musat"
+				birth_date = 1433.1.1
+				adm = 5
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Stefan III cel Mare"
+			NOT = { is_year = 1517 }
+			NOT = { has_global_flag = monarch_MOL_No.05a }
+		}
+		allow = {
+			is_year = 1504
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Bogdan III"	
+				dynasty = "Musat"
+				birth_date = 1479.3.9
+				adm = 1
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Bogdan III"
+			NOT = { is_year = 1546 }
+			NOT = { has_global_flag = monarch_MOL_No.06a }
+		}
+		allow = {
+			is_year = 1517
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Petru IV Rares"
+				dynasty = "Musat"
+				birth_date = 1487.1.1
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Petru IV Rares"
+			NOT = { is_year = 1551 }
+			NOT = { has_global_flag = monarch_MOL_No.07a }
+		}
+		allow = {
+			is_year = 1546
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Ilias II"
+				dynasty = "Musat"
+				birth_date = 1531.1.1
+				adm = 0
+				dip = 2
+				mil = 4
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Ilias II"
+			NOT = { is_year = 1568 }
+			NOT = { has_global_flag = monarch_MOL_No.08a }
+		}
+		allow = {
+			is_year = 1551
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Alexandru IV"
+				dynasty = "Musat"
+				adm = 1
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Alexandru IV"
+			NOT = { is_year = 1574 }
+			NOT = { has_global_flag = monarch_MOL_No.09a }
+		}
+		allow = {
+			is_year = 1568
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Ioan III cel Cumplit"
+				dynasty = "Musat"
+				birth_date = 1521.1.1
+				adm = 1
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Ioan III cel Cumplit"
+			NOT = { is_year = 1591 }
+			NOT = { has_global_flag = monarch_MOL_No.10a }
+		}
+		allow = {
+			is_year = 1574
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Petru V Schiopul"
+				dynasty = "Musat"
+				adm = 1
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Petru V Schiopul"
+			NOT = { is_year = 1595 }
+			NOT = { has_global_flag = monarch_MOL_No.11a }
+		}
+		allow = {
+			is_year = 1591
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Stefan VIII"
+				dynasty = "Musat"
+				adm = 1
+				dip = 3
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Stefan VIII"
+			NOT = { is_year = 1606 }
+			NOT = { has_global_flag = monarch_MOL_No.12a }
+		}
+		allow = {
+			is_year = 1595
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Ieremia Movila"
+				dynasty = "Movilesti"
+				adm = 3
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Ieremia Movila"
+			NOT = { is_year = 1611 }
+			NOT = { has_global_flag = monarch_MOL_No.13a }
+		}
+		allow = {
+			is_year = 1606
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Constantin I Movila"
+				dynasty = "Movilesti"
+				adm = 4
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Constantin I Movila"
+			NOT = { is_year = 1623 }
+			NOT = { has_global_flag = monarch_MOL_No.14a }
+		}
+		allow = {
+			is_year = 1611
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Stefan IX Tomsa"
+				dynasty = "Movilesti"
+				adm = 3
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Stefan IX Tomsa"
+			NOT = { is_year = 1633 }
+			NOT = { has_global_flag = monarch_MOL_No.16a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Alexandru VIII Coronul"
+				dynasty = "Draculesti"
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Alexandru VIII Coronul"
+			NOT = { is_year = 1653 }
+			NOT = { has_global_flag = monarch_MOL_No.17a }
+		}
+		allow = {
+			is_year = 1633
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Vasile I"
+				dynasty = "Lupu"
+				birth_date = 1595.1.1
+				adm = 1
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Vasile I"
+			NOT = { is_year = 1658 }
+			NOT = { has_global_flag = monarch_MOL_No.18a }
+		}
+		allow = {
+			is_year = 1653
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Gheorge I Stefan"
+				dynasty = "Ceaur"
+				adm = 1
+				dip = 3
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Gheorge I Stefan"
+			NOT = { is_year = 1661 }
+			NOT = { has_global_flag = monarch_MOL_No.19a }
+		}
+		allow = {
+			is_year = 1658
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Stefan X"
+				dynasty = "Lupu"
+				birth_date = 1641.1.1
+				adm = 4
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.20a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Stefan X"
+			NOT = { is_year = 1665 }
+			NOT = { has_global_flag = monarch_MOL_No.20a }
+		}
+		allow = {
+			is_year = 1661
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Eustratie I"
+				dynasty = "Dabija"
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.21a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Eustratie I"
+			NOT = { is_year = 1684 }
+			NOT = { has_global_flag = monarch_MOL_No.21a }
+		}
+		allow = {
+			is_year = 1665
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Gheorge III"
+				dynasty = "Duca"
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.22a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Gheorge III"
+			NOT = { is_year = 1693 }
+			NOT = { has_global_flag = monarch_MOL_No.22a }
+		}
+		allow = {
+			is_year = 1684
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.22a
+			add_stability = -1
+			define_ruler = {
+				name = "Constantin III Cantemir"
+				dynasty = "Cantemiresti"
+				birth_date = 1622.1.1
+				adm = 2
+				dip = 0
+				mil = 3
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.23a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Constantin III Cantemir"
+			NOT = { is_year = 1703 }
+			NOT = { has_global_flag = monarch_MOL_No.23a }
+		}
+		allow = {
+			is_year = 1693
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.23a
+			add_stability = -1
+			define_ruler = {
+				name = "Constantin IV"
+				dynasty = "Duca"
+				adm = 0
+				dip = 1
+				mil = 2
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.24a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Constantin IV"
+			NOT = { is_year = 1709 }
+			NOT = { has_global_flag = monarch_MOL_No.24a }
+		}
+		allow = {
+			is_year = 1703
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.24a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahai III"
+				dynasty = "Racovita"
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.25a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Mahai III"
+			NOT = { is_year = 1711 }
+			NOT = { has_global_flag = monarch_MOL_No.25a }
+		}
+		allow = {
+			is_year = 1709
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.25a
+			add_stability = -1
+			define_ruler = {
+				name = "Dimitrie I"
+				dynasty = "Cantomiresti"
+				birth_date = 1673.10.26
+				adm = 3
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.26a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Dimitrie I"
+			NOT = { is_year = 1715 }
+			NOT = { has_global_flag = monarch_MOL_No.26a }
+		}
+		allow = {
+			is_year = 1711
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.26a
+			add_stability = -1
+			define_ruler = {
+				name = "Nicolae"
+				dynasty = "Mavrogordato"
+				birth_date = 1670.5.3
+				adm = 3
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.27a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Nicolae"
+			NOT = { is_year = 1726 }
+			NOT = { has_global_flag = monarch_MOL_No.27a }
+		}
+		allow = {
+			is_year = 1715
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.27a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahai III"
+				dynasty = "Racovita"
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.28a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Mahai III"
+			NOT = { is_year = 1741 }
+			NOT = { has_global_flag = monarch_MOL_No.28a }
+		}
+		allow = {
+			is_year = 1726
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.28a
+			add_stability = -1
+			define_ruler = {
+				name = "Grigore I"
+				dynasty = "Ghica"
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.29a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Grigore I"
+			NOT = { is_year = 1749 }
+			NOT = { has_global_flag = monarch_MOL_No.29a }
+		}
+		allow = {
+			is_year = 1741
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.29a
+			add_stability = -1
+			define_ruler = {
+				name = "Constantin V"
+				dynasty = "Mavrogordato"
+				birth_date = 1711.2.27
+				adm = 3
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.30a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Constantin V"
+			NOT = { is_year = 1757 }
+			NOT = { has_global_flag = monarch_MOL_No.30a }
+		}
+		allow = {
+			is_year = 1749
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.30a
+			add_stability = -1
+			define_ruler = {
+				name = "Constantin VI"
+				dynasty = "Racovita"
+				birth_date = 1699.1.1
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.31a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Constantin VI"
+			NOT = { is_year = 1769 }
+			NOT = { has_global_flag = monarch_MOL_No.31a }
+		}
+		allow = {
+			is_year = 1757
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.31a
+			add_stability = -1
+			define_ruler = {
+				name = "Grigore II"
+				dynasty = "Callamachi"
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.32a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Grigore II"
+			NOT = { is_year = 1777 }
+			NOT = { has_global_flag = monarch_MOL_No.32a }
+		}
+		allow = {
+			is_year = 1769
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.32a
+			add_stability = -1
+			define_ruler = {
+				name = "Grigore III"
+				dynasty = "Ghica"
+				adm = 2
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.33a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Grigore III"
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_MOL_No.33a }
+		}
+		allow = {
+			is_year = 1777
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.33a
+			add_stability = -1
+			define_ruler = {
+				name = "Constantin VII"
+				dynasty = "Moruzi"
+				adm = 2
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.34a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Constantin VII"
+			NOT = { is_year = 1785 }
+			NOT = { has_global_flag = monarch_MOL_No.34a }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.34a
+			add_stability = -1
+			define_ruler = {
+				name = "Alexandru IX"
+				dynasty = "Mavrogordato"
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.35a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Alexandru IX"
+			NOT = { is_year = 1786 }
+			NOT = { has_global_flag = monarch_MOL_No.35a }
+		}
+		allow = {
+			is_year = 1785
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.35a
+			add_stability = -1
+			define_ruler = {
+				name = "Alexandru X"
+				dynasty = "Mavrogordato"
+				adm = 2
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.36a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Alexandru X"
+			NOT = { is_year = 1792 }
+			NOT = { has_global_flag = monarch_MOL_No.36a }
+		}
+		allow = {
+			is_year = 1786
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.36a
+			add_stability = -1
+			define_ruler = {
+				name = "Alexandru XI"
+				dynasty = "Ypsilanti"
+				birth_date = 1725.1.1
+				adm = 3
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.37a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Alexandru XI"
+			NOT = { is_year = 1795 }
+			NOT = { has_global_flag = monarch_MOL_No.37a }
+		}
+		allow = {
+			is_year = 1792
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.37a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahai IV Sutu"
+				dynasty = "Soutzos"
+				birth_date = 1730.1.1
+				adm = 0
+				dip = 2
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.38a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Mahai IV Sutu"
+			NOT = { is_year = 1799 }
+			NOT = { has_global_flag = monarch_MOL_No.38a }
+		}
+		allow = {
+			is_year = 1795
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.38a
+			add_stability = -1
+			define_ruler = {
+				name = "Alexandru XII"
+				dynasty = "Callimachi"
+				birth_date = 1737.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.39a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Alexandru XII"
+			NOT = { is_year = 1801 }
+			NOT = { has_global_flag = monarch_MOL_No.39a }
+		}
+		allow = {
+			is_year = 1799
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.39a
+			add_stability = -1
+			define_ruler = {
+				name = "Constantin VIII"
+				dynasty = "Ypsilanti"
+				birth_date = 1760.1.1
+				adm = 2
+				dip = 0
+				mil = 4
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.40a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Constantin VIII"
+			NOT = { is_year = 1806 }
+			NOT = { has_global_flag = monarch_MOL_No.40a }
+		}
+		allow = {
+			is_year = 1801
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.40a
+			add_stability = -1
+			define_ruler = {
+				name = "Alexandru XIII"
+				dynasty = "Moruzi"
+				birth_date = 1750.1.1
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.41a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Alexandru XIII"
+			NOT = { is_year = 1819 }
+			NOT = { has_global_flag = monarch_MOL_No.41a }
+		}
+		allow = {
+			is_year = 1806
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.41a
+			add_stability = -1
+			define_ruler = {
+				name = "Scarlat II"
+				dynasty = "Callimachi"
+				birth_date = 1773.1.1
+				adm = 3
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOL_No.42a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOL
+			has_ruler = "Scarlat II"
+			NOT = { is_year = 1830 }
+			NOT = { has_global_flag = monarch_MOL_No.42a }
+		}
+		allow = {
+			is_year = 1819
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOL_No.42a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahai V"
+				dynasty = "Soutzos"
+				birth_date = 1784.1.1
+				adm = 1
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	
+	
+}

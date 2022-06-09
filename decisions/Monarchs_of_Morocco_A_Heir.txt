@@ -1,0 +1,640 @@
+country_decisions = {
+
+	monarch_MOR_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Abdalhaqq II"
+			NOT = { is_year = 1472 }
+			NOT = { has_global_flag = monarch_MOR_No.00a }
+		}
+		allow = {
+			is_year = 1444
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.00a
+			define_heir = {
+				name = "Mohammed"
+				monarch_name = "Mohammed ibn Ali Amrani-Joutey I"
+				dynasty = "Idrisid"
+				birth_date = 1430.1.1
+				death_date = 1472.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			NOT = { is_year = 1557 }
+			NOT = { has_global_flag = monarch_MOR_No.01a }
+		}
+		allow = {
+			is_year = 1544
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.01a
+			define_heir = {
+				name = "Muhammad"
+				monarch_name = "Muhammad I"
+				dynasty = "Saadi"
+				birth_date = 1490.1.1
+				death_Date = 1557.10.23
+				claim = 95
+				ADM = 4
+				DIP = 4
+				MIL = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Muhammad I"
+			NOT = { is_year = 1574 }
+			NOT = { has_global_flag = monarch_MOR_No.02a }
+		}
+		allow = {
+			is_year = 1544
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.02a
+			define_heir = {
+				name = "'Abd Allah"
+				monarch_name = "'Abd Allah"
+				dynasty = "Saadi"
+				birth_date = 1527.6.1
+				death_date = 1574.1.24
+				claim = 95
+				adm = 6
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "'Abd Allah"
+			NOT = { is_year = 1576 }
+			NOT = { has_global_flag = monarch_MOR_No.03a }
+		}
+		allow = {
+			is_year = 1557
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.03a
+			define_heir = {
+				name = "Muhammad"
+				monarch_name = "Muhammad II"
+				dynasty = "Saadi"
+				birth_date = 1557.1.1
+				death_date = 1576.9.12
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Muhammad II"
+			NOT = { is_year = 1578 }
+			NOT = { has_global_flag = monarch_MOR_No.04a }
+		}
+		allow = {
+			is_year = 1574
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.04a
+			define_heir = {
+				name = "Abu Marwan"
+				monarch_name = "Abu Marwan I"
+				dynasty = "Saadi"
+				birth_date = 1554.1.1
+				death_Date = 1578.8.5
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Abu Marwan I"
+			NOT = { is_year = 1603 }
+			NOT = { has_global_flag = monarch_MOR_No.05a }
+		}
+		allow = {
+			is_year = 1576
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.05a
+			define_heir = {
+				name = "Ahmad"
+				monarch_name = "Ahmad II"
+				dynasty = "Saadi"
+				birth_date = 1549.1.1
+				death_date = 1603.8.20
+				claim = 95
+				adm = 5
+				dip = 4
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Ahmad II"
+			NOT = { is_year = 1609 }
+			NOT = { has_global_flag = monarch_MOR_No.06a }
+		}
+		allow = {
+			is_year = 1578
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.06a
+			define_heir = {
+				name = "'Abd Allah"
+				monarch_name = "'Abd Allah II"
+				dynasty = "Saadi"
+				birth_date = 1564.1.1
+				death_Date = 1609.8.3
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "'Abd Allah II"
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_MOR_No.07a }
+		}
+		allow = {
+			is_year = 1603
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.07a
+			define_heir = {
+				name = "Zaydan"
+				monarch_name = "Zaydan I"
+				dynasty = "Saadi"
+				birth_date = 1580.1.1
+				death_date = 1627.9.29
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Zaydan I"
+			NOT = { is_year = 1631 }
+			NOT = { has_global_flag = monarch_MOR_No.08a }
+		}
+		allow = {
+			is_year = 1609
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.08a
+			define_heir = {
+				name = "'Abd al-Malik"
+				monarch_name = "'Abd al-Malik"
+				dynasty = "Saadi"
+				birth_date = 1590.1.1
+				death_Date = 1631.2.11
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "'Abd al-Malik"
+			NOT = { is_year = 1636 }
+			NOT = { has_global_flag = monarch_MOR_No.09a }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.09a
+			define_heir = {
+				name = "al-Walid"
+				monarch_name = "al-Walid I"
+				dynasty = "Saadi"
+				birth_date = 1600.1.1
+				death_date = 1636.2.21
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "al-Walid I"
+			NOT = { is_year = 1655 }
+			NOT = { has_global_flag = monarch_MOR_No.10a }
+		}
+		allow = {
+			is_year = 1631
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.10a
+			define_heir = {
+				name = "Muhammad"
+				monarch_name = "Muhammad III"
+				dynasty = "Saadi"
+				birth_date = 1603.1.1
+				death_date = 1655.1.30
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Muhammad III"
+			NOT = { is_year = 1668 }
+			NOT = { has_global_flag = monarch_MOR_No.11a }
+		}
+		allow = {
+			is_year = 1655
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.11a
+			define_heir = {
+				name = "Abd al-Karim ibn Abi-Bakr"
+				monarch_name = "Abd al-Karim ibn Abi-Bakr"
+				dynasty = "al-Shabani"
+				claim = 95
+				ADM = 2
+				DIP = 3
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Abd al-Karim ibn Abi-Bakr"
+			NOT = { is_year = 1672 }
+			NOT = { has_global_flag = monarch_MOR_No.12a }
+		}
+		allow = {
+			is_year = 1659
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.12a
+			define_heir = {
+				name = "ar-Rashid"
+				monarch_name = "ar-Rashid I"
+				dynasty = "Alaouite"
+				birth_date = 1631.1.1
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "ar-Rashid I"
+			NOT = { is_year = 1727 }
+			NOT = { has_global_flag = monarch_MOR_No.13a }
+		}
+		allow = {
+			is_year = 1668
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.13a
+			define_heir = {
+				name = "Isma'il"
+				monarch_name = "Isma'il I"
+				dynasty = "Alaouite"
+				birth_date = 1645.1.1
+				death_Date = 1727.3.22
+				claim = 95
+				adm = 6
+				dip = 5
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Isma'il I"
+			NOT = { is_year = 1729 }
+			NOT = { has_global_flag = monarch_MOR_No.14a }
+		}
+		allow = {
+			is_year = 1677
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.14a
+			define_heir = {
+				name = "Ahmad"
+				monarch_name = "Ahmad I"
+				dynasty = "Alaouite"
+				birth_date = 1677.1.1
+				death_date = 1729.3.5
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Ahmad I"
+			NOT = { is_year = 1757 }
+			NOT = { has_global_flag = monarch_MOR_No.15a }
+		}
+		allow = {
+			is_year = 1727
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.15a
+			define_heir = {
+				name = "'Abd Allah"
+				monarch_name = "'Abd Allah I"
+				dynasty = "Alaouite"
+				birth_date = 1678.1.1
+				death_Date = 1757.11.10
+				claim = 95
+				adm = 5
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "'Abd Allah I"
+			NOT = { is_year = 1790 }
+			NOT = { has_global_flag = monarch_MOR_No.16a }
+		}
+		allow = {
+			is_year = 1739
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.16a
+			define_heir = {
+				name = "Muhammad"
+				monarch_name = "Muhammad III"
+				dynasty = "Alaouite"
+				birth_date = 1739.3.7
+				death_Date = 1790.4.12
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Muhammad III"
+			NOT = { is_year = 1792 }
+			NOT = { has_global_flag = monarch_MOR_No.17a }
+		}
+		allow = {
+			is_year = 1757
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.17a
+			define_heir = {
+				name = "al-Yazid"
+				monarch_name = "al-Yazid I"
+				dynasty = "Alaouite"
+				birth_date = 1750.1.1
+				death_date = 1792.2.15
+				claim = 95
+				adm = 0
+				dip = 3
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "al-Yazid I"
+			NOT = { is_year = 1822 }
+			NOT = { has_global_flag = monarch_MOR_No.18a }
+		}
+		allow = {
+			is_year = 1790
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.18a
+			define_heir = {
+				name = "Sulayman"
+				monarch_name = "Sulayman I"
+				dynasty = "Alaouite"
+				birth_date = 1760.1.1
+				death_Date = 1822.1.1
+				claim = 95
+				adm = 0
+				dip = 2
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,748 @@
+country_decisions = {
+
+	monarch_KAS_No.00a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Sayyid Ali"
+			NOT = { has_global_flag = monarch_KAS_No.00a }
+		}
+		allow = {
+			is_year = 1457
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Mirza Abu Bakr"
+				monarch_name = "Mirza Abu Bakr"
+				dynasty = "Dughlat"
+				birth_date = 1440.1.1
+				death_date = 1514.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.01a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Mirza Abu Bakr"
+			NOT = { has_global_flag = monarch_KAS_No.01a }
+		}
+		allow = {
+			is_year = 1514
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Jahangir Mirza"
+				monarch_name = "Jahangir Mirza"
+				dynasty = "Dughlat"
+				birth_date = 1472.1.1
+				death_date = 1515.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.02a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Jahangir Mirza"
+			NOT = { has_global_flag = monarch_KAS_No.02a }
+		}
+		allow = {
+			is_year = 1514
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Said Khan"
+				dynasty = "Chagatayid"
+				adm = 3
+				dip = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.03a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Said Khan"
+			NOT = { has_global_flag = monarch_KAS_No.03a }
+		}
+		allow = {
+			is_year = 1533
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdurashid"
+				monarch_name = "Abdurashid"
+				dynasty = "Chagatayid"
+				birth_date = 1510.1.1
+				death_date = 1560.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.04a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Abdurashid"
+			NOT = { has_global_flag = monarch_KAS_No.04a }
+		}
+		allow = {
+			is_year = 1560
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul Karim"
+				monarch_name = "Abdul Karim"
+				dynasty = "Chagatayid"
+				birth_date = 1530.1.1
+				death_date = 1591.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.05a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Abdul Karim"
+			NOT = { has_global_flag = monarch_KAS_No.05a }
+		}
+		allow = {
+			is_year = 1592
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad"
+				monarch_name = "Muhammad"
+				dynasty = "Chagatayid"
+				birth_date = 1532.1.1
+				death_date = 1609.1.1
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.06a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Muhammad"
+			NOT = { has_global_flag = monarch_KAS_No.06a }
+		}
+		allow = {
+			is_year = 1610
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Shudja ad-Din Ahmad"
+				monarch_name = "Shudja ad-Din Ahmad"
+				dynasty = "Chagatayid"
+				birth_date = 1560.1.1
+				death_date = 1618.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.07a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Shudja ad-Din Ahmad"
+			NOT = { has_global_flag = monarch_KAS_No.07a }
+		}
+		allow = {
+			is_year = 1618
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Kuraysh"
+				dynasty = "Chagatayid"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.08a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Kuraysh"
+			NOT = { has_global_flag = monarch_KAS_No.08a }
+		}
+		allow = {
+			is_year = 1618
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Abd al-Latif"
+				birth_date = 1605.1.15
+				dynasty = "Chagatayid"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.09a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Abd al-Latif"
+			NOT = { has_global_flag = monarch_KAS_No.09a }
+		}
+		allow = {
+			is_year = 1630
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad"
+				monarch_name = "Ahmad"
+				dynasty = "Chagatayid"
+				birth_date = 1620.1.1
+				death_date = 1640.1.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.10a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Ahmad"
+			NOT = { has_global_flag = monarch_KAS_No.10a }
+		}
+		allow = {
+			is_year = 1633
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmud"
+				monarch_name = "Mahmud"
+				dynasty = "Chagatayid"
+				birth_date = 1622.1.1
+				death_date = 1636.1.1
+				claim = 95
+				adm = 2
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.11a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Mahmud"
+			NOT = { has_global_flag = monarch_KAS_No.11a }
+		}
+		allow = {
+			is_year = 1636
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad"	#Second Time
+				dynasty = "Chagatayid"
+				adm = 2
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.12a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Ahmad"
+			NOT = { has_global_flag = monarch_KAS_No.12a }
+		}
+		allow = {
+			is_year = 1638
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdullah"
+				dynasty = "Chagatayid"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.13a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Abdullah"
+			NOT = { has_global_flag = monarch_KAS_No.13a }
+		}
+		allow = {
+			is_year = 1667
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Nur ad-Din"
+				monarch_name = "Nur ad-Din"
+				dynasty = "Chagatayid"
+				birth_date = 1622.1.1
+				death_date = 1675.10.30
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.14a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Nur ad-Din"
+			NOT = { has_global_flag = monarch_KAS_No.14a }
+		}
+		allow = {
+			is_year = 1668
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Ismail"
+				dynasty = "Chagatayid"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.15a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Ismail"
+			NOT = { has_global_flag = monarch_KAS_No.15a }
+		}
+		allow = {
+			is_year = 1669
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Yulbars"
+				dynasty = "Chagatayid"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.16a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Yulbars"
+			NOT = { has_global_flag = monarch_KAS_No.16a }
+		}
+		allow = {
+			is_year = 1670
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Abd al Latif"
+				monarch_name = "Abd al Latif"
+				dynasty = "Chagatayid"
+				birth_date = 1650.1.1
+				death_date = 1670.4.2
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.17a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Abd al Latif"
+			NOT = { has_global_flag = monarch_KAS_No.17a }
+		}
+		allow = {
+			is_year = 1670
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Ismail"	#Second Time
+				dynasty = "Chagatayid"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.18a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Ismail"
+			NOT = { has_global_flag = monarch_KAS_No.18a }
+		}
+		allow = {
+			is_year = 1678
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Abd ar-Rashid"
+				dynasty = "Chagatayid"
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.19a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Abd ar-Rashid"
+			NOT = { has_global_flag = monarch_KAS_No.19a }
+		}
+		allow = {
+			is_year = 1680
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Imin"
+				dynasty = "Chagatayid"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.20a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Muhammad Imin"
+			NOT = { has_global_flag = monarch_KAS_No.20a }
+		}
+		allow = {
+			is_year = 1681
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Appak"
+				dynasty = "Khoja"
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.21a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Appak"
+			NOT = { has_global_flag = monarch_KAS_No.21a }
+		}
+		allow = {
+			is_year = 1690
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Imin"
+				dynasty = "Chagatayid"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.22a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Muhammad Imin"
+			NOT = { has_global_flag = monarch_KAS_No.22a }
+		}
+		allow = {
+			is_year = 1692
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.22a
+			add_stability = -1
+			define_ruler = {
+				name = "Yahiya"
+				dynasty = "Khoja"
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.23a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Yahiya"
+			NOT = { has_global_flag = monarch_KAS_No.23a }
+		}
+		allow = {
+			is_year = 1695
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.23a
+			add_stability = -1
+			define_ruler = {
+				name = "Hanim"
+				dynasty = "Chagatayid"
+				female = yes
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAS_No.24a = {
+		major = yes
+		potential = {
+			tag = KAS
+			has_ruler = "Hanim"
+			NOT = { has_global_flag = monarch_KAS_No.24a }
+		}
+		allow = {
+			is_year = 1695
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAS_No.24a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Mumin"
+				dynasty = "Chagatayid"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

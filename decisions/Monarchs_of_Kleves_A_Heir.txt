@@ -1,0 +1,168 @@
+country_decisions = {
+
+	monarch_KLE_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KLE
+			has_ruler = "Adolf"
+			NOT = { is_year = 1481 }
+			NOT = { has_global_flag = monarch_KLE_No.00a }
+		}
+		allow = {
+			is_year = 1419
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KLE_No.00a
+			define_heir = {
+				name = "Johann"
+				monarch_name = "Johann I"
+				dynasty = "von der Mark"
+				birth_date = 1419.2.16
+				death_date = 1481.9.5
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KLE_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KLE
+			has_ruler = "Johann I"
+			NOT = { is_year = 1521 }
+			NOT = { has_global_flag = monarch_KLE_No.01a }
+		}
+		allow = {
+			is_year = 1458
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KLE_No.01a
+			define_heir = {
+				name = "Johann"
+				monarch_name = "Johann II"
+				dynasty = "von der Mark"
+				birth_date = 1458.4.13
+				death_date = 1521.3.15
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KLE_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KLE
+			has_ruler = "Johann II"
+			NOT = { is_year = 1539 }
+			NOT = { has_global_flag = monarch_KLE_No.02a }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KLE_No.02a
+			define_heir = {
+				name = "Johann"
+				monarch_name = "Johann III"
+				dynasty = "von der Mark"
+				birth_date = 1490.11.10
+				death_date = 1539.2.6
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KLE_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KLE
+			has_ruler = "Johann III"
+			NOT = { is_year = 1592 }
+			NOT = { has_global_flag = monarch_KLE_No.03a }
+		}
+		allow = {
+			is_year = 1521
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KLE_No.03a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm der Reiche"
+				dynasty = "von der Mark"
+				birth_date = 1516.7.28
+				death_date = 1592.1.5
+				claim = 95
+				adm = 4
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KLE_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KLE
+			has_ruler = "Wilhelm der Reiche"
+			NOT = { is_year = 1609 }
+			NOT = { has_global_flag = monarch_KLE_No.04a }
+		}
+		allow = {
+			is_year = 1562
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KLE_No.04a
+			define_heir = {
+				name = "Johann Wilhelm"
+				monarch_name = "Johann Wilhelm"
+				dynasty = "von der Mark"
+				birth_date = 1562.5.29
+				death_date = 1609.3.25
+				claim = 95
+				adm = 1
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

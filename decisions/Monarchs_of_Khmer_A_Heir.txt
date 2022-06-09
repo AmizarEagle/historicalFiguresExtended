@@ -1,0 +1,749 @@
+country_decisions = {
+
+	monarch_KHM_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Barom Reachea II"
+			NOT = { is_year = 1468 }
+			NOT = { has_global_flag = monarch_KHM_No.00a }
+		}
+		allow = {
+			is_year = 1422
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.00a
+			define_heir = {
+				name = "Narayanaraja"
+				monarch_name = "Noreay Ramathipatei"
+				dynasty = "Khmer"
+				birth_date = 1422.1.1
+				death_Date = 1468.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Noreay Ramathipatei"
+			NOT = { is_year = 1477 }
+			NOT = { has_global_flag = monarch_KHM_No.01a }
+		}
+		allow = {
+			is_year = 1463
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.01a
+			define_heir = {
+				name = "Sri Raja"
+				monarch_name = "Reachea Ramathipatei"
+				dynasty = "Khmer"
+				birth_date = 1432.1.1
+				death_Date = 1477.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Reachea Ramathipatei"
+			NOT = { is_year = 1477 }
+			NOT = { has_global_flag = monarch_KHM_No.02a }
+		}
+		allow = {
+			is_year = 1468
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.02a
+			define_heir = {
+				name = "Soriyotei"
+				monarch_name = "Soriyotei II"
+				dynasty = "Khmer"
+				birth_date = 1430.1.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Soriyotei II"
+			NOT = { is_year = 1486 }
+			NOT = { has_global_flag = monarch_KHM_No.03a }
+		}
+		allow = {
+			is_year = 1472
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.03a
+			define_heir = {
+				name = "Thommo Reachea"
+				monarch_name = "Thommo Reachea I"
+				dynasty = "Khmer"
+				birth_date = 1435.1.1
+				death_Date = 1512.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Thommo Reachea I"
+			NOT = { is_year = 1512 }
+			NOT = { has_global_flag = monarch_KHM_No.04a }
+		}
+		allow = {
+			is_year = 1477
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.04a
+			define_heir = {
+				name = "Damkhat Sukonthor"
+				monarch_name = "Srey Sukonthor"
+				dynasty = "Khmer"
+				birth_date = 1460.1.1
+				death_Date = 1512.1.1
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Srey Sukonthor"
+			NOT = { is_year = 1516 }
+			NOT = { has_global_flag = monarch_KHM_No.05a }
+		}
+		allow = {
+			is_year = 1486
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.05a
+			define_heir = {
+				name = "Ney Khan"
+				monarch_name = "Ney Khan"
+				dynasty = "Khmer"
+				birth_date = 1480.1.1
+				death_Date = 1516.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Ney Khan"
+			NOT = { is_year = 1566 }
+			NOT = { has_global_flag = monarch_KHM_No.06a }
+		}
+		allow = {
+			is_year = 1512
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.06a
+			define_heir = {
+				name = "Ang Chan"
+				monarch_name = "Ang Chan I"
+				dynasty = "Khmer"
+				birth_date = 1500.1.1
+				death_Date = 1566.1.1
+				claim = 95
+				adm = 5
+				dip = 6
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Ang Chan I"
+			NOT = { is_year = 1576 }
+			NOT = { has_global_flag = monarch_KHM_No.07a }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.07a
+			define_heir = {
+				name = "Satha Mahindharaja"
+				monarch_name = "Barom Reachea I"
+				dynasty = "Khmer"
+				birth_date = 1540.1.1
+				death_Date = 1576.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Barom Reachea I"
+			NOT = { is_year = 1594 }
+			NOT = { has_global_flag = monarch_KHM_No.08a }
+		}
+		allow = {
+			is_year = 1566
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.08a
+			define_heir = {
+				name = "Chey Chettha"
+				monarch_name = "Chey Chettha I"
+				dynasty = "Khmer"
+				birth_date = 1546.1.1
+				death_Date = 1594.1.1
+				claim = 95
+				adm = 1
+				mil = 0
+				dip = 0
+				max_random_mil = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Chey Chettha I"
+			NOT = { is_year = 1596 }
+			NOT = { has_global_flag = monarch_KHM_No.09a }
+		}
+		allow = {
+			is_year = 1576
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.09a
+			define_heir = {
+				name = "Reamea Chungprey"
+				monarch_name = "Preah Ram I"
+				dynasty = "Khmer"
+				birth_date = 1570.1.1
+				death_Date = 1596.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Preah Ram I"
+			NOT = { is_year = 1619 }
+			NOT = { has_global_flag = monarch_KHM_No.10a }
+		}
+		allow = {
+			is_year = 1594
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.10a
+			define_heir = {
+				name = "Barom Reachea"
+				monarch_name = "Barom Reachea IV"
+				dynasty = "Khmer"
+				birth_date = 1570.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Barom Reachea IV"
+			NOT = { is_year = 1628 }
+			NOT = { has_global_flag = monarch_KHM_No.11a }
+		}
+		allow = {
+			is_year = 1603
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.11a
+			define_heir = {
+				name = "Ponhea Nhom"
+				monarch_name = "Chey Chettha II"
+				dynasty = "Khmer"
+				birth_date = 1590.1.1
+				death_Date = 1628.1.1
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Chey Chettha II"
+			NOT = { is_year = 1640 }
+			NOT = { has_global_flag = monarch_KHM_No.12a }
+		}
+		allow = {
+			is_year = 1619
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.12a
+			define_heir = {
+				name = "Thommoreachea"
+				monarch_name = "Thommoreachea II"
+				dynasty = "Khmer"
+				birth_date = 1590.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Thommoreachea II"
+			NOT = { is_year = 1642 }
+			NOT = { has_global_flag = monarch_KHM_No.13a }
+		}
+		allow = {
+			is_year = 1630
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.13a
+			define_heir = {
+				name = "Ang Non"
+				monarch_name = "Padumaraja I"
+				dynasty = "Khmer"
+				birth_date = 1600.1.1
+				death_Date = 1642.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Padumaraja I"
+			NOT = { is_year = 1672 }
+			NOT = { has_global_flag = monarch_KHM_No.14a }
+		}
+		allow = {
+			is_year = 1642
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.14a
+			define_heir = {
+				name = "Ang Sur"
+				monarch_name = "Barom Reachea V"
+				dynasty = "Khmer"
+				birth_date = 1620.1.1
+				death_Date = 1672.1.1
+				claim = 95
+				adm = 2
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Barom Reachea V"
+			NOT = { is_year = 1706 }
+			NOT = { has_global_flag = monarch_KHM_No.15a }
+		}
+		allow = {
+			is_year = 1674
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.15a
+			define_heir = {
+				name = "Ang Sor"
+				monarch_name = "Chey Chettha IV"
+				dynasty = "Khmer"
+				birth_date = 1660.1.1
+				death_Date = 1706.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Chey Chettha IV"
+			NOT = { is_year = 1748 }
+			NOT = { has_global_flag = monarch_KHM_No.16a }
+		}
+		allow = {
+			is_year = 1713
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.16a
+			define_heir = {
+				name = "Ang Em"
+				monarch_name = "Thommoreachea IV"
+				dynasty = "Khmer"
+				birth_date = 1712.1.1
+				death_Date = 1747.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Thommoreachea IV"
+			NOT = { is_year = 1775 }
+			NOT = { has_global_flag = monarch_KHM_No.17a }
+		}
+		allow = {
+			is_year = 1748
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.17a
+			define_heir = {
+				name = "Ang Ton"
+				monarch_name = "Outey Reachea II"
+				dynasty = "Khmer"
+				birth_date = 1730.1.1
+				death_Date = 1775.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Outey Reachea II"
+			NOT = { is_year = 1779 }
+			NOT = { has_global_flag = monarch_KHM_No.18a }
+		}
+		allow = {
+			is_year = 1759
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.18a
+			define_heir = {
+				name = "Ang Non"
+				monarch_name = "Ream Reachea"
+				dynasty = "Khmer"
+				birth_date = 1739.1.1
+				death_Date = 1779.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Ream Reachea"
+			NOT = { is_year = 1796 }
+			NOT = { has_global_flag = monarch_KHM_No.19a }
+		}
+		allow = {
+			is_year = 1775
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.19a
+			define_heir = {
+				name = "Ang Eng"
+				monarch_name = "Narayanaraja III"
+				dynasty = "Khmer"
+				birth_date = 1745.1.1
+				death_Date = 1796.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.20a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Narayanaraja III"
+			NOT = { is_year = 1834 }
+			NOT = { has_global_flag = monarch_KHM_No.20a }
+		}
+		allow = {
+			is_year = 1779
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.20a
+			define_heir = {
+				name = "Ang Chan"
+				monarch_name = "Outey Reachea III"
+				dynasty = "Khmer"
+				birth_date = 1763.1.1
+				death_Date = 1834.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHM_No.21a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHM
+			has_ruler = "Outey Reachea III"
+			NOT = { is_year = 1874 }
+			NOT = { has_global_flag = monarch_KHM_No.21a }
+		}
+		allow = {
+			is_year = 1815
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHM_No.21a
+			define_heir = {
+				name = "Ang Mey"
+				monarch_name = "Ang Mey"
+				dynasty = "Khmer"
+				birth_date = 1815.1.1
+				death_date = 1874.12.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 3
+				female = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

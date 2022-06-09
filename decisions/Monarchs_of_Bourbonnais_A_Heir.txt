@@ -1,0 +1,168 @@
+country_decisions = {
+
+	monarch_BOU_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BOU
+			has_ruler = "Charles I"
+			NOT = { is_year = 1488 }
+			NOT = { has_global_flag = monarch_BOU_No.00a }
+		}
+		allow = {
+			is_year = 1434
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BOU_No.00a
+			define_heir = {
+				name = "Jean"
+				monarch_name = "Jean II"	
+				dynasty = "de Bourbon"
+				birth_date = 1426.1.1
+				death_date = 1488.4.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BOU_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BOU
+			has_ruler = "Jean II"
+			NOT = { is_year = 1489 }
+			NOT = { has_global_flag = monarch_BOU_No.01a }
+		}
+		allow = {
+			is_year = 1456
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BOU_No.01a
+			define_heir = {
+				name = "Charles"
+				monarch_name = "Charles II"
+				dynasty = "de Bourbon"
+				birth_date = 1434.1.1
+				death_date = 1488.9.13
+				claim = 95
+				adm = 2
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BOU_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BOU
+			has_ruler = "Charles II"
+			NOT = { is_year = 1503 }
+			NOT = { has_global_flag = monarch_BOU_No.02a }
+		}
+		allow = {
+			is_year = 1488
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BOU_No.02a
+			define_heir = {
+				name = "Pierre"
+				monarch_name = "Pierre II"
+				dynasty = "de Bourbon"
+				birth_date = 1438.12.1
+				death_date = 1503.10.10
+				claim = 80
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BOU_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BOU
+			has_ruler = "Pierre II"
+			NOT = { is_year = 1521 }
+			NOT = { has_global_flag = monarch_BOU_No.03a }
+		}
+		allow = {
+			is_year = 1491
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BOU_No.03a
+			define_heir = {
+				name = "Suzanne"
+				monarch_name = "Suzanne I"
+				dynasty = "de Bourbon"
+				birth_date = 1491.5.10
+				death_date = 1521.4.28
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 1
+				female = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BOU_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BOU
+			has_ruler = "Suzanne I"
+			NOT = { is_year = 1527 }
+			NOT = { has_global_flag = monarch_BOU_No.04a }
+		}
+		allow = {
+			is_year = 1503
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BOU_No.04a
+			define_heir = {
+				name = "Charles"
+				monarch_name = "Charles III"
+				dynasty = "de Bourbon"
+				birth_date = 1490.2.17
+				death_date = 1527.5.6
+				claim = 95
+				adm = 4
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

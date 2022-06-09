@@ -1,0 +1,331 @@
+country_decisions = {
+
+	monarch_PEG_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = PEG
+			has_ruler = "Binnya Ran I"
+			NOT = { is_year = 1450 }
+			NOT = { has_global_flag = monarch_PEG_No.00a }
+		}
+		allow = {
+			is_year = 1426
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PEG_No.00a
+			define_heir = {
+				name = "Binnya Waru"
+				monarch_name = "Binnya Waru I"
+				dynasty = "Wareru"
+				birth_date = 1415.1.1
+				death_Date = 1450.1.1
+				claim = 95
+				adm = 4
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PEG_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = PEG
+			has_ruler = "Binnya Waru I"
+			NOT = { is_year = 1453 }
+			NOT = { has_global_flag = monarch_PEG_No.01a }
+		}
+		allow = {
+			is_year = 1446
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PEG_No.01a
+			define_heir = {
+				name = "Binnya Kyan"
+				monarch_name = "Binnya Kyan I"
+				dynasty = "Wareru"
+				birth_date = 1426.1.1
+				death_Date = 1453.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PEG_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = PEG
+			has_ruler = "Binnya Kyan I"
+			NOT = { is_year = 1472 }
+			NOT = { has_global_flag = monarch_PEG_No.02a }
+		}
+		allow = {
+			is_year = 1450
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PEG_No.02a
+			define_heir = {
+				name = "Leik Mawdaw"
+				monarch_name = "Leik Mawdaw I"
+				dynasty = "Wareru"
+				birth_date = 1450.1.1
+				death_Date = 1472.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PEG_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = PEG
+			has_ruler = "Leik Mawdaw I"
+			NOT = { is_year = 1471 }
+			NOT = { has_global_flag = monarch_PEG_No.03a }
+		}
+		allow = {
+			is_year = 1453
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PEG_No.03a
+			define_heir = {
+				name = "Shin Sawbu"
+				monarch_name = "Shin Sawbu I"
+				dynasty = "Wareru"
+				female = yes
+				birth_date = 1394.2.11
+				death_Date = 1471.1.1
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PEG_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = PEG
+			has_ruler = "Shin Sawbu I"
+			NOT = { is_year = 1492 }
+			NOT = { has_global_flag = monarch_PEG_No.04a }
+		}
+		allow = {
+			is_year = 1453
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PEG_No.04a
+			define_heir = {
+				name = "Dhammazedi"
+				monarch_name = "Dhammazedi I"
+				dynasty = "Wareru"
+				birth_date = 1412.1.1
+				death_Date = 1492.1.1
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PEG_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = PEG
+			has_ruler = "Dhammazedi I"
+			NOT = { is_year = 1526 }
+			NOT = { has_global_flag = monarch_PEG_No.05a }
+		}
+		allow = {
+			is_year = 1472
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PEG_No.05a
+			define_heir = {
+				name = "Binnya Ran"
+				monarch_name ="Binnya Ran II"
+				dynasty = "Wareru"
+				birth_date = 1461.1.1
+				death_Date = 1526.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PEG_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = PEG
+			has_ruler = "Binnya Ran II"
+			NOT = { is_year = 1539 }
+			NOT = { has_global_flag = monarch_PEG_No.06a }
+		}
+		allow = {
+			is_year = 1511
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PEG_No.06a
+			define_heir = {
+				name = "Takayutpi"
+				monarch_name ="Takayutpi I"
+				dynasty = "Wareru"
+				birth_date = 1511.1.1
+				death_Date = 1539.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PEG_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = PEG
+			has_ruler = "Takayutpi I"
+			NOT = { is_year = 1552 }
+			NOT = { has_global_flag = monarch_PEG_No.07a }
+		}
+		allow = {
+			is_year = 1526
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PEG_No.07a
+			define_heir = {
+				name = "Smim Htaw"
+				monarch_name = "Smim Htaw I"
+				dynasty = "Wareru"
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PEG_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = PEG
+			NOT = { is_year = 1741 }
+			NOT = { has_global_flag = monarch_PEG_No.08a }
+		}
+		allow = {
+			is_year = 1730
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PEG_No.08a
+			define_heir = {
+				name = "Smim Htaw Buddhaketi"
+				monarch_name = "Smim Htaw Buddhaketi I"
+				birth_date = 1700.1.1
+				dynasty = "Mon"
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PEG_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = PEG
+			has_ruler = "Smim Htaw Buddhaketi I"
+			NOT = { is_year = 1767 }
+			NOT = { has_global_flag = monarch_PEG_No.09a }
+		}
+		allow = {
+			is_year = 1740
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PEG_No.09a
+			define_heir = {
+				name = "Binnya Dala"
+				monarch_name = "Binnya Dala I"
+				dynasty = "Mon"
+				birth_date = 1720.1.1
+				death_Date = 1767.1.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

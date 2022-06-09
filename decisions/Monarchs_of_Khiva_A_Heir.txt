@@ -1,0 +1,906 @@
+country_decisions = {
+
+	monarch_KHI_No.00a = {
+		major = yes
+		potential = {
+			tag = KHI
+			NOT = { has_global_flag = monarch_KHI_No.00a }
+		}
+		allow = {
+			is_year = 1511
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Ilbars I"
+				dynasty ="Arabshahid"
+				dip = 1
+				adm = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.01a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Ilbars I"
+			NOT = { has_global_flag = monarch_KHI_No.01a }
+		}
+		allow = {
+			is_year = 1518
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Hadji"
+				dynasty ="Arabshahid"
+				dip = 1
+				adm = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.02a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Hadji"
+			NOT = { has_global_flag = monarch_KHI_No.02a }
+		}
+		allow = {
+			is_year = 1519
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Hassan Quli"
+				dynasty ="Arabshahid"
+				dip = 1
+				adm = 0
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.03a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Hassan Quli"
+			NOT = { has_global_flag = monarch_KHI_No.03a }
+		}
+		allow = {
+			is_year = 1522
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Budjuga"
+				dynasty ="Arabshahid"
+				dip = 1
+				adm = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.04a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Budjuga"
+			NOT = { has_global_flag = monarch_KHI_No.04a }
+		}
+		allow = {
+			is_year = 1529
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Sufyan"
+				dynasty ="Arabshahid"
+				dip = 2
+				adm = 0
+				mil = 2
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.05a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Sufyan"
+			NOT = { has_global_flag = monarch_KHI_No.05a }
+		}
+		allow = {
+			is_year = 1538
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Kal"
+				dynasty ="Arabshahid"
+				dip = 1
+				adm = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.06a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Kal"
+			NOT = { has_global_flag = monarch_KHI_No.06a }
+		}
+		allow = {
+			is_year = 1547
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Agatay"
+				dynasty ="Arabshahid"
+				dip = 1
+				adm = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.07a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Agatay"
+			NOT = { has_global_flag = monarch_KHI_No.07a }
+		}
+		allow = {
+			is_year = 1557
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Dost"
+				dynasty ="Arabshahid"
+				dip = 1
+				adm = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.08a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Dost"
+			NOT = { has_global_flag = monarch_KHI_No.08a }
+		}
+		allow = {
+			is_year = 1558
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Hadji Muhammad"
+				dynasty ="Arabshahid"
+				dip = 3
+				adm = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.09a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Hadji Muhammad"
+			NOT = { has_global_flag = monarch_KHI_No.09a }
+		}
+		allow = {
+			is_year = 1603
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Arab Muhammad"
+				dynasty = "Arabshahid"
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.10a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Arab Muhammad"
+			NOT = { has_global_flag = monarch_KHI_No.10a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Isfandiyar"
+				dynasty = "Arabshahid"
+				dip = 2
+				adm = 2
+				mil = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.11a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Isfandiyar"
+			NOT = { has_global_flag = monarch_KHI_No.11a }
+		}
+		allow = {
+			is_year = 1643
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Abu'l-Ghazi I"
+				dynasty = "Arabshahid"
+				dip = 3
+				adm = 4
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.12a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Abu'l-Ghazi I"
+			NOT = { has_global_flag = monarch_KHI_No.12a }
+		}
+		allow = {
+			is_year = 1663
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Anusha"
+				dynasty = "Arabshahid"
+				dip = 2
+				adm = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.13a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Anusha"
+			NOT = { has_global_flag = monarch_KHI_No.13a }
+		}
+		allow = {
+			is_year = 1686
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Khudaydad"
+				dynasty = "Arabshahid"
+				dip = 2
+				adm = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.14a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Khudaydad"
+			NOT = { has_global_flag = monarch_KHI_No.14a }
+		}
+		allow = {
+			is_year = 1689
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Arang"
+				dynasty = "Arabshahid"
+				dip = 1
+				adm = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.15a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Arang"
+			NOT = { has_global_flag = monarch_KHI_No.15a }
+		}
+		allow = {
+			is_year = 1694
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Juchi"
+				dynasty = "Genghisid"
+				dip = 1
+				adm = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.16a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Juchi"
+			NOT = { has_global_flag = monarch_KHI_No.16a }
+		}
+		allow = {
+			is_year = 1697
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Vali"
+				dynasty = "Genghisid"
+				dip = 2
+				adm = 0
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.17a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Vali"
+			NOT = { has_global_flag = monarch_KHI_No.17a }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Niyaz"
+				dynasty = "Genghisid"
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.18a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Niyaz"
+			NOT = { has_global_flag = monarch_KHI_No.18a }
+		}
+		allow = {
+			is_year = 1704
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Yadgar"
+				dynasty = "Genghisid"
+				dip = 1
+				adm = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.19a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Yadgar"
+			NOT = { has_global_flag = monarch_KHI_No.19a }
+		}
+		allow = {
+			is_year = 1714
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Isim"
+				dynasty = "Genghisid"
+				dip = 1
+				adm = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.20a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Isim"
+			NOT = { has_global_flag = monarch_KHI_No.20a }
+		}
+		allow = {
+			is_year = 1715
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Sher Ghazi"
+				dynasty = "Genghisid"
+				dip = 1
+				adm = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.21a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Sher Ghazi"
+			NOT = { has_global_flag = monarch_KHI_No.21a }
+		}
+		allow = {
+			is_year = 1728
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Ilbars II"
+				dynasty = "Genghisid"
+				dip = 1
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.22a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Ilbars II"
+			NOT = { has_global_flag = monarch_KHI_No.22a }
+		}
+		allow = {
+			is_year = 1740
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.22a
+			add_stability = -1
+			define_ruler = {
+				name = "Abu'l-Ghazi Muhammad"
+				dynasty = "Genghisid"
+				dip = 1
+				adm = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.23a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Abu'l-Ghazi Muhammad"
+			NOT = { has_global_flag = monarch_KHI_No.23a }
+		}
+		allow = {
+			is_year = 1745
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.23a
+			add_stability = -1
+			define_ruler = {
+				name = "Abu'l-Ghazi II"
+				dynasty = "Genghisid"
+				dip = 1
+				adm = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.24a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Abu'l-Ghazi II"
+			NOT = { has_global_flag = monarch_KHI_No.24a }
+		}
+		allow = {
+			is_year = 1746
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.24a
+			add_stability = -1
+			define_ruler = {
+				name = "Ghaip Khan I"
+				dynasty = "Tuqaitimurid"
+				dip = 2
+				adm = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.25a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Ghaip Khan I"
+			NOT = { has_global_flag = monarch_KHI_No.25a }
+		}
+		allow = {
+			is_year = 1757
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.25a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdullah Qarabay"
+				dynasty = "Tuqaitimurid"
+				dip = 1
+				adm = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.26a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Abdullah Qarabay"
+			NOT = { has_global_flag = monarch_KHI_No.26a }
+		}
+		allow = {
+			is_year = 1757
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.26a
+			add_stability = -1
+			define_ruler = {
+				name = "Timur Ghazi"
+				dynasty = "Tuqaitimurid"
+				dip = 1
+				adm = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.27a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Timur Ghazi"
+			NOT = { has_global_flag = monarch_KHI_No.27a }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.27a
+			add_stability = -1
+			define_ruler = {
+				name = "Tawke"
+				dynasty = "Tuqaitimurid"
+				dip = 1
+				adm = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.28a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Tawke"
+			NOT = { has_global_flag = monarch_KHI_No.28a }
+		}
+		allow = {
+			is_year = 1764
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.28a
+			add_stability = -1
+			define_ruler = {
+				name = "Shah Ghazi"
+				dynasty = "Tuqaitimurid"
+				dip = 1
+				adm = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.29a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Shah Ghazi"
+			NOT = { has_global_flag = monarch_KHI_No.29a }
+		}
+		allow = {
+			is_year = 1767
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.29a
+			add_stability = -1
+			define_ruler = {
+				name = "Abu'l-Ghazi III"
+				dynasty = "Tuqaitimurid"
+				dip = 2
+				adm = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.30a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Abu'l-Ghazi III"
+			NOT = { has_global_flag = monarch_KHI_No.30a }
+		}
+		allow = {
+			is_year = 1804
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.30a
+			add_stability = -1
+			define_ruler = {
+				name = "Iltazar"
+				dynasty = "Qongirat"
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHI_No.31a = {
+		major = yes
+		potential = {
+			tag = KHI
+			has_ruler = "Iltazar"
+			NOT = { has_global_flag = monarch_KHI_No.31a }
+		}
+		allow = {
+			is_year = 1806
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHI_No.31a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Rahim I"
+				dynasty = "Qongirat"
+				dip = 2
+				adm = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

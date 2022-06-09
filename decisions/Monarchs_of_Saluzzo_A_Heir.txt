@@ -1,0 +1,169 @@
+country_decisions = {
+
+	monarch_SZO_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SZO
+			has_ruler = "Ludovico I"
+			NOT = { is_year = 1504 }
+			NOT = { has_global_flag = monarch_SZO_No.00a }
+		}
+		allow = {
+			is_year = 1438
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SZO_No.00a
+			define_heir = {
+				name = "Ludovico"
+				monarch_name = "Ludovico II"
+				dynasty = "del Vasto"
+				birth_date = 1438.3.23
+				death_date = 1504.1.27
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SZO_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SZO
+			has_ruler = "Ludovico II"
+			NOT = { is_year = 1528 }
+			NOT = { has_global_flag = monarch_SZO_No.01a }
+		}
+		allow = {
+			is_year = 1496
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SZO_No.01a
+			define_heir = {
+				name = "Michele Antonio"
+				monarch_name = "Michele Antonio I"
+				dynasty = "del Vasto"
+				birth_date = 1495.3.26
+				death_date = 1528.10.18
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SZO_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SZO
+			has_ruler = "Michele Antonio I"
+			NOT = { is_year = 1563 }
+			NOT = { has_global_flag = monarch_SZO_No.02a }
+		}
+		allow = {
+			is_year = 1528
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SZO_No.02a
+			define_heir = {
+				name = "Giovanni Ludovico"
+				monarch_name = "Giovanni Ludovico I"
+				dynasty = "del Vasto"
+				birth_date = 1496.10.21
+				death_date = 1563.5.5
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SZO_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SZO
+			has_ruler = "Giovanni Ludovico I"
+			NOT = { is_year = 1537 }
+			NOT = { has_global_flag = monarch_SZO_No.03a }
+		}
+		allow = {
+			is_year = 1528
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SZO_No.03a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco I"
+				dynasty = "del Vasto"
+				birth_date = 1498.2.25
+				death_date = 1537.1.1
+				claim = 95
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SZO_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SZO
+			has_ruler = "Francesco I"
+			NOT = { is_year = 1548 }
+			NOT = { has_global_flag = monarch_SZO_No.04a }
+		}
+		allow = {
+			is_year = 1529
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SZO_No.04a
+			define_heir = {
+				name = "Gian Gabriele"
+				monarch_name = "Gian Gabriele I"
+				dynasty = "del Vasto"
+				birth_date = 1501.9.26
+				death_date = 1548.7.28
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

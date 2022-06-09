@@ -1,0 +1,402 @@
+country_decisions = {
+
+	monarch_KND_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Sena Sammatha Wickramabahu"
+			NOT = { is_year = 1551 }
+			NOT = { has_global_flag = monarch_KND_No.00a }
+		}
+		allow = {
+			is_year = 1480
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.00a
+			define_heir = {
+				name = "Jayaweera Astana"
+				monarch_name = "Jayaweera Astana"
+				dynasty = "Siri Sanga Bo"
+				birth_date = 1480.1.1
+				death_date = 1551.1.1
+				claim = 95
+				ADM = 2
+				DIP = 3
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KND_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Jayaweera Astana"
+			NOT = { is_year = 1581 }
+			NOT = { has_global_flag = monarch_KND_No.01a }
+		}
+		allow = {
+			is_year = 1511
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.01a
+			define_heir = {
+				name = "Karaliyadde Bandara"
+				monarch_name = "Karaliyadde Bandara"
+				dynasty = "Siri Sanga Bo"
+				birth_date = 1511.1.1
+				death_date = 1581.1.1
+				claim = 95
+				ADM = 2
+				DIP = 0
+				MIL = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KND_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Karaliyadde Bandara"
+			NOT = { is_year = 1597 }
+			NOT = { has_global_flag = monarch_KND_No.02a }
+		}
+		allow = {
+			is_year = 1551
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.02a
+			define_heir = {
+				name = "Rajasinha"
+				monarch_name = "Rajasinha"
+				dynasty = "Siri Sanga Bo"
+				birth_date = 1551.1.1
+				death_date = 1597.1.1
+				claim = 95
+				ADM = 3
+				DIP = 0
+				MIL = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KND_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Rajasinha"
+			NOT = { is_year = 1604 }
+			NOT = { has_global_flag = monarch_KND_No.03a }
+		}
+		allow = {
+			is_year = 1581
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.03a
+			define_heir = {
+				name = "Vimala Dharmasuriya"
+				monarch_name = "Vimala Dharmasuriya I"
+				dynasty = "Dinajara"
+				birth_date = 1550.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KND_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Vimala Dharmasuriya I"
+			NOT = { is_year = 1605 }
+			NOT = { has_global_flag = monarch_KND_No.04a }
+		}
+		allow = {
+			is_year = 1597
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.04a
+			define_heir = {
+				name = "Senarut"
+				monarch_name = "Senarut"
+				dynasty = "Dinajara"
+				birth_date = 1580.1.1
+				death_date = 1604.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KND_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Senarut"
+			NOT = { is_year = 1687 }
+			NOT = { has_global_flag = monarch_KND_No.05a }
+		}
+		allow = {
+			is_year = 1608
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.05a
+			define_heir = {
+				name = "Rajasimha"
+				monarch_name = "Rajasimha"
+				dynasty = "Dinajara"
+				birth_date = 1608.1.1
+				death_date = 1687.12.6
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KND_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Rajasimha"
+			NOT = { is_year = 1707 }
+			NOT = { has_global_flag = monarch_KND_No.06a }
+		}
+		allow = {
+			is_year = 1635
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.06a
+			define_heir = {
+				name = "Vimala Dharmasuriya"
+				monarch_name = "Vimala Dharmasuriya II"
+				dynasty = "Dinajara"
+				birth_date = 1635.6.1
+				death_date = 1707.6.4
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KND_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Vimala Dharmasuriya II"
+			NOT = { is_year = 1739 }
+			NOT = { has_global_flag = monarch_KND_No.07a }
+		}
+		allow = {
+			is_year = 1690
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.07a
+			define_heir = {
+				name = "Narendra"
+				monarch_name = "Narendra"
+				dynasty = "Dinajara"
+				birth_date = 1690.1.1
+				death_date = 1739.5.13
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KND_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Narendra"
+			NOT = { is_year = 1747 }
+			NOT = { has_global_flag = monarch_KND_No.08a }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.08a
+			define_heir = {
+				name = "Sri Vijaya Rajasimha"
+				monarch_name = "Sri Vijaya Rajasimha"
+				dynasty = "Kandy Nayakar"
+				birth_date = 1707.6.4
+				death_date = 1747.8.11
+				claim = 60
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KND_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Sri Vijaya Rajasimha"
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_KND_No.09a }
+		}
+		allow = {
+			is_year = 1739
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.09a
+			define_heir = {
+				name = "Kitri Sri Rajasimha"
+				monarch_name = "Kitri Sri Rajasimha"
+				dynasty = "Kandy Nayakar"
+				birth_date = 1730.1.1
+				death_date = 1782.1.2
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KND_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Kitri Sri Rajasimha"
+			NOT = { is_year = 1798 }
+			NOT = { has_global_flag = monarch_KND_No.10a }
+		}
+		allow = {
+			is_year = 1747
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.10a
+			define_heir = {
+				name = "Sri Rajadhiraja Simha"
+				monarch_name = "Sri Rajadhiraja Simha"
+				dynasty = "Kandy Nayakar"
+				birth_date = 1747.8.11
+				death_date = 1798.7.26
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KND_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KND
+			has_ruler = "Sri Rajadhiraja Simha"
+			NOT = { is_year = 1832 }
+			NOT = { has_global_flag = monarch_KND_No.11a }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KND_No.11a
+			define_heir = {
+				name = "Sri Vikrama Rajasinha"
+				monarch_name = "Sri Vikrama Rajasinha"
+				dynasty = "Kandy Nayakar"
+				birth_date = 1780.1.1
+				death_date = 1832.1.30
+				claim = 95
+				ADM = 2
+				DIP = 3
+				MIL = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

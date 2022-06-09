@@ -1,0 +1,1435 @@
+country_decisions = {
+
+	monarch_PAP_No.00a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Eugenius IV"
+			NOT = { has_global_flag = monarch_PAP_No.00a }
+		}
+		allow = {
+			is_year = 1447
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Nicholaus V"
+				dynasty = "Parentucelli"
+				culture = ligurian
+				birth_date = 1397.11.15
+				adm = 4
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.01a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Nicholaus V"
+			NOT = { has_global_flag = monarch_PAP_No.01a }
+		}
+		allow = {
+			is_year = 1455
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Callistus III"
+				dynasty = "Borgia"
+				culture = catalan
+				birth_date = 1378.12.31
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.02a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Callistus III"
+			NOT = { has_global_flag = monarch_PAP_No.02a }
+		}
+		allow = {
+			is_year = 1458
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Pius II"
+				culture = tuscan
+				birth_date = 1405.10.18
+				adm = 4
+				dip = 2
+				mil = 1
+				dynasty = "Piccolomini"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.03a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Pius II"
+			NOT = { has_global_flag = monarch_PAP_No.03a }
+		}
+		allow = {
+			is_year = 1464
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Paulus II"
+				culture = venetian
+				birth_date = 1417.2.23
+				adm = 4
+				dip = 4
+				mil = 1
+				dynasty = "Barbo"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.04a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Paulus II"
+			NOT = { has_global_flag = monarch_PAP_No.04a }
+		}
+		allow = {
+			is_year = 1471
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Xystus IV"
+				culture = ligurian
+				birth_date = 1414.7.21
+				adm = 4
+				dip = 4
+				mil = 3
+				dynasty = "della Rovere"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.05a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Xystus IV"
+			NOT = { has_global_flag = monarch_PAP_No.05a }
+		}
+		allow = {
+			is_year = 1484
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Innocentius VIII"
+				culture = ligurian
+				birth_date = 1432.1.1
+				adm = 1
+				dip = 4
+				mil = 1
+				dynasty = "Cybo"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.06a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Innocentius VIII"
+			NOT = { has_global_flag = monarch_PAP_No.06a }
+		}
+		allow = {
+			is_year = 1492
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Alexander VI"
+				culture = catalan
+				birth_date = 1431.1.1
+				adm = 2
+				dip = 3
+				mil = 2
+				dynasty = "Borgia"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.07a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Alexander VI"
+			NOT = { has_global_flag = monarch_PAP_No.07a }
+		}
+		allow = {
+			is_year = 1503
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Pius III"
+				culture = tuscan
+				birth_date = 1439.6.29
+				adm = 2
+				dip = 2
+				mil = 1
+				dynasty = "Todeschini"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.08a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Pius III"
+			NOT = { has_global_flag = monarch_PAP_No.08a }
+		}
+		allow = {
+			is_year = 1503
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Iulius II"
+				birth_date = 1443.12.5
+				culture = ligurian
+				adm = 1
+				dip = 4
+				mil = 2
+				dynasty = "della Rovere"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.09a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Iulius II"
+			NOT = { has_global_flag = monarch_PAP_No.09a }
+		}
+		allow = {
+			is_year = 1513
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Leo X"
+				culture = tuscan
+				birth_date = 1475.12.11
+				adm = 2
+				dip = 1
+				mil = 1
+				dynasty = "de' Medici"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.10a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Leo X"
+			NOT = { has_global_flag = monarch_PAP_No.10a }
+		}
+		allow = {
+			is_year = 1522
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Hadrianus VI"
+				culture = dutch
+				birth_date = 1459.3.2
+				adm = 3
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+				dynasty = "Boeyens"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.11a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Hadrianus VI"
+			NOT = { has_global_flag = monarch_PAP_No.11a }
+		}
+		allow = {
+			is_year = 1523
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Clemens VII"
+				culture = tuscan
+				birth_date = 1478.5.26
+				adm = 2
+				dip = 2
+				mil = 1
+				dynasty = "de' Medici"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.12a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Clemens VII"
+			NOT = { has_global_flag = monarch_PAP_No.12a }
+		}
+		allow = {
+			is_year = 1534
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Paulus III"
+				culture = umbrian
+				birth_date = 1468.2.28
+				adm = 2
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+				dynasty = "Farnese"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.13a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Paulus III"
+			NOT = { has_global_flag = monarch_PAP_No.13a }
+		}
+		allow = {
+			is_year = 1550
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Iulius III"
+				culture = tuscan
+				birth_date = 1487.9.10
+				adm = 2
+				dip = 3
+				mil = 0
+				max_random_mil = 0
+				dynasty = "del Monte"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.14a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Iulius III"
+			NOT = { has_global_flag = monarch_PAP_No.14a }
+		}
+		allow = {
+			is_year = 1555
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Marcellus II"
+				birth_date = 1501.5.6
+				culture = umbrian
+				adm = 3
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+				dynasty = "Spannochi"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.15a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Marcellus II"
+			NOT = { has_global_flag = monarch_PAP_No.15a }
+		}
+		allow = {
+			is_year = 1555
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Paulus IV"
+				culture = neapolitan
+				birth_date = 1476.6.28
+				adm = 1
+				dip = 1
+				mil = 1
+				dynasty = "Carafa"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.16a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Paulus IV"
+			NOT = { has_global_flag = monarch_PAP_No.16a }
+		}
+		allow = {
+			is_year = 1559
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Pius IV"
+				culture = lombard
+				birth_date = 1499.3.31
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+				dynasty = "Medici"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.17a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Pius IV"
+			NOT = { has_global_flag = monarch_PAP_No.17a }
+		}
+		allow = {
+			is_year = 1565
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Pius V"
+				culture = lombard
+				birth_date = 1504.1.17
+				adm = 2
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+				dynasty = "Ghislieri"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.18a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Pius V"
+			NOT = { has_global_flag = monarch_PAP_No.18a }
+		}
+		allow = {
+			is_year = 1572
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Gregorius XIII"
+				birth_date = 1502.1.7
+				culture = romagnan
+				adm = 2
+				dip = 2
+				mil = 1
+				dynasty = "Boncompagni"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.19a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Gregorius XIII"
+			NOT = { has_global_flag = monarch_PAP_No.19a }
+		}
+		allow = {
+			is_year = 1585
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Xystus V"
+				birth_date = 1521.12.13
+				culture = umbrian
+				adm = 3
+				dip = 3
+				mil = 0
+				max_random_mil = 0
+				dynasty = "Piergentile"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.20a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Xystus V"
+			NOT = { has_global_flag = monarch_PAP_No.20a }
+		}
+		allow = {
+			is_year = 1590
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Urbanus VII"
+				birth_date = 1521.8.4
+				culture = umbrian
+				adm = 5
+				dip = 3
+				mil = 1
+				dynasty = "Castagna"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.21a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Urbanus VII"
+			NOT = { has_global_flag = monarch_PAP_No.21a }
+		}
+		allow = {
+			is_year = 1590
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Gregorius XIV"
+				birth_date = 1535.2.11
+				culture = lombard
+				adm = 3
+				dip = 3
+				mil = 1
+				dynasty = "Sfondrato"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.22a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Gregorius XIV"
+			NOT = { has_global_flag = monarch_PAP_No.22a }
+		}
+		allow = {
+			is_year = 1591
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.22a
+			add_stability = -1
+			define_ruler = {
+				name = "Innocentius IX"
+				birth_date = 1519.7.20
+				culture = romagnan
+				adm = 1
+				dip = 1
+				mil = 1
+				dynasty = "Facchinetti"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.23a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Innocentius IX"
+			NOT = { has_global_flag = monarch_PAP_No.23a }
+		}
+		allow = {
+			is_year = 1592
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.23a
+			add_stability = -1
+			define_ruler = {
+				name = "Clemens VIII"
+				culture = umbrian
+				birth_date = 1536.2.24
+				adm = 2
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+				dynasty = "Aldobrandini"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.24a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Clemens VIII"
+			NOT = { has_global_flag = monarch_PAP_No.24a }
+		}
+		allow = {
+			is_year = 1605
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.24a
+			add_stability = -1
+			define_ruler = {
+				name = "Leo XI"
+				birth_date = 1535.6.2
+				culture = tuscan
+				adm = 3
+				dip = 5
+				mil = 2
+				dynasty = "de' Medici"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.25a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Leo XI"
+			NOT = { has_global_flag = monarch_PAP_No.25a }
+		}
+		allow = {
+			is_year = 1605
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.25a
+			add_stability = -1
+			define_ruler = {
+				name = "Paulus V"
+				birth_date = 1552.9.17
+				culture = umbrian
+				adm = 0
+				dip = 2
+				mil = 1
+				max_random_adm = 0
+				dynasty = "Borghese"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.26a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Paulus V"
+			NOT = { has_global_flag = monarch_PAP_No.26a }
+		}
+		allow = {
+			is_year = 1621
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.26a
+			add_stability = -1
+			define_ruler = {
+				name = "Gregorius XV"
+				birth_date = 1554.1.9
+				culture = romagnan
+				adm = 2
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+				dynasty = "Ludovisi"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.27a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Gregorius XV"
+			NOT = { has_global_flag = monarch_PAP_No.27a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.27a
+			add_stability = -1
+			define_ruler = {
+				name = "Urbanus VIII"
+				birth_date = 1568.4.5
+				culture = tuscan
+				adm = 3
+				dip = 1
+				mil = 2
+				dynasty = "Barberini"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.28a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Urbanus VIII"
+			NOT = { has_global_flag = monarch_PAP_No.28a }
+		}
+		allow = {
+			is_year = 1644
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.28a
+			add_stability = -1
+			define_ruler = {
+				name = "Innocentius X"
+				birth_date = 1574.5.6
+				culture = umbrian
+				adm = 2
+				dip = 1
+				mil = 1
+				dynasty = "Pamphili"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.29a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Innocentius X"
+			NOT = { has_global_flag = monarch_PAP_No.29a }
+		}
+		allow = {
+			is_year = 1655
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.29a
+			add_stability = -1
+			define_ruler = {
+				name = "Alexander VII"
+				birth_date = 1599.2.13
+				culture = tuscan
+				adm = 2
+				dip = 1
+				mil = 2
+				dynasty = "Chigi"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.30a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Alexander VII"
+			NOT = { has_global_flag = monarch_PAP_No.30a }
+		}
+		allow = {
+			is_year = 1667
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.30a
+			add_stability = -1
+			define_ruler = {
+				name = "Clemens IX"
+				birth_date = 1600.1.28
+				culture = tuscan
+				adm = 2
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+				dynasty = "Rospigliosi"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.31a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Clemens IX"
+			NOT = { has_global_flag = monarch_PAP_No.31a }
+		}
+		allow = {
+			is_year = 1669
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.31a
+			add_stability = -1
+			define_ruler = {
+				name = "Clemens X"
+				birth_date = 1590.7.13
+				culture = umbrian
+				adm = 1
+				dip = 4
+				mil = 0
+				max_random_mil = 0
+				dynasty = "Altieri"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.32a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Clemens X"
+			NOT = { has_global_flag = monarch_PAP_No.32a }
+		}
+		allow = {
+			is_year = 1676
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.32a
+			add_stability = -1
+			define_ruler = {
+				name = "Innocentius XI"
+				birth_date = 1611.5.16
+				culture = lombard
+				adm = 2
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+				dynasty = "Odescalchi"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.33a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Innocentius XI"
+			NOT = { has_global_flag = monarch_PAP_No.33a }
+		}
+		allow = {
+			is_year = 1689
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.33a
+			add_stability = -1
+			define_ruler = {
+				name = "Alexander VIII"
+				birth_date = 1610.4.22
+				culture = venetian
+				adm = 2
+				dip = 3
+				mil = 2
+				dynasty = "Ottoboni"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.34a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Alexander VIII"
+			NOT = { has_global_flag = monarch_PAP_No.34a }
+		}
+		allow = {
+			is_year = 1691
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.34a
+			add_stability = -1
+			define_ruler = {
+				name = "Innocentius XII"
+				birth_date = 1615.3.13
+				culture = neapolitan
+				adm = 2
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+				dynasty = "Pignatelli"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.35a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Innocentius XII"
+			NOT = { has_global_flag = monarch_PAP_No.35a }
+		}
+		allow = {
+			is_year = 1700
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.35a
+			add_stability = -1
+			define_ruler = {
+				name = "Clemens XI"
+				birth_date = 1649.7.23
+				culture = umbrian
+				adm = 2
+				dip = 3
+				mil = 1
+				dynasty = "Albani"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.36a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Clemens XI"
+			NOT = { has_global_flag = monarch_PAP_No.36a }
+		}
+		allow = {
+			is_year = 1721
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.36a
+			add_stability = -1
+			define_ruler = {
+				name = "Innocentius XIII"
+				birth_date = 1655.5.13
+				culture = umbrian
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+				dynasty = "dei Conti"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.37a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Innocentius XIII"
+			NOT = { has_global_flag = monarch_PAP_No.37a }
+		}
+		allow = {
+			is_year = 1724
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.37a
+			add_stability = -1
+			define_ruler = {
+				name = "Benedictus XIII"
+				birth_date = 1650.2.2
+				culture = neapolitan
+				adm = 2
+				dip = 1
+				mil = 2
+				dynasty = "Orsini"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.38a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Benedictus XIII"
+			NOT = { has_global_flag = monarch_PAP_No.38a }
+		}
+		allow = {
+			is_year = 1730
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.38a
+			add_stability = -1
+			define_ruler = {
+				name = "Clemens XII"
+				birth_date = 1652.4.7
+				culture = tuscan
+				adm = 1
+				dip = 3
+				mil = 1
+				dynasty = "Corsini"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.39a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Clemens XII"
+			NOT = { has_global_flag = monarch_PAP_No.39a }
+		}
+		allow = {
+			is_year = 1740
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.39a
+			add_stability = -1
+			define_ruler = {
+				name = "Benedictus XIV"
+				birth_date = 1675.3.11
+				culture = romagnan
+				adm = 1
+				dip = 2
+				mil = 1
+				dynasty = "Lambertini"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.40a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Benedictus XIV"
+			NOT = { has_global_flag = monarch_PAP_No.40a }
+		}
+		allow = {
+			is_year = 1758
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.40a
+			add_stability = -1
+			define_ruler = {
+				name = "Clemens XIII"
+				birth_date = 1693.3.7
+				culture = venetian
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+				dynasty = "della Torre"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.41a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Clemens XIII"
+			NOT = { has_global_flag = monarch_PAP_No.41a }
+		}
+		allow = {
+			is_year = 1769
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.41a
+			add_stability = -1
+			define_ruler = {
+				name = "Clemens XIV"
+				birth_date = 1705.10.31
+				culture = umbrian
+				adm = 3
+				dip = 3
+				mil = 1
+				dynasty = "Ganganelli"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.42a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Clemens XIV"
+			NOT = { has_global_flag = monarch_PAP_No.42a }
+		}
+		allow = {
+			is_year = 1774
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.42a
+			add_stability = -1
+			define_ruler = {
+				name = "Pius VI"
+				birth_date = 1717.12.25
+				culture = romagnan
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+				dynasty = "Braschi"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.43a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Pius VI"
+			NOT = { has_global_flag = monarch_PAP_No.43a }
+		}
+		allow = {
+			is_year = 1800
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.43a
+			add_stability = -1
+			define_ruler = {
+				name = "Pius VII"
+				birth_date = 1742.8.14
+				culture = umbrian
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+				dynasty = "Chiaramonti"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.44a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Pius VII"
+			NOT = { has_global_flag = monarch_PAP_No.44a }
+		}
+		allow = {
+			is_year = 1823
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.44a
+			add_stability = -1
+			define_ruler = {
+				name = "Leo XII"
+				birth_date = 1760.8.2
+				culture = umbrian
+				adm = 1
+				dip = 1
+				mil = 1
+				dynasty = "della Genga"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.45a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Leo XII"
+			NOT = { has_global_flag = monarch_PAP_No.45a }
+		}
+		allow = {
+			is_year = 1829
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.45a
+			add_stability = -1
+			define_ruler = {
+				name = "Pius VIII"
+				birth_date = 1761.11.20
+				culture = umbrian
+				adm = 2
+				dip = 2
+				mil = 1
+				dynasty = "Castiglioni"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.46a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Pius VIII"
+			NOT = { has_global_flag = monarch_PAP_No.46a }
+		}
+		allow = {
+			is_year = 1831
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.46a
+			add_stability = -1
+			define_ruler = {
+				name = "Gregorius XVI"
+				birth_date = 1765.9.18
+				culture = umbrian
+				adm = 2
+				dip = 3
+				mil = 2
+				dynasty = "Cappellari"
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

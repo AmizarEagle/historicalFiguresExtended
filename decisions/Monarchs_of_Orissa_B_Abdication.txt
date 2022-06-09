@@ -1,0 +1,227 @@
+country_decisions = {
+
+	monarch_ORI_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Kapilendra"
+			has_global_flag = monarch_ORI_No.00a
+			NOT = { is_year = 1497 }
+			NOT = { has_global_flag = monarch_ORI_No.00b }
+		}
+		allow = {
+			is_year = 1466
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Purushottama"
+			has_global_flag = monarch_ORI_No.01a
+			NOT = { is_year = 1540 }
+			NOT = { has_global_flag = monarch_ORI_No.01b }
+		}
+		allow = {
+			is_year = 1497
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Prataprudra"
+			has_global_flag = monarch_ORI_No.02a
+			NOT = { is_year = 1541 }
+			NOT = { has_global_flag = monarch_ORI_No.02b }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Kaluadeva"
+			has_global_flag = monarch_ORI_No.03a
+			NOT = { is_year = 1549 }
+			NOT = { has_global_flag = monarch_ORI_No.03b }
+		}
+		allow = {
+			is_year = 1541
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Govindaraja Vidyadhara"
+			has_global_flag = monarch_ORI_No.04a
+			NOT = { is_year = 1557 }
+			NOT = { has_global_flag = monarch_ORI_No.04b }
+		}
+		allow = {
+			is_year = 1549
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Chakrapretapa"
+			has_global_flag = monarch_ORI_No.05a
+			NOT = { is_year = 1558 }
+			NOT = { has_global_flag = monarch_ORI_No.05b }
+		}
+		allow = {
+			is_year = 1557
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Narashima Jana"
+			has_global_flag = monarch_ORI_No.06a
+			NOT = { is_year = 1560 }
+			NOT = { has_global_flag = monarch_ORI_No.06b }
+		}
+		allow = {
+			is_year = 1558
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Raghurama Chhotra"
+			has_global_flag = monarch_ORI_No.07a
+			NOT = { is_year = 1567 }
+			NOT = { has_global_flag = monarch_ORI_No.07b }
+		}
+		allow = {
+			is_year = 1560
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Mukundadeva Harishandra"
+			has_global_flag = monarch_ORI_No.08a
+			NOT = { is_year = 1607 }
+			NOT = { has_global_flag = monarch_ORI_No.08b }
+		}
+		allow = {
+			is_year = 1567
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

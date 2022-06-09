@@ -1,0 +1,27 @@
+country_decisions = {
+
+	monarch_FOI_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = FOI
+			has_ruler = "Gaston IV"
+			has_global_flag = monarch_FOI_No.00a
+			NOT = { is_year = 1483 }
+			NOT = { has_global_flag = monarch_FOI_No.00b }
+		}
+		allow = {
+			is_year = 1472
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FOI_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

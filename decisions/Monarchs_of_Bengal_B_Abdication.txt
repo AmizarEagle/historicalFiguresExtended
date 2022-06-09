@@ -1,0 +1,778 @@
+country_decisions = {
+
+	monarch_BNG_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Nasir-ud-Din Mahmud"
+			has_global_flag = monarch_BNG_No.00a
+			NOT = { is_year = 1474 }
+			NOT = { has_global_flag = monarch_BNG_No.00b }
+		}
+		allow = {
+			is_year = 1459
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Rukun-ud-Din Barbak"
+			has_global_flag = monarch_BNG_No.01a
+			NOT = { is_year = 1481 }
+			NOT = { has_global_flag = monarch_BNG_No.01b }
+		}
+		allow = {
+			is_year = 1474
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Shams-ud-Din Yusuf"
+			has_global_flag = monarch_BNG_No.02a
+			NOT = { is_year = 1482 }
+			NOT = { has_global_flag = monarch_BNG_No.02b }
+		}
+		allow = {
+			is_year = 1481
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Sikandar II"
+			has_global_flag = monarch_BNG_No.03a
+			NOT = { is_year = 1487 }
+			NOT = { has_global_flag = monarch_BNG_No.03b }
+		}
+		allow = {
+			is_year = 1482
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Jalal ad-Din Fateh"
+			has_global_flag = monarch_BNG_No.04a
+			NOT = { is_year = 1488 }
+			NOT = { has_global_flag = monarch_BNG_No.04b }
+		}
+		allow = {
+			is_year = 1487
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Shahzada Barbak I"
+			has_global_flag = monarch_BNG_No.05a
+			NOT = { is_year = 1490 }
+			NOT = { has_global_flag = monarch_BNG_No.05b }
+		}
+		allow = {
+			is_year = 1488
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Sayf ad-Din Firuz"
+			has_global_flag = monarch_BNG_No.06a
+			NOT = { is_year = 1491 }
+			NOT = { has_global_flag = monarch_BNG_No.06b }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Nasir-ud-Din Mahmud II"
+			has_global_flag = monarch_BNG_No.07a
+			NOT = { is_year = 1493 }
+			NOT = { has_global_flag = monarch_BNG_No.07b }
+		}
+		allow = {
+			is_year = 1491
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Shams ad-Din Muzaffar"
+			has_global_flag = monarch_BNG_No.08a
+			NOT = { is_year = 1519 }
+			NOT = { has_global_flag = monarch_BNG_No.08b }
+		}
+		allow = {
+			is_year = 1493
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Ala-ud-din Husain I"
+			has_global_flag = monarch_BNG_No.09a
+			NOT = { is_year = 1533 }
+			NOT = { has_global_flag = monarch_BNG_No.09b }
+		}
+		allow = {
+			is_year = 1519
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Nasir ad-Din Nasrat"
+			has_global_flag = monarch_BNG_No.10a
+			NOT = { is_year = 1533 }
+			NOT = { has_global_flag = monarch_BNG_No.10b }
+		}
+		allow = {
+			is_year = 1533
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "'Ala' ad-Din Firuz III"
+			has_global_flag = monarch_BNG_No.11a
+			NOT = { is_year = 1538 }
+			NOT = { has_global_flag = monarch_BNG_No.11b }
+		}
+		allow = {
+			is_year = 1534
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Ghiyasuddin Mahmud"
+			has_global_flag = monarch_BNG_No.12a
+			NOT = { is_year = 1545 }
+			NOT = { has_global_flag = monarch_BNG_No.12b }
+		}
+		allow = {
+			is_year = 1538
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Sher Shah I"
+			has_global_flag = monarch_BNG_No.13a
+			NOT = { is_year = 1553 }
+			NOT = { has_global_flag = monarch_BNG_No.13b }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Islam Shah"
+			has_global_flag = monarch_BNG_No.14a
+			NOT = { is_year = 1555 }
+			NOT = { has_global_flag = monarch_BNG_No.14b }
+		}
+		allow = {
+			is_year = 1553
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Shams ud-Din Muhammad"
+			has_global_flag = monarch_BNG_No.15a
+			NOT = { is_year = 1561 }
+			NOT = { has_global_flag = monarch_BNG_No.15b }
+		}
+		allow = {
+			is_year = 1555
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Ghiyat ad-Din Bahadur"
+			has_global_flag = monarch_BNG_No.16a
+			NOT = { is_year = 1564 }
+			NOT = { has_global_flag = monarch_BNG_No.16b }
+		}
+		allow = {
+			is_year = 1561
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Ghiyat ad-Din Jalal"
+			has_global_flag = monarch_BNG_No.17a
+			NOT = { is_year = 1572 }
+			NOT = { has_global_flag = monarch_BNG_No.17b }
+		}
+		allow = {
+			is_year = 1564
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.18b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Sulayman Khan I"
+			has_global_flag = monarch_BNG_No.18a
+			NOT = { is_year = 1577 }
+			NOT = { has_global_flag = monarch_BNG_No.18b }
+		}
+		allow = {
+			is_year = 1572
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.19b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Da'ud"
+			has_global_flag = monarch_BNG_No.19a
+			NOT = { is_year = 1707 }
+			NOT = { has_global_flag = monarch_BNG_No.19b }
+		}
+		allow = {
+			is_year = 1575
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.19b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.20b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Vizier"
+			has_global_flag = monarch_BNG_No.20a
+			NOT = { is_year = 1726 }
+			NOT = { has_global_flag = monarch_BNG_No.20b }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.20b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.21b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Murshid Quli I"
+			has_global_flag = monarch_BNG_No.21a
+			NOT = { is_year = 1739 }
+			NOT = { has_global_flag = monarch_BNG_No.21b }
+		}
+		allow = {
+			is_year = 1726
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.21b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.22b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Shuja' ad-Din Muhammad"
+			has_global_flag = monarch_BNG_No.22a
+			NOT = { is_year = 1740 }
+			NOT = { has_global_flag = monarch_BNG_No.22b }
+		}
+		allow = {
+			is_year = 1739
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.22b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.23b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "'Ala' ad-Daula Sarafaraz"
+			has_global_flag = monarch_BNG_No.23a
+			NOT = { is_year = 1756 }
+			NOT = { has_global_flag = monarch_BNG_No.23b }
+		}
+		allow = {
+			is_year = 1740
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.23b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.24b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Ali-Vardi Khan"
+			has_global_flag = monarch_BNG_No.24a
+			NOT = { is_year = 1757 }
+			NOT = { has_global_flag = monarch_BNG_No.24b }
+		}
+		allow = {
+			is_year = 1756
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.24b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.25b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Mirza Mahmud Siraj"
+			has_global_flag = monarch_BNG_No.25a
+			NOT = { is_year = 1765 }
+			NOT = { has_global_flag = monarch_BNG_No.25b }
+		}
+		allow = {
+			is_year = 1757
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.25b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.26b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Mir Muhammad Ja'far I"
+			has_global_flag = monarch_BNG_No.26a
+			NOT = { is_year = 1763 }
+			NOT = { has_global_flag = monarch_BNG_No.26b }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.26b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.27b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Mir Qasim 'Ali"
+			has_global_flag = monarch_BNG_No.27a
+			NOT = { is_year = 1765 }
+			NOT = { has_global_flag = monarch_BNG_No.27b }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.27b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.28b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Mir Muhammad Ja'far I"
+			has_global_flag = monarch_BNG_No.28a
+			NOT = { is_year = 1766 }
+			NOT = { has_global_flag = monarch_BNG_No.28b }
+		}
+		allow = {
+			is_year = 1765
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.28b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.29b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Mir Phulwari Najm"
+			has_global_flag = monarch_BNG_No.29a
+			NOT = { is_year = 1770 }
+			NOT = { has_global_flag = monarch_BNG_No.29a }
+		}
+		allow = {
+			is_year = 1766
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.29b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BNG_No.30b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BNG
+			has_ruler = "Sayf ad-Daula"
+			has_global_flag = monarch_BNG_No.30a
+			NOT = { is_year = 1793 }
+			NOT = { has_global_flag = monarch_BNG_No.30a }
+		}
+		allow = {
+			is_year = 1770
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BNG_No.30b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

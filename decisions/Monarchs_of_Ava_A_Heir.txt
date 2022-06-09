@@ -1,0 +1,232 @@
+country_decisions = {
+
+	monarch_AVA_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AVA
+			has_ruler = "Narapati"
+			NOT = { is_year = 1480 }
+			NOT = { has_global_flag = monarch_AVA_No.00a }
+		}
+		allow = {
+			is_year = 1442
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AVA_No.00a
+			define_heir = {
+				name = "Thihathura"
+				monarch_name = "Thihathura"
+				dynasty = "Ava"
+				birth_date = 1431.5.1
+				death_date = 1480.8.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AVA_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AVA
+			has_ruler = "Thihathura"
+			NOT = { is_year = 1501 }
+			NOT = { has_global_flag = monarch_AVA_No.01a }
+		}
+		allow = {
+			is_year = 1468
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AVA_No.01a
+			define_heir = {
+				name = "Minkhaung"
+				monarch_name = "Minkhaung II"
+				dynasty = "Ava"
+				birth_date = 1446.10.9
+				death_date = 1501.4.7
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AVA_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AVA
+			has_ruler = "Minkhaung II"
+			NOT = { is_year = 1527 }
+			NOT = { has_global_flag = monarch_AVA_No.02a }
+		}
+		allow = {
+			is_year = 1480
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AVA_No.02a
+			define_heir = {
+				name = "Narapati"
+				monarch_name = "Narapati II"
+				dynasty = "Ava"
+				birth_date = 1476.9.22
+				death_date = 1527.3.25
+				claim = 95
+				ADM = 2
+				DIP = 3
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AVA_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AVA
+			has_ruler = "Narapati II"
+			NOT = { is_year = 1542 }
+			NOT = { has_global_flag = monarch_AVA_No.03a }
+		}
+		allow = {
+			is_year = 1502
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AVA_No.03a
+			define_heir = {
+				name = "Sao Hung Pha"
+				monarch_name = "Sao Hung Pha"
+				dynasty = "Mohnyin"
+				ADM = 2
+				DIP = 2
+				MIL = 2
+				birth_date = 1470.1.1
+				claim = 95
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AVA_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AVA
+			has_ruler = "Sao Hung Pha"
+			NOT = { is_year = 1545 }
+			NOT = { has_global_flag = monarch_AVA_No.04a }
+		}
+		allow = {
+			is_year = 1527
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AVA_No.04a
+			define_heir = {
+				name = "Sao Hkun Mong"
+				monarch_name = "Sao Hkun Mong"
+				dynasty = "Mohnyin"
+				birth_date = 1497.8.1
+				death_date = 1545.9.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AVA_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AVA
+			has_ruler = "Sao Hkun Mong"
+			NOT = { is_year = 1551 }
+			NOT = { has_global_flag = monarch_AVA_No.05a }
+		}
+		allow = {
+			is_year = 1542
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AVA_No.05a
+			define_heir = {
+				name = "Narapati"
+				monarch_name = "Narapati III"
+				dynasty = "Mohnyin"
+				birth_date = 1516.5.1
+				death_date = 1551.10.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AVA_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AVA
+			has_ruler = "Narapati III"
+			NOT = { is_year = 1555 }
+			NOT = { has_global_flag = monarch_AVA_No.06a }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AVA_No.06a
+			define_heir = {
+				name = "Narapati"
+				monarch_name = "Narapati IV"
+				dynasty = "Mohnyin"
+				birth_date = 1495.1.1
+				death_date = 1555.1.22
+				claim = 95
+				ADM = 1
+				DIP = 2
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

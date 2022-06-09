@@ -1,0 +1,366 @@
+country_decisions = {
+
+	monarch_ANS_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Albrecht I Achilles"
+			NOT = { is_year = 1536 }
+			NOT = { has_global_flag = monarch_ANS_No.00a }
+		}
+		allow = {
+			is_year = 1460
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.00a
+			define_heir = {
+				name = "Friedrich VII"
+				dynasty = "von Hohenzollern"
+				birth_date = 1460.5.8
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ANS_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Friedrich VII"
+			NOT = { is_year = 1543 }
+			NOT = { has_global_flag = monarch_ANS_No.01a }
+		}
+		allow = {
+			is_year = 1484
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.01a
+			define_heir = {
+				name = "Georg I der Fromme"
+				dynasty = "von Hohenzollern"
+				birth_date = 1484.3.4
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ANS_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Georg I der Fromme"
+			NOT = { is_year = 1603 }
+			NOT = { has_global_flag = monarch_ANS_No.02a }
+		}
+		allow = {
+			is_year = 1539
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.02a
+			define_heir = {
+				name = "Georg Friedrich I"
+				dynasty = "von Hohenzollern"
+				birth_date = 1539.4.5
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ANS_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Georg Friedrich I"
+			NOT = { is_year = 1625 }
+			NOT = { has_global_flag = monarch_ANS_No.03a }
+		}
+		allow = {
+			is_year = 1583
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.03a
+			define_heir = {
+				name = "Joachim Ernst I"
+				dynasty = "von Hohenzollern"
+				birth_date = 1583.6.22
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ANS_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Joachim Ernst I"
+			NOT = { is_year = 1634 }
+			NOT = { has_global_flag = monarch_ANS_No.04a }
+		}
+		allow = {
+			is_year = 1616
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.04a
+			define_heir = {
+				name = "Friedrich II"
+				dynasty = "von Hohenzollern"
+				birth_date = 1616.3.1
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ANS_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Friedrich II"
+			NOT = { is_year = 1672 }
+			NOT = { has_global_flag = monarch_ANS_No.05a }
+		}
+		allow = {
+			is_year = 1620
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.05a
+			define_heir = {
+				name = "Albrecht III"
+				dynasty = "von Hohenzollern"
+				birth_date = 1620.9.18
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ANS_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Albrecht III"
+			NOT = { is_year = 1686 }
+			NOT = { has_global_flag = monarch_ANS_No.06a }
+		}
+		allow = {
+			is_year = 1654
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.06a
+			define_heir = {
+				name = "Johann Friedrich"
+				monarch_name = "Johann Friedrich I"
+				dynasty = "von Hohenzollern"
+				birth_date = 1654.10.8
+				death_date = 1686.3.22
+				claim = 95
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ANS_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Johann Friedrich I"
+			NOT = { is_year = 1692 }
+			NOT = { has_global_flag = monarch_ANS_No.07a }
+		}
+		allow = {
+			is_year = 1675
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.07a
+			define_heir = {
+				name = "Christian Albrecht I"
+				dynasty = "von Hohenzollern"
+				birth_date = 1675.9.18
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ANS_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Christian Albrecht I"
+			NOT = { is_year = 1703 }
+			NOT = { has_global_flag = monarch_ANS_No.08a }
+		}
+		allow = {
+			is_year = 1678
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.08a
+			define_heir = {
+				name = "Georg Friedrich II"
+				dynasty = "von Hohenzollern"
+				birth_date = 1678.5.3
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ANS_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Georg Friedrich II"
+			NOT = { is_year = 1723 }
+			NOT = { has_global_flag = monarch_ANS_No.09a }
+		}
+		allow = {
+			is_year = 1668
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.09a
+			define_heir = {
+				name = "Wilhelm Friedrich I"
+				dynasty = "von Hohenzollern"
+				birth_date = 1686.1.8
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ANS_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Wilhelm Friedrich I"
+			NOT = { is_year = 1757 }
+			NOT = { has_global_flag = monarch_ANS_No.10a }
+		}
+		allow = {
+			is_year = 1712
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.10a
+			define_heir = {
+				name = "Karl Wilhelm Freidrich I"
+				dynasty = "von Hohenzollern"
+				birth_date = 1712.5.12
+				dip = 2
+				adm = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ANS_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ANS
+			has_ruler = "Karl Wilhelm Freidrich I"
+			NOT = { is_year = 1806 }
+			NOT = { has_global_flag = monarch_ANS_No.11a }
+		}
+		allow = {
+			is_year = 1736
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANS_No.11a
+			define_heir = {
+				name = "Karl Alexander I"
+				dynasty = "von Hohenzollern"
+				birth_date = 1736.2.24
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

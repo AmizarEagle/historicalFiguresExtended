@@ -1,0 +1,403 @@
+country_decisions = {
+
+	monarch_MAN_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Lodovico III il Turco"
+			NOT = { is_year = 1484 }
+			NOT = { has_global_flag = monarch_MAN_No.00a }
+		}
+		allow = {
+			is_year = 1444
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.00a
+			define_heir = {
+				name = "Federico"
+				monarch_name = "Federico I"
+				dynasty = "Gonzaga"
+				birth_date = 1441.6.25
+				death_date = 1484.7.14
+				claim = 95
+				adm = 4
+				dip = 6
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Federico I"
+			NOT = { is_year = 1519 }
+			NOT = { has_global_flag = monarch_MAN_No.01a }
+		}
+		allow = {
+			is_year = 1478
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.01a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco II"
+				dynasty = "Gonzaga"
+				birth_date = 1466.8.10
+				death_date = 1519.3.29
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Francesco II"
+			NOT = { is_year = 1540 }
+			NOT = { has_global_flag = monarch_MAN_No.02a }
+		}
+		allow = {
+			is_year = 1500
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.02a
+			define_heir = {
+				name = "Federico"
+				monarch_name = "Federico II"
+				dynasty = "Gonzago"
+				birth_date = 1500.5.17
+				death_date = 1540.8.28
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Federico II"
+			NOT = { is_year = 1550 }
+			NOT = { has_global_flag = monarch_MAN_No.03a }
+		}
+		allow = {
+			is_year = 1533
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.03a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco III"
+				dynasty = "Gonzaga"
+				birth_date = 1533.3.10
+				death_date = 1550.2.22
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Francesco III"
+			NOT = { is_year = 1587 }
+			NOT = { has_global_flag = monarch_MAN_No.04a }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.04a
+			define_heir = {
+				name = "Guglielmo"
+				monarch_name = "Guglielmo"
+				dynasty = "Gonzaga"
+				birth_date = 1538.4.24
+				death_date = 1587.8.14
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Guglielmo"
+			NOT = { is_year = 1612 }
+			NOT = { has_global_flag = monarch_MAN_No.05a }
+		}
+		allow = {
+			is_year = 1562
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.05a
+			define_heir = {
+				name = "Vincenzo"
+				monarch_name = "Vincenzo I"
+				dynasty = "Gonzaga"
+				birth_date = 1562.9.21
+				death_date = 1612.2.9
+				claim = 95
+				adm = 5
+				dip = 5
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Vincenzo I"
+			NOT = { is_year = 1613 }
+			NOT = { has_global_flag = monarch_MAN_No.06a }
+		}
+		allow = {
+			is_year = 1587
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.06a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco IV"
+				dynasty = "Gonzaga"
+				birth_date = 1586.5.7
+				death_date = 1612.12.22
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Francesco IV"
+			NOT = { is_year = 1626 }
+			NOT = { has_global_flag = monarch_MAN_No.07a }
+		}
+		allow = {
+			is_year = 1612
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.07a
+			define_heir = {
+				name = "Ferdinando"
+				monarch_name = "Ferdinando"
+				dynasty = "Gonzaga"
+				birth_date = 1587.4.26
+				death_date = 1626.10.29
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Ferdinando"
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_MAN_No.08a }
+		}
+		allow = {
+			is_year = 1613
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.08a
+			define_heir = {
+				name = "Vincenzo"
+				monarch_name = "Vincenzo II"
+				dynasty = "Gonzaga"
+				birth_date = 1594.1.7
+				death_date = 1627.12.25
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Vincenzo II"
+			NOT = { is_year = 1637 }
+			NOT = { has_global_flag = monarch_MAN_No.09a }
+		}
+		allow = {
+			is_year = 1626
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.09a
+			define_heir = {
+				name = "Carlo"
+				monarch_name = "Carlo I"
+				dynasty = "Gonzaga"
+				birth_date = 1580.5.6
+				death_date = 1637.9.22
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Carlo I"
+			NOT = { is_year = 1665 }
+			NOT = { has_global_flag = monarch_MAN_No.10a }
+		}
+		allow = {
+			is_year = 1629
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.10a
+			define_heir = {
+				name = "Carlo"
+				monarch_name = "Carlo II"
+				dynasty = "Gonzaga"
+				birth_date = 1629.10.3
+				death_date = 1665.8.14
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Carlo II"
+			NOT = { is_year = 1708 }
+			NOT = { has_global_flag = monarch_MAN_No.11a }
+		}
+		allow = {
+			is_year = 1652
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.11a
+			define_heir = {
+				name = "Ferdinando Carlo"
+				monarch_name = "Ferdinando Carlo"
+				dynasty = "Gonzaga"
+				birth_date = 1652.8.31
+				death_date = 1708.7.5
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

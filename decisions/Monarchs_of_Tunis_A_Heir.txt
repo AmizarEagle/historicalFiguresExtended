@@ -1,0 +1,237 @@
+country_decisions = {
+
+	monarch_TUN_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUN
+			has_ruler = "'Uthman"
+			NOT = { is_year = 1489 }
+			NOT = { has_global_flag = monarch_TUN_No.00a }
+		}
+		allow = {
+			is_year = 1435
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUN_No.00a
+			define_heir = {
+				name = "Yahya"
+				monarch_name = "Yahya III"
+				dynasty = "Hafsid"
+				birth_date = 1435.9.18
+				death_date = 1489.1.1
+				claim = 95
+				adm = 2
+				dip = 0
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUN_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUN
+			has_ruler = "Yahya III"
+			NOT = { is_year = 1490 }
+			NOT = { has_global_flag = monarch_TUN_No.01a }
+		}
+		allow = {
+			is_year = 1488
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUN_No.01a
+			define_heir = {
+				name = "'Abd al-Mu'min"
+				monarch_name = "'Abd al-Mu'min"
+				dynasty = "Hafsid"
+				birth_date = 1468.1.1
+				death_date = 1490.10.15
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUN_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUN
+			has_ruler = "'Abd al-Mu'min"
+			NOT = { is_year = 1494 }
+			NOT = { has_global_flag = monarch_TUN_No.02a }
+		}
+		allow = {
+			is_year = 1489
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUN_No.02a
+			define_heir = {
+				name = "Zakariya'"
+				monarch_name = "Zakariya II"
+				dynasty = "Hafsid"
+				birth_date = 1470.1.1
+				death_date = 1494.5.17
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUN_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUN
+			has_ruler = "Zakariya II"
+			NOT = { is_year = 1526 }
+			NOT = { has_global_flag = monarch_TUN_No.03a }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUN_No.03a
+			define_heir = {
+				name = "Muhammad"
+				monarch_name = "Muhammad V"
+				dynasty = "Hafsid"
+				birth_date = 1470.1.1
+				death_date = 1526.1.1
+				claim = 95
+				adm = 3
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUN_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUN
+			has_ruler = "Muhammad V"
+			NOT = { is_year = 1527 }
+			NOT = { has_global_flag = monarch_TUN_No.04a }
+		}
+		allow = {
+			is_year = 1494
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUN_No.04a
+			define_heir = {
+				name = "Muhammad"
+				monarch_name = "Muhammad VI"
+				dynasty = "Hafsid"
+				birth_date = 1494.5.17
+				death_date = 1525.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUN_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUN
+			has_ruler = "Muhammad VI"
+			NOT = { is_year = 1573 }
+			NOT = { has_global_flag = monarch_TUN_No.05a }
+		}
+		allow = {
+			is_year = 1526
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUN_No.05a
+			define_heir = {
+				name = "Ahmad"
+				monarch_name = "Ahmad III"
+				dynasty = "Hafsid"
+				birth_date = 1420.1.1
+				death_date = 1573.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUN_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUN
+			has_ruler = "Ahmad III"
+			NOT = { is_year = 1574 }
+			NOT = { has_global_flag = monarch_TUN_No.06a }
+		}
+		allow = {
+			is_year = 1542
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUN_No.06a
+			define_heir = {
+				name = "Muhammad"
+				monarch_name = "Muhammad VII"
+				dynasty = "Hafsid"
+				birth_date = 1542.1.1
+				death_date = 1574.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,950 @@
+country_decisions = {
+
+	monarch_TAU_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Tarabya"
+			NOT = { is_year = 1451 }
+			NOT = { has_global_flag = monarch_TAU_No.00a }
+		}
+		allow = {
+			is_year = 1440
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.00a
+			define_heir = {
+				name = "Minkhaung"
+				monarch_name = "Minkhaung"
+				dynasty = "Taungu"
+				birth_date = 1420.1.1
+				death_Date = 1451.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Minkhaung"
+			NOT = { is_year = 1459 }
+			NOT = { has_global_flag = monarch_TAU_No.01a }
+		}
+		allow = {
+			is_year = 1446
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.01a
+			define_heir = {
+				name = "Minnge Kyawhtin"
+				monarch_name = "Minnge Kyawhtin"
+				dynasty = "Taungu"
+				birth_date = 1422.1.1
+				death_Date = 1451.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Minnge Kyawhtin"
+			NOT = { is_year = 1466 }
+			NOT = { has_global_flag = monarch_TAU_No.02a }
+		}
+		allow = {
+			is_year = 1451
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.02a
+			define_heir = {
+				name = "Thiri Zaya Thura"
+				monarch_name = "Thiri Zaya Thura"
+				dynasty = "Taungu"
+				birth_date = 1423.1.1
+				death_Date = 1451.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Thiri Zaya Thura"
+			NOT = { is_year = 1470 }
+			NOT = { has_global_flag = monarch_TAU_No.03a }
+		}
+		allow = {
+			is_year = 1459
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.03a
+			define_heir = {
+				name = "Letya Zala Thingyan"
+				monarch_name = "Letya Zala Thingyan"
+				dynasty = "Taungu"
+				birth_date = 1424.1.1
+				death_Date = 1451.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Letya Zala Thingyan"
+			NOT = { is_year = 1481 }
+			NOT = { has_global_flag = monarch_TAU_No.04a }
+		}
+		allow = {
+			is_year = 1466
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.04a
+			define_heir = {
+				name = "Sithu Kyawhtin"
+				monarch_name = "Sithu Kyawhtin"
+				dynasty = "Taungu"
+				birth_date = 1425.1.1
+				death_Date = 1451.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Sithu Kyawhtin"
+			NOT = { is_year = 1485 }
+			NOT = { has_global_flag = monarch_TAU_No.05a }
+		}
+		allow = {
+			is_year = 1470
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.05a
+			define_heir = {
+				name = "Min Sithu"
+				monarch_name = "Min Sithu"
+				dynasty = "Taungu"
+				birth_date = 1432.1.1
+				death_Date = 1485.4.1
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Min Sithu"
+			NOT = { is_year = 1530 }
+			NOT = { has_global_flag = monarch_TAU_No.06a }
+		}
+		allow = {
+			is_year = 1481
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.06a
+			define_heir = {
+				name = "Mingyinyo"
+				monarch_name = "Mingyinyo"
+				dynasty = "Taungu"
+				birth_date = 1459.1.1
+				death_Date = 1530.10.26
+				claim = 95
+				adm = 5
+				dip = 5
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Mingyinyo"
+			NOT = { is_year = 1550 }
+			NOT = { has_global_flag = monarch_TAU_No.07a }
+		}
+		allow = {
+			is_year = 1517
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.07a
+			define_heir = {
+				name = "Tabinshwehti"
+				monarch_name = "Tabinshwehti"
+				dynasty = "Taungu"
+				birth_date = 1516.4.16
+				death_Date = 1550.4.30
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Tabinshwehti"
+			NOT = { is_year = 1581 }
+			NOT = { has_global_flag = monarch_TAU_No.08a }
+		}
+		allow = {
+			is_year = 1549
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.08a
+			define_heir = {
+				name = "Bayinnaung"
+				monarch_name = "Bayinnaung"
+				dynasty = "Taungu"
+				birth_date = 1516.1.16
+				death_Date = 1581.12.1
+				claim = 95
+				adm = 5
+				dip = 4
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Bayinnaung"
+			NOT = { is_year = 1600 }
+			NOT = { has_global_flag = monarch_TAU_No.09a }
+		}
+		allow = {
+			is_year = 1551
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.09a
+			define_heir = {
+				name = "Nanda Bayin"
+				monarch_name = "Nanda Bayin"
+				dynasty = "Taungu"
+				birth_date = 1535.11.9
+				death_Date = 1600.11.30
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Nanda Bayin"
+			NOT = { is_year = 1606 }
+			NOT = { has_global_flag = monarch_TAU_No.10a }
+		}
+		allow = {
+			is_year = 1581
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.10a
+			define_heir = {
+				name = "Nyaungyan"
+				monarch_name = "Nyaungyan Min"
+				dynasty = "Nyaungyan"
+				birth_date = 1556.3.6
+				death_Date = 1606.3.3
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Nyaungyan Min"
+			NOT = { is_year = 1628 }
+			NOT = { has_global_flag = monarch_TAU_No.11a }
+		}
+		allow = {
+			is_year = 1599
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.11a
+			define_heir = {
+				name = "Anaukpetlun"
+				monarch_name = "Anaukpetlun"
+				dynasty = "Nyaungyan"
+				birth_date = 1578.1.21
+				death_date = 1628.7.9
+				claim = 95
+				adm = 5
+				dip = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Anaukpetlun"
+			NOT = { is_year = 1629 }
+			NOT = { has_global_flag = monarch_TAU_No.12a }
+		}
+		allow = {
+			is_year = 1608
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.12a
+			define_heir = {
+				name = "Minyedeippa"
+				monarch_name = "Minyedeippa"
+				dynasty = "Nyaungyan"
+				birth_date = 1608.1.1
+				death_Date = 1629.11.25
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Minyedeippa"
+			NOT = { is_year = 1647 }
+			NOT = { has_global_flag = monarch_TAU_No.13a }
+		}
+		allow = {
+			is_year = 1628
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.13a
+			define_heir = {
+				name = "Thalun"
+				monarch_name = "Thaulun"
+				dynasty = "Nyaungyan"
+				birth_date = 1584.6.17
+				death_Date = 1647.8.27
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 2
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Thaulun"
+			NOT = { is_year = 1661 }
+			NOT = { has_global_flag = monarch_TAU_No.14a }
+		}
+		allow = {
+			is_year = 1629
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.14a
+			define_heir = {
+				name = "Pindale"
+				monarch_name = "Pindale"
+				dynasty = "Nyaungyan"
+				birth_date = 1608.3.23
+				death_Date = 1661.6.3
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Pindale"
+			NOT = { is_year = 1672 }
+			NOT = { has_global_flag = monarch_TAU_No.15a }
+		}
+		allow = {
+			is_year = 1647
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.15a
+			define_heir = {
+				name = "Pye"
+				monarch_name = "Pye"
+				dynasty = "Nyaungyan"
+				birth_date = 1619.5.26
+				death_Date = 1672.4.14
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Pye"
+			NOT = { is_year = 1673 }
+			NOT = { has_global_flag = monarch_TAU_No.16a }
+		}
+		allow = {
+			is_year = 1661
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.16a
+			define_heir = {
+				name = "Narawara"
+				monarch_name = "Narawara"
+				dynasty = "Nyaungyan"
+				birth_date = 1650.7.1
+				death_Date = 1673.2.27
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Narawara"
+			NOT = { is_year = 1698 }
+			NOT = { has_global_flag = monarch_TAU_No.17a }
+		}
+		allow = {
+			is_year = 1672
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.17a
+			define_heir = {
+				name = "Minyekyawdin"
+				monarch_name = "Minyekyawdin"
+				dynasty = "Nyaungyan"
+				birth_date = 1650.7.1
+				death_Date = 1673.2.27
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Minyekyawdin"
+			NOT = { is_year = 1714 }
+			NOT = { has_global_flag = monarch_TAU_No.18a }
+		}
+		allow = {
+			is_year = 1673
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.18a
+			define_heir = {
+				name = "Sanay"
+				monarch_name = "Sanay"
+				dynasty = "Nyaungyan"
+				birth_date = 1673.3.1
+				death_Date = 1714.9.12
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Sanay"
+			NOT = { is_year = 1733 }
+			NOT = { has_global_flag = monarch_TAU_No.19a }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.19a
+			define_heir = {
+				name = "Taninganway"
+				monarch_name = "Taninganway"
+				dynasty = "Nyaungyan"
+				birth_date = 1689.6.1
+				death_Date = 1733.12.12
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.20a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Taninganway"
+			NOT = { is_year = 1754 }
+			NOT = { has_global_flag = monarch_TAU_No.20a }
+		}
+		allow = {
+			is_year = 1714
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.20a
+			define_heir = {
+				name = "Mahadhammaraza Dipadi"
+				monarch_name = "Mahadhammaraza Dipadi"
+				dynasty = "Nyaungyan"
+				birth_date = 1714.7.1
+				death_Date = 1754.10.13
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.21a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Mahadhammaraza Dipadi"
+			NOT = { is_year = 1760 }
+			NOT = { has_global_flag = monarch_TAU_No.21a }
+		}
+		allow = {
+			is_year = 1733
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.21a
+			define_heir = {
+				name = "Alaungpaya"
+				monarch_name = "Alaungpaya"
+				dynasty = "Konbaung"
+				birth_date = 1715.1.1
+				death_Date = 1754.10.13
+				claim = 95
+				adm = 5
+				dip = 5
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.22a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Alaungpaya"
+			NOT = { is_year = 1763 }
+			NOT = { has_global_flag = monarch_TAU_No.22a }
+		}
+		allow = {
+			is_year = 1752
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.22a
+			define_heir = {
+				name = "Naugdawgyi"
+				monarch_name = "Naugdawgyi"
+				dynasty = "Konbaung"
+				birth_date = 1734.8.10
+				death_date = 1763.11.28
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.23a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Naugdawgyi"
+			NOT = { is_year = 1776 }
+			NOT = { has_global_flag = monarch_TAU_No.23a }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.23a
+			define_heir = {
+				name = "Hsinbyushin"
+				monarch_name = "Hsinbyushin"
+				dynasty = "Konbaung"
+				birth_date = 1736.9.12
+				death_Date = 1776.6.10
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.24a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Hsinbyushin"
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_TAU_No.24a }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.24a
+			define_heir = {
+				name = "Singu"
+				monarch_name = "Singu"
+				dynasty = "Konbaung"
+				birth_date = 1756.5.10
+				death_Date = 1782.2.6
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.25a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Singu"
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_TAU_No.25a }
+		}
+		allow = {
+			is_year = 1776
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.25a
+			define_heir = {
+				name = "Phaungkaza"
+				monarch_name = "Phaungkaza"
+				dynasty = "Konbaung"
+				birth_date = 1763.9.12
+				death_Date = 1782.2.11
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.26a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Phaungkaza"
+			NOT = { is_year = 1819 }
+			NOT = { has_global_flag = monarch_TAU_No.26a }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.26a
+			define_heir = {
+				name = "Bodawpaya"
+				monarch_name = "Bodawpaya"
+				dynasty = "Konbaung"
+				birth_date = 1745.3.11
+				death_Date = 1819.6.5
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.27a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Bodawpaya"
+			NOT = { is_year = 1846 }
+			NOT = { has_global_flag = monarch_TAU_No.27a }
+		}
+		allow = {
+			is_year = 1784
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.27a
+			define_heir = {
+				name = "Bagyidaw"
+				monarch_name = "Bagyidaw"
+				dynasty = "Konbaung"
+				birth_date = 1784.7.23
+				death_Date = 1846.10.15
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

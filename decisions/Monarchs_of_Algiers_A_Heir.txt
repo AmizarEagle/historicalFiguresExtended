@@ -1,0 +1,950 @@
+country_decisions = {
+
+	monarch_ALG_No.00a = {
+		major = yes
+		potential = {
+			tag = ALG
+			NOT = { has_global_flag = monarch_ALG_No.00a }
+		}
+		allow = {
+			is_year = 1510
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.00a
+			define_ruler = {
+				name = "Salim"
+				dynasty = "Al-Tumi"
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.01a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Al-Tumi"
+			NOT = { has_global_flag = monarch_ALG_No.01a }
+		}
+		allow = {
+			is_year = 1516
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Oruc Reis"
+				dynasty = "Yakubid"
+				culture = greek
+				adm = 2
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.02a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Oruc Reis"
+			NOT = { has_global_flag = monarch_ALG_No.02a }
+		}
+		allow = {
+			is_year = 1518
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Hayreddin Barbarossa"
+				culture = greek
+				dynasty = "Yakubid"
+				adm = 3
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.03a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Hayreddin Barbarossa"
+			NOT = { has_global_flag = monarch_ALG_No.03a }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Hasan"
+				dynasty = "Yakubid"
+				culture = greek
+				adm = 3
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.04a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Hasan"
+			NOT = { has_global_flag = monarch_ALG_No.04a }
+		}
+		allow = {
+			is_year = 1552
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Salah Reis"
+				dynasty = "Biga"
+				culture = turkish
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.05a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Salah Reis"
+			NOT = { has_global_flag = monarch_ALG_No.05a }
+		}
+		allow = {
+			is_year = 1556
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Hasan"
+				dynasty = "Corso"
+				culture = turkish
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.06a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Hasan"
+			NOT = { has_global_flag = monarch_ALG_No.06a }
+		}
+		allow = {
+			is_year = 1556
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad"
+				dynasty = "Kurdogli"
+				culture = turkish
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.07a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Muhammad"
+			NOT = { has_global_flag = monarch_ALG_No.07a }
+		}
+		allow = {
+			is_year = 1557
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Hasan"
+				dynasty = "Yakubid"
+				culture = turkish
+				adm = 3
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.08a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Hasan"
+			NOT = { has_global_flag = monarch_ALG_No.08a }
+		}
+		allow = {
+			is_year = 1561
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad"
+				dynasty = "Bostandji"
+				culture = turkish
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.09a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Ahmad"
+			NOT = { has_global_flag = monarch_ALG_No.09a }
+		}
+		allow = {
+			is_year = 1562
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Hasan"
+				dynasty = "Yakubid"
+				culture = turkish
+				adm = 3
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.10a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Hasan"
+			NOT = { has_global_flag = monarch_ALG_No.10a }
+		}
+		allow = {
+			is_year = 1566
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad"
+				dynasty = "Muhammadid"
+				culture = turkish
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.11a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Muhammad"
+			NOT = { has_global_flag = monarch_ALG_No.11a }
+		}
+		allow = {
+			is_year = 1568
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Uluc Ali Reis"
+				dynasty = "Galeni"
+				culture = turkish
+				adm = 3
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.12a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Uluc Ali Reis"
+			NOT = { has_global_flag = monarch_ALG_No.12a }
+		}
+		allow = {
+			is_year = 1571
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmed"
+				dynasty = "Ahmadi"
+				culture = turkish
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.13a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Ahmed"
+			NOT = { has_global_flag = monarch_ALG_No.13a }
+		}
+		allow = {
+			is_year = 1574
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Ramadan"
+				dynasty = "Ramadanid"
+				culture = turkish
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.14a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Ramadan"
+			NOT = { has_global_flag = monarch_ALG_No.14a }
+		}
+		allow = {
+			is_year = 1577
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Hassan"
+				dynasty = "Veneziano"
+				culture = venetian
+				adm = 2
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.15a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Hassan"
+			NOT = { has_global_flag = monarch_ALG_No.15a }
+		}
+		allow = {
+			is_year = 1580
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Djafar"
+				dynasty = "Djafarid"
+				culture = turkish
+				adm = 3
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.16a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Djafar"
+			NOT = { has_global_flag = monarch_ALG_No.16a }
+		}
+		allow = {
+			is_year = 1582
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Hassan"
+				dynasty = "Veneziano"
+				culture = venetian
+				adm = 2
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.17a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Hassan"
+			NOT = { has_global_flag = monarch_ALG_No.17a }
+		}
+		allow = {
+			is_year = 1589
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad"
+				dynasty = "Dali"
+				culture = turkish
+				adm = 2
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.18a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Ahmad"
+			NOT = { has_global_flag = monarch_ALG_No.18a }
+		}
+		allow = {
+			is_year = 1592
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Khizr"
+				dynasty = "Khederid"
+				culture = turkish
+				adm = 2
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.19a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Khizr"
+			NOT = { has_global_flag = monarch_ALG_No.19a }
+		}
+		allow = {
+			is_year = 1595
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Shaban"
+				dynasty = "Shabanid"
+				culture = turkish
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.20a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Shaban"
+			NOT = { has_global_flag = monarch_ALG_No.20a }
+		}
+		allow = {
+			is_year = 1596
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Mustafa"
+				dynasty = "Mustafid"
+				culture = turkish
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.21a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Mustafa"
+			NOT = { has_global_flag = monarch_ALG_No.21a }
+		}
+		allow = {
+			is_year = 1599
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Hassan"
+				dynasty = "Dali"
+				culture = turkish
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.22a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Hassan"
+			NOT = { has_global_flag = monarch_ALG_No.22a }
+		}
+		allow = {
+			is_year = 1599
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.22a
+			add_stability = -1
+			define_ruler = {
+				name = "Suleyman"
+				dynasty = "Veneziano"
+				culture = turkish
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.23a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Suleyman"
+			NOT = { has_global_flag = monarch_ALG_No.23a }
+		}
+		allow = {
+			is_year = 1638
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.23a
+			add_stability = -1
+			define_ruler = {
+				name = "Hussein"
+				dynasty = "Husseinid"
+				culture = turkish
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.24a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Hussein"
+			NOT = { has_global_flag = monarch_ALG_No.24a }
+		}
+		allow = {
+			is_year = 1671
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.24a
+			add_stability = -1
+			define_ruler = {
+				name = "Mohamed"
+				dynasty = "Hadj"
+				culture = turkish
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.25a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Mohamed"
+			NOT = { has_global_flag = monarch_ALG_No.25a }
+		}
+		allow = {
+			is_year = 1710
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.25a
+			add_stability = -1
+			define_ruler = {
+				name = "'Ali I"
+				dynasty = "Kuloglu"
+				adm = 3
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.26a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "'Ali I"
+			NOT = { has_global_flag = monarch_ALG_No.26a }
+		}
+		allow = {
+			is_year = 1718
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.26a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad I"
+				dynasty = "Kuloglu"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.27a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Muhammad I"
+			NOT = { has_global_flag = monarch_ALG_No.27a }
+		}
+		allow = {
+			is_year = 1724
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.27a
+			add_stability = -1
+			define_ruler = {
+				name = "'Abdi"
+				dynasty = "Kuloglu"
+				adm = 2
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.28a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "'Abdi"
+			NOT = { has_global_flag = monarch_ALG_No.28a }
+		}
+		allow = {
+			is_year = 1766
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.28a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad III"
+				dynasty = "Kuloglu"
+				adm = 4
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.29a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Muhammad III"
+			NOT = { has_global_flag = monarch_ALG_No.29a }
+		}
+		allow = {
+			is_year = 1791
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.29a
+			add_stability = -1
+			define_ruler = {
+				name = "Hasan"
+				dynasty = "Kuloglu"
+				adm = 0
+				dip = 1
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.30a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Hasan"
+			NOT = { has_global_flag = monarch_ALG_No.30a }
+		}
+		allow = {
+			is_year = 1798
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.30a
+			add_stability = -1
+			define_ruler = {
+				name = "Mustafa"
+				dynasty = "Kuloglu"
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.31a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Mustafa"
+			NOT = { has_global_flag = monarch_ALG_No.31a }
+		}
+		allow = {
+			is_year = 1805
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.31a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmed"
+				dynasty = "ben Ali"
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ALG_No.32a = {
+		major = yes
+		potential = {
+			tag = ALG
+			has_ruler = "Ahmed"
+			NOT = { has_global_flag = monarch_ALG_No.32a }
+		}
+		allow = {
+			is_year = 1818
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ALG_No.32a
+			add_stability = -1
+			define_ruler = {
+				name = "Husain III"
+				dynasty = "ben Hassan"
+				adm = 2
+				dip = 0
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

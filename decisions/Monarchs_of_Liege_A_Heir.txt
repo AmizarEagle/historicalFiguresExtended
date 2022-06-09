@@ -1,0 +1,527 @@
+country_decisions = {
+
+	monarch_LIE_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			NOT = { is_year = 1482 }
+			has_ruler = "Jean VIII"
+			NOT = { has_global_flag = monarch_LIE_No.00a }
+		}
+		allow = {
+			is_year = 1455
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Louis I"
+				dynasty = "de Bourbon"
+				culture = flemish
+				birth_date = 1438.1.1
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Louis I"
+			NOT = { is_year = 1506 }
+			NOT = { has_global_flag = monarch_LIE_No.01a }
+		}
+		allow = {
+			is_year = 1482
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Jean IX"
+				culture = flemish
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Jean IX"
+			NOT = { is_year = 1538 }
+			NOT = { has_global_flag = monarch_LIE_No.02a }
+		}
+		allow = {
+			is_year = 1506
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Erard I"
+				culture = hessian
+				birth_date = 1472.5.31
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Erard I"
+			NOT = { is_year = 1544 }
+			NOT = { has_global_flag = monarch_LIE_No.03a }
+		}
+		allow = {
+			is_year = 1538
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Corneille I"
+				culture = wallonian
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Corneille I"
+			NOT = { is_year = 1557 }
+			NOT = { has_global_flag = monarch_LIE_No.04a }
+		}
+		allow = {
+			is_year = 1544
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Georges I"
+				culture = austrian
+				birth_date = 1505.1.1
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Georges I"
+			NOT = { is_year = 1563 }
+			NOT = { has_global_flag = monarch_LIE_No.05a }
+		}
+		allow = {
+			is_year = 1557
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Robert II"
+				culture = flemish
+				birth_date = 1520.1.1
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Robert II"
+			NOT = { is_year = 1580 }
+			NOT = { has_global_flag = monarch_LIE_No.06a }
+		}
+		allow = {
+			is_year = 1563
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Gerard I"
+				culture = flemish
+				birth_date = 1517.1.1
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Gerard I"
+			NOT = { is_year = 1612 }
+			NOT = { has_global_flag = monarch_LIE_No.07a }
+		}
+		allow = {
+			is_year = 1580
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Ernest I"
+				birth_date = 1554.12.17
+				culture = bavarian
+				dip = 1
+				adm = 0
+				mil = 2
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Ernest I"
+			NOT = { is_year = 1650 }
+			NOT = { has_global_flag = monarch_LIE_No.08a }
+		}
+		allow = {
+			is_year = 1580
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Ferdinand I"
+				birth_date = 1577.10.6
+				culture = bavarian
+				dip = 2
+				adm = 0
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Ferdinand I"
+			NOT = { is_year = 1688 }
+			NOT = { has_global_flag = monarch_LIE_No.09a }
+		}
+		allow = {
+			is_year = 1650
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Maximilien-Henri I"
+				culture = bavarian
+				birth_date = 1621.10.8
+				dip = 2
+				adm = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Maximilien-Henri I"
+			NOT = { is_year = 1694 }
+			NOT = { has_global_flag = monarch_LIE_No.10a }
+		}
+		allow = {
+			is_year = 1688
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Jean-Louis I"
+				birth_date = 1620.9.29
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Jean-Louis I"
+			NOT = { is_year = 1723 }
+			NOT = { has_global_flag = monarch_LIE_No.11a }
+		}
+		allow = {
+			is_year = 1694
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Joseph-Clement I"
+				birth_date = 1671.12.5
+				culture = bavarian
+				dip = 2
+				adm = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Joseph-Clement I"
+			NOT = { is_year = 1743 }
+			NOT = { has_global_flag = monarch_LIE_No.12a }
+		}
+		allow = {
+			is_year = 1723
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Georges-Louis I"
+				birth_date = 1662.9.5
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Georges-Louis I"
+			NOT = { is_year = 1763 }
+			NOT = { has_global_flag = monarch_LIE_No.13a }
+		}
+		allow = {
+			is_year = 1743
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Jean-Theodore I"
+				birth_date = 1703.9.3
+				culture = bavarian
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Jean-Theodore I"
+			NOT = { is_year = 1771 }
+			NOT = { has_global_flag = monarch_LIE_No.14a }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Charles-Nicolas I"
+				birth_date = 1716.6.26
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Charles-Nicolas I"
+			NOT = { is_year = 1784 }
+			NOT = { has_global_flag = monarch_LIE_No.16a }
+		}
+		allow = {
+			is_year = 1771
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Francois-Charles I" 
+				culture = hessian
+				birth_date = 1719.1.1
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LIE_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LIE
+			has_ruler = "Francois-Charles I"
+			NOT = { is_year = 1800 }
+			NOT = { has_global_flag = monarch_LIE_No.17a }
+		}
+		allow = {
+			is_year = 1784
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LIE_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Cesar-Constantin I" #The Red Executioner
+				birth_date = 1724.8.28
+				culture = flemish
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

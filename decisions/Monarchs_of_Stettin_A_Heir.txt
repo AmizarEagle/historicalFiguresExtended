@@ -1,0 +1,332 @@
+country_decisions = {
+
+	monarch_STE_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Joachim I"
+			NOT = { is_year = 1464 }
+			NOT = { has_global_flag = monarch_STE_No.00a }
+		}
+		allow = {
+			is_year = 1444
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.00a
+			define_heir = {
+				name = "Ota"
+				monarch_name = "Ota III"
+				dynasty = "Gryf"
+				birth_date = 1444.5.29
+				death_date = 1464.9.7
+				adm = 2
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Ota III"
+			NOT = { is_year = 1474 }
+			NOT = { has_global_flag = monarch_STE_No.01a }
+		}
+		allow = {
+			is_year = 1451
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.01a
+			define_heir = {
+				name = "Eryk"
+				monarch_name = "Eryk II"
+				dynasty = "Gryf"
+				birth_date = 1427.1.1
+				death_date = 1474.7.5
+				adm = 1
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Eryk II"
+			NOT = { is_year = 1523 }
+			NOT = { has_global_flag = monarch_STE_No.02a }
+		}
+		allow = {
+			is_year = 1464
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.02a
+			define_heir = {
+				name = "Boguslaw"
+				monarch_name = "Boguslaw X"
+				dynasty = "Gryf"
+				birth_date = 1454.6.3
+				death_date = 1523.10.5
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Boguslaw X"
+			NOT = { is_year = 1573 }
+			NOT = { has_global_flag = monarch_STE_No.03a }
+		}
+		allow = {
+			is_year = 1501
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.03a
+			define_heir = {
+				name = "Barnim"
+				monarch_name = "Barnim XI"
+				dynasty = "Gryf"
+				birth_date = 1501.12.2
+				death_date = 1573.11.2
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Barnim XI"
+			NOT = { is_year = 1600 }
+			NOT = { has_global_flag = monarch_STE_No.04a }
+		}
+		allow = {
+			is_year = 1542
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.04a
+			define_heir = {
+				name = "Johann Friedrich"
+				monarch_name = "Johann Friedrich"
+				dynasty = "Gryf"
+				birth_date = 1542.8.27
+				death_date = 1600.2.9
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Johann Friedrich"
+			NOT = { is_year = 1603 }
+			NOT = { has_global_flag = monarch_STE_No.05a }
+		}
+		allow = {
+			is_year = 1569
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.05a
+			define_heir = {
+				name = "Barnim"
+				monarch_name = "Barnim XII"
+				dynasty = "Gryf"
+				birth_date = 1549.2.15
+				death_date = 1603.9.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Barnim XII"
+			NOT = { is_year = 1606 }
+			NOT = { has_global_flag = monarch_STE_No.06a }
+		}
+		allow = {
+			is_year = 1600
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.06a
+			define_heir = {
+				name = "Boguslaw"
+				monarch_name = "Boguslaw XIII"
+				dynasty = "Gryf"
+				birth_date = 1544.8.9
+				death_date = 1606.3.7
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Boguslaw XIII"
+			NOT = { is_year = 1618 }
+			NOT = { has_global_flag = monarch_STE_No.07a }
+		}
+		allow = {
+			is_year = 1603
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.07a
+			define_heir = {
+				name = "Filip"
+				monarch_name = "Filip II"
+				dynasty = "Gryf"
+				birth_date = 1573.7.29
+				death_date = 1618.2.3
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Filip II"
+			NOT = { is_year = 1620 }
+			NOT = { has_global_flag = monarch_STE_No.08a }
+		}
+		allow = {
+			is_year = 1606
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.08a
+			define_heir = {
+				name = "Franciszek"
+				monarch_name = "Franciszek I"
+				dynasty = "Gryf"
+				birth_date = 1577.3.24
+				death_date = 1620.11.27
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Franciszek I"
+			NOT = { is_year = 1637 }
+			NOT = { has_global_flag = monarch_STE_No.09a }
+		}
+		allow = {
+			is_year = 1618
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.09a
+			define_heir = {
+				name = "Boguslaw"
+				monarch_name = "Boguslaw XIV"
+				dynasty = "Gryf"
+				birth_date = 1580.3.31
+				death_date = 1637.3.10
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

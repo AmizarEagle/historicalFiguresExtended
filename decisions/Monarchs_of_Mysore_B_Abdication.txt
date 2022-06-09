@@ -1,0 +1,476 @@
+country_decisions = {
+
+	monarch_MYS_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_global_flag = monarch_MYS_No.00a
+			NOT = { is_year = 1479 }
+			NOT = { has_global_flag = monarch_MYS_No.00b }
+		}
+		allow = {
+			is_year = 1458
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Timma Raja I"
+			has_global_flag = monarch_MYS_No.01a
+			NOT = { is_year = 1513 }
+			NOT = { has_global_flag = monarch_MYS_No.01b }
+		}
+		allow = {
+			is_year = 1478
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Cama Raja II"
+			has_global_flag = monarch_MYS_No.02a
+			NOT = { is_year = 1552 }
+			NOT = { has_global_flag = monarch_MYS_No.02b }
+		}
+		allow = {
+			is_year = 1513
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Chama Raja III"
+			has_global_flag = monarch_MYS_No.03a
+			NOT = { is_year = 1572 }
+			NOT = { has_global_flag = monarch_MYS_No.03b }
+		}
+		allow = {
+			is_year = 1552
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Timma Raja II"
+			has_global_flag = monarch_MYS_No.04a
+			NOT = { is_year = 1576 }
+			NOT = { has_global_flag = monarch_MYS_No.04b }
+		}
+		allow = {
+			is_year = 1572
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Chama Raja II"
+			has_global_flag = monarch_MYS_No.05a
+			NOT = { is_year = 1578 }
+			NOT = { has_global_flag = monarch_MYS_No.05b }
+		}
+		allow = {
+			is_year = 1576
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Bettada Deva Raja"
+			has_global_flag = monarch_MYS_No.06a
+			NOT = { is_year = 1617 }
+			NOT = { has_global_flag = monarch_MYS_No.06b }
+		}
+		allow = {
+			is_year = 1578
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Raja Wadaiyar"
+			has_global_flag = monarch_MYS_No.07a
+			NOT = { is_year = 1637 }
+			NOT = { has_global_flag = monarch_MYS_No.07b }
+		}
+		allow = {
+			is_year = 1617
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Chama Raja V"
+			has_global_flag = monarch_MYS_No.08a
+			NOT = { is_year = 1638 }
+			NOT = { has_global_flag = monarch_MYS_No.08b }
+		}
+		allow = {
+			is_year = 1637
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Imadi Raja"
+			has_global_flag = monarch_MYS_No.09a
+			NOT = { is_year = 1659 }
+			NOT = { has_global_flag = monarch_MYS_No.09b }
+		}
+		allow = {
+			is_year = 1638
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Kanthirava Narasa Raja I"
+			has_global_flag = monarch_MYS_No.10a
+			NOT = { is_year = 1672 }
+			NOT = { has_global_flag = monarch_MYS_No.10b }
+		}
+		allow = {
+			is_year = 1659
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Kempa Deva Raja"
+			has_global_flag = monarch_MYS_No.11a
+			NOT = { is_year = 1704 }
+			NOT = { has_global_flag = monarch_MYS_No.11b }
+		}
+		allow = {
+			is_year = 1672
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Chikka Deva Raja"
+			has_global_flag = monarch_MYS_No.12a
+			NOT = { is_year = 1714 }
+			NOT = { has_global_flag = monarch_MYS_No.12b }
+		}
+		allow = {
+			is_year = 1704
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Kanthirava Narasa Raja II"
+			has_global_flag = monarch_MYS_No.13a
+			NOT = { is_year = 1732 }
+			NOT = { has_global_flag = monarch_MYS_No.13b }
+		}
+		allow = {
+			is_year = 1714
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Krishna Raja I"
+			has_global_flag = monarch_MYS_No.14a
+			NOT = { is_year = 1734 }
+			NOT = { has_global_flag = monarch_MYS_No.14b }
+		}
+		allow = {
+			is_year = 1732
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Chama Raja VI"
+			has_global_flag = monarch_MYS_No.15a
+			NOT = { is_year = 1761 }
+			NOT = { has_global_flag = monarch_MYS_No.15b }
+		}
+		allow = {
+			is_year = 1734
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Krishna Raja II"
+			has_global_flag = monarch_MYS_No.16a
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_MYS_No.16b }
+		}
+		allow = {
+			is_year = 1761
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Haydar 'Ali"
+			has_global_flag = monarch_MYS_No.17a
+			NOT = { is_year = 1799 }
+			NOT = { has_global_flag = monarch_MYS_No.17b }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MYS_No.18b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MYS
+			has_ruler = "Tippoo Sahib"
+			has_global_flag = monarch_MYS_No.18a
+			NOT = { is_year = 1820 }
+			NOT = { has_global_flag = monarch_MYS_No.18b }
+		}
+		allow = {
+			is_year = 1799
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MYS_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

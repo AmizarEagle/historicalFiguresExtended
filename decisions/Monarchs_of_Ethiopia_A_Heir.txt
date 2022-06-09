@@ -1,0 +1,1201 @@
+country_decisions = {
+
+	monarch_ETH_No.00a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Zara Yakob"
+			NOT = { has_global_flag = monarch_ETH_No.00a }
+		}
+		allow = {
+			is_year = 1468
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Ba'eda Maryam II"
+				monarch_name = "Ba'eda Maryam II"
+				dynasty = "Solomonid"
+				birth_date = 1420.1.1
+				death_date = 1478.10.17
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.01a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Ba'eda Maryam II"
+			NOT = { has_global_flag = monarch_ETH_No.01a }
+		}
+		allow = {
+			is_year = 1478
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Quastantinos IV"
+				monarch_name = "Quastantinos IV"
+				dynasty = "Solomonid"
+				birth_date = 1440.1.1
+				death_date = 1492.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.02a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Quastantinos IV"
+			NOT = { has_global_flag = monarch_ETH_No.02a }
+		}
+		allow = {
+			is_year = 1492
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "'Amda Seyon II"
+				monarch_name = "'Amda Seyon II"
+				dynasty = "Solomonid"
+				birth_date = 1470.1.1
+				death_Date = 1494.11.2
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.03a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "'Amda Seyon II"
+			NOT = { has_global_flag = monarch_ETH_No.03a }
+		}
+		allow = {
+			is_year = 1494
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Na'od I"
+				monarch_name = "Na'od I"
+				dynasty = "Solomonid"
+				birth_date = 1475.1.1
+				death_date = 1508.7.30
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.04a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Na'od I"
+			NOT = { has_global_flag = monarch_ETH_No.04a }
+		}
+		allow = {
+			is_year = 1508
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Lebna Dengel Dawit"
+				monarch_name = "Lebna Dengel Dawit II"
+				dynasty = "Solomonid"
+				birth_date = 1490.1.1
+				death_date = 1540.8.3
+				claim = 95
+				adm = 2
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.05a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Lebna Dengel Dawit II"
+			NOT = { has_global_flag = monarch_ETH_No.05a }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Galawdewos"
+				monarch_name = "Galawdewos"
+				dynasty = "Solomonid"
+				birth_date = 1520.1.1
+				death_date = 1559.3.24
+				claim = 95
+				adm = 3
+				dip = 6
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.06a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Galawdewos"
+			NOT = { has_global_flag = monarch_ETH_No.06a }
+		}
+		allow = {
+			is_year = 1559
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Minas"
+				monarch_name = "Minas"
+				dynasty = "Solomonid"
+				birth_date = 1559.3.24
+				death_date = 1568.1.24
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.07a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Minas"
+			NOT = { has_global_flag = monarch_ETH_No.07a }
+		}
+		allow = {
+			is_year = 1568
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Sarsa Dengel"
+				monarch_name = "Sarsa Dengel"
+				dynasty = "Solomonid"
+				birth_date = 1550.1.1
+				death_date = 1597.7.3
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.08a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Sarsa Dengel"
+			NOT = { has_global_flag = monarch_ETH_No.08a }
+		}
+		allow = {
+			is_year = 1597
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Ya'qob"
+				monarch_name = "Ya'qob"
+				dynasty = "Solomonid"
+				birth_date = 1570.1.1
+				death_date = 1607.3.11
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 2
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.09a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Ya'qob"
+			NOT = { has_global_flag = monarch_ETH_No.09a }
+		}
+		allow = {
+			is_year = 1607
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Susenyos"
+				monarch_name = "Susenyos"
+				dynasty = "Solomonid"
+				birth_date = 1572.1.1
+				death_date = 1632.9.15
+				claim = 95
+				adm = 0
+				dip = 5
+				mil = 2
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.10a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Susenyos"
+			NOT = { has_global_flag = monarch_ETH_No.10a }
+		}
+		allow = {
+			is_year = 1632
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Fasiladas"
+				monarch_name = "Fasiladas"
+				dynasty = "Solomonid"
+				birth_date = 1603.1.1
+				death_date = 1667.10.18
+				claim = 95
+				adm = 5
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.11a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Fasiladas"
+			NOT = { has_global_flag = monarch_ETH_No.11a }
+		}
+		allow = {
+			is_year = 1667
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Yohannes I"
+				monarch_name = "Yohannes I"
+				dynasty = "Solomonid"
+				birth_date = 1630.1.1
+				death_date = 1682.7.20
+				claim = 95
+				adm = 5
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.12a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Yohannes I"
+			NOT = { has_global_flag = monarch_ETH_No.12a }
+		}
+		allow = {
+			is_year = 1682
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Iyasu I"
+				monarch_name = "Iyasu I"
+				dynasty = "Solomonid"
+				birth_date = 1660.1.1
+				death_date = 1706.3.2
+				claim = 95
+				adm = 4
+				dip = 6
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.13a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Iyasu I"
+			NOT = { has_global_flag = monarch_ETH_No.13a }
+		}
+		allow = {
+			is_year = 1706
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Taqla Haymanot I"
+				monarch_name = "Taqla Haymanot I"
+				dynasty = "Solomonid"
+				birth_date = 1680.1.1
+				death_date = 1708.6.2
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.14a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Taqla Haymanot I"
+			NOT = { has_global_flag = monarch_ETH_No.14a }
+		}
+		allow = {
+			is_year = 1708
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Tewoflos"
+				monarch_name = "Tewoflos"
+				dynasty = "Solomonid"
+				birth_date = 1690.1.1
+				death_date = 1711.10.15
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.15a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Tewoflos"
+			NOT = { has_global_flag = monarch_ETH_No.15a }
+		}
+		allow = {
+			is_year = 1711
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Yostos"
+				monarch_name = "Yostos"
+				dynasty = "Solomonid"
+				birth_date = 1690.1.1
+				death_date = 1716.1.20
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.16a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Yostos"
+			NOT = { has_global_flag = monarch_ETH_No.16a }
+		}
+		allow = {
+			is_year = 1716
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Dawit III"
+				monarch_name = "Dawit III"
+				dynasty = "Solomonid"
+				birth_date = 1700.1.1
+				death_date = 1721.5.19
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.17a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Dawit III"
+			NOT = { has_global_flag = monarch_ETH_No.17a }
+		}
+		allow = {
+			is_year = 1721
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "'Amsa Giyorgis"
+				monarch_name = "'Amsa Giyorgis"
+				dynasty = "Solomonid"
+				birth_date = 1700.1.1
+				death_date = 1730.9.20
+				claim = 95
+				adm = 5
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.18a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "'Amsa Giyorgis"
+			NOT = { has_global_flag = monarch_ETH_No.18a }
+		}
+		allow = {
+			is_year = 1730
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Iyasu II"
+				monarch_name = "Iyasu II"
+				dynasty = "Solomonid"
+				birth_date = 1700.1.1
+				death_date = 1755.5.27
+				claim = 95
+				adm = 0
+				dip = 3
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.19a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Iyasu II"
+			NOT = { has_global_flag = monarch_ETH_No.19a }
+		}
+		allow = {
+			is_year = 1755
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "'Iya'os"
+				monarch_name = "'Iya'os"
+				dynasty = "Solomonid"
+				birth_date = 1730.1.1
+				death_date = 1769.5.8
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.20a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "'Iya'os"
+			NOT = { has_global_flag = monarch_ETH_No.20a }
+		}
+		allow = {
+			is_year = 1769
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Yohannes II"
+				monarch_name = "Yohannes II"
+				dynasty = "Solomonid"
+				birth_date = 1720.1.1
+				death_date = 1769.10.18
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.21a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Yohannes II"
+			NOT = { has_global_flag = monarch_ETH_No.21a }
+		}
+		allow = {
+			is_year = 1769
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Tuqla Haymanot II"
+				monarch_name = "Tuqla Haymanot II"
+				dynasty = "Solomonid"
+				birth_date = 1750.1.1
+				death_Date = 1777.9.16
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.22a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Tuqla Haymanot II"
+			NOT = { has_global_flag = monarch_ETH_No.22a }
+		}
+		allow = {
+			is_year = 1777
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.22a
+			add_stability = -1
+			define_ruler = {
+				name = "Salomon"
+				monarch_name = "Salomon"
+				dynasty = "Solomonid"
+				birth_date = 1750.1.1
+				death_date = 1779.7.21
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.23a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Salomon"
+			NOT = { has_global_flag = monarch_ETH_No.23a }
+		}
+		allow = {
+			is_year = 1779
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.23a
+			add_stability = -1
+			define_ruler = {
+				name = "Tuqla Giyorgis"
+				monarch_name = "Tuqla Giyorgis"
+				dynasty = "Solomonid"
+				birth_date = 1760.1.1
+				death_date = 1784.1.9
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.24a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Tuqla Giyorgis"
+			NOT = { has_global_flag = monarch_ETH_No.24a }
+		}
+		allow = {
+			is_year = 1784
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.24a
+			add_stability = -1
+			define_ruler = {
+				name = "Iyasu III"
+				monarch_name = "Iyasu III"
+				dynasty = "Solomonid"
+				birth_date = 1770.1.1
+				death_Date = 1788.4.25
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.25a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Iyasu III"
+			NOT = { has_global_flag = monarch_ETH_No.25a }
+		}
+		allow = {
+			is_year = 1788
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.25a
+			add_stability = -1
+			define_ruler = {
+				name = "Tuqla Haymanot III"
+				monarch_name = "Tuqla Haymanot III"
+				dynasty = "Solomonid"
+				birth_date = 1760.1.1
+				death_date = 1789.6.27
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.26a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Tuqla Haymanot III"
+			NOT = { has_global_flag = monarch_ETH_No.26a }
+		}
+		allow = {
+			is_year = 1789
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.26a
+			add_stability = -1
+			define_ruler = {
+				name = "Hezqeyas"
+				monarch_name = "Hezqeyas"
+				dynasty = "Solomonid"
+				birth_date = 1760.1.1
+				death_date = 1794.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.27a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Hezqeyas"
+			NOT = { has_global_flag = monarch_ETH_No.27a }
+		}
+		allow = {
+			is_year = 1794
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.27a
+			add_stability = -1
+			define_ruler = {
+				name = "Giyorgis I Yohannes"
+				monarch_name = "Giyorgis I Yohannes"
+				dynasty = "Solomonid"
+				birth_date = 1760.1.1
+				death_Date = 1795.4.15
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.28a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Giyorgis I Yohannes"
+			NOT = { has_global_flag = monarch_ETH_No.28a }
+		}
+		allow = {
+			is_year = 1795
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.28a
+			add_stability = -1
+			define_ruler = {
+				name = "Mariam III Salomon"
+				monarch_name = "Mariam III Salomon"
+				dynasty = "Solomonid"
+				birth_date = 1780.1.1
+				death_Date = 1795.12.10
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.29a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Mariam III Salomon"
+			NOT = { has_global_flag = monarch_ETH_No.29a }
+		}
+		allow = {
+			is_year = 1795
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.29a
+			add_stability = -1
+			define_ruler = {
+				name = "Giyorgis I Yohannes"
+				monarch_name = "Giyorgis I Yohannes"
+				dynasty = "Solomonid"
+				birth_date = 1770.1.1
+				death_Date = 1796.5.20
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.30a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Giyorgis I Yohannes"
+			NOT = { has_global_flag = monarch_ETH_No.30a }
+		}
+		allow = {
+			is_year = 1796
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.30a
+			add_stability = -1
+			define_ruler = {
+				name = "Salomon"
+				monarch_name = "Salomon III"
+				dynasty = "Solomonid"
+				birth_date = 1770.1.1
+				death_date = 1797.7.15
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.31a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Salomon III"
+			NOT = { has_global_flag = monarch_ETH_No.31a }
+		}
+		allow = {
+			is_year = 1797
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.31a
+			add_stability = -1
+			define_ruler = {
+				name = "Yonas Letezum"
+				dynasty = "Solomonid"
+				dip = 0
+				adm = 1
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.32a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Yonas Letezum"
+			NOT = { has_global_flag = monarch_ETH_No.32a }
+		}
+		allow = {
+			is_year = 1798
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.32a
+			add_stability = -1
+			define_ruler = {
+				name = "Giyorgis I Yohannes"
+				dynasty = "Solomonid"
+				dip = 0
+				adm = 1
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.33a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Giyorgis I Yohannes"
+			NOT = { has_global_flag = monarch_ETH_No.33a }
+		}
+		allow = {
+			is_year = 1799
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.33a
+			add_stability = -1
+			define_ruler = {
+				name = "Salomon III"
+				dynasty = "Solomonid"
+				dip = 0
+				adm = 1
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.34a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Salomon III"
+			NOT = { has_global_flag = monarch_ETH_No.34a }
+		}
+		allow = {
+			is_year = 1800
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.34a
+			add_stability = -1
+			define_ruler = {
+				name = "Demetros Arqedewos"
+				dynasty = "Solomonid"
+				dip = 0
+				adm = 1
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.35a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Demetros Arqedewos"
+			NOT = { has_global_flag = monarch_ETH_No.35a }
+		}
+		allow = {
+			is_year = 1801
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.35a
+			add_stability = -1
+			define_ruler = {
+				name = "Egwale Seyon Hezqeyas"
+				dynasty = "Solomonid"
+				dip = 2
+				adm = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ETH_No.36a = {
+		major = yes
+		potential = {
+			tag = ETH
+			has_ruler = "Egwale Seyon Hezqeyas"
+			NOT = { has_global_flag = monarch_ETH_No.36a }
+		}
+		allow = {
+			is_year = 1818
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ETH_No.36a
+			add_stability = -1
+			define_ruler = {
+				name = "Iyoas II Hezqeyas"
+				dynasty = "Solomonid"
+				dip = 0
+				adm = 1
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

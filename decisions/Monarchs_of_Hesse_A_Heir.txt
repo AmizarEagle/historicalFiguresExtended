@@ -1,0 +1,499 @@
+country_decisions = {
+
+	monarch_HES_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Ludwig I"
+			NOT = { is_year = 1471 }
+			NOT = { has_global_flag = monarch_HES_No.00a }
+		}
+		allow = {
+			is_year = 1438
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.00a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig II"
+				dynasty = "von Hessen"
+				birth_date = 1438.9.7
+				death_date = 1471.11.8
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Ludwig II"
+			NOT = { is_year = 1493 }
+			NOT = { has_global_flag = monarch_HES_No.01a }
+		}
+		allow = {
+			is_year = 1466
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.01a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm I"
+				dynasty = "von Hessen"
+				birth_date = 1466.7.4
+				death_date = 1515.2.8
+				claim = 95
+				adm = 4
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Wilhelm I"
+			NOT = { is_year = 1509 }
+			NOT = { has_global_flag = monarch_HES_No.02a }
+		}
+		allow = {
+			is_year = 1471
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.02a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm II"
+				dynasty = "von Hessen"
+				birth_date = 1469.4.29
+				death_date = 1509.7.11
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Wilhelm II"
+			NOT = { is_year = 1567 }
+			NOT = { has_global_flag = monarch_HES_No.03a }
+		}
+		allow = {
+			is_year = 1504
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.03a
+			define_heir = {
+				name = "Philipp"
+				monarch_name = "Philipp I"
+				dynasty = "von Hessen"
+				birth_date = 1504.11.13
+				death_date = 1567.3.31
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Philipp I"
+			NOT = { is_year = 1592 }
+			NOT = { has_global_flag = monarch_HES_No.04a }
+		}
+		allow = {
+			is_year = 1532
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.04a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm IV"
+				dynasty = "von Hessen-Kassel"
+				birth_date = 1532.6.24
+				death_date = 1592.8.25
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Wilhelm IV"
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_HES_No.05a }
+		}
+		allow = {
+			is_year = 1572
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.05a
+			define_heir = {
+				name = "Moritz"
+				monarch_name = "Moritz"
+				dynasty = "von Hessen-Kassel"
+				birth_date = 1572.5.25
+				death_date = 1632.3.15
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Moritz"
+			NOT = { is_year = 1637 }
+			NOT = { has_global_flag = monarch_HES_No.06a }
+		}
+		allow = {
+			is_year = 1602
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.06a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm V"
+				dynasty = "von Hessen-Kassel"
+				birth_date = 1602.2.13
+				death_date = 1637.9.21
+				claim = 95
+				adm = 3
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Wilhelm V"
+			NOT = { is_year = 1663 }
+			NOT = { has_global_flag = monarch_HES_No.07a }
+		}
+		allow = {
+			is_year = 1629
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.07a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm VI"
+				dynasty = "von Hessen-Kassel"
+				birth_date = 1629.5.23
+				death_date = 1663.7.16
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Wilhelm VI"
+			NOT = { is_year = 1670 }
+			NOT = { has_global_flag = monarch_HES_No.08a }
+		}
+		allow = {
+			is_year = 1651
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.08a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm VII"
+				dynasty = "von Hessen-Kassel"
+				birth_date = 1651.6.21
+				death_date = 1670.11.21
+				claim = 95
+				adm = 3
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Wilhelm VII"
+			NOT = { is_year = 1730 }
+			NOT = { has_global_flag = monarch_HES_No.09a }
+		}
+		allow = {
+			is_year = 1663
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.09a
+			define_heir = {
+				name = "Karl"
+				monarch_name = "Karl"
+				dynasty = "von Hessen-Kassel"
+				birth_date = 1654.8.3
+				death_date = 1730.3.23
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Karl"
+			NOT = { is_year = 1751 }
+			NOT = { has_global_flag = monarch_HES_No.10a }
+		}
+		allow = {
+			is_year = 1676
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.10a
+			define_heir = {
+				name = "Fredrik"
+				monarch_name = "Fredrik I"
+				dynasty = "von Hesse-Kassel"
+				birth_date = 1676.4.28
+				death_date = 1751.4.5
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Fredrik I"
+			NOT = { is_year = 1760 }
+			NOT = { has_global_flag = monarch_HES_No.11a }
+		}
+		allow = {
+			is_year = 1730
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.11a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm VIII"
+				dynasty = "von Hessen-Kassel"
+				birth_date = 1682.3.10
+				death_date = 1760.2.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Wilhelm VIII"
+			NOT = { is_year = 1785 }
+			NOT = { has_global_flag = monarch_HES_No.12a }
+		}
+		allow = {
+			is_year = 1751
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.12a
+			define_heir = {
+				name = "Friedrich"
+				monarch_name = "Friedrich II"
+				dynasty = "von Hessen-Kassel"
+				birth_date = 1720.8.14
+				death_date = 1785.10.31
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Friedrich II"
+			NOT = { is_year = 1821 }
+			NOT = { has_global_flag = monarch_HES_No.13a }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.13a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm IX"
+				dynasty = "von Hessen-Kassel"
+				birth_date = 1743.6.3
+				death_date = 1821.2.27
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HES_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HES
+			has_ruler = "Wilhelm IX"
+			NOT = { is_year = 1847 }
+			NOT = { has_global_flag = monarch_HES_No.14a }
+		}
+		allow = {
+			is_year = 1785
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HES_No.14a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm II"
+				dynasty = "von Hessen-Kassel"
+				birth_date = 1777.7.28
+				death_date = 1847.11.20
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

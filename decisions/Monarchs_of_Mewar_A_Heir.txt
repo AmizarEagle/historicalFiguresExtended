@@ -1,0 +1,677 @@
+country_decisions = {
+
+	monarch_MER_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Kumbhakarna Singh"
+			NOT = { is_year = 1473 }
+			NOT = { has_global_flag = monarch_MER_No.00a }
+		}
+		allow = {
+			is_year = 1433
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.00a
+			define_heir = {
+				name = "Udai"
+				monarch_name = "Udai Singh I"
+				dynasty = "Sisodiya"
+				birth_date = 1420.1.1
+				death_date = 1473.1.1
+				claim = 95
+				DIP = 1
+				MIL = 3
+				ADM = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Udai Singh I"
+			NOT = { is_year = 1509 }
+			NOT = { has_global_flag = monarch_MER_No.01a }
+		}
+		allow = {
+			is_year = 1468
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.01a
+			define_heir = {
+				name = "Raimal"
+				monarch_name = "Raimal Singh"
+				dynasty = "Sisodiya"
+				birth_date = 1430.1.1
+				death_date = 1509.1.1
+				claim = 95
+				DIP = 3
+				MIL = 3
+				ADM = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Raimal Singh"
+			NOT = { is_year = 1528 }
+			NOT = { has_global_flag = monarch_MER_No.02a }
+		}
+		allow = {
+			is_year = 1482
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.02a
+			define_heir = {
+				name = "Sangram"
+				monarch_name = "Sangram Singh I"
+				dynasty = "Sisodiya"
+				birth_date = 1482.4.12
+				death_date = 1528.1.30
+				claim = 95
+				DIP = 4
+				MIL = 5
+				ADM = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Sangram Singh I"
+			NOT = { is_year = 1531 }
+			NOT = { has_global_flag = monarch_MER_No.03a }
+		}
+		allow = {
+			is_year = 1509
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.03a
+			define_heir = {
+				name = "Ratan"
+				monarch_name = "Ratan Singh I"
+				dynasty = "Sisodiya"
+				birth_date = 1500.1.1
+				death_date = 1531.1.1
+				claim = 95
+				DIP = 2
+				MIL = 3
+				ADM = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Ratan Singh I"
+			NOT = { is_year = 1537 }
+			NOT = { has_global_flag = monarch_MER_No.04a }
+		}
+		allow = {
+			is_year = 1528
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.04a
+			define_heir = {
+				name = "Vikramaditya"
+				monarch_name = "Vikramaditya Singh"
+				dynasty = "Sisodiya"
+				birth_date = 1517.1.1
+				death_date = 1537.1.1
+				claim = 95
+				DIP = 0
+				MIL = 0
+				ADM = 0
+				max_random_dip = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Vikramaditya Singh"
+			NOT = { is_year = 1572 }
+			NOT = { has_global_flag = monarch_MER_No.05a }
+		}
+		allow = {
+			is_year = 1531
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.05a
+			define_heir = {
+				name = "Udai"
+				monarch_name = "Udai Singh II"
+				dynasty = "Sisodiya"
+				birth_date = 1522.8.4
+				death_date = 1572.3.3
+				claim = 95
+				DIP = 3
+				MIL = 4
+				ADM = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Udai Singh II"
+			NOT = { is_year = 1597 }
+			NOT = { has_global_flag = monarch_MER_No.06a }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.06a
+			define_heir = {
+				name = "Pratap"
+				monarch_name = "Pratap Singh II"
+				dynasty = "Sisodiya"
+				birth_date = 1540.5.9
+				death_date = 1597.1.19
+				claim = 95
+				DIP = 0
+				MIL = 4
+				ADM = 0
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Pratap Singh II"
+			NOT = { is_year = 1620 }
+			NOT = { has_global_flag = monarch_MER_No.07a }
+		}
+		allow = {
+			is_year = 1572
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.07a
+			define_heir = {
+				name = "Amar"
+				monarch_name = "Amar Singh I"
+				dynasty = "Sisodiya"
+				birth_date = 1559.3.16
+				death_date = 1620.1.26
+				claim = 95
+				DIP = 1
+				MIL = 2
+				ADM = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Amar Singh I"
+			NOT = { is_year = 1628 }
+			NOT = { has_global_flag = monarch_MER_No.08a }
+		}
+		allow = {
+			is_year = 1597
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.08a
+			define_heir = {
+				name = "Karan"
+				monarch_name = "Karan Singh"
+				dynasty = "Sisodiya"
+				birth_date = 1584.1.7
+				death_date = 1628.3.1
+				claim = 95
+				DIP = 1
+				MIL = 2
+				ADM = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Karan Singh"
+			NOT = { is_year = 1652 }
+			NOT = { has_global_flag = monarch_MER_No.09a }
+		}
+		allow = {
+			is_year = 1620
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.09a
+			define_heir = {
+				name = "Jagat"
+				monarch_name = "Jagat Singh I"
+				dynasty = "Sisodiya"
+				birth_date = 1600.1.1
+				death_date = 1652.1.1
+				claim = 95
+				DIP = 1
+				MIL = 2
+				ADM = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Jagat Singh I"
+			NOT = { is_year = 1680 }
+			NOT = { has_global_flag = monarch_MER_No.10a }
+		}
+		allow = {
+			is_year = 1629
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.10a
+			define_heir = {
+				name = "Raj"
+				monarch_name = "Raj Singh I"
+				dynasty = "Sisodiya"
+				birth_date = 1629.9.4
+				death_date = 1680.10.22
+				claim = 95
+				DIP = 1
+				MIL = 2
+				ADM = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Raj Singh I"
+			NOT = { is_year = 1698 }
+			NOT = { has_global_flag = monarch_MER_No.11a }
+		}
+		allow = {
+			is_year = 1653
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.11a
+			define_heir = {
+				name = "Jai"
+				monarch_name = "Jai Singh"
+				dynasty = "Sisodiya"
+				birth_date = 1653.12.5
+				death_date = 1698.9.23
+				claim = 95
+				DIP = 2
+				MIL = 2
+				ADM = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Jai Singh"
+			NOT = { is_year = 1710 }
+			NOT = { has_global_flag = monarch_MER_No.12a }
+		}
+		allow = {
+			is_year = 1680
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.12a
+			define_heir = {
+				name = "Amar"
+				monarch_name = "Amar Singh II"
+				dynasty = "Sisodiya"
+				birth_date = 1672.10.3
+				death_date = 1710.12.10
+				claim = 95
+				DIP = 0
+				MIL = 3
+				ADM = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Amar Singh II"
+			NOT = { is_year = 1734 }
+			NOT = { has_global_flag = monarch_MER_No.13a }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.13a
+			define_heir = {
+				name = "Sangram"
+				monarch_name = "Sangram Singh II"
+				dynasty = "Sisodiya"
+				birth_date = 1690.3.24
+				death_date = 1734.1.11
+				claim = 95
+				DIP = 1
+				MIL = 3
+				ADM = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Sangram Singh II"
+			NOT = { is_year = 1751 }
+			NOT = { has_global_flag = monarch_MER_No.14a }
+		}
+		allow = {
+			is_year = 1710
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.14a
+			define_heir = {
+				name = "Jagat"
+				monarch_name = "Jagat Singh II"
+				dynasty = "Sisodiya"
+				birth_date = 1709.9.17
+				death_date = 1751.6.5
+				claim = 95
+				DIP = 1
+				MIL = 3
+				ADM = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Jagat Singh II"
+			NOT = { is_year = 1753 }
+			NOT = { has_global_flag = monarch_MER_No.15a }
+		}
+		allow = {
+			is_year = 1734
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.15a
+			define_heir = {
+				name = "Pratap"
+				monarch_name = "Pratap Singh II"
+				dynasty = "Sisodiya"
+				birth_date = 1724.7.27
+				death_date = 1753.1.10
+				claim = 95
+				DIP = 0
+				MIL = 1
+				ADM = 0
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Pratap Singh II"
+			NOT = { is_year = 1780 }
+			NOT = { has_global_flag = monarch_MER_No.16a }
+		}
+		allow = {
+			is_year = 1751
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.16a
+			define_heir = {
+				name = "Raj"
+				monarch_name = "Raj Singh II"
+				dynasty = "Sisodiya"
+				birth_date = 1743.4.25
+				death_date = 1761.4.3
+				claim = 95
+				DIP = 0
+				MIL = 2
+				ADM = 0
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Raj Singh II"
+			NOT = { is_year = 1773 }
+			NOT = { has_global_flag = monarch_MER_No.17a }
+		}
+		allow = {
+			is_year = 1753
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.17a
+			define_heir = {
+				name = "Ari"
+				monarch_name = "Ari Singh"
+				dynasty = "Sisodiya"
+				birth_date = 1745.1.1
+				death_date = 1773.3.9
+				claim = 95
+				DIP = 1
+				MIL = 1
+				ADM = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Ari Singh"
+			NOT = { is_year = 1778 }
+			NOT = { has_global_flag = monarch_MER_No.18a }
+		}
+		allow = {
+			is_year = 1762
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.18a
+			define_heir = {
+				name = "Hammir"
+				monarch_name = "Hammir Singh II"
+				dynasty = "Sisodiya"
+				birth_date = 1762.1.1
+				death_date = 1778.1.6
+				claim = 95
+				DIP = 0
+				MIL = 2
+				ADM = 0
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Hammir Singh II"
+			NOT = { is_year = 1828 }
+			NOT = { has_global_flag = monarch_MER_No.19a }
+		}
+		allow = {
+			is_year = 1773
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.19a
+			define_heir = {
+				name = "Bhim"
+				monarch_name = "Bhim Singh"
+				dynasty = "Sisodiya"
+				birth_date = 1768.3.10
+				death_date = 1828.3.20
+				claim = 95
+				DIP = 2
+				MIL = 3
+				ADM = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,427 @@
+country_decisions = {
+
+	monarch_MUG_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Babur I"
+			has_global_flag = monarch_MUG_No.00a
+			NOT = { is_year = 1556 }
+			NOT = { has_global_flag = monarch_MUG_No.00b }
+		}
+		allow = {
+			is_year = 1530
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Humayun I"
+			has_global_flag = monarch_MUG_No.01a
+			NOT = { is_year = 1605 }
+			NOT = { has_global_flag = monarch_MUG_No.01b }
+		}
+		allow = {
+			is_year = 1556
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Akbar I"
+			has_global_flag = monarch_MUG_No.02a
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_MUG_No.02b }
+		}
+		allow = {
+			is_year = 1605
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Jahangir I"
+			has_global_flag = monarch_MUG_No.03a
+			NOT = { is_year = 1666 }
+			NOT = { has_global_flag = monarch_MUG_No.03b }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Shah Jehan I"
+			has_global_flag = monarch_MUG_No.04a
+			NOT = { is_year = 1659 }
+			NOT = { has_global_flag = monarch_MUG_No.04b }
+		}
+		allow = {
+			is_year = 1658
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Aurangzib Alamgir I"
+			has_global_flag = monarch_MUG_No.05a
+			NOT = { is_year = 1712 }
+			NOT = { has_global_flag = monarch_MUG_No.05b }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Bahadur Shah I"
+			has_global_flag = monarch_MUG_No.06a
+			NOT = { is_year = 1713 }
+			NOT = { has_global_flag = monarch_MUG_No.06b }
+		}
+		allow = {
+			is_year = 1712
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Jahandar Shah I"
+			has_global_flag = monarch_MUG_No.07a
+			NOT = { is_year = 1719 }
+			NOT = { has_global_flag = monarch_MUG_No.07b }
+		}
+		allow = {
+			is_year = 1713
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Farrukh Siyar I"
+			has_global_flag = monarch_MUG_No.08a
+			NOT = { is_year = 1723 }
+			NOT = { has_global_flag = monarch_MUG_No.08b }
+		}
+		allow = {
+			is_year = 1719
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Rafi-ul Darjat I"
+			has_global_flag = monarch_MUG_No.09a
+			NOT = { is_year = 1723 }
+			NOT = { has_global_flag = monarch_MUG_No.09b }
+		}
+		allow = {
+			is_year = 1720
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Rafi ud-Daulah I"
+			has_global_flag = monarch_MUG_No.10a
+			NOT = { is_year = 1744 }
+			NOT = { has_global_flag = monarch_MUG_No.10b }
+		}
+		allow = {
+			is_year = 1721
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Muhammad Ibrahim I"
+			has_global_flag = monarch_MUG_No.11a
+			NOT = { is_year = 1748 }
+			NOT = { has_global_flag = monarch_MUG_No.11b }
+		}
+		allow = {
+			is_year = 1722
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Muhammad Shah I"
+			has_global_flag = monarch_MUG_No.12a
+			NOT = { is_year = 1754 }
+			NOT = { has_global_flag = monarch_MUG_No.12b }
+		}
+		allow = {
+			is_year = 1748
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Ahmad Shah I"
+			has_global_flag = monarch_MUG_No.13a
+			NOT = { is_year = 1759 }
+			NOT = { has_global_flag = monarch_MUG_No.13b }
+		}
+		allow = {
+			is_year = 1754
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "'Alamgir II"
+			has_global_flag = monarch_MUG_No.14a
+			NOT = { is_year = 1770 }
+			NOT = { has_global_flag = monarch_MUG_No.14b }
+		}
+		allow = {
+			is_year = 1759
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Shah Jahan III"
+			has_global_flag = monarch_MUG_No.15a
+			NOT = { is_year = 1806 }
+			NOT = { has_global_flag = monarch_MUG_No.15b }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Shah 'Alam II"
+			has_global_flag = monarch_MUG_No.16a
+			NOT = { is_year = 1837 }
+			NOT = { has_global_flag = monarch_MUG_No.16b }
+		}
+		allow = {
+			is_year = 1806
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,527 @@
+country_decisions = {
+
+	monarch_HSE_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Hsam Si-Li"
+			has_global_flag = monarch_HSE_No.00a
+			NOT = { is_year = 1474 }
+			NOT = { has_global_flag = monarch_HSE_No.00b }
+		}
+		allow = {
+			is_year = 1456
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Ai Lao Hkham"
+			has_global_flag = monarch_HSE_No.01a
+			NOT = { is_year = 1501 }
+			NOT = { has_global_flag = monarch_HSE_No.01b }
+		}
+		allow = {
+			is_year = 1474
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Ai Lao"
+			has_global_flag = monarch_HSE_No.02a
+			NOT = { is_year = 1506 }
+			NOT = { has_global_flag = monarch_HSE_No.02b }
+		}
+		allow = {
+			is_year = 1501
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Naw Kiao"
+			has_global_flag = monarch_HSE_No.03a
+			NOT = { is_year = 1511 }
+			NOT = { has_global_flag = monarch_HSE_No.03b }
+		}
+		allow = {
+			is_year = 1506
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Hsai Hkaw"
+			has_global_flag = monarch_HSE_No.04a
+			NOT = { is_year = 1516 }
+			NOT = { has_global_flag = monarch_HSE_No.04b }
+		}
+		allow = {
+			is_year = 1511
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Hsai Hpom"
+			has_global_flag = monarch_HSE_No.05a
+			NOT = { is_year = 1519 }
+			NOT = { has_global_flag = monarch_HSE_No.05b }
+		}
+		allow = {
+			is_year = 1516
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Hsam"
+			has_global_flag = monarch_HSE_No.06a
+			NOT = { is_year = 1523 }
+			NOT = { has_global_flag = monarch_HSE_No.06b }
+		}
+		allow = {
+			is_year = 1519
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Kham Mu"
+			has_global_flag = monarch_HSE_No.07a
+			NOT = { is_year = 1560 }
+			NOT = { has_global_flag = monarch_HSE_No.07b }
+		}
+		allow = {
+			is_year = 1523
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Hpaya Kiao"
+			has_global_flag = monarch_HSE_No.08a
+			NOT = { is_year = 1598 }
+			NOT = { has_global_flag = monarch_HSE_No.08b }
+		}
+		allow = {
+			is_year = 1560
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Mong Hka"
+			has_global_flag = monarch_HSE_No.09a
+			NOT = { is_year = 1620 }
+			NOT = { has_global_flag = monarch_HSE_No.09b }
+		}
+		allow = {
+			is_year = 1598
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Hkham Tao"
+			has_global_flag = monarch_HSE_No.10a
+			NOT = { is_year = 1637 }
+			NOT = { has_global_flag = monarch_HSE_No.10b }
+		}
+		allow = {
+			is_year = 1620
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Mong Hkak"
+			has_global_flag = monarch_HSE_No.11a
+			NOT = { is_year = 1650 }
+			NOT = { has_global_flag = monarch_HSE_No.11b }
+		}
+		allow = {
+			is_year = 1637
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao On"
+			has_global_flag = monarch_HSE_No.12a
+			NOT = { is_year = 1670 }
+			NOT = { has_global_flag = monarch_HSE_No.12b }
+		}
+		allow = {
+			is_year = 1650
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao In Hkam"
+			has_global_flag = monarch_HSE_No.13a
+			NOT = { is_year = 1690 }
+			NOT = { has_global_flag = monarch_HSE_No.13b }
+		}
+		allow = {
+			is_year = 1670
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Awk"
+			has_global_flag = monarch_HSE_No.14a
+			NOT = { is_year = 1710 }
+			NOT = { has_global_flag = monarch_HSE_No.14b }
+		}
+		allow = {
+			is_year = 1690
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Mong Saik"
+			has_global_flag = monarch_HSE_No.15a
+			NOT = { is_year = 1730 }
+			NOT = { has_global_flag = monarch_HSE_No.15b }
+		}
+		allow = {
+			is_year = 1710
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Hsam Hpi"
+			has_global_flag = monarch_HSE_No.16a
+			NOT = { is_year = 1740 }
+			NOT = { has_global_flag = monarch_HSE_No.16b }
+		}
+		allow = {
+			is_year = 1730
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Maung Nyo"
+			has_global_flag = monarch_HSE_No.17a
+			NOT = { is_year = 1760 }
+			NOT = { has_global_flag = monarch_HSE_No.17b }
+		}
+		allow = {
+			is_year = 1740
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.18b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Mong Sin"
+			has_global_flag = monarch_HSE_No.18a
+			NOT = { is_year = 1787 }
+			NOT = { has_global_flag = monarch_HSE_No.18b }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.19b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Mong Hsam"
+			has_global_flag = monarch_HSE_No.19a
+			NOT = { is_year = 1804 }
+			NOT = { has_global_flag = monarch_HSE_No.19b }
+		}
+		allow = {
+			is_year = 1787
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.19b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.20b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Kawng Tai"
+			has_global_flag = monarch_HSE_No.20a
+			NOT = { is_year = 1857 }
+			NOT = { has_global_flag = monarch_HSE_No.20b }
+		}
+		allow = {
+			is_year = 1804
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.20b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

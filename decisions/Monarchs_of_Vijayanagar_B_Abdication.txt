@@ -1,0 +1,502 @@
+country_decisions = {
+
+	monarch_VIJ_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Devaraya II"
+			has_global_flag = monarch_VIJ_No.00a
+			NOT = { is_year = 1465 }
+			NOT = { has_global_flag = monarch_VIJ_No.00b }
+		}
+		allow = {
+			is_year = 1447
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Mallikarjuna"
+			has_global_flag = monarch_VIJ_No.01a
+			NOT = { is_year = 1485 }
+			NOT = { has_global_flag = monarch_VIJ_No.01b }
+		}
+		allow = {
+			is_year = 1465
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Virupaksha II"
+			has_global_flag = monarch_VIJ_No.02a
+			NOT = { is_year = 1486 }
+			NOT = { has_global_flag = monarch_VIJ_No.02b }
+		}
+		allow = {
+			is_year = 1485
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Praudha I"
+			has_global_flag = monarch_VIJ_No.03a
+			NOT = { is_year = 1490 }
+			NOT = { has_global_flag = monarch_VIJ_No.03b }
+		}
+		allow = {
+			is_year = 1486
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Narasimha I"
+			has_global_flag = monarch_VIJ_No.04a
+			NOT = { is_year = 1491 }
+			NOT = { has_global_flag = monarch_VIJ_No.04b }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Timma I"
+			has_global_flag = monarch_VIJ_No.05a
+			NOT = { is_year = 1503 }
+			NOT = { has_global_flag = monarch_VIJ_No.05b }
+		}
+		allow = {
+			is_year = 1491
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Narasa Nayaka I"
+			has_global_flag = monarch_VIJ_No.06a
+			NOT = { is_year = 1509 }
+			NOT = { has_global_flag = monarch_VIJ_No.06b }
+		}
+		allow = {
+			is_year = 1503
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Vira Narasimha I"
+			has_global_flag = monarch_VIJ_No.07a
+			NOT = { is_year = 1529 }
+			NOT = { has_global_flag = monarch_VIJ_No.07b }
+		}
+		allow = {
+			is_year = 1509
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Krishna I"
+			has_global_flag = monarch_VIJ_No.08a
+			NOT = { is_year = 1542 }
+			NOT = { has_global_flag = monarch_VIJ_No.08b }
+		}
+		allow = {
+			is_year = 1529
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Achyuta I"
+			has_global_flag = monarch_VIJ_No.09a
+			NOT = { is_year = 1543 }
+			NOT = { has_global_flag = monarch_VIJ_No.09b }
+		}
+		allow = {
+			is_year = 1542
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Venkata I"
+			has_global_flag = monarch_VIJ_No.10a
+			NOT = { is_year = 1565 }
+			NOT = { has_global_flag = monarch_VIJ_No.10b }
+		}
+		allow = {
+			is_year = 1543
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Sadashiva I"
+			has_global_flag = monarch_VIJ_No.11a
+			NOT = { is_year = 1565 }
+			NOT = { has_global_flag = monarch_VIJ_No.11b }
+		}
+		allow = {
+			is_year = 1549
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Rama Raya I"
+			has_global_flag = monarch_VIJ_No.12a
+			NOT = { is_year = 1571 }
+			NOT = { has_global_flag = monarch_VIJ_No.12b }
+		}
+		allow = {
+			is_year = 1565
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Tirumala I"
+			has_global_flag = monarch_VIJ_No.13a
+			NOT = { is_year = 1585 }
+			NOT = { has_global_flag = monarch_VIJ_No.13b }
+		}
+		allow = {
+			is_year = 1571
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Ranga I"
+			has_global_flag = monarch_VIJ_No.14a
+			NOT = { is_year = 1614 }
+			NOT = { has_global_flag = monarch_VIJ_No.14b }
+		}
+		allow = {
+			is_year = 1585
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Venkata II"
+			has_global_flag = monarch_VIJ_No.15a
+			NOT = { is_year = 1615 }
+			NOT = { has_global_flag = monarch_VIJ_No.15b }
+		}
+		allow = {
+			is_year = 1614
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Ranga II"
+			has_global_flag = monarch_VIJ_No.16a
+			NOT = { is_year = 1634 }
+			NOT = { has_global_flag = monarch_VIJ_No.16b }
+		}
+		allow = {
+			is_year = 1615
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Rama I"
+			has_global_flag = monarch_VIJ_No.17a
+			NOT = { is_year = 1635 }
+			NOT = { has_global_flag = monarch_VIJ_No.17b }
+		}
+		allow = {
+			is_year = 1634
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.18b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Timma II"
+			has_global_flag = monarch_VIJ_No.18a
+			NOT = { is_year = 1642 }
+			NOT = { has_global_flag = monarch_VIJ_No.18b }
+		}
+		allow = {
+			is_year = 1635
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.19b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Venkata III"
+			has_global_flag = monarch_VIJ_No.19a
+			NOT = { is_year = 1652 }
+			NOT = { has_global_flag = monarch_VIJ_No.19b }
+		}
+		allow = {
+			is_year = 1642
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.19b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

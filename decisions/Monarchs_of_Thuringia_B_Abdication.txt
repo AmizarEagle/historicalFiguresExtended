@@ -1,0 +1,377 @@
+country_decisions = {
+
+	monarch_THU_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Friedrich V"
+			has_global_flag = monarch_THU_No.00a
+			NOT = { is_year = 1482 }
+			NOT = { has_global_flag = monarch_THU_No.00b }
+		}
+		allow = {
+			is_year = 1445
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Wilhelm III"
+			has_global_flag = monarch_THU_No.01a
+			NOT = { is_year = 1486 }
+			NOT = { has_global_flag = monarch_THU_No.01b }
+		}
+		allow = {
+			is_year = 1482
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Ernst I"
+			has_global_flag = monarch_THU_No.02a
+			NOT = { is_year = 1525 }
+			NOT = { has_global_flag = monarch_THU_No.02b }
+		}
+		allow = {
+			is_year = 1486
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Friedrich III"
+			has_global_flag = monarch_THU_No.03a
+			NOT = { is_year = 1532 }
+			NOT = { has_global_flag = monarch_THU_No.03b }
+		}
+		allow = {
+			is_year = 1525
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann I"
+			has_global_flag = monarch_THU_No.04a
+			NOT = { is_year = 1554 }
+			NOT = { has_global_flag = monarch_THU_No.04b }
+		}
+		allow = {
+			is_year = 1532
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann Friedrich I"
+			has_global_flag = monarch_THU_No.05a
+			NOT = { is_year = 1573 }
+			NOT = { has_global_flag = monarch_THU_No.05b }
+		}
+		allow = {
+			is_year = 1554
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann Wilhelm I"
+			has_global_flag = monarch_THU_No.06a
+			NOT = { is_year = 1602 }
+			NOT = { has_global_flag = monarch_THU_No.06b }
+		}
+		allow = {
+			is_year = 1586
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Friedrich Wilhelm I"
+			has_global_flag = monarch_THU_No.07a
+			NOT = { is_year = 1605 }
+			NOT = { has_global_flag = monarch_THU_No.07b }
+		}
+		allow = {
+			is_year = 1602
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann III"
+			has_global_flag = monarch_THU_No.08a
+			NOT = { is_year = 1626 }
+			NOT = { has_global_flag = monarch_THU_No.08b }
+		}
+		allow = {
+			is_year = 1605
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann Ernst I"
+			has_global_flag = monarch_THU_No.09a
+			NOT = { is_year = 1662 }
+			NOT = { has_global_flag = monarch_THU_No.09b }
+		}
+		allow = {
+			is_year = 1620
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Wilhelm IV"
+			has_global_flag = monarch_THU_No.10a
+			NOT = { is_year = 1683 }
+			NOT = { has_global_flag = monarch_THU_No.10b }
+		}
+		allow = {
+			is_year = 1662
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann Ernst II"
+			has_global_flag = monarch_THU_No.11a
+			NOT = { is_year = 1728 }
+			NOT = { has_global_flag = monarch_THU_No.11b }
+		}
+		allow = {
+			is_year = 1683
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Wilhelm Ernst"
+			has_global_flag = monarch_THU_No.12a
+			NOT = { is_year = 1748 }
+			NOT = { has_global_flag = monarch_THU_No.12b }
+		}
+		allow = {
+			is_year = 1728
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Ernst August I"
+			has_global_flag = monarch_THU_No.13a
+			NOT = { is_year = 1758 }
+			NOT = { has_global_flag = monarch_THU_No.13b }
+		}
+		allow = {
+			is_year = 1748
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Ernst August II"
+			has_global_flag = monarch_THU_No.14a
+			NOT = { is_year = 1828 }
+			NOT = { has_global_flag = monarch_THU_No.14b }
+		}
+		allow = {
+			is_year = 1758
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

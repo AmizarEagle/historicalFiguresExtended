@@ -1,0 +1,435 @@
+country_decisions = {
+
+	monarch_MAR_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			NOT = { is_year = 1657 }
+			NOT = { has_global_flag = monarch_MAR_No.00a }
+		}
+		allow = {
+			is_year = 1631
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.00a
+			define_heir = {
+				name = "Shivaji"
+				monarch_name = "Shivaji I"
+				dynasty = "Bhonsle"
+				birth_date = 1630.2.19
+				death_date = 1680.4.3
+				claim = 95
+				dip = 4
+				adm = 4
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Shivaji I"
+			NOT = { is_year = 1689 }
+			NOT = { has_global_flag = monarch_MAR_No.01a }
+		}
+		allow = {
+			is_year = 1657
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.01a
+			define_heir = {
+				name = "Shambaji"
+				monarch_name = "Shambaji I"
+				dynasty = "Bhonsle"
+				birth_date = 1657.5.14
+				death_date = 1689.3.11
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Shambaji I"
+			NOT = { is_year = 1700 }
+			NOT = { has_global_flag = monarch_MAR_No.02a }
+		}
+		allow = {
+			is_year = 1680
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.02a
+			define_heir = {
+				name = "Rajaram"
+				monarch_name = "Rajaram I"
+				dynasty = "Bhonsle"
+				birth_date = 1670.1.1
+				death_date = 1700.3.12
+				claim = 95
+				ADM = 3
+				DIP = 2
+				MIL = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Rajaram I"
+			NOT = { is_year = 1749 }
+			NOT = { has_global_flag = monarch_MAR_No.03a }
+		}
+		allow = {
+			is_year = 1689
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.03a
+			define_heir = {
+				name = "Shivaji"
+				monarch_name = "Shivaji II"
+				dynasty = "Bhonsle"
+				birth_date = 1682.1.1
+				death_date = 1749.1.1
+				claim = 95
+				ADM = 5
+				DIP = 1
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Shivaji II"
+			NOT = { is_year = 1713 }
+			NOT = { has_global_flag = monarch_MAR_No.04a }
+		}
+		allow = {
+			is_year = 1700
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.04a
+			define_heir = {
+				name = "Sahuji"
+				monarch_name = "Sahuji I"
+				dynasty = "Bhonsle"
+				birth_date = 1680.1.1
+				death_date = 1713.11.6
+				claim = 95
+				ADM = 3
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Sahuji I"
+			NOT = { is_year = 1720 }
+			NOT = { has_global_flag = monarch_MAR_No.05a }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.05a
+			define_heir = {
+				name = "Balaji"
+				monarch_name = "Balaji I Vishvanath"
+				dynasty = "Bhat"
+				birth_date = 1680.1.1
+				death_date = 1720.4.2
+				claim = 95
+				adm = 4
+				dip = 5
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Balaji I Vishvanath"
+			NOT = { is_year = 1740 }
+			NOT = { has_global_flag = monarch_MAR_No.06a }
+		}
+		allow = {
+			is_year = 1713
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.06a
+			define_heir = {
+				name = "Baji Rao"
+				monarch_name = "Baji Raoi I"
+				dynasty = "Bhat"
+				birth_date = 1699.8.18
+				death_date = 1740.4.28
+				claim = 95
+				ADM = 3
+				DIP = 6
+				MIL = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Baji Raoi I"
+			NOT = { is_year = 1761 }
+			NOT = { has_global_flag = monarch_MAR_No.07a }
+		}
+		allow = {
+			is_year = 1720
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.07a
+			define_heir = {
+				name = "Balaji"
+				monarch_name = "Balaji II Baji Rao"
+				dynasty = "Bhat"
+				birth_date = 1720.1.1
+				death_date = 1761.6.23
+				claim = 95
+				ADM = 4
+				DIP = 4
+				MIL = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Balaji II Baji Rao"
+			NOT = { is_year = 1772 }
+			NOT = { has_global_flag = monarch_MAR_No.08a }
+		}
+		allow = {
+			is_year = 1745
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.08a
+			define_heir = {
+				name = "Madhu Rao"
+				monarch_name = "Madhu Rao I Balai"
+				dynasty = "Bhat"
+				birth_date = 1745.2.15
+				death_date = 1772.11.18
+				claim = 95
+				ADM = 4
+				DIP = 2
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Madhu Rao I Balai"
+			NOT = { is_year = 1773 }
+			NOT = { has_global_flag = monarch_MAR_No.09a }
+		}
+		allow = {
+			is_year = 1761
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.09a
+			define_heir = {
+				name = "Narayan Rao"
+				monarch_name = "Narayan Rao I"
+				dynasty = "Bhat"
+				birth_date = 1759.1.1
+				death_date = 1773.1.1
+				claim = 95
+				ADM = 0
+				DIP = 1
+				MIL = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Narayan Rao I"
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_MAR_No.10a }
+		}
+		allow = {
+			is_year = 1772
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.10a
+			define_heir = {
+				name = "Ragunath Rao"
+				monarch_name = "Ragunath Rao I"
+				dynasty = "Bhat"
+				birth_date = 1750.1.1
+				death_date = 1782.5.17
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 2
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Ragunath Rao I"
+			NOT = { is_year = 1796 }
+			NOT = { has_global_flag = monarch_MAR_No.11a }
+		}
+		allow = {
+			is_year = 1773
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.11a
+			define_heir = {
+				name = "Madhu Rao"
+				monarch_name = "Madhu Rao II"
+				dynasty = "Bhat"
+				birth_date = 1760.1.1
+				death_date = 1796.1.1
+				claim = 95
+				ADM = 0
+				DIP = 1
+				MIL = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAR_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAR
+			has_ruler = "Madhu Rao II"
+			NOT = { is_year = 1808 }
+			NOT = { has_global_flag = monarch_MAR_No.12a }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAR_No.12a
+			define_heir = {
+				name = "Baji Rao"
+				monarch_name = "Baji Rao I"
+				dynasty = "Bhat"
+				birth_date = 1760.1.1
+				death_date = 1808.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

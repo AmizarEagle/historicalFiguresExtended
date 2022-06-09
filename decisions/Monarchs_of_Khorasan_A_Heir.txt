@@ -1,0 +1,136 @@
+country_decisions = {
+
+	monarch_KHO_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHO
+			has_ruler = "Babur bin Baysunkur"
+			NOT = { is_year = 1457 }
+			NOT = { has_global_flag = monarch_KHO_No.00a }
+		}
+		allow = {
+			is_year = 1455
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHO_No.00a
+			define_heir = {
+				name = "Ibrahim"
+				monarch_name = "Ibrahim I"
+				dynasty = "Timurid"
+				birth_date = 1424.1.1
+				death_date = 1459.1.1
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHO_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHO
+			has_ruler = "Ibrahim I"
+			NOT = { is_year = 1469 }
+			NOT = { has_global_flag = monarch_KHO_No.01a }
+		}
+		allow = {
+			is_year = 1457
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHO_No.01a
+			define_heir = {
+				name = "Abu Sa'id"
+				monarch_name = "Abu Sa'id I"
+				dynasty = "Timurid"
+				birth_date = 1424.1.1
+				death_date = 1469.1.1
+				claim = 95
+				adm = 3
+				dip = 5
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHO_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHO
+			has_ruler = "Abu Sa'id I"
+			NOT = { is_year = 1506 }
+			NOT = { has_global_flag = monarch_KHO_No.02a }
+		}
+		allow = {
+			is_year = 1461
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHO_No.02a
+			define_heir = {
+				name = "Hussein Baiqara"
+				monarch_name = "Hussein Baiqara I"
+				dynasty = "Timurid"
+				birth_date = 1438.1.1
+				death_date = 1506.5.4
+				claim = 95
+				adm = 4
+				dip = 5
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KHO_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KHO
+			has_ruler = "Hussein Baiqara I"
+			NOT = { is_year = 1517 }
+			NOT = { has_global_flag = monarch_KHO_No.03a }
+		}
+		allow = {
+			is_year = 1475
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KHO_No.03a
+			define_heir = {
+				name = "Badi' al-Zaman"
+				monarch_name = "Badi' al-Zaman I"
+				dynasty = "Timurid"
+				birth_date = 1475.1.1
+				death_date = 1517.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

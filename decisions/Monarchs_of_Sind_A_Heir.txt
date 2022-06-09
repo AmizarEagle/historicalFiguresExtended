@@ -1,0 +1,596 @@
+country_decisions = {
+
+	monarch_SND_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Tughluq"
+			NOT = { is_year = 1453 }
+			NOT = { has_global_flag = monarch_SND_No.00a }
+		}
+		allow = {
+			is_year = 1444
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.00a
+			define_heir = {
+				name = "Sikander"
+				monarch_name = "Sikander"
+				dynasty = "Samma"
+				birth_date = 1444.1.1
+				death_date = 1449.1.1
+				claim = 95
+				ADM = 1
+				DIP = 0
+				MIL = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Sikander"
+			NOT = { is_year = 1461 }
+			NOT = { has_global_flag = monarch_SND_No.01a }
+		}
+		allow = {
+			is_year = 1449
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.01a
+			define_heir = {
+				name = "Sanjar"
+				monarch_name = "Sanjar"
+				dynasty = "Samma"
+				birth_date = 1429.1.1
+				death_date = 1461.12.28
+				claim =  95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Sanjar"
+			NOT = { is_year = 1508 }
+			NOT = { has_global_flag = monarch_SND_No.02a }
+		}
+		allow = {
+			is_year = 1453
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.02a
+			define_heir = {
+				name = "Nizam ad-Dina Nanada"
+				monarch_name = "Nizam ad-Din II Nanda"
+				dynasty = "Samma"
+				birth_date = 1453.1.1
+				death_date = 1508.1.1
+				claim = 95
+				ADM = 6
+				DIP = 4
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Nizam ad-Din II Nanda"
+			NOT = { is_year = 1520 }
+			NOT = { has_global_flag = monarch_SND_No.03a }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.03a
+			define_heir = {
+				name = "Furuz Salah ad-Din"
+				monarch_name = "Furuz Salah ad-Din"
+				dynasty = "Samma"
+				birth_date = 1490.1.1
+				death_date = 1520.12.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Furuz Salah ad-Din"
+			NOT = { is_year = 1533 }
+			NOT = { has_global_flag = monarch_SND_No.04a }
+		}
+		allow = {
+			is_year = 1508
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.04a
+			define_heir = {
+				name = "Shah Shuja' Beg"
+				monarch_name = "Shah Shuja' Beg"
+				dynasty = "Arghun"
+				birth_date = 1500.1.1
+				death_date = 1533.7.18
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Shah Shuja' Beg"
+			NOT = { is_year = 1554 }
+			NOT = { has_global_flag = monarch_SND_No.05a }
+		}
+		allow = {
+			is_year = 1520
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.05a
+			define_heir = {
+				name = "Shah Husayn"
+				monarch_name = "Shah Husayn"
+				dynasty = "Arghun"
+				birth_date = 1520.1.1
+				death_date = 1554.2.14
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Shah Husayn"
+			NOT = { is_year = 1567 }
+			NOT = { has_global_flag = monarch_SND_No.06a }
+		}
+		allow = {
+			is_year = 1522
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.06a
+			define_heir = {
+				name = "Mirza Muhammad 'Isa"
+				monarch_name = "Mirza Muhammad 'Isa"
+				dynasty = "Arghun"
+				birth_date = 1522.1.1
+				death_date = 1567.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Mirza Muhammad 'Isa"
+			NOT = { is_year = 1585 }
+			NOT = { has_global_flag = monarch_SND_No.07a }
+		}
+		allow = {
+			is_year = 1554
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.07a
+			define_heir = {
+				name = "Mirza Muhammad Baqi"
+				monarch_name = "Miza Muhammad Baqi"
+				dynasty = "Arghun"
+				birth_date = 1550.1.1
+				death_date = 1585.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Miza Muhammad Baqi"
+			NOT = { is_year = 1592 }
+			NOT = { has_global_flag = monarch_SND_No.08a }
+		}
+		allow = {
+			is_year = 1567
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.08a
+			define_heir = {
+				name = "Mirza Jani Beg"
+				monarch_name = "Mirza Jani Beg"
+				dynasty = "Arghun"
+				birth_date = 1550.1.1
+				death_date = 1592.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			NOT = { is_year = 1719 }
+			NOT = { has_global_flag = monarch_SND_No.09a }
+		}
+		allow = {
+			is_year = 1700
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.09a
+			define_heir = {
+				name = "Yar Muhammad Khan"
+				monarch_name = "Yar Muhammad Khan"
+				dynasty = "Kalhora"
+				birth_date = 1670.1.1
+				death_date = 1719.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Yar Muhammad Khan"
+			NOT = { is_year = 1755 }
+			NOT = { has_global_flag = monarch_SND_No.10a }
+		}
+		allow = {
+			is_year = 1701
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.10a
+			define_heir = {
+				name = "Nur Muhammad"
+				monarch_name = "Nur Muhammad"
+				dynasty = "Kalhora"
+				birth_date = 1701.1.1
+				death_date = 1755.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Nur Muhammad"
+			NOT = { is_year = 1757 }
+			NOT = { has_global_flag = monarch_SND_No.11a }
+		}
+		allow = {
+			is_year = 1719
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.11a
+			define_heir = {
+				name = "Muhammad Murad"
+				monarch_name = "Muhammad Murad"
+				dynasty = "Kalhora"
+				birth_date = 1719.1.1
+				death_date = 1757.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Muhammad Murad"
+			NOT = { is_year = 1772 }
+			NOT = { has_global_flag = monarch_SND_No.12a }
+		}
+		allow = {
+			is_year = 1755
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.12a
+			define_heir = {
+				name = "Gulam Shah"
+				monarch_name = "Gulam Shah"
+				dynasty = "Kalhora"
+				birth_date = 1730.1.1
+				death_date = 1772.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Gulam Shah"
+			NOT = { is_year = 1777 }
+			NOT = { has_global_flag = monarch_SND_No.13a }
+		}
+		allow = {
+			is_year = 1757
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.13a
+			define_heir = {
+				name = "Sarfaraz Khan"
+				monarch_name = "Sarafaraz Khan"
+				dynasty = "Kalhora"
+				birth_date = 1750.1.1
+				death_date = 1777.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Sarafaraz Khan"
+			NOT = { is_year = 1780 }
+			NOT = { has_global_flag = monarch_SND_No.14a }
+		}
+		allow = {
+			is_year = 1772
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.14a
+			define_heir = {
+				name = "Gulam Nabi Khan"
+				monarch_name = "Gulam Nabi Khan"
+				dynasty = "Kalhora"
+				birth_date = 1750.1.1
+				death_date = 1780.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Gulam Nabi Khan"
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_SND_No.15a }
+		}
+		allow = {
+			is_year = 1777
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.15a
+			define_heir = {
+				name = "'Abd an-Nabi Khan"
+				monarch_name = "'Abd an-Nabi Khan"
+				dynasty = "Kalhora"
+				birth_date = 1750.1.1
+				death_date = 1782.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "'Abd an-Nabi Khan"
+			NOT = { is_year = 1801 }
+			NOT = { has_global_flag = monarch_SND_No.16a }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.16a
+			define_heir = {
+				name = "Mir Fath Ali"
+				monarch_name = "Mir Fath Ali"
+				dynasty = "Talpur"
+				birth_date = 1760.1.1
+				death_date = 1801.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Mir Fath Ali"
+			NOT = { is_year = 1829 }
+			NOT = { has_global_flag = monarch_SND_No.17a }
+		}
+		allow = {
+			is_year = 1783
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.17a
+			define_heir = {
+				name = "Thara"
+				monarch_name = "Thara"
+				dynasty = "Talpur"
+				birth_date = 1783.1.1
+				death_Date = 1829.1.1
+				claim = 95
+				ADM = 1
+				DIP = 3
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

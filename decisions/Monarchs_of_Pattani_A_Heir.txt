@@ -1,0 +1,678 @@
+country_decisions = {
+
+	monarch_PAT_No.00a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Emas Kelantan"
+			NOT = { has_global_flag = monarch_PAT_No.00a }
+		}
+		allow = {
+			is_year = 1470
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Muzaffar Shah" # Fictional
+				dynasty = "Inland"
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.01a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Muzaffar Shah"
+			NOT = { has_global_flag = monarch_PAT_No.01a }
+		}
+		allow = {
+			is_year = 1511
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Isma'il Shah"
+				dynasty = "Inland"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.02a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Isma'il Shah"
+			NOT = { has_global_flag = monarch_PAT_No.02a }
+		}
+		allow = {
+			is_year = 1550
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Muzaffar Shah"
+				monarch_name = "Muzaffar Shah"
+				dynasty = "Inland"
+				birth_date = 1530.1.1
+				death_Date = 1564.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.03a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Muzaffar Shah"
+			NOT = { has_global_flag = monarch_PAT_No.03a }
+		}
+		allow = {
+			is_year = 1564
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Mansur Shah"
+				monarch_name = "Mansur Shah"
+				dynasty = "Inland"
+				birth_date = 1540.1.1
+				death_date = 1572.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.04a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Mansur Shah"
+			NOT = { has_global_flag = monarch_PAT_No.04a }
+		}
+		allow = {
+			is_year = 1572
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Patik Siam"
+				dynasty = "Inland"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.05a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Patik Siam"
+			NOT = { has_global_flag = monarch_PAT_No.05a }
+		}
+		allow = {
+			is_year = 1573
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Bahadur Shah"
+				dynasty = "Inland"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.06a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Bahadur Shah"
+			NOT = { has_global_flag = monarch_PAT_No.06a }
+		}
+		allow = {
+			is_year = 1584
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Hijau"
+				monarch_name = "Raja Hijau"
+				dynasty = "Inland"
+				female = yes
+				birth_date = 1550.1.1
+				death_Date = 1616.1.1
+				claim = 95
+				adm = 5
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.07a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Hijau"
+			NOT = { has_global_flag = monarch_PAT_No.07a }
+		}
+		allow = {
+			is_year = 1616
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Buru"
+				monarch_name = "Raja Buru"
+				female = yes
+				dynasty = "Inland"
+				birth_date = 1580.1.1
+				death_Date = 1624.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.08a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Buru"
+			NOT = { has_global_flag = monarch_PAT_No.08a }
+		}
+		allow = {
+			is_year = 1624
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Ungku"
+				monarch_name = "Raja Ungku"
+				female = yes
+				dynasty = "Inland"
+				birth_date = 1600.1.1
+				death_Date = 1635.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.09a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Ungku"
+			NOT = { has_global_flag = monarch_PAT_No.09a }
+		}
+		allow = {
+			is_year = 1635
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Kening"
+				monarch_name = "Raja Kening"
+				dynasty = "Inland"
+				birth_date = 1610.1.1
+				death_Date = 1649.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+				female = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.10a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Kening"
+			NOT = { has_global_flag = monarch_PAT_No.10a }
+		}
+		allow = {
+			is_year = 1649
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Shaktl Kelantan"
+				monarch_name = "Raja Shaktl Kelantan"
+				dynasty = "Kelantan"
+				birth_date = 1630.1.1
+				death_Date = 1657.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.11a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Shaktl Kelantan"
+			NOT = { has_global_flag = monarch_PAT_No.11a }
+		}
+		allow = {
+			is_year = 1657
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Sultan Long Bahar"
+				monarch_name = "Sultan Long Bahar"
+				dynasty = "Kelantan"
+				birth_date = 1640.1.1
+				death_Date = 1688.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.12a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Sultan Long Bahar"
+			NOT = { has_global_flag = monarch_PAT_No.12a }
+		}
+		allow = {
+			is_year = 1688
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Bakalan"
+				monarch_name = "Raja Bakalan"
+				dynasty = "Kelantan"
+				birth_date = 1650.1.1
+				death_Date = 1690.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.13a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Bakalan"
+			NOT = { has_global_flag = monarch_PAT_No.13a }
+		}
+		allow = {
+			is_year = 1690
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Emas Kelantan"
+				monarch_name = "Raja Emas Kelantan"
+				dynasty = "Kelantan"
+				birth_date = 1660.1.1
+				death_Date = 1704.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.14a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Emas Kelantan"
+			NOT = { has_global_flag = monarch_PAT_No.14a }
+		}
+		allow = {
+			is_year = 1704
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Emas Jayam Baginda"
+				monarch_name = "Raja Emas Jayam Baginda"
+				dynasty = "Kelantan"
+				birth_date = 1690.1.1
+				death_Date = 1707.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.15a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Emas Jayam Baginda"
+			NOT = { has_global_flag = monarch_PAT_No.15a }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Dewi Perachu"
+				monarch_name = "Raja Dewi Perachu"
+				dynasty = "Kelantan"
+				birth_date = 1680.1.1
+				death_Date = 1716.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.16a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Dewi Perachu"
+			NOT = { has_global_flag = monarch_PAT_No.16a }
+		}
+		allow = {
+			is_year = 1716
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Shah 'Alam"
+				monarch_name = "Shah 'Alam"
+				dynasty = "Kelantan"
+				birth_date = 1700.1.1
+				death_Date = 1720.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.17a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Shah 'Alam"
+			NOT = { has_global_flag = monarch_PAT_No.17a }
+		}
+		allow = {
+			is_year = 1720
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Laksmana Dajang"
+				dynasty = "Kelantan"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.18a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Laksmana Dajang"
+			NOT = { has_global_flag = monarch_PAT_No.18a }
+		}
+		allow = {
+			is_year = 1721
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Emas Jayam Baginda"
+				dynasty = "Kelantan"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.19a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Emas Jayam Baginda"
+			NOT = { has_global_flag = monarch_PAT_No.19a }
+		}
+		allow = {
+			is_year = 1728
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Alung Yunus"
+				dynasty = "Kelantan"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.20a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Alung Yunus"
+			NOT = { has_global_flag = monarch_PAT_No.20a }
+		}
+		allow = {
+			is_year = 1729
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Yunus"
+				dynasty = "Kelantan"
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAT_No.21a = {
+		major = yes
+		potential = {
+			tag = PAT
+			has_ruler = "Raja Yunus"
+			NOT = { has_global_flag = monarch_PAT_No.21a }
+		}
+		allow = {
+			is_year = 1749
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAT_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Raja Long Nuh"
+				monarch_name = "Raja Long Nuh"
+				dynasty = "Kelantan"
+				birth_date = 1700.1.1
+				death_Date = 1771.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

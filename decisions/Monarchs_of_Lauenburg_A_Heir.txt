@@ -1,0 +1,276 @@
+country_decisions = {
+
+	monarch_LAU_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LAU
+			has_ruler = "Bernhard II"
+			NOT = { is_year = 1507 }
+			NOT = { has_global_flag = monarch_LAU_No.00a }
+		}
+		allow = {
+			is_year = 1439
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LAU_No.00a
+			define_heir = {
+				name = "Johann"
+				monarch_name = "Johann V"
+				dynasty = "Askanier"
+				birth_date = 1439.7.18
+				death_date = 1507.8.15
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LAU_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LAU
+			has_ruler = "Johann V"
+			NOT = { is_year = 1543 }
+			NOT = { has_global_flag = monarch_LAU_No.01a }
+		}
+		allow = {
+			is_year = 1488
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LAU_No.01a
+			define_heir = {
+				name = "Magnus"
+				monarch_name = "Magnus I"
+				dynasty = "Askanier"
+				birth_date = 1488.1.1
+				death_date = 1543.8.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LAU_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LAU
+			has_ruler = "Magnus I"
+			NOT = { is_year = 1581 }
+			NOT = { has_global_flag = monarch_LAU_No.02a }
+		}
+		allow = {
+			is_year = 1510
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LAU_No.02a
+			define_heir = {
+				name = "Franz"
+				monarch_name = "Franz I"
+				dynasty = "Askanier"
+				birth_date = 1510.1.1
+				death_date = 1581.3.19
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LAU_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LAU
+			has_ruler = "Franz I"
+			NOT = { is_year = 1619 }
+			NOT = { has_global_flag = monarch_LAU_No.03a }
+		}
+		allow = {
+			is_year = 1547
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LAU_No.03a
+			define_heir = {
+				name = "Franz"
+				monarch_name = "Franz II"
+				dynasty = "Askanier"
+				birth_date = 1547.8.10
+				death_date = 1619.7.2
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 2
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LAU_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LAU
+			has_ruler = "Franz II"
+			NOT = { is_year = 1656 }
+			NOT = { has_global_flag = monarch_LAU_No.04a }
+		}
+		allow = {
+			is_year = 1581
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LAU_No.04a
+			define_heir = {
+				name = "August"
+				monarch_name = "August"
+				dynasty = "Askanier"
+				birth_date = 1577.2.17
+				death_date = 1656.1.18
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LAU_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LAU
+			has_ruler = "August"
+			NOT = { is_year = 1665 }
+			NOT = { has_global_flag = monarch_LAU_No.05a }
+		}
+		allow = {
+			is_year = 1619
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LAU_No.05a
+			define_heir = {
+				name = "Julius Heinrich"
+				monarch_name = "Julius Heinrich"
+				dynasty = "Askanier"
+				birth_date = 1586.4.9
+				death_date = 1665.11.20
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LAU_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LAU
+			has_ruler = "Julius Heinrich"
+			NOT = { is_year = 1666 }
+			NOT = { has_global_flag = monarch_LAU_No.06a }
+		}
+		allow = {
+			is_year = 1656
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LAU_No.06a
+			define_heir = {
+				name = "Francis Erdmann"
+				monarch_name = "Francis Erdmann"
+				dynasty = "Askanier"
+				birth_date = 1629.2.25
+				death_date = 1666.7.30
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LAU_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LAU
+			has_ruler = "Francis Erdmann"
+			NOT = { is_year = 1689 }
+			NOT = { has_global_flag = monarch_LAU_No.07a }
+		}
+		allow = {
+			is_year = 1665
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LAU_No.07a
+			define_heir = {
+				name = "Julius Franz"
+				monarch_name = "Julius Franz"
+				dynasty = "Askanier"
+				birth_date = 1641.9.16
+				death_date = 1689.9.30
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

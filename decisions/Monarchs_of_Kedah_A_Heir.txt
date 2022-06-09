@@ -1,0 +1,417 @@
+country_decisions = {
+
+	monarch_KED_No.00a = {
+		major = yes
+		potential = {
+			tag = KED
+			NOT = { has_global_flag = monarch_KED_No.00a }
+		}
+		allow = {
+			is_year = 1472
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Jiwa Zainal Adilin"
+				monarch_name = "Muhammad Jiwa Zainal Adilin"
+				dynasty = "Kedah"
+				birth_date = 1430.1.1
+				death_Date = 1506.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.01a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Muhammad Jiwa Zainal Adilin"
+			NOT = { has_global_flag = monarch_KED_No.01a }
+		}
+		allow = {
+			is_year = 1506
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmud Shah II"
+				monarch_name = "Mahmud Shah II"
+				dynasty = "Kedah"
+				birth_date = 1480.1.1
+				death_Date = 1546.1.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.02a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Mahmud Shah II"
+			NOT = { has_global_flag = monarch_KED_No.02a }
+		}
+		allow = {
+			is_year = 1546
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Mudzaffar Shah II"
+				monarch_name = "Mudzaffar Shah II"
+				dynasty = "Kedah"
+				birth_date = 1520.1.1
+				death_Date = 1602.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.03a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Mudzaffar Shah II"
+			NOT = { has_global_flag = monarch_KED_No.03a }
+		}
+		allow = {
+			is_year = 1602
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Sulaiman Shah II"
+				monarch_name = "Sulaiman Shah II"
+				dynasty = "Kedah"
+				birth_date = 1560.1.1
+				death_Date = 1625.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.04a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Sulaiman Shah II"
+			NOT = { has_global_flag = monarch_KED_No.04a }
+		}
+		allow = {
+			is_year = 1625
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Rijaluddin Muhammad Shah"
+				monarch_name = "Rijaluddin Muhammad Shah"
+				dynasty = "Kedah"
+				birth_date = 1590.1.1
+				death_Date = 1651.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.05a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Rijaluddin Muhammad Shah"
+			NOT = { has_global_flag = monarch_KED_No.05a }
+		}
+		allow = {
+			is_year = 1651
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhyiddin Mansur Shah"
+				monarch_name = "Muhyiddin Mansur Shah"
+				dynasty = "Kedah"
+				birth_date = 1610.1.1
+				death_Date = 1661.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.06a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Muhyiddin Mansur Shah"
+			NOT = { has_global_flag = monarch_KED_No.06a }
+		}
+		allow = {
+			is_year = 1661
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Dziaddin Mukarram Shah"
+				monarch_name = "Dziaddin Mukarram Shah"
+				dynasty = "Kedah"
+				birth_date = 1630.1.1
+				death_Date = 1687.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.07a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Dziaddin Mukarram Shah"
+			NOT = { has_global_flag = monarch_KED_No.07a }
+		}
+		allow = {
+			is_year = 1687
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Ataullah Muhammad Shah II"
+				monarch_name = "Ataullah Muhammad Shah II"
+				dynasty = "Kedah"
+				birth_date = 1660.1.1
+				death_Date = 1698.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.08a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Ataullah Muhammad Shah II"
+			NOT = { has_global_flag = monarch_KED_No.08a }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdullah Mu'adzam  Shâh"
+				monarch_name = "Abdullah Mu'adzam  Shah"
+				dynasty = "Kedah"
+				birth_date = 1680.1.1
+				death_Date = 1706.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.09a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Abdullah Mu'adzam  Shah"
+			NOT = { has_global_flag = monarch_KED_No.09a }
+		}
+		allow = {
+			is_year = 1706
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad Tajuddin Halim Shah"
+				monarch_name = "Ahmad Tajuddin Halim Shah"
+				dynasty = "Kedah"
+				birth_date = 1690.1.1
+				death_Date = 1709.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.10a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Ahmad Tajuddin Halim Shah"
+			NOT = { has_global_flag = monarch_KED_No.10a }
+		}
+		allow = {
+			is_year = 1709
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Jiwa Zainal Adilin"
+				monarch_name = "Muhammad Jiwa Zainal Adilin II"
+				dynasty = "Kedah"
+				birth_date = 1700.1.1
+				death_Date = 1778.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.11a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Muhammad Jiwa Zainal Adilin II"
+			NOT = { has_global_flag = monarch_KED_No.11a }
+		}
+		allow = {
+			is_year = 1778
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdullah Mukarram Shah"
+				monarch_name = "Abdullah Mukarram Shah"
+				dynasty = "Kedah"
+				birth_date = 1730.1.1
+				death_Date = 1797.1.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KED_No.12a = {
+		major = yes
+		potential = {
+			tag = KED
+			has_ruler = "Abdullah Mukarram Shah"
+			NOT = { has_global_flag = monarch_KED_No.12a }
+		}
+		allow = {
+			is_year = 1797
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KED_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad Tajuddin Halim Shah II"
+				monarch_name = "Ahmad Tajuddin Halim Shah II"
+				dynasty = "Kedah"
+				birth_date = 1770.1.1
+				death_Date = 1843.1.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,102 @@
+country_decisions = {
+
+	monarch_AUV_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AUV
+			has_ruler = "Bertrand II"
+			has_global_flag = monarch_AUV_No.00a
+			NOT = { is_year = 1494 }
+			NOT = { has_global_flag = monarch_AUV_No.00b }
+		}
+		allow = {
+			is_year = 1461
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AUV_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AUV_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AUV
+			has_ruler = "Bertrand III"
+			has_global_flag = monarch_AUV_No.01a
+			NOT = { is_year = 1501 }
+			NOT = { has_global_flag = monarch_AUV_No.01b }
+		}
+		allow = {
+			is_year = 1494
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AUV_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AUV_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AUV
+			has_ruler = "Jean III"
+			has_global_flag = monarch_AUV_No.02a
+			NOT = { is_year = 1524 }
+			NOT = { has_global_flag = monarch_AUV_No.02b }
+		}
+		allow = {
+			is_year = 1501
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AUV_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AUV_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AUV
+			has_ruler = "Anne I"
+			has_global_flag = monarch_AUV_No.03a
+			NOT = { is_year = 1589 }
+			NOT = { has_global_flag = monarch_AUV_No.03b }
+		}
+		allow = {
+			is_year = 1524
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AUV_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

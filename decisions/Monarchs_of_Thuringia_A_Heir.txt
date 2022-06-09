@@ -1,0 +1,537 @@
+country_decisions = {
+
+	monarch_THU_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Friedrich V"
+			NOT = { is_year = 1482 }
+			NOT = { has_global_flag = monarch_THU_No.00a }
+		}
+		allow = {
+			is_year = 1440
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.00a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm III"
+				dynasty = "von Wettin"
+				birth_date = 1425.4.30
+				death_date = 1482.9.17
+				claim = 95
+				dip = 3
+				adm = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Wilhelm III"
+			NOT = { is_year = 1486 }
+			NOT = { has_global_flag = monarch_THU_No.01a }
+		}
+		allow = {
+			is_year = 1445
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.01a
+			define_heir = {
+				name = "Ernst"
+				monarch_name = "Ernst I"
+				dynasty = "von Wettin"
+				birth_date = 1441.3.24
+				death_date = 1486.8.26
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Ernst I"
+			NOT = { is_year = 1525 }
+			NOT = { has_global_flag = monarch_THU_No.02a }
+		}
+		allow = {
+			is_year = 1482
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.02a
+			define_heir = {
+				name = "Friedrich"
+				monarch_name = "Friedrich III"
+				dynasty = "von Wettin"
+				birth_date = 1463.1.17
+				death_date = 1525.5.5
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Friedrich III"
+			NOT = { is_year = 1532 }
+			NOT = { has_global_flag = monarch_THU_No.03a }
+		}
+		allow = {
+			is_year = 1486
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.03a
+			define_heir = {
+				name = "Johann"
+				monarch_name = "Johann I"
+				dynasty = "von Wettin"
+				birth_date = 1468.6.13
+				death_date = 1532.8.16
+				claim = 95
+				dip = 4
+				adm = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann I"
+			NOT = { is_year = 1554 }
+			NOT = { has_global_flag = monarch_THU_No.04a }
+		}
+		allow = {
+			is_year = 1525
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.04a
+			define_heir = {
+				name = "Johann Friedrich"
+				monarch_name = "Johann Friedrich I"
+				dynasty = "von Wettin"
+				birth_date = 1503.6.30
+				death_date = 1554.3.3
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann Friedrich I"
+			NOT = { is_year = 1573 }
+			NOT = { has_global_flag = monarch_THU_No.05a }
+		}
+		allow = {
+			is_year = 1532
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.05a
+			define_heir = {
+				name = "Johann Wilhelm"
+				monarch_name = "Johann Wilhelm I"
+				dynasty = "von Wettin"
+				birth_date = 1530.3.11
+				death_date = 1573.3.2
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann Wilhelm I"
+			NOT = { is_year = 1602 }
+			NOT = { has_global_flag = monarch_THU_No.06a }
+		}
+		allow = {
+			is_year = 1562
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.06a
+			define_heir = {
+				name = "Friedrich Wilhelm"
+				monarch_name = "Friedrich Wilhelm I"
+				dynasty = "von Wettin"
+				birth_date = 1562.4.25
+				death_date = 1602.7.7
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Friedrich Wilhelm I"
+			NOT = { is_year = 1605 }
+			NOT = { has_global_flag = monarch_THU_No.07a }
+		}
+		allow = {
+			is_year = 1586
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.07a
+			define_heir = {
+				name = "Johann"
+				monarch_name = "Johann III"
+				dynasty = "von Wettin"
+				birth_date = 1570.5.22
+				death_date = 1605.10.31
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann III"
+			NOT = { is_year = 1626 }
+			NOT = { has_global_flag = monarch_THU_No.08a }
+		}
+		allow = {
+			is_year = 1602
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.08a
+			define_heir = {
+				name = "Johann Ernst"
+				monarch_name = "Johann Ernst I"
+				dynasty = "von Wettin"
+				birth_date = 1594.2.21
+				death_date = 1626.12.6
+				claim = 95
+				adm = 4
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann Ernst I"
+			NOT = { is_year = 1662 }
+			NOT = { has_global_flag = monarch_THU_No.09a }
+		}
+		allow = {
+			is_year = 1605
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.09a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm IV"
+				dynasty = "von Wettin"
+				birth_date = 1598.4.11
+				death_date = 1662.5.17
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Wilhelm IV"
+			NOT = { is_year = 1683 }
+			NOT = { has_global_flag = monarch_THU_No.10a }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.10a
+			define_heir = {
+				name = "Johann Ernst"
+				monarch_name = "Johann Ernst II"
+				dynasty = "von Wettin"
+				birth_date = 1627.9.11
+				death_date = 1683.5.15
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Johann Ernst II"
+			NOT = { is_year = 1728 }
+			NOT = { has_global_flag = monarch_THU_No.11a }
+		}
+		allow = {
+			is_year = 1662
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.11a
+			define_heir = {
+				name = "Wilhelm Ernst"
+				monarch_name = "Wilhelm Ernst"
+				dynasty = "von Wettin"
+				birth_date = 1662.10.19
+				death_date = 1728.8.26
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Wilhelm Ernst"
+			NOT = { is_year = 1748 }
+			NOT = { has_global_flag = monarch_THU_No.12a }
+		}
+		allow = {
+			is_year = 1688
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.12a
+			define_heir = {
+				name = "Ernst August"
+				monarch_name = "Ernst August I"
+				dynasty = "von Wettin"
+				birth_date = 1688.4.19
+				death_date = 1748.1.19
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Ernst August I"
+			NOT = { is_year = 1758 }
+			NOT = { has_global_flag = monarch_THU_No.13a }
+		}
+		allow = {
+			is_year = 1737
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.13a
+			define_heir = {
+				name = "Ernst August"
+				monarch_name = "Ernst August II"
+				dynasty = "von Wettin"
+				birth_date = 1737.6.2
+				death_date = 1758.5.28
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Ernst August II"
+			NOT = { is_year = 1828 }
+			NOT = { has_global_flag = monarch_THU_No.14a }
+		}
+		allow = {
+			is_year = 1757
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.14a
+			define_heir = {
+				name = "Karl August"
+				monarch_name = "Karl August"
+				dynasty = "von Wettin"
+				birth_date = 1757.9.3
+				death_date = 1828.6.14
+				claim = 95
+				adm = 5
+				dip = 5
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_THU_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = THU
+			has_ruler = "Karl August"
+			NOT = { is_year = 1853 }
+			NOT = { has_global_flag = monarch_THU_No.15a }
+		}
+		allow = {
+			is_year = 1783
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_THU_No.15a
+			define_heir = {
+				name = "Karl August"
+				monarch_name = "Karl August"
+				dynasty = "von Wettin"
+				birth_date = 1783.2.2
+				death_date = 1853.7.8
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

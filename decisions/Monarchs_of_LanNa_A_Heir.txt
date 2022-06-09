@@ -1,0 +1,952 @@
+country_decisions = {
+
+	monarch_LNA_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Tilokaracha"
+			NOT = { is_year = 1495 }
+			NOT = { has_global_flag = monarch_LNA_No.00a }
+		}
+		allow = {
+			is_year = 1456
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.00a
+			define_heir = {
+				name = "Yotchiangrai"
+				monarch_name = "Yotchiangrai"
+				dynasty = "Mangrai"
+				birth_date = 1456.1.1
+				death_date = 1495.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Yotchiangrai"
+			NOT = { is_year = 1526 }
+			NOT = { has_global_flag = monarch_LNA_No.01a }
+		}
+		allow = {
+			is_year = 1487
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.01a
+			define_heir = {
+				name = "Kaeo"
+				monarch_name = "Kaeo"
+				dynasty = "Mangrai"
+				birth_date = 1482.1.1
+				death_date = 1526.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Kaeo"
+			NOT = { is_year = 1538 }
+			NOT = { has_global_flag = monarch_LNA_No.02a }
+		}
+		allow = {
+			is_year = 1495
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.02a
+			define_heir = {
+				name = "Ket"
+				monarch_name = "Ket"
+				dynasty = "Mangrai"
+				birth_date = 1491.1.1
+				death_date = 1545.1.1
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Ket"
+			NOT = { is_year = 1543 }
+			NOT = { has_global_flag = monarch_LNA_No.03a }
+		}
+		allow = {
+			is_year = 1526
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.03a
+			define_heir = {
+				name = "Saikham"
+				monarch_name = "Saikham"
+				dynasty = "Mangrai"
+				birth_date = 1521.1.1
+				death_date = 1543.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Saikham"
+			NOT = { is_year = 1545 }
+			NOT = { has_global_flag = monarch_LNA_No.04a }
+		}
+		allow = {
+			is_year = 1538
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.04a
+			define_heir = {
+				name = "Ket"
+				monarch_name = "Ket"
+				dynasty = "Mangrai"
+				birth_date = 1495.1.1
+				death_date = 1545.1.1
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Ket"
+			NOT = { is_year = 1546 }
+			NOT = { has_global_flag = monarch_LNA_No.05a }
+		}
+		allow = {
+			is_year = 1543
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.05a
+			define_heir = {
+				name = "Chiraprapha"
+				monarch_name = "Chiraprapha"
+				dynasty = "Mangrai"
+				birth_date = 1523.1.1
+				death_date = 1546.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				female = yes
+				max_random_mil = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Chiraprapha"
+			NOT = { is_year = 1547 }
+			NOT = { has_global_flag = monarch_LNA_No.06a }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.06a
+			define_heir = {
+				name = "Setthathirat"
+				monarch_name = "Setthathirat"
+				dynasty = "Khun Lo"
+				birth_date = 1500.1.1
+				death_date = 1547.1.1
+				claim = 95
+				ADM = 5
+				DIP = 3
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Setthathirat"
+			NOT = { is_year = 1564 }
+			NOT = { has_global_flag = monarch_LNA_No.07a }
+		}
+		allow = {
+			is_year = 1546
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.07a
+			define_heir = {
+				name = "Mekuti"
+				monarch_name = "Mekuti"
+				dynasty = "Mangrai"
+				birth_date = 1521.1.1
+				death_date = 1564.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Mekuti"
+			NOT = { is_year = 1578 }
+			NOT = { has_global_flag = monarch_LNA_No.08a }
+		}
+		allow = {
+			is_year = 1547
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.08a
+			define_heir = {
+				name = "Wisutthathewi"
+				monarch_name = "Wisutthathewi"
+				dynasty = "Mangrai"
+				birth_date = 1543.1.1
+				death_date = 1578.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				female=yes
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Wisutthathewi"
+			NOT = { is_year = 1607 }
+			NOT = { has_global_flag = monarch_LNA_No.09a }
+		}
+		allow = {
+			is_year = 1564
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.09a
+			define_heir = {
+				name = "Nawrahta Minsaw"
+				monarch_name = "Nawrahta Minsaw"
+				dynasty = "Burman"
+				birth_date = 1540.1.1
+				death_date = 1607.1.1
+				claim = 95
+				ADM = 1
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Nawrahta Minsaw"
+			NOT = { is_year = 1615 }
+			NOT = { has_global_flag = monarch_LNA_No.10a }
+		}
+		allow = {
+			is_year = 1578
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.10a
+			define_heir = {
+				name = "Phra Choi"
+				monarch_name = "Phra Choi"
+				dynasty = "Burman"
+				birth_date = 1571.1.1
+				death_date = 1615.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phra Choi"
+			NOT = { is_year = 1613 }
+			NOT = { has_global_flag = monarch_LNA_No.11a }
+		}
+		allow = {
+			is_year = 1607
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.11a
+			define_heir = {
+				name = "Phra Chaiyathip"
+				monarch_name = "Phra Chaiyathip"
+				dynasty = "Burman"
+				birth_date = 1581.1.1
+				death_date = 1613.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phra Chaiyathip"
+			NOT = { is_year = 1615 }
+			NOT = { has_global_flag = monarch_LNA_No.12a }
+		}
+		allow = {
+			is_year = 1608
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.12a
+			define_heir = {
+				name = "Phra Choi"
+				monarch_name = "Phra Choi"
+				dynasty = "Burman"
+				birth_date = 1571.1.1
+				death_date = 1615.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phra Choi"
+			NOT = { is_year = 1631 }
+			NOT = { has_global_flag = monarch_LNA_No.13a }
+		}
+		allow = {
+			is_year = 1613
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.13a
+			define_heir = {
+				name = "Sisongmueang"
+				monarch_name = "Sisongmueang"
+				dynasty = "Nan"
+				birth_date = 1593.1.1
+				death_date = 1631.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Sisongmueang"
+			NOT = { is_year = 1655 }
+			NOT = { has_global_flag = monarch_LNA_No.14a }
+		}
+		allow = {
+			is_year = 1615
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.14a
+			define_heir = {
+				name = "Luangthipphanet"
+				monarch_name = "Luangthipphanet"
+				dynasty = "Burman"
+				birth_date = 1604.1.1
+				death_date = 1655.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Luangthipphanet"
+			NOT = { is_year = 1659 }
+			NOT = { has_global_flag = monarch_LNA_No.15a }
+		}
+		allow = {
+			is_year = 1631
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.15a
+			define_heir = {
+				name = "Phra Saenmueang"
+				monarch_name = "Phra Saenmueang"
+				dynasty = "Burman"
+				birth_date = 1625.1.1
+				death_date = 1659.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phra Saenmueang"
+			NOT = { is_year = 1672 }
+			NOT = { has_global_flag = monarch_LNA_No.16a }
+		}
+		allow = {
+			is_year = 1655
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.16a
+			define_heir = {
+				name = "Phrae"
+				monarch_name = "Phrae"
+				dynasty = "Burman"
+				birth_date = 1634.1.1
+				death_date = 1672.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phrae"
+			NOT = { is_year = 1675 }
+			NOT = { has_global_flag = monarch_LNA_No.17a }
+		}
+		allow = {
+			is_year = 1659
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.17a
+			define_heir = {
+				name = "Ingsemang"
+				monarch_name = "Ingsemang"
+				dynasty = "Burman"
+				birth_date = 1656.1.1
+				death_date = 1675.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Ingsemang"
+			NOT = { is_year = 1707 }
+			NOT = { has_global_flag = monarch_LNA_No.18a }
+		}
+		allow = {
+			is_year = 1672
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.18a
+			define_heir = {
+				name = "Cheputarai"
+				monarch_name = "Cheputarai"
+				dynasty = "Burman"
+				birth_date = 1652.1.1
+				death_date = 1707.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Cheputarai"
+			NOT = { is_year = 1727 }
+			NOT = { has_global_flag = monarch_LNA_No.19a }
+		}
+		allow = {
+			is_year = 1675
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.19a
+			define_heir = {
+				name = "Mangraenara"
+				monarch_name = "Mangraenara"
+				dynasty = "Burman"
+				birth_date = 1675.1.1
+				death_date = 1727.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.20a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Mangraenara"
+			NOT = { is_year = 1759 }
+			NOT = { has_global_flag = monarch_LNA_No.20a }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.20a
+			define_heir = {
+				name = "Ong Kham"
+				monarch_name = "Ong Kham"
+				dynasty = "Burman"
+				birth_date = 1707.1.1
+				death_date = 1759.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.21a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Ong Kham"
+			NOT = { is_year = 1761 }
+			NOT = { has_global_flag = monarch_LNA_No.21a }
+		}
+		allow = {
+			is_year = 1727
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.21a
+			define_heir = {
+				name = "Ong Chan"
+				monarch_name = "Ong Chan"
+				dynasty = "Burman"
+				birth_date = 1727.1.1
+				death_date = 1761.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.22a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Ong Chan"
+			NOT = { is_year = 1763 }
+			NOT = { has_global_flag = monarch_LNA_No.22a }
+		}
+		allow = {
+			is_year = 1759
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.22a
+			define_heir = {
+				name = "Khihut"
+				monarch_name = "Khihut"
+				dynasty = "Burman"
+				birth_date = 1739.1.1
+				death_date = 1763.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.23a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Khihut"
+			NOT = { is_year = 1768 }
+			NOT = { has_global_flag = monarch_LNA_No.23a }
+		}
+		allow = {
+			is_year = 1761
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.23a
+			define_heir = {
+				name = "Po Aphaikhamini"
+				monarch_name = "Po Aphaikhamini"
+				dynasty = "Burman"
+				birth_date = 1731.1.1
+				death_date = 1768.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.24a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Po Aphaikhamini"
+			NOT = { is_year = 1774 }
+			NOT = { has_global_flag = monarch_LNA_No.24a }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.24a
+			define_heir = {
+				name = "Po Mayunguan"
+				monarch_name = "Po Mayunguan"
+				dynasty = "Burman"
+				birth_date = 1743.1.1
+				death_date = 1774.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.25a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Po Mayunguan"
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_LNA_No.25a }
+		}
+		allow = {
+			is_year = 1768
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.25a
+			define_heir = {
+				name = "Phraya Chaban"
+				monarch_name = "Phraya Chaban"
+				dynasty = "Chiang Mai"
+				birth_date = 1720.1.1
+				death_date = 1782.1.1
+				claim = 95
+				ADM = 1
+				DIP = 0
+				MIL = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.26a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phraya Chaban"
+			NOT = { is_year = 1813 }
+			NOT = { has_global_flag = monarch_LNA_No.26a }
+		}
+		allow = {
+			is_year = 1774
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.26a
+			define_heir = {
+				name = "Kawila"
+				monarch_name = "Kawila"
+				dynasty = "Chaochetton"
+				birth_date = 1740.1.1
+				death_Date = 1813.1.1
+				claim = 95
+				ADM = 1
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.27a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Kawila"
+			NOT = { is_year = 1822 }
+			NOT = { has_global_flag = monarch_LNA_No.27a }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.27a
+			define_heir = {
+				name = "Thammalangka"
+				monarch_name = "Thammalangka"
+				dynasty = "Chaochetton"
+				birth_date = 1775.1.1
+				death_date = 1822.1.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

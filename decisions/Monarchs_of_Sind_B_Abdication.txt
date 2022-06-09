@@ -1,0 +1,451 @@
+country_decisions = {
+
+	monarch_SND_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Tughluq"
+			has_global_flag = monarch_SND_No.00a
+			NOT = { is_year = 1453 }
+			NOT = { has_global_flag = monarch_SND_No.00b }
+		}
+		allow = {
+			is_year = 1449
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Sikander"
+			has_global_flag = monarch_SND_No.01a
+			NOT = { is_year = 1461 }
+			NOT = { has_global_flag = monarch_SND_No.01b }
+		}
+		allow = {
+			is_year = 1453
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Sanjar"
+			has_global_flag = monarch_SND_No.02a
+			NOT = { is_year = 1508 }
+			NOT = { has_global_flag = monarch_SND_No.02b }
+		}
+		allow = {
+			is_year = 1461
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Nizam ad-Din II Nanda"
+			has_global_flag = monarch_SND_No.03a
+			NOT = { is_year = 1520 }
+			NOT = { has_global_flag = monarch_SND_No.03b }
+		}
+		allow = {
+			is_year = 1508
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Furuz Salah ad-Din"
+			has_global_flag = monarch_SND_No.04a
+			NOT = { is_year = 1533 }
+			NOT = { has_global_flag = monarch_SND_No.04b }
+		}
+		allow = {
+			is_year = 1520
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Shah Shuja' Beg"
+			has_global_flag = monarch_SND_No.05a
+			NOT = { is_year = 1554 }
+			NOT = { has_global_flag = monarch_SND_No.05b }
+		}
+		allow = {
+			is_year = 1522
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Shah Husayn"
+			has_global_flag = monarch_SND_No.06a
+			NOT = { is_year = 1567 }
+			NOT = { has_global_flag = monarch_SND_No.06b }
+		}
+		allow = {
+			is_year = 1554
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Mirza Muhammad 'Isa"
+			has_global_flag = monarch_SND_No.07a
+			NOT = { is_year = 1585 }
+			NOT = { has_global_flag = monarch_SND_No.07b }
+		}
+		allow = {
+			is_year = 1567
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Miza Muhammad Baqi"
+			has_global_flag = monarch_SND_No.08a
+			NOT = { is_year = 1592 }
+			NOT = { has_global_flag = monarch_SND_No.08b }
+		}
+		allow = {
+			is_year = 1585
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_global_flag = monarch_SND_No.09a
+			NOT = { is_year = 1719 }
+			NOT = { has_global_flag = monarch_SND_No.09b }
+		}
+		allow = {
+			is_year = 1702
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Yar Muhammad Khan"
+			has_global_flag = monarch_SND_No.10a
+			NOT = { is_year = 1755 }
+			NOT = { has_global_flag = monarch_SND_No.10b }
+		}
+		allow = {
+			is_year = 1719
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Nur Muhammad"
+			has_global_flag = monarch_SND_No.11a
+			NOT = { is_year = 1757 }
+			NOT = { has_global_flag = monarch_SND_No.11b }
+		}
+		allow = {
+			is_year = 1755
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Muhammad Murad"
+			has_global_flag = monarch_SND_No.12a
+			NOT = { is_year = 1772 }
+			NOT = { has_global_flag = monarch_SND_No.12b }
+		}
+		allow = {
+			is_year = 1757
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Gulam Shah"
+			has_global_flag = monarch_SND_No.13a
+			NOT = { is_year = 1777 }
+			NOT = { has_global_flag = monarch_SND_No.13b }
+		}
+		allow = {
+			is_year = 1772
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Sarafaraz Khan"
+			has_global_flag = monarch_SND_No.14a
+			NOT = { is_year = 1780 }
+			NOT = { has_global_flag = monarch_SND_No.14b }
+		}
+		allow = {
+			is_year = 1777
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Gulam Nabi Khan"
+			has_global_flag = monarch_SND_No.15a
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_SND_No.15b }
+		}
+		allow = {
+			is_year = 1780
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "'Abd an-Nabi Khan"
+			has_global_flag = monarch_SND_No.16a
+			NOT = { is_year = 1801 }
+			NOT = { has_global_flag = monarch_SND_No.16b }
+		}
+		allow = {
+			is_year = 1783
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SND_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SND
+			has_ruler = "Mir Fath Ali"
+			has_global_flag = monarch_SND_No.17a
+			NOT = { is_year = 1829 }
+			NOT = { has_global_flag = monarch_SND_No.17b }
+		}
+		allow = {
+			is_year = 1801
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SND_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

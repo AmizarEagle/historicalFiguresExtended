@@ -1,0 +1,171 @@
+country_decisions = {
+
+	monarch_SUN_No.00a = {
+		major = yes
+		potential = {
+			tag = SUN
+			NOT = { has_global_flag = monarch_SUN_No.00a }
+		}
+		allow = {
+			is_year = 1482
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SUN_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Sri Baduga Maharaja"
+				dynasty = "Sunda"
+				ADM = 5
+				DIP = 5
+				MIL = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SUN_No.01a = {
+		major = yes
+		potential = {
+			tag = SUN
+			has_ruler = "Sri Baduga Maharaja"
+			NOT = { has_global_flag = monarch_SUN_No.01a }
+		}
+		allow = {
+			is_year = 1521
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SUN_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Prabu Surawisesa Jayaperkosa"
+				dynasty = "Sunda"
+				ADM = 1
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SUN_No.02a = {
+		major = yes
+		potential = {
+			tag = SUN
+			has_ruler = "Prabu Surawisesa Jayaperkosa"
+			NOT = { has_global_flag = monarch_SUN_No.02a }
+		}
+		allow = {
+			is_year = 1535
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SUN_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Ratu Dewata"
+				dynasty = "Sunda"
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SUN_No.03a = {
+		major = yes
+		potential = {
+			tag = SUN
+			has_ruler = "Ratu Dewata"
+			NOT = { has_global_flag = monarch_SUN_No.03a }
+		}
+		allow = {
+			is_year = 1543
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SUN_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Ratu Sakti"
+				dynasty = "Sunda"
+				ADM = 2
+				DIP = 2
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SUN_No.04a = {
+		major = yes
+		potential = {
+			tag = SUN
+			has_ruler = "Ratu Sakti"
+			NOT = { has_global_flag = monarch_SUN_No.04a }
+		}
+		allow = {
+			is_year = 1551
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SUN_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Nilakendra"
+				dynasty = "Sunda"
+				ADM = 1
+				DIP = 1
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SUN_No.05a = {
+		major = yes
+		potential = {
+			tag = SUN
+			has_ruler = "Nilakendra"
+			NOT = { has_global_flag = monarch_SUN_No.05a }
+		}
+		allow = {
+			is_year = 1567
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SUN_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Mulya"
+				dynasty = "Sunda"
+				ADM = 1
+				DIP = 0
+				MIL = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

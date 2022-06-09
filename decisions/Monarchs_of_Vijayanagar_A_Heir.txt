@@ -1,0 +1,676 @@
+country_decisions = {
+
+	monarch_VIJ_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Devaraya II"
+			NOT = { is_year = 1465 }
+			NOT = { has_global_flag = monarch_VIJ_No.00a }
+		}
+		allow = {
+			is_year = 1424
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.00a
+			define_heir = {
+				name = "Mallikarjuna"
+				monarch_name = "Mallikarjuna"
+				dynasty = "Sangama"
+				birth_date = 1424.1.1
+				death_date = 1465.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Mallikarjuna"
+			NOT = { is_year = 1485 }
+			NOT = { has_global_flag = monarch_VIJ_No.01a }
+		}
+		allow = {
+			is_year = 1447
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.01a
+			define_heir = {
+				name = "Virupaksha"
+				monarch_name = "Virupaksha II"
+				dynasty = "Sangama"
+				birth_date = 1447.1.1
+				death_date = 1485.6.1
+				claim = 95
+				ADM = 3
+				DIP = 3
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Virupaksha II"
+			NOT = { is_year = 1485 }
+			NOT = { has_global_flag = monarch_VIJ_No.02a }
+		}
+		allow = {
+			is_year = 1465
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.02a
+			define_heir = {
+				name = "Praudha"
+				monarch_name = "Praudha I"
+				dynasty = "Sangama"
+				birth_date = 1465.1.1
+				death_date = 1485.6.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Praudha I"
+			NOT = { is_year = 1490 }
+			NOT = { has_global_flag = monarch_VIJ_No.03a }
+		}
+		allow = {
+			is_year = 1485
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.03a
+			define_heir = {
+				name = "Narasimha"
+				monarch_name = "Narasimha I"
+				dynasty = "Saluva"
+				birth_date = 1431.1.1
+				death_date = 1490.1.1
+				claim = 95
+				dip = 3
+				adm = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Narasimha I"
+			NOT = { is_year = 1491 }
+			NOT = { has_global_flag = monarch_VIJ_No.04a }
+		}
+		allow = {
+			is_year = 1470
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.04a
+			define_heir = {
+				name = "Timma"
+				monarch_name = "Timma I"
+				dynasty = "Saluva"
+				birth_date = 1470.1.1
+				death_date = 1491.1.1
+				claim = 95
+				ADM = 1
+				DIP = 1
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Timma I"
+			NOT = { is_year = 1503 }
+			NOT = { has_global_flag = monarch_VIJ_No.05a }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.05a
+			define_heir = {
+				name = "Narasa Nayaka"
+				monarch_name = "Narasa Nayaka I"
+				dynasty = "Tuluva"
+				birth_date = 1438.3.18
+				death_date = 1503.10.6
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Narasa Nayaka I"
+			NOT = { is_year = 1509 }
+			NOT = { has_global_flag = monarch_VIJ_No.06a }
+		}
+		allow = {
+			is_year = 1491
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.06a
+			define_heir = {
+				name = "Vira Narasimha"
+				monarch_name = "Vira Narasimha I"
+				dynasty = "Tuluva"
+				birth_date = 1483.1.1
+				death_date = 1509.8.9
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Vira Narasimha I"
+			NOT = { is_year = 1529 }
+			NOT = { has_global_flag = monarch_VIJ_No.07a }
+		}
+		allow = {
+			is_year = 1503
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.07a
+			define_heir = {
+				name = "Krishna"
+				monarch_name = "Krishna I"
+				dynasty = "Tuluva"
+				birth_date = 1490.1.1
+				death_date = 1529.12.1
+				claim = 95
+				ADM = 5
+				DIP = 4
+				MIL = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Krishna I"
+			NOT = { is_year = 1542 }
+			NOT = { has_global_flag = monarch_VIJ_No.08a }
+		}
+		allow = {
+			is_year = 1509
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.08a
+			define_heir = {
+				name = "Achyuta"
+				monarch_name = "Achyuta I"
+				dynasty = "Tuluva"
+				birth_date = 1509.5.1
+				death_date = 1542.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Achyuta I"
+			NOT = { is_year = 1543 }
+			NOT = { has_global_flag = monarch_VIJ_No.09a }
+		}
+		allow = {
+			is_year = 1529
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.09a
+			define_heir = {
+				name = "Venkata"
+				monarch_name = "Venkata I"
+				dynasty = "Tuluva"
+				birth_date = 1509.1.1
+				death_date = 1543.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Venkata I"
+			NOT = { is_year = 1565 }
+			NOT = { has_global_flag = monarch_VIJ_No.10a }
+		}
+		allow = {
+			is_year = 1542
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.10a
+			define_heir = {
+				name = "Sadashiva"
+				monarch_name = "Sadashiva I"
+				dynasty = "Tuluva"
+				birth_date = 1522.1.1
+				death_date = 1565.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Sadashiva I"
+			NOT = { is_year = 1565 }
+			NOT = { has_global_flag = monarch_VIJ_No.11a }
+		}
+		allow = {
+			is_year = 1543
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.11a
+			define_heir = {
+				name = "Rama Raya"
+				monarch_name = "Rama Raya I"
+				dynasty = "Aravidu"
+				birth_date = 1501.1.1
+				death_date = 1565.1.1
+				claim = 95
+				adm = 3
+				dip = 6
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Rama Raya I"
+			NOT = { is_year = 1571 }
+			NOT = { has_global_flag = monarch_VIJ_No.12a }
+		}
+		allow = {
+			is_year = 1549
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.12a
+			define_heir = {
+				name = "Tirumala"
+				monarch_name = "Tirumala I"
+				dynasty = "Aravidu"
+				birth_date = 1543.1.1
+				death_date = 1571.1.1
+				claim = 95
+				ADM = 0
+				DIP = 2
+				MIL = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Tirumala I"
+			NOT = { is_year = 1585 }
+			NOT = { has_global_flag = monarch_VIJ_No.13a }
+		}
+		allow = {
+			is_year = 1565
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.13a
+			define_heir = {
+				name = "Ranga"
+				monarch_name = "Ranga I"
+				dynasty = "Aravidu"
+				birth_date = 1550.1.1
+				death_date = 1585.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Ranga I"
+			NOT = { is_year = 1614 }
+			NOT = { has_global_flag = monarch_VIJ_No.14a }
+		}
+		allow = {
+			is_year = 1571
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.14a
+			define_heir = {
+				name = "Venkata"
+				monarch_name = "Venkata II"
+				dynasty = "Aravidu"
+				birth_date = 1565.1.1
+				death_date = 1614.10.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Venkata II"
+			NOT = { is_year = 1615 }
+			NOT = { has_global_flag = monarch_VIJ_No.15a }
+		}
+		allow = {
+			is_year = 1585
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.15a
+			define_heir = {
+				name = "Ranga"
+				monarch_name = "Ranga II"
+				dynasty = "Aravidu"
+				birth_date = 1585.1.1
+				death_date = 1615.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Ranga II"
+			NOT = { is_year = 1634 }
+			NOT = { has_global_flag = monarch_VIJ_No.16a }
+		}
+		allow = {
+			is_year = 1614
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.16a
+			define_heir = {
+				name = "Rama"
+				monarch_name = "Rama I"
+				dynasty = "Aravidu"
+				birth_date = 1590.1.1
+				death_date = 1634.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Rama I"
+			NOT = { is_year = 1635 }
+			NOT = { has_global_flag = monarch_VIJ_No.17a }
+		}
+		allow = {
+			is_year = 1615
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.17a
+			define_heir = {
+				name = "Timma"
+				monarch_name = "Timma II"
+				dynasty = "Aravidu"
+				birth_date = 1615.1.1
+				death_date = 1635.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Timma II"
+			NOT = { is_year = 1642 }
+			NOT = { has_global_flag = monarch_VIJ_No.18a }
+		}
+		allow = {
+			is_year = 1634
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.18a
+			define_heir = {
+				name = "Venkata"
+				monarch_name = "Venkata III"
+				dynasty = "Aravidu"
+				birth_date = 1614.1.1
+				death_date = 1642.10.1
+				claim = 95
+				ADM = 1
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VIJ_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = VIJ
+			has_ruler = "Venkata III"
+			NOT = { is_year = 1652 }
+			NOT = { has_global_flag = monarch_VIJ_No.19a }
+		}
+		allow = {
+			is_year = 1635
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VIJ_No.19a
+			define_heir = {
+				name = "Ranga"
+				monarch_name = "Ranga III"
+				dynasty = "Aravidu"
+				birth_date = 1622.1.1
+				death_date = 1652.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

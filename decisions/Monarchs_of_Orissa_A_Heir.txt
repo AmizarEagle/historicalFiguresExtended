@@ -1,0 +1,306 @@
+country_decisions = {
+
+	monarch_ORI_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Kapilendra"
+			NOT = { is_year = 1497 }
+			NOT = { has_global_flag = monarch_ORI_No.00a }
+		}
+		allow = {
+			is_year = 1465
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.00a
+			define_heir = {
+				name = "Purushottama"
+				monarch_name = "Purushottama"
+				dynasty = "Gajapati"
+				birth_date = 1420.1.1
+				death_Date = 1497.4.2
+				claim = 95
+				ADM = 3
+				DIP = 2
+				MIL = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Purushottama"
+			NOT = { is_year = 1540 }
+			NOT = { has_global_flag = monarch_ORI_No.01a }
+		}
+		allow = {
+			is_year = 1476
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.01a
+			define_heir = {
+				name = "Prataprudra"
+				monarch_name = "Prataprudra"
+				dynasty = "Gajapati"
+				birth_date = 1470.1.1
+				death_date = 1540.1.1
+				claim = 95
+				ADM = 1
+				DIP = 3
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Prataprudra"
+			NOT = { is_year = 1541 }
+			NOT = { has_global_flag = monarch_ORI_No.02a }
+		}
+		allow = {
+			is_year = 1497
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.02a
+			define_heir = {
+				name = "Kaluadeva"
+				monarch_name = "Kaluadeva"
+				dynasty = "Gajapati"
+				birth_date = 1490.1.1
+				death_date = 1541.1.1
+				claim = 95
+				ADM = 3
+				DIP = 1
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Kaluadeva"
+			NOT = { is_year = 1549 }
+			NOT = { has_global_flag = monarch_ORI_No.03a }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.03a
+			define_heir = {
+				name = "Govindaraja Vidyadhara"
+				monarch_name = "Govindaraja Vidyadhara"
+				dynasty = "Bhoi"
+				birth_date = 1510.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Govindaraja Vidyadhara"
+			NOT = { is_year = 1557 }
+			NOT = { has_global_flag = monarch_ORI_No.04a }
+		}
+		allow = {
+			is_year = 1541
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.04a
+			define_heir = {
+				name = "Chakrapretapa"
+				monarch_name = "Chakrapretapa"
+				dynasty = "Bhoi"
+				birth_date = 1520.1.1
+				death_date = 1557.1.1
+				claim = 95
+				ADM = 0
+				DIP = 1
+				MIL = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Chakrapretapa"
+			NOT = { is_year = 1558 }
+			NOT = { has_global_flag = monarch_ORI_No.05a }
+		}
+		allow = {
+			is_year = 1549
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.05a
+			define_heir = {
+				name = "Narashima Jana"
+				monarch_name = "Narashima Jana"
+				dynasty = "Bhoi"
+				birth_date = 1540.1.1
+				death_date = 1558.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Narashima Jana"
+			NOT = { is_year = 1560 }
+			NOT = { has_global_flag = monarch_ORI_No.06a }
+		}
+		allow = {
+			is_year = 1557
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.06a
+			define_heir = {
+				name = "Raghurama Chhotra"
+				monarch_name = "Raghurama Chhotra"
+				dynasty = "Bhoi"
+				birth_date = 1530.1.1
+				death_date = 1560.1.1
+				claim = 95
+				ADM = 0
+				DIP = 1
+				MIL = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Raghurama Chhotra"
+			NOT = { is_year = 1567 }
+			NOT = { has_global_flag = monarch_ORI_No.07a }
+		}
+		allow = {
+			is_year = 1558
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.07a
+			define_heir = {
+				name = "Mukundadeva Harishandra"
+				monarch_name = "Mukundadeva Harishandra"
+				dynasty = "Chalukya"
+				birth_date = 1530.1.1
+				death_date = 1607.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ORI_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ORI
+			has_ruler = "Mukundadeva Harishandra"
+			NOT = { is_year = 1607 }
+			NOT = { has_global_flag = monarch_ORI_No.08a }
+		}
+		allow = {
+			is_year = 1560
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ORI_No.08a
+			define_heir = {
+				name = "Ramchandra Deva"
+				monarch_name = "Ramchandra Deva I"
+				dynasty = "Chalukya"
+				birth_date = 1540.1.1
+				death_date = 1607.1.1
+				claim = 95
+				ADM = 4
+				DIP = 3
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

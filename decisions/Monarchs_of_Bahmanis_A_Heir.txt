@@ -1,0 +1,447 @@
+country_decisions = {
+
+	monarch_BAH_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Ala ud-Din Ahmad Shah II"
+			NOT = { is_year = 1461 }
+			NOT = { has_global_flag = monarch_BAH_No.00a }
+		}
+		allow = {
+			is_year = 1410
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.00a
+			define_heir = {
+				name = "Ala ud-Din Humayun"
+				monarch_name = "Ala ud-Din Humanyun Shah"
+				dynasty = "Bahmanid"
+				birth_date = 1410.1.1
+				death_Date = 1461.9.4
+				claim = 95
+				ADM = 3
+				DIP = 3
+				MIL = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Ala ud-Din Humanyun Shah"
+			NOT = { is_year = 1463 }
+			NOT = { has_global_flag = monarch_BAH_No.01a }
+		}
+		allow = {
+			is_year = 1458
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.01a
+			define_heir = {
+				name = "Ahmad"
+				monarch_name = "Ahmad Shah III"
+				dynasty = "Bahmanid"
+				birth_date = 1440.1.1
+				death_date = 1463.7.30
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Ahmad Shah III"
+			NOT = { is_year = 1482 }
+			NOT = { has_global_flag = monarch_BAH_No.02a }
+		}
+		allow = {
+			is_year = 1463
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.02a
+			define_heir = {
+				name = "Muhammad"
+				monarch_name = "Muhammad Shah III"
+				dynasty = "Bahmanid"
+				birth_date = 1454.1.1
+				death_date = 1482.3.26
+				claim = 95
+				ADM = 4
+				DIP = 4
+				MIL = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Muhammad Shah III"
+			NOT = { is_year = 1518 }
+			NOT = { has_global_flag = monarch_BAH_No.03a }
+		}
+		allow = {
+			is_year = 1450
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.03a
+			define_heir = {
+				name = "Mahmud"
+				monarch_name = "Mahmud Shah IV"
+				dynasty = "Bahmanid"
+				birth_date = 1450.1.1
+				death_date = 1518.12.18
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Mahmud Shah IV"
+			NOT = { is_year = 1504 }
+			NOT = { has_global_flag = monarch_BAH_No.04a }
+		}
+		allow = {
+			is_year = 1465
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.04a
+			define_heir = {
+				name = "Qasim"
+				monarch_name = "Qasim I"
+				dynasty = "Barid Shahi"
+				birth_date = 1440.1.1
+				death_date = 1554.3.3
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Qasim I"
+			NOT = { is_year = 1542 }
+			NOT = { has_global_flag = monarch_BAH_No.05a }
+		}
+		allow = {
+			is_year = 1489
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.05a
+			define_heir = {
+				name = "Amir"
+				monarch_name = "Amir I"
+				dynasty = "Barid Shahi"
+				birth_date = 1489.1.1
+				death_date = 1542.1.1
+				claim = 95
+				DIP = 2
+				ADM = 4
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Amir I"
+			NOT = { is_year = 1580 }
+			NOT = { has_global_flag = monarch_BAH_No.06a }
+		}
+		allow = {
+			is_year = 1504
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.06a
+			define_heir = {
+				name = "Ali"
+				monarch_name = "Ali I"
+				dynasty = "Barid Shahi"
+				birth_date = 1504.1.1
+				death_date = 1580.1.1
+				claim = 95
+				DIP = 1
+				ADM = 1
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Ali I"
+			NOT = { is_year = 1587 }
+			NOT = { has_global_flag = monarch_BAH_No.07a }
+		}
+		allow = {
+			is_year = 1542
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.07a
+			define_heir = {
+				name = "Ibrahim"
+				monarch_name = "Ibrahim I"
+				dynasty = "Barid Shahi"
+				birth_date = 1542.1.1
+				death_date = 1587.1.1
+				claim = 95
+				DIP = 0
+				ADM = 0
+				MIL = 2
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Ibrahim I"
+			NOT = { is_year = 1591 }
+			NOT = { has_global_flag = monarch_BAH_No.08a }
+		}
+		allow = {
+			is_year = 1548
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.08a
+			define_heir = {
+				name = "Qasim"
+				monarch_name = "Qasim II"
+				dynasty = "Barid Shahi"
+				birth_date = 1548.1.1
+				death_date = 1591.1.1
+				claim = 95
+				DIP = 0
+				ADM = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Qasim II"
+			NOT = { is_year = 1591 }
+			NOT = { has_global_flag = monarch_BAH_No.09a }
+		}
+		allow = {
+			is_year = 1587
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.09a
+			define_heir = {
+				name = "Ali"
+				monarch_name = "Ali II"
+				dynasty = "Barid Shahi"
+				birth_date = 1587.1.1
+				death_date = 1591.8.1
+				claim = 95
+				DIP = 2
+				ADM = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Ali II"
+			NOT = { is_year = 1601 }
+			NOT = { has_global_flag = monarch_BAH_No.10a }
+		}
+		allow = {
+			is_year = 1560
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.10a
+			define_heir = {
+				name = "Amir"
+				monarch_name = "Amir II"
+				dynasty = "Barid Shahi"
+				birth_date = 1560.1.1
+				death_date = 1601.1.1
+				claim = 55
+				DIP = 0
+				ADM = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Amir II"
+			NOT = { is_year = 1609 }
+			NOT = { has_global_flag = monarch_BAH_No.11a }
+		}
+		allow = {
+			is_year = 1570
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.11a
+			define_heir = {
+				name = "Mirza Ali"
+				monarch_name = "Mirza Ali"
+				dynasty = "Barid Shahi"
+				birth_date = 1570.1.1
+				death_date = 1609.1.1
+				claim = 55
+				DIP = 2
+				ADM = 1
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAH_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = BAH
+			has_ruler = "Mirza Ali"
+			NOT = { is_year = 1619 }
+			NOT = { has_global_flag = monarch_BAH_No.12a }
+		}
+		allow = {
+			is_year = 1580
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAH_No.12a
+			define_heir = {
+				name = "Amir"
+				monarch_name = "Amir III"
+				dynasty = "Barid Shahi"
+				birth_date = 1580.1.1
+				death_date = 1619.1.1
+				claim = 95
+				DIP = 1
+				ADM = 2
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

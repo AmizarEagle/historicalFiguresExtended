@@ -1,0 +1,531 @@
+country_decisions = {
+
+	monarch_SAX_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Friedrich II"
+			NOT = { is_year = 1500 }
+			NOT = { has_global_flag = monarch_SAX_No.00a }
+		}
+		allow = {
+			is_year = 1443
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.00a
+			define_heir = {
+				name = "Albrecht"
+				monarch_name = "Albrecht I der Beherzte"
+				dynasty = "von Wettin"
+				birth_date = 1443.7.31
+				death_date = 1500.9.12
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Albrecht I der Beherzte"
+			NOT = { is_year = 1539 }
+			NOT = { has_global_flag = monarch_SAX_No.01a }
+		}
+		allow = {
+			is_year = 1471
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.01a
+			define_heir = {
+				name = "Georg"
+				monarch_name = "Georg der Bartige"
+				dynasty = "von Wettin"
+				birth_date = 1471.8.27
+				death_date = 1539.4.17
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Georg der Bartige"
+			NOT = { is_year = 1541 }
+			NOT = { has_global_flag = monarch_SAX_No.02a }
+		}
+		allow = {
+			is_year = 1500
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.02a
+			define_heir = {
+				name = "Heinrich"
+				monarch_name = "Heinrich der Fromme"
+				dynasty = "von Wettin"
+				birth_date = 1473.3.16
+				death_date = 1541.8.18
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Heinrich der Fromme"
+			NOT = { is_year = 1553 }
+			NOT = { has_global_flag = monarch_SAX_No.03a }
+		}
+		allow = {
+			is_year = 1539
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.03a
+			define_heir = {
+				name = "Moritz"
+				monarch_name = "Moritz I"
+				dynasty = "von Wettin"
+				birth_date = 1521.3.21
+				death_date = 1553.7.11
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Moritz I"
+			NOT = { is_year = 1586 }
+			NOT = { has_global_flag = monarch_SAX_No.04a }
+		}
+		allow = {
+			is_year = 1541
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.04a
+			define_heir = {
+				name = "August"
+				monarch_name = "August"
+				dynasty = "von Wettin"
+				birth_date = 1526.7.31
+				death_date = 1586.2.11
+				claim = 95
+				dip = 3
+				adm = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "August"
+			NOT = { is_year = 1591 }
+			NOT = { has_global_flag = monarch_SAX_No.05a }
+		}
+		allow = {
+			is_year = 1560
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.05a
+			define_heir = {
+				name = "Christian"
+				monarch_name = "Christian I"
+				dynasty = "von Wettin"
+				birth_date = 1560.10.29
+				death_date = 1591.9.25
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Christian I"
+			NOT = { is_year = 1611 }
+			NOT = { has_global_flag = monarch_SAX_No.06a }
+		}
+		allow = {
+			is_year = 1586
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.06a
+			define_heir = {
+				name = "Christian"
+				monarch_name = "Christian II"
+				dynasty = "von Wettin"
+				birth_date = 1583.9.23
+				death_date = 1611.6.23
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Christian II"
+			NOT = { is_year = 1656 }
+			NOT = { has_global_flag = monarch_SAX_No.07a }
+		}
+		allow = {
+			is_year = 1591
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.07a
+			define_heir = {
+				name = "Johann Georg"
+				monarch_name = "Johann Georg I"
+				dynasty = "von Wettin"
+				birth_date = 1585.3.5
+				death_date = 1656.10.8
+				claim = 95
+				adm = 3
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Johann Georg I"
+			NOT = { is_year = 1680 }
+			NOT = { has_global_flag = monarch_SAX_No.08a }
+		}
+		allow = {
+			is_year = 1613
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.08a
+			define_heir = {
+				name = "Johann Georg"
+				monarch_name = "Johann Georg II"
+				dynasty = "von Wettin"
+				birth_date = 1613.6.10
+				death_date = 1680.8.22
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Johann Georg II"
+			NOT = { is_year = 1691 }
+			NOT = { has_global_flag = monarch_SAX_No.09a }
+		}
+		allow = {
+			is_year = 1656
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.09a
+			define_heir = {
+				name = "Johann Georg"
+				monarch_name = "Johann Georg III"
+				dynasty = "von Wettin"
+				birth_date = 1647.6.20
+				death_date = 1691.9.12
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Johann Georg III"
+			NOT = { is_year = 1694 }
+			NOT = { has_global_flag = monarch_SAX_No.10a }
+		}
+		allow = {
+			is_year = 1680
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.10a
+			define_heir = {
+				name = "Johann Georg"
+				monarch_name = "Johann Georg IV"
+				dynasty = "von Wettin"
+				birth_date = 1668.10.18
+				death_date = 1694.4.27
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Johann Georg IV"
+			NOT = { is_year = 1733 }
+			NOT = { has_global_flag = monarch_SAX_No.11a }
+		}
+		allow = {
+			is_year = 1691
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.11a
+			define_heir = {
+				name = "Friedrich August"
+				monarch_name = "Friedrich August I"
+				dynasty = "von Wettin"
+				birth_date = 1670.5.12
+				death_date = 1733.2.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Friedrich August I"
+			NOT = { is_year = 1763 }
+			NOT = { has_global_flag = monarch_SAX_No.12a }
+		}
+		allow = {
+			is_year = 1696
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.12a
+			define_heir = {
+				name = "Friedrich August"
+				monarch_name = "Friedrich August II"
+				dynasty = "von Wettin"
+				birth_date = 1696.10.17
+				death_date = 1763.10.5
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Friedrich August II"
+			NOT = { is_year = 1763 }
+			NOT = { has_global_flag = monarch_SAX_No.13a }
+		}
+		allow = {
+			is_year = 1733
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.13a
+			define_heir = {
+				name = "Friedrich Christian"
+				monarch_name = "Friedrich Christian"
+				dynasty = "von Wettin"
+				birth_date = 1722.9.5
+				death_date = 1763.12.17
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Friedrich Christian"
+			NOT = { is_year = 1827 }
+			NOT = { has_global_flag = monarch_SAX_No.14a }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.14a
+			define_heir = {
+				name = "Friedrich August"
+				monarch_name = "Friedrich August III"
+				dynasty = "von Wettin"
+				birth_date = 1750.12.23
+				death_date = 1827.5.5
+				claim = 95
+				adm = 5
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAX_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SAX
+			has_ruler = "Friedrich August III"
+			NOT = { is_year = 1836 }
+			NOT = { has_global_flag = monarch_SAX_No.15a }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAX_No.15a
+			define_heir = {
+				name = "Anton"
+				monarch_name = "Anton"
+				dynasty = "von Wettin"
+				birth_date = 1755.12.27
+				death_date = 1836.6.6
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

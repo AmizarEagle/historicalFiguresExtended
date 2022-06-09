@@ -1,0 +1,424 @@
+country_decisions = {
+
+	monarch_SAK_No.00a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Jamal"
+			NOT = { has_global_flag = monarch_SAK_No.00a }
+		}
+		allow = {
+			is_year = 1458
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Mudari"
+				dynasty = "Siak"
+				adm = 2
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.01a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Mudari"
+			NOT = { has_global_flag = monarch_SAK_No.01a }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Mara"
+				dynasty = "Siak"
+				adm = 2
+				dip = 1
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.02a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Mara"
+			NOT = { has_global_flag = monarch_SAK_No.02a }
+		}
+		allow = {
+			is_year = 1520
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Aladdin"
+				dynasty = "Siak"
+				adm = 3
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.03a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Aladdin"
+			NOT = { has_global_flag = monarch_SAK_No.03a }
+		}
+		allow = {
+			is_year = 1550
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Sulaiman Muhammad"
+				dynasty = "Siak"
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.04a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Sulaiman Muhammad"
+			NOT = { has_global_flag = monarch_SAK_No.04a }
+		}
+		allow = {
+			is_year = 1570
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Hassan"
+				dynasty = "Melaka"
+				adm = 3
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.05a = {
+		major = yes
+		potential = {
+			tag = SAK
+			NOT = { has_global_flag = monarch_SAK_No.05a }
+		}
+		allow = {
+			is_year = 1725
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.05a
+			define_ruler = {
+				name = "Abdul Jalil Rahmad Syah" #Reestablished
+				dynasty = "Siak"
+				adm = 4
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.06a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Abdul Jalil Rahmad Syah"
+			NOT = { has_global_flag = monarch_SAK_No.06a }
+		}
+		allow = {
+			is_year = 1746
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul Jalil Rahmad Syah II"
+				monarch_name = "Abdul Jalil Rahmad Syah II"
+				dynasty = "Siak"
+				birth_date = 1700.1.1
+				death_Date = 1765.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.07a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Abdul Jalil Rahmad Syah II"
+			NOT = { has_global_flag = monarch_SAK_No.07a }
+		}
+		allow = {
+			is_year = 1765
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul Jalil Jalaluddin Syah"
+				monarch_name = "Abdul Jalil Jalaluddin Syah"
+				dynasty = "Siak"
+				birth_date = 1730.1.1
+				death_Date = 1766.1.1
+				claim = 95
+				adm = 3
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.08a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Abdul Jalil Jalaluddin Syah"
+			NOT = { has_global_flag = monarch_SAK_No.08a }
+		}
+		allow = {
+			is_year = 1766
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul Jalil Alamuddin Syah"
+				monarch_name = "Abdul Jalil Alamuddin Syah"
+				dynasty = "Siak"
+				birth_date = 1735.1.1
+				death_Date = 1780.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.09a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Abdul Jalil Alamuddin Syah"
+			NOT = { has_global_flag = monarch_SAK_No.09a }
+		}
+		allow = {
+			is_year = 1780
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Ali Abdul Jalil Muazzam Syah"
+				monarch_name = "Muhammad Ali Abdul Jalil Muazzam Syah"
+				dynasty = "Siak"
+				birth_date = 1760.1.1
+				death_Date = 1782.1.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.10a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Muhammad Ali Abdul Jalil Muazzam Syah"
+			NOT = { has_global_flag = monarch_SAK_No.10a }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Yahya Abdul Jalil Muzaffar Syah"
+				monarch_name = "Yahya Abdul Jalil Muzaffar Syah"
+				dynasty = "Siak"
+				birth_date = 1765.1.1
+				death_Date = 1783.1.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.11a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Yahya Abdul Jalil Muzaffar Syah"
+			NOT = { has_global_flag = monarch_SAK_No.11a }
+		}
+		allow = {
+			is_year = 1784
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Assaidis Asyarif Ali Abdul Jalil Syaifuddin Baalawi"
+				monarch_name = "Assaidis Asyarif Ali Abdul Jalil Syaifuddin Baalawi"
+				dynasty = "Siak"
+				birth_date = 1758.1.1
+				death_Date = 1810.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.12a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Assaidis Asyarif Ali Abdul Jalil Syaifuddin Baalawi"
+			NOT = { has_global_flag = monarch_SAK_No.12a }
+		}
+		allow = {
+			is_year = 1810
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Asyaidis Syarif Ibrahim Abdul Jalil Khaliluddin"
+				monarch_name = "Asyaidis Syarif Ibrahim Abdul Jalil Khaliluddin"
+				dynasty = "Siak"
+				birth_date = 1780.1.1
+				death_Date = 1815.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SAK_No.13a = {
+		major = yes
+		potential = {
+			tag = SAK
+			has_ruler = "Asyaidis Syarif Ibrahim Abdul Jalil Khaliluddin"
+			NOT = { has_global_flag = monarch_SAK_No.13a }
+		}
+		allow = {
+			is_year = 1815
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAK_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Assyaidis Syarif Ismail Abdul Jalil Jalaluddin"
+				monarch_name = "Assyaidis Syarif Ismail Abdul Jalil Jalaluddin"
+				dynasty = "Siak"
+				birth_date = 1790.1.1
+				death_Date = 1854.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

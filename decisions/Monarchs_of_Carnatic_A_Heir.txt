@@ -1,0 +1,344 @@
+country_decisions = {
+
+	monarch_KRK_No.00a = {
+		major = yes
+		potential = {
+			tag = KRK
+			NOT = { has_global_flag = monarch_KRK_No.00a }
+		}
+		allow = {
+			is_year = 1710
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KRK_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Sa'adat I"
+				dynasty = "Saadatullahid"
+				ADM = 4
+				DIP = 4
+				MIL = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KRK_No.01a = {
+		major = yes
+		potential = {
+			tag = KRK
+			has_ruler = "Muhammad Sa'adat I"
+			NOT = { has_global_flag = monarch_KRK_No.01a }
+		}
+		allow = {
+			is_year = 1732
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KRK_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Dust 'Ali Khan"
+				monarch_name = "Dust 'Ali Khan"
+				dynasty = "Saadatullahid"
+				birth_date = 1700.1.1
+				death_date = 1740.1.1
+				claim = 95
+				ADM = 3
+				DIP = 4
+				MIL = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KRK_No.02a = {
+		major = yes
+		potential = {
+			tag = KRK
+			has_ruler = "Dust 'Ali Khan"
+			NOT = { has_global_flag = monarch_KRK_No.02a }
+		}
+		allow = {
+			is_year = 1740
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KRK_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Safdar 'Ali Khan"
+				monarch_name = "Safdar 'Ali Khan"
+				dynasty = "Saadatullahid"
+				birth_date = 1720.1.1
+				death_date = 1742.10.2
+				claim = 95
+				ADM = 2
+				DIP = 0
+				MIL = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KRK_No.03a = {
+		major = yes
+		potential = {
+			tag = KRK
+			has_ruler = "Safdar 'Ali Khan"
+			NOT = { has_global_flag = monarch_KRK_No.03a }
+		}
+		allow = {
+			is_year = 1742
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KRK_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Sa'adat II"
+				monarch_name = "Muhammad Sa'adat II"
+				dynasty = "Saadatullahid"
+				birth_date = 1720.1.1
+				death_date = 1744.7.4
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KRK_No.04a = {
+		major = yes
+		potential = {
+			tag = KRK
+			has_ruler = "Muhammad Sa'adat II"
+			NOT = { has_global_flag = monarch_KRK_No.04a }
+		}
+		allow = {
+			is_year = 1744
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KRK_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Anwar ad-Din Muhammad"
+				dynasty = "Anwarudid"
+				ADM = 4
+				DIP = 1
+				MIL = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KRK_No.05a = {
+		major = yes
+		potential = {
+			tag = KRK
+			has_ruler = "Anwar ad-Din Muhammad"
+			NOT = { has_global_flag = monarch_KRK_No.05a }
+		}
+		allow = {
+			is_year = 1749
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KRK_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Wala Jah Muhammad 'Ali"
+				monarch_name = "Wala Jah Muhammad 'Ali"
+				dynasty = "Anwarudid"
+				birth_date = 1720.1.1
+				death_date = 1795.1.1
+				claim = 50
+				ADM = 2
+				DIP = 0
+				MIL = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KRK_No.06a = {
+		major = yes
+		potential = {
+			tag = KRK
+			has_ruler = "Wala Jah Muhammad 'Ali"
+			NOT = { has_global_flag = monarch_KRK_No.06a }
+		}
+		allow = {
+			is_year = 1749
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KRK_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Chanda Sahib"
+				dynasty = "Anwarudid"
+				ADM = 1
+				DIP = 4
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KRK_No.07a = {
+		major = yes
+		potential = {
+			tag = KRK
+			has_ruler = "Chanda Sahib"
+			NOT = { has_global_flag = monarch_KRK_No.07a }
+		}
+		allow = {
+			is_year = 1754
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KRK_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Wala Jah Muhammad 'Ali"
+				birth_date = 1720.1.1
+				dynasty = "Anwarudid"
+				ADM = 2
+				DIP = 0
+				MIL = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KRK_No.08a = {
+		major = yes
+		potential = {
+			tag = KRK
+			has_ruler = "Wala Jah Muhammad 'Ali"
+			NOT = { has_global_flag = monarch_KRK_No.08a }
+		}
+		allow = {
+			is_year = 1795
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KRK_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Umdat Ul-Umra"
+				monarch_name = "Umdat Ul-Umra"
+				dynasty = "Anwarudid"
+				birth_date = 1760.1.1
+				death_date = 1801.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KRK_No.09a = {
+		major = yes
+		potential = {
+			tag = KRK
+			has_ruler = "Umdat Ul-Umra"
+			NOT = { has_global_flag = monarch_KRK_No.09a }
+		}
+		allow = {
+			is_year = 1801
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KRK_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Azimuddaula"
+				monarch_name = "Azimuddaula"
+				dynasty = "Anwarudid"
+				birth_date = 1780.1.1
+				death_date = 1819.1.1
+				claim = 95
+				ADM = 1
+				DIP = 1
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KRK_No.10a = {
+		major = yes
+		potential = {
+			tag = KRK
+			has_ruler = "Azimuddaula"
+			NOT = { has_global_flag = monarch_KRK_No.10a }
+		}
+		allow = {
+			is_year = 1819
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KRK_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Azam Jah"
+				monarch_name = "Azam Jah"
+				dynasty = "Anwarudid"
+				birth_date = 1801.1.1
+				death_date = 1825.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

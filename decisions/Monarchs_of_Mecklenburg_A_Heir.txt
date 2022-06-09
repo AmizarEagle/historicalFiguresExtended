@@ -1,0 +1,400 @@
+country_decisions = {
+
+	monarch_MKL_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Heinrich IV"
+			NOT = { is_year = 1503 }
+			NOT = { has_global_flag = monarch_MKL_No.00a }
+		}
+		allow = {
+			is_year = 1441
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.00a
+			define_heir = {
+				name = "Magnus"
+				monarch_name = "Magnus II"
+				dynasty = "von Mecklenburg"
+				claim = 95
+				birth_date = 1441.1.1
+				death_date = 1503.11.20
+				adm = 4
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MKL_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Magnus II"
+			NOT = { is_year = 1552 }
+			NOT = { has_global_flag = monarch_MKL_No.01a }
+		}
+		allow = {
+			is_year = 1479
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.01a
+			define_heir = {
+				name = "Heinrich"
+				monarch_name = "Heinrich V"
+				dynasty = "von Mecklenburg"
+				birth_date = 1479.5.3
+				death_date = 1552.2.6
+				claim = 95
+				adm = 2
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MKL_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Heinrich V"
+			NOT = { is_year = 1576 }
+			NOT = { has_global_flag = monarch_MKL_No.02a }
+		}
+		allow = {
+			is_year = 1525
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.02a
+			define_heir = {
+				name = "Johann Albrecht"
+				monarch_name = "Johann Albrecht I"
+				dynasty = "von Mecklenburg"
+				birth_date = 1525.12.23
+				death_date = 1576.2.12
+				claim = 95
+				adm = 0
+				dip = 2
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MKL_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Johann Albrecht I"
+			NOT = { is_year = 1592 }
+			NOT = { has_global_flag = monarch_MKL_No.03a }
+		}
+		allow = {
+			is_year = 1558
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.03a
+			define_heir = {
+				name = "Johann"
+				monarch_name = "Johann VII"
+				dynasty = "von Mecklenburg"
+				birth_date = 1558.3.7
+				death_date = 1592.3.22
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MKL_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Johann VII"
+			NOT = { is_year = 1658 }
+			NOT = { has_global_flag = monarch_MKL_No.04a }
+		}
+		allow = {
+			is_year = 1588
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.04a
+			define_heir = {
+				name = "Adolf Friedrich"
+				monarch_name = "Adolf Friedrich I"
+				dynasty = "von Mecklenburg"
+				birth_date = 1588.12.15
+				death_date = 1658.2.27
+				claim = 95
+				adm = 3
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MKL_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Adolf Friedrich I"
+			NOT = { is_year = 1692 }
+			NOT = { has_global_flag = monarch_MKL_No.05a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.05a
+			define_heir = {
+				name = "Christian Ludwig"
+				monarch_name = "Christian Ludwig I"
+				dynasty = "von Mecklenburg"
+				birth_date = 1623.12.1
+				death_date = 1692.6.21
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MKL_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Christian Ludwig I"
+			NOT = { is_year = 1713 }
+			NOT = { has_global_flag = monarch_MKL_No.06a }
+		}
+		allow = {
+			is_year = 1675
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.06a
+			define_heir = {
+				name = "Friedrich Wilhelm"
+				monarch_name = "Friedrich Wilhelm I"
+				dynasty = "von Mecklenburg"
+				birth_date = 1675.3.28
+				death_date = 1713.7.31
+				claim = 95
+				adm = 1
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MKL_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Friedrich Wilhelm I"
+			NOT = { is_year = 1747 }
+			NOT = { has_global_flag = monarch_MKL_No.07a }
+		}
+		allow = {
+			is_year = 1692
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.07a
+			define_heir = {
+				name = "Karl Leopold"
+				monarch_name = "Karl Leopold"
+				dynasty = "von Mecklenburg"
+				birth_date = 1678.11.26
+				death_date = 1747.11.28
+				claim = 95
+				adm = 0
+				dip = 2
+				mil = 2
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MKL_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Karl Leopold"
+			NOT = { is_year = 1756 }
+			NOT = { has_global_flag = monarch_MKL_No.08a }
+		}
+		allow = {
+			is_year = 1713
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.08a
+			define_heir = {
+				name = "Christian Ludwig"
+				monarch_name = "Christian Ludwig II"
+				dynasty = "von Mecklenburg"
+				birth_date = 1683.11.15
+				death_date = 1756.5.30
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MKL_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Christian Ludwig II"
+			NOT = { is_year = 1785 }
+			NOT = { has_global_flag = monarch_MKL_No.09a }
+		}
+		allow = {
+			is_year = 1728
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.09a
+			define_heir = {
+				name = "Friedrich"
+				monarch_name = "Friedrich der Fromme"
+				dynasty = "von Mecklenburg"
+				birth_date = 1717.11.9
+				death_date = 1785.4.24
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MKL_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Friedrich der Fromme"
+			NOT = { is_year = 1837 }
+			NOT = { has_global_flag = monarch_MKL_No.10a }
+		}
+		allow = {
+			is_year = 1756
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.10a
+			define_heir = {
+				name = "Friedrich Franz"
+				monarch_name = "Friedrich Franz I"
+				dynasty = "von Mecklenburg"
+				birth_date = 1756.12.10
+				death_date = 1837.2.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MKL_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MKL
+			has_ruler = "Friedrich Franz I"
+			NOT = { is_year = 1842 }
+			NOT = { has_global_flag = monarch_MKL_No.11a }
+		}
+		allow = {
+			is_year = 1800
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MKL_No.11a
+			define_heir = {
+				name = "Paul Friedrich"
+				monarch_name = "Paul Friedrich"
+				dynasty = "von Mecklenburg"
+				birth_date = 1800.9.15
+				death_date = 1842.3.7
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,612 @@
+country_decisions = {
+
+	monarch_MUG_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Babur I"
+			NOT = { is_year = 1556 }
+			NOT = { has_global_flag = monarch_MUG_No.00a }
+		}
+		allow = {
+			is_year = 1508
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.00a
+			define_heir = {
+				name = "Muhammad"
+				monarch_name = "Humayun I"
+				dynasty = "Timurid"
+				birth_date = 1508.3.6
+				death_date = 1556.1.1
+				claim = 95
+				adm = 5
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Humayun I"
+			NOT = { is_year = 1605 }
+			NOT = { has_global_flag = monarch_MUG_No.01a }
+		}
+		allow = {
+			is_year = 1542
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.01a
+			define_heir = {
+				name = "Jalal-ud-din"
+				monarch_name = "Akbar I"
+				dynasty = "Timurid"
+				birth_date = 1542.11.14
+				death_date = 1605.10.27
+				claim = 95
+				adm = 6
+				dip = 6
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Akbar I"
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_MUG_No.02a }
+		}
+		allow = {
+			is_year = 1569
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.02a
+			define_heir = {
+				name = "Salim"
+				monarch_name = "Jahangir I"
+				dynasty = "Timurid"
+				birth_date = 1569.10.1
+				death_date = 1605.10.26
+				claim = 95
+				adm = 3
+				dip = 5
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Jahangir I"
+			NOT = { is_year = 1666 }
+			NOT = { has_global_flag = monarch_MUG_No.03a }
+		}
+		allow = {
+			is_year = 1486
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.03a
+			define_heir = {
+				name = "Khurram"
+				monarch_name = "Shah Jehan I"
+				dynasty = "Timurid"
+				birth_date = 1592.1.5
+				death_date = 1666.1.22
+				claim = 95
+				adm = 5
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Shah Jehan I"
+			NOT = { is_year = 1659 }
+			NOT = { has_global_flag = monarch_MUG_No.04a }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.04a
+			define_heir = {
+				name = "Aurangzib Alamgir"
+				monarch_name = "Aurangzib Alamgir I"
+				dynasty = "Timurid"
+				birth_date = 1618.11.3
+				death_date = 1707.3.3
+				claim = 50
+				adm = 4
+				dip = 6
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Aurangzib Alamgir I"
+			NOT = { is_year = 1712 }
+			NOT = { has_global_flag = monarch_MUG_No.05a }
+		}
+		allow = {
+			is_year = 1658
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.05a
+			define_heir = {
+				name = "Mu'azzam"
+				monarch_name = "Bahadur Shah I"
+				dynasty = "Timurid"
+				birth_date = 1643.10.14
+				death_date = 1712.2.27
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Bahadur Shah I"
+			NOT = { is_year = 1713 }
+			NOT = { has_global_flag = monarch_MUG_No.06a }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.06a
+			define_heir = {
+				name = "Jahandar"
+				monarch_name = "Jahandar Shah I"
+				dynasty = "Timurid"
+				birth_date = 1661.5.10
+				death_date = 1713.2.11
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Jahandar Shah I"
+			NOT = { is_year = 1719 }
+			NOT = { has_global_flag = monarch_MUG_No.07a }
+		}
+		allow = {
+			is_year = 1712
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.07a
+			define_heir = {
+				name = "Farrukh Siyar"
+				monarch_name = "Farrukh Siyar I"
+				dynasty = "Timurid"
+				birth_date = 1685.9.11
+				death_date = 1719.4.19
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Farrukh Siyar I"
+			NOT = { is_year = 1723 }
+			NOT = { has_global_flag = monarch_MUG_No.08a }
+		}
+		allow = {
+			is_year = 1713
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.08a
+			define_heir = {
+				name = "Rafi-ul Darjat"
+				monarch_name = "Rafi-ul Darjat I"
+				dynasty = "Timurid"
+				birth_date = 1699.11.30
+				death_date = 1723.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Rafi-ul Darjat I"
+			NOT = { is_year = 1720 }
+			NOT = { has_global_flag = monarch_MUG_No.09a }
+		}
+		allow = {
+			is_year = 1719
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.09a
+			define_heir = {
+				name = "Rafi ud-Daulah"
+				monarch_name = "Rafi ud-Daulah I"
+				dynasty = "Timurid"
+				birth_date = 1680.1.1
+				death_date = 1719.5.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Rafi ud-Daulah I"
+			NOT = { is_year = 1744 }
+			NOT = { has_global_flag = monarch_MUG_No.10a }
+		}
+		allow = {
+			is_year = 1720
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.10a
+			define_heir = {
+				name = "Muhammad Ibrahim"
+				monarch_name = "Muhammad Ibrahim I"
+				dynasty = "Timurid"
+				birth_date = 1710.1.1
+				death_date = 1744.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Muhammad Ibrahim I"
+			NOT = { is_year = 1748 }
+			NOT = { has_global_flag = monarch_MUG_No.11a }
+		}
+		allow = {
+			is_year = 1720
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.11a
+			define_heir = {
+				name = "Muhammad"
+				monarch_name = "Muhammad Shah I"
+				dynasty = "Timurid"
+				birth_date = 1702.1.1
+				death_date = 1748.4.26
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Muhammad Shah I"
+			NOT = { is_year = 1754 }
+			NOT = { has_global_flag = monarch_MUG_No.12a }
+		}
+		allow = {
+			is_year = 1725
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.12a
+			define_heir = {
+				name = "Ahmad"
+				monarch_name = "Ahmad Shah I"
+				dynasty = "Timurid"
+				birth_date = 1725.1.1
+				death_date = 1754.6.3
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Ahmad Shah I"
+			NOT = { is_year = 1759 }
+			NOT = { has_global_flag = monarch_MUG_No.13a }
+		}
+		allow = {
+			is_year = 1748
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.13a
+			define_heir = {
+				name = "'Alamgir"
+				monarch_name = "'Alamgir II"
+				dynasty = "Timurid"
+				birth_date = 1699.1.1
+				death_date = 1759.12.11
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "'Alamgir II"
+			NOT = { is_year = 1770 }
+			NOT = { has_global_flag = monarch_MUG_No.14a }
+		}
+		allow = {
+			is_year = 1754
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.14a
+			define_heir = {
+				name = "Jahan"
+				monarch_name = "Shah Jahan III"
+				dynasty = "Timurid"
+				birth_date = 1750.1.1
+				death_date = 1770.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Shah Jahan III"
+			NOT = { is_year = 1806 }
+			NOT = { has_global_flag = monarch_MUG_No.15a }
+		}
+		allow = {
+			is_year = 1759
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.15a
+			define_heir = {
+				name = "'Alam"
+				monarch_name = "Shah 'Alam II"
+				dynasty = "Timurid"
+				birth_date = 1728.1.1
+				death_date = 1806.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Shah 'Alam II"
+			NOT = { is_year = 1837 }
+			NOT = { has_global_flag = monarch_MUG_No.16a }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.16a
+			define_heir = {
+				name = "Akbar"
+				monarch_name = "Akbar II"
+				dynasty = "Timurid"
+				birth_date = 1760.4.22
+				death_date = 1837.9.28
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUG_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUG
+			has_ruler = "Akbar II"
+			NOT = { is_year = 1862 }
+			NOT = { has_global_flag = monarch_MUG_No.17a }
+		}
+		allow = {
+			is_year = 1806
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUG_No.17a
+			define_heir = {
+				name = "Abu Zafar"
+				monarch_name = "Bahadur Shah II"
+				dynasty = "Timurid"
+				birth_date = 1775.10.1
+				death_date = 1862.11.7
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

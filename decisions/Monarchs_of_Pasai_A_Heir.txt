@@ -1,0 +1,130 @@
+country_decisions = {
+
+	monarch_PSA_No.00a = {
+		major = yes
+		potential = {
+			tag = PSA
+			has_ruler = "Abu Zaid Malik az-Zahir"
+			NOT = { has_global_flag = monarch_PSA_No.00a }
+		}
+		allow = {
+			is_year = 1455
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PSA_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmud Malik az-Zahir II"
+				monarch_name = "Mahmud Malik az-Zahir II"
+				dynasty = "Pasai"
+				birth_date = 1410.1.1
+				death_date = 1477.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PSA_No.01a = {
+		major = yes
+		potential = {
+			tag = PSA
+			has_ruler = "Mahmud Malik az-Zahir II"
+			NOT = { has_global_flag = monarch_PSA_No.01a }
+		}
+		allow = {
+			is_year = 1477
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PSA_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Zain al-Abidin II"
+				monarch_name = "Zain al-Abidin II"
+				dynasty = "Pasai"
+				birth_date = 1430.1.1
+				death_date = 1500.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PSA_No.02a = {
+		major = yes
+		potential = {
+			tag = PSA
+			has_ruler = "Zain al-Abidin II"
+			NOT = { has_global_flag = monarch_PSA_No.02a }
+		}
+		allow = {
+			is_year = 1500
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PSA_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Abd-Allah Malik az-Zahir"
+				monarch_name = "Abd-Allah Malik az-Zahir"
+				dynasty = "Pasai"
+				birth_date = 1450.1.1
+				death_date = 1513.1.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PSA_No.03a = {
+		major = yes
+		potential = {
+			tag = PSA
+			has_ruler = "Abd-Allah Malik az-Zahir"
+			NOT = { has_global_flag = monarch_PSA_No.03a }
+		}
+		allow = {
+			is_year = 1513
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PSA_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Zain al-Abidin III"
+				monarch_name = "Zain al-Abidin III"
+				dynasty = "Pasai"
+				birth_date = 1480.1.1
+				death_date = 1521.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

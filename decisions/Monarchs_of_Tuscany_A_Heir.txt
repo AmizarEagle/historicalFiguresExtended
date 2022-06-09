@@ -1,0 +1,328 @@
+country_decisions = {
+
+	monarch_TUS_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Cosimo I"
+			NOT = { is_year = 1587 }
+			NOT = { has_global_flag = monarch_TUS_No.00a }
+		}
+		allow = {
+			is_year = 1541
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.00a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco I"
+				dynasty = "de' Medici"
+				birth_date = 1541.3.25
+				death_date = 1587.10.17
+				claim = 95
+				adm = 2
+				dip = 4
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Francesco I"
+			NOT = { is_year = 1609 }
+			NOT = { has_global_flag = monarch_TUS_No.01a }
+		}
+		allow = {
+			is_year = 1574
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.01a
+			define_heir = {
+				name = "Ferdinando"
+				monarch_name = "Ferdinando I"
+				dynasty = "de' Medici"
+				birth_date = 1549.7.30
+				death_date = 1609.2.17
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Ferdinando I"
+			NOT = { is_year = 1621 }
+			NOT = { has_global_flag = monarch_TUS_No.02a }
+		}
+		allow = {
+			is_year = 1590
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.02a
+			define_heir = {
+				name = "Cosimo"
+				monarch_name = "Cosimo II"
+				dynasty = "de' Medici"
+				birth_date = 1590.5.12
+				death_date = 1621.2.28
+				claim = 95
+				adm = 0
+				dip = 4
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Cosimo II"
+			NOT = { is_year = 1670 }
+			NOT = { has_global_flag = monarch_TUS_No.03a }
+		}
+		allow = {
+			is_year = 1610
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.03a
+			define_heir = {
+				name = "Ferdinando"
+				monarch_name = "Ferdinando II"
+				dynasty = "de' Medici"
+				birth_date = 1610.7.14
+				death_date = 1670.5.23
+				claim = 95
+				adm = 0
+				dip = 5
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Ferdinando II"
+			NOT = { is_year = 1723 }
+			NOT = { has_global_flag = monarch_TUS_No.04a }
+		}
+		allow = {
+			is_year = 1642
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.04a
+			define_heir = {
+				name = "Cosimo"
+				monarch_name = "Cosimo III"
+				dynasty = "de' Medici"
+				birth_date = 1642.8.14
+				death_date = 1723.10.13
+				claim = 95
+				adm = 0
+				dip = 4
+				mil = 4
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Cosimo III"
+			NOT = { is_year = 1737 }
+			NOT = { has_global_flag = monarch_TUS_No.05a }
+		}
+		allow = {
+			is_year = 1671
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.05a
+			define_heir = {
+				name = "Gian Gastone"
+				monarch_name = "Gian Gastone"
+				dynasty = "de' Medici"
+				birth_date = 1671.5.24
+				death_date = 1737.7.9
+				claim = 95
+				adm = 2
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Gian Gastone"
+			NOT = { is_year = 1765 }
+			NOT = { has_global_flag = monarch_TUS_No.06a }
+		}
+		allow = {
+			is_year = 1723
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.06a
+			define_heir = {
+				name = "Francesco"
+				monarch_name = "Francesco II"
+				dynasty = "von Habsburg"
+				birth_date = 1708.12.8
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Francesco II"
+			NOT = { is_year = 1790 }
+			NOT = { has_global_flag = monarch_TUS_No.07a }
+		}
+		allow = {
+			is_year = 1737
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.07a
+			define_heir = {
+				name = "Pietro Leopoldo"
+				monarch_name = "Pietro Leopoldo I"
+				dynasty = "von Habsburg"
+				birth_date = 1747.5.5
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Pietro Leopoldo I"
+			NOT = { is_year = 1812 }
+			NOT = { has_global_flag = monarch_TUS_No.08a }
+		}
+		allow = {
+			is_year = 1765
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.08a
+			define_heir = {
+				name = "Ferdinando"
+				monarch_name = "Ferdinando III"
+				dynasty = "von Habsburg"
+				birth_date = 1769.5.6
+				adm = 2
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Ferdinando III"
+			NOT = { is_year = 1870 }
+			NOT = { has_global_flag = monarch_TUS_No.09a }
+		}
+		allow = {
+			is_year = 1798
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.09a
+			define_heir = {
+				name = "Leopoldo"
+				monarch_name = "Leopoldo II"
+				dynasty = "von Habsburg"
+				birth_date = 1797.10.3
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,67 @@
+country_decisions = {
+
+	monarch_SER_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SER
+			NOT = { is_year = 1458 }
+			NOT = { has_global_flag = monarch_SER_No.00a }
+		}
+		allow = {
+			is_year = 1427
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SER_No.00a
+			define_heir = {
+				name = "Lazar"
+				monarch_name = "Lazar II"
+				dynasty = "Brankovic"
+				birth_date = 1421.1.1
+				death_date = 1458.2.20
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SER_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SER
+			has_ruler = "Lazar II"
+			NOT = { is_year = 1476 }
+			NOT = { has_global_flag = monarch_SER_No.01a }
+		}
+		allow = {
+			is_year = 1456
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SER_No.01a
+			define_heir = {
+				name = "Stefan"
+				monarch_name = "Stefan III"
+				dynasty = "Brankovic"
+				birth_date = 1425.1.1
+				death_date = 1476.10.9
+				claim = 85
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

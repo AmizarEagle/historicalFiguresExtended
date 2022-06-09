@@ -1,0 +1,677 @@
+country_decisions = {
+
+	monarch_ARK_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "'Khayi"
+			has_global_flag = monarch_ARK_No.00a
+			NOT = { is_year = 1482 }
+			NOT = { has_global_flag = monarch_ARK_No.00b }
+		}
+		allow = {
+			is_year = 1459
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Ba Saw Phyu"
+			has_global_flag = monarch_ARK_No.01a
+			NOT = { is_year = 1492 }
+			NOT = { has_global_flag = monarch_ARK_No.01b }
+		}
+		allow = {
+			is_year = 1482
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Dawlya I"
+			has_global_flag = monarch_ARK_No.02a
+			NOT = { is_year = 1494 }
+			NOT = { has_global_flag = monarch_ARK_No.02b }
+		}
+		allow = {
+			is_year = 1492
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Ba Saw Nyo"
+			has_global_flag = monarch_ARK_No.03a
+			NOT = { is_year = 1495 }
+			NOT = { has_global_flag = monarch_ARK_No.03b }
+		}
+		allow = {
+			is_year = 1494
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Ran Aung"
+			has_global_flag = monarch_ARK_No.04a
+			NOT = { is_year = 1515 }
+			NOT = { has_global_flag = monarch_ARK_No.04b }
+		}
+		allow = {
+			is_year = 1495
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Salingathu"
+			has_global_flag = monarch_ARK_No.05a
+			NOT = { is_year = 1514 }
+			NOT = { has_global_flag = monarch_ARK_No.05b }
+		}
+		allow = {
+			is_year = 1502
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Raza"
+			has_global_flag = monarch_ARK_No.06a
+			NOT = { is_year = 1515 }
+			NOT = { has_global_flag = monarch_ARK_No.06b }
+		}
+		allow = {
+			is_year = 1514
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Gazapati"
+			has_global_flag = monarch_ARK_No.07a
+			NOT = { is_year = 1516 }
+			NOT = { has_global_flag = monarch_ARK_No.07b }
+		}
+		allow = {
+			is_year = 1515
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Saw O"
+			has_global_flag = monarch_ARK_No.08a
+			NOT = { is_year = 1519 }
+			NOT = { has_global_flag = monarch_ARK_No.08b }
+		}
+		allow = {
+			is_year = 1516
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Thazata"
+			has_global_flag = monarch_ARK_No.09a
+			NOT = { is_year = 1531 }
+			NOT = { has_global_flag = monarch_ARK_No.09b }
+		}
+		allow = {
+			is_year = 1521
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Minkhaung"
+			has_global_flag = monarch_ARK_No.10a
+			NOT = { is_year = 1553 }
+			NOT = { has_global_flag = monarch_ARK_No.10b }
+		}
+		allow = {
+			is_year = 1531
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Min Bin"
+			has_global_flag = monarch_ARK_No.11a
+			NOT = { is_year = 1556 }
+			NOT = { has_global_flag = monarch_ARK_No.11b }
+		}
+		allow = {
+			is_year = 1553
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Dikha"
+			has_global_flag = monarch_ARK_No.12a
+			NOT = { is_year = 1564 }
+			NOT = { has_global_flag = monarch_ARK_No.12b }
+		}
+		allow = {
+			is_year = 1556
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Sawla"
+			has_global_flag = monarch_ARK_No.13a
+			NOT = { is_year = 1572 }
+			NOT = { has_global_flag = monarch_ARK_No.13b }
+		}
+		allow = {
+			is_year = 1564
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Sekkya"
+			has_global_flag = monarch_ARK_No.14a
+			NOT = { is_year = 1593 }
+			NOT = { has_global_flag = monarch_ARK_No.14b }
+		}
+		allow = {
+			is_year = 1572
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Hpalaung"
+			has_global_flag = monarch_ARK_No.15a
+			NOT = { is_year = 1612 }
+			NOT = { has_global_flag = monarch_ARK_No.15b }
+		}
+		allow = {
+			is_year = 1593
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Razagri"
+			has_global_flag = monarch_ARK_No.16a
+			NOT = { is_year = 1622 }
+			NOT = { has_global_flag = monarch_ARK_No.16b }
+		}
+		allow = {
+			is_year = 1612
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Khamaung"
+			has_global_flag = monarch_ARK_No.17a
+			NOT = { is_year = 1638 }
+			NOT = { has_global_flag = monarch_ARK_No.17b }
+		}
+		allow = {
+			is_year = 1622
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.18b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Thiri Thudhamma"
+			has_global_flag = monarch_ARK_No.18a
+			NOT = { is_year = 1639 }
+			NOT = { has_global_flag = monarch_ARK_No.18b }
+		}
+		allow = {
+			is_year = 1638
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.19b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Sanay"
+			has_global_flag = monarch_ARK_No.19a
+			NOT = { is_year = 1645 }
+			NOT = { has_global_flag = monarch_ARK_No.19b }
+		}
+		allow = {
+			is_year = 1639
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.19b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.20b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Narapati"
+			has_global_flag = monarch_ARK_No.20a
+			NOT = { is_year = 1652 }
+			NOT = { has_global_flag = monarch_ARK_No.20b }
+		}
+		allow = {
+			is_year = 1645
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.20b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.21b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Thado"
+			has_global_flag = monarch_ARK_No.21a
+			NOT = { is_year = 1674 }
+			NOT = { has_global_flag = monarch_ARK_No.21b }
+		}
+		allow = {
+			is_year = 1652
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.21b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.22b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Sanda Thudhamma"
+			has_global_flag = monarch_ARK_No.22a
+			NOT = { is_year = 1685 }
+			NOT = { has_global_flag = monarch_ARK_No.22b }
+		}
+		allow = {
+			is_year = 1674
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.22b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.23b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Thiri Thudhamma"
+			has_global_flag = monarch_ARK_No.23a
+			NOT = { is_year = 1692 }
+			NOT = { has_global_flag = monarch_ARK_No.23b }
+		}
+		allow = {
+			is_year = 1685
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.23b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.24b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Wara Dhamma I"
+			has_global_flag = monarch_ARK_No.24a
+			NOT = { is_year = 1694 }
+			NOT = { has_global_flag = monarch_ARK_No.24b }
+		}
+		allow = {
+			is_year = 1692
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.24b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.25b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Mani Dhamma"
+			has_global_flag = monarch_ARK_No.25a
+			NOT = { is_year = 1696 }
+			NOT = { has_global_flag = monarch_ARK_No.25b }
+		}
+		allow = {
+			is_year = 1694
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.25b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ARK_No.26b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ARK
+			has_ruler = "Sanda Thuriya I"
+			has_global_flag = monarch_ARK_No.26a
+			NOT = { is_year = 1697 }
+			NOT = { has_global_flag = monarch_ARK_No.26b }
+		}
+		allow = {
+			is_year = 1696
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARK_No.26b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

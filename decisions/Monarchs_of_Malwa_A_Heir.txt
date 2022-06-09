@@ -1,0 +1,341 @@
+country_decisions = {
+
+	monarch_MLW_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLW
+			has_ruler = "Mahmud I"
+			NOT = { is_year = 1500 }
+			NOT = { has_global_flag = monarch_MLW_No.00a }
+		}
+		allow = {
+			is_year = 1450
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLW_No.00a
+			define_heir = {
+				name = "Ghiyath Shah"
+				monarch_name = "Ghiyath Shah"
+				dynasty = "Khalji"
+				birth_date = 1450.1.1
+				death_date = 1500.11.18
+				claim = 95
+				ADM = 1
+				DIP = 3
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLW_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLW
+			has_ruler = "Ghiyath Shah"
+			NOT = { is_year = 1511 }
+			NOT = { has_global_flag = monarch_MLW_No.01a }
+		}
+		allow = {
+			is_year = 1470
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLW_No.01a
+			define_heir = {
+				name = "Nasir Shah"
+				monarch_name = "Nasir Shah"
+				dynasty = "Khalji"
+				birth_date = 1469.5.30
+				death_date = 1511.4.30
+				claim = 95
+				ADM = 1
+				DIP = 0
+				MIL = 3
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLW_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLW
+			has_ruler = "Nasir Shah"
+			NOT = { is_year = 1531 }
+			NOT = { has_global_flag = monarch_MLW_No.02a }
+		}
+		allow = {
+			is_year = 1500
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLW_No.02a
+			define_heir = {
+				name = "Mahmud Shah"
+				monarch_name = "Mahmud Shah"
+				dynasty = "Khalji"
+				birth_date = 1490.1.1
+				death_date = 1531.3.29
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 2
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLW_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLW
+			has_ruler = "Mahmud Shah"
+			NOT = { is_year = 1542 }
+			NOT = { has_global_flag = monarch_MLW_No.03a }
+		}
+		allow = {
+			is_year = 1512
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLW_No.03a
+			define_heir = {
+				name = "Qadir Shah"
+				monarch_name = "Qadir Shah I"
+				dynasty = "Qadirid"
+				birth_date = 1500.1.1
+				death_date = 1554.1.1
+				claim = 95
+				dip = 2
+				adm = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLW_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLW
+			has_ruler = "Qadir Shah I"
+			NOT = { is_year = 1555 }
+			NOT = { has_global_flag = monarch_MLW_No.04a }
+		}
+		allow = {
+			is_year = 1536
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLW_No.04a
+			define_heir = {
+				name = "Salim Shah"
+				monarch_name = "Salim Shah I"
+				dynasty = "Shaja'atid"
+				birth_date = 1534.1.1
+				death_date = 1555.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLW_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLW
+			has_ruler = "Salim Shah I"
+			NOT = { is_year = 1562 }
+			NOT = { has_global_flag = monarch_MLW_No.05a }
+		}
+		allow = {
+			is_year = 1554
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLW_No.05a
+			define_heir = {
+				name = "Baz Bahadur"
+				monarch_name = "Baz Bahadur"
+				dynasty = "Shaja'atid"
+				birth_date = 1534.1.1
+				death_date = 1562.1.1
+				claim = 95
+				ADM = 2
+				DIP = 0
+				MIL = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLW_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLW
+			has_ruler = "Baz Bahadur"
+			NOT = { is_year = 1728 }
+			NOT = { has_global_flag = monarch_MLW_No.06a }
+		}
+		allow = {
+			is_year = 1555
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLW_No.06a
+			define_heir = {
+				name = "Vizier"
+				monarch_name = "Vizier"
+				dynasty = "Mughal Occupation"
+				birth_date = 1542.1.1
+				death_date = 1602.7.7
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLW_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLW
+			has_ruler = "Vizier"
+			NOT = { is_year = 1766 }
+			NOT = { has_global_flag = monarch_MLW_No.07a }
+		}
+		allow = {
+			is_year = 1727
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLW_No.07a
+			define_heir = {
+				name = "Malhar Rao"
+				monarch_name = "Malhar Rao I"
+				dynasty = "Holkar"
+				birth_date = 1700.1.1
+				death_date = 1766.5.19
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLW_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLW
+			has_ruler = "Malhar Rao I"
+			NOT = { is_year = 1767 }
+			NOT = { has_global_flag = monarch_MLW_No.08a }
+		}
+		allow = {
+			is_year = 1740
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLW_No.08a
+			define_heir = {
+				name = "Mali"
+				monarch_name = "Mali Rao"
+				dynasty = "Holkar"
+				birth_date = 1740.1.1
+				death_date = 1767.4.5
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLW_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLW
+			has_ruler = "Mali Rao"
+			NOT = { is_year = 1818 }
+			NOT = { has_global_flag = monarch_MLW_No.09a }
+		}
+		allow = {
+			is_year = 1766
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLW_No.09a
+			define_heir = {
+				name = "Ahalya Bai"
+				monarch_name = "Ahalya Bai"
+				dynasty = "Holkar"
+				birth_date = 1740.1.1
+				death_date = 1818.1.1
+				claim = 95
+				ADM = 6
+				DIP = 4
+				MIL = 2
+				female = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

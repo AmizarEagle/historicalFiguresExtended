@@ -1,0 +1,476 @@
+country_decisions = {
+
+	monarch_MOR_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Abdalhaqq II"
+			has_global_flag = monarch_MOR_No.00a
+			NOT = { is_year = 1472 }
+			NOT = { has_global_flag = monarch_MOR_No.00b }
+		}
+		allow = {
+			is_year = 1465
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_global_flag = monarch_MOR_No.01a
+			NOT = { is_year = 1557 }
+			NOT = { has_global_flag = monarch_MOR_No.01b }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Muhammad I"
+			has_global_flag = monarch_MOR_No.02a
+			NOT = { is_year = 1574 }
+			NOT = { has_global_flag = monarch_MOR_No.02b }
+		}
+		allow = {
+			is_year = 1557
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "'Abd Allah"
+			has_global_flag = monarch_MOR_No.03a
+			NOT = { is_year = 1576 }
+			NOT = { has_global_flag = monarch_MOR_No.03b }
+		}
+		allow = {
+			is_year = 1574
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Muhammad II"
+			has_global_flag = monarch_MOR_No.04a
+			NOT = { is_year = 1578 }
+			NOT = { has_global_flag = monarch_MOR_No.04b }
+		}
+		allow = {
+			is_year = 1576
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Abu Marwan I"
+			has_global_flag = monarch_MOR_No.05a
+			NOT = { is_year = 1603 }
+			NOT = { has_global_flag = monarch_MOR_No.05b }
+		}
+		allow = {
+			is_year = 1578
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Ahmad II"
+			has_global_flag = monarch_MOR_No.06a
+			NOT = { is_year = 1609 }
+			NOT = { has_global_flag = monarch_MOR_No.06b }
+		}
+		allow = {
+			is_year = 1603
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "'Abd Allah II"
+			has_global_flag = monarch_MOR_No.07a
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_MOR_No.07b }
+		}
+		allow = {
+			is_year = 1609
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Zaydan I"
+			has_global_flag = monarch_MOR_No.08a
+			NOT = { is_year = 1631 }
+			NOT = { has_global_flag = monarch_MOR_No.08b }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "'Abd al-Malik"
+			has_global_flag = monarch_MOR_No.09a
+			NOT = { is_year = 1636 }
+			NOT = { has_global_flag = monarch_MOR_No.09b }
+		}
+		allow = {
+			is_year = 1631
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "al-Walid I"
+			has_global_flag = monarch_MOR_No.10a
+			NOT = { is_year = 1655 }
+			NOT = { has_global_flag = monarch_MOR_No.10b }
+		}
+		allow = {
+			is_year = 1636
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Muhammad III"
+			has_global_flag = monarch_MOR_No.11a
+			NOT = { is_year = 1668 }
+			NOT = { has_global_flag = monarch_MOR_No.11b }
+		}
+		allow = {
+			is_year = 1659
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Abd al-Karim ibn Abi-Bakr"
+			has_global_flag = monarch_MOR_No.12a
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_MOR_No.12b }
+		}
+		allow = {
+			is_year = 1668
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "ar-Rashid I"
+			has_global_flag = monarch_MOR_No.13a
+			NOT = { is_year = 1727 }
+			NOT = { has_global_flag = monarch_MOR_No.13b }
+		}
+		allow = {
+			is_year = 1672
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Isma'il I"
+			has_global_flag = monarch_MOR_No.14a
+			NOT = { is_year = 1729 }
+			NOT = { has_global_flag = monarch_MOR_No.14b }
+		}
+		allow = {
+			is_year = 1727
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Ahmad I"
+			has_global_flag = monarch_MOR_No.15a
+			NOT = { is_year = 1757 }
+			NOT = { has_global_flag = monarch_MOR_No.15b }
+		}
+		allow = {
+			is_year = 1729
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "'Abd Allah I"
+			has_global_flag = monarch_MOR_No.16a
+			NOT = { is_year = 1790 }
+			NOT = { has_global_flag = monarch_MOR_No.16b }
+		}
+		allow = {
+			is_year = 1757
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "Muhammad III"
+			has_global_flag = monarch_MOR_No.17a
+			NOT = { is_year = 1792 }
+			NOT = { has_global_flag = monarch_MOR_No.17b }
+		}
+		allow = {
+			is_year = 1790
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MOR_No.18b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MOR
+			has_ruler = "al-Yazid I"
+			has_global_flag = monarch_MOR_No.18a
+			NOT = { is_year = 1822 }
+			NOT = { has_global_flag = monarch_MOR_No.18b }
+		}
+		allow = {
+			is_year = 1792
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MOR_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

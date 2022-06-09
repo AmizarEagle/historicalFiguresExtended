@@ -1,0 +1,165 @@
+country_decisions = {
+
+	monarch_MLO_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLO
+			has_ruler = "Francesco I"
+			NOT = { is_year = 1476 }
+			NOT = { has_global_flag = monarch_MLO_No.00a }
+		}
+		allow = {
+			is_year = 1450
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLO_No.00a
+			define_heir = {
+				name = "Galeazzo Maria"
+				monarch_name = "Galeazzo Maria I"
+				dynasty = "Sforza"
+				birth_date = 1444.1.24
+				death_date = 1476.12.26
+				claim = 95
+				adm = 5
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLO_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLO
+			has_ruler = "Galeazzo Maria I"
+			NOT = { is_year = 1494 }
+			NOT = { has_global_flag = monarch_MLO_No.01a }
+		}
+		allow = {
+			is_year = 1469
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLO_No.01a
+			define_heir = {
+				name = "Giovanni Galeazzo"
+				monarch_name = "Giovanni Galeazzo II"
+				dynasty = "Sforza"
+				birth_date = 1469.6.20
+				death_date = 1494.10.21
+				claim = 95
+				adm = 3
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLO_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLO
+			has_ruler = "Giovanni Galeazzo II"
+			NOT = { is_year = 1508 }
+			NOT = { has_global_flag = monarch_MLO_No.02a }
+		}
+		allow = {
+			is_year = 1476
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLO_No.02a
+			define_heir = {
+				name = "Ludovico"
+				monarch_name = "Ludovico I il Moro"
+				dynasty = "Sforza"
+				birth_date = 1452.7.27
+				death_date = 1508.5.27
+				claim = 95
+				adm = 5
+				dip = 5
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLO_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLO
+			has_ruler = "Ludovico I il Moro"
+			NOT = { is_year = 1530 }
+			NOT = { has_global_flag = monarch_MLO_No.03a }
+		}
+		allow = {
+			is_year = 1494
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLO_No.03a
+			define_heir = {
+				name = "Massimiliano"
+				monarch_name = "Massimiliano I"
+				dynasty = "Sforza"
+				birth_date = 1493.1.1
+				death_date = 1530.1.1
+				claim = 95
+				adm = 2
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLO_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLO
+			has_ruler = "Massimiliano I"
+			NOT = { is_year = 1535 }
+			NOT = { has_global_flag = monarch_MLO_No.04a }
+		}
+		allow = {
+			is_year = 1508
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLO_No.04a
+			define_heir = {
+				name = "Francesco II Maria"
+				monarch_name = "Francesco II Maria"
+				birth_date = 1495.2.4
+				dynasty = "Sforza"
+				adm = 4
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

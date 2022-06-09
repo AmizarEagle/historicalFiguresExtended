@@ -1,0 +1,173 @@
+country_decisions = {
+
+	monarch_MUL_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUL
+			has_ruler = "Qutbudin"
+			NOT = { is_year = 1480 }
+			NOT = { has_global_flag = monarch_MUL_No.00a }
+		}
+		allow = {
+			is_year = 1437
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUL_No.00a
+			define_heir = {
+				name = "Hussain"
+				monarch_name = "Hussain I"
+				dynasty = "Langa"
+				birth_date = 1400.1.1
+				death_date = 1480.1.1
+				claim = 95
+				ADM = 2
+				DIP = 0
+				MIL = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUL_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUL
+			has_ruler = "Hussain I"
+			NOT = { is_year = 1500 }
+			NOT = { has_global_flag = monarch_MUL_No.01a }
+		}
+		allow = {
+			is_year = 1460
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUL_No.01a
+			define_heir = {
+				name = "Firuz"
+				monarch_name = "Firuzshah"
+				dynasty = "Langa"
+				birth_date = 1450.1.1
+				death_date = 1500.1.1
+				claim = 95
+				ADM = 1
+				DIP = 3
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUL_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUL
+			has_ruler = "Firuzshah"
+			NOT = { is_year = 1518 }
+			NOT = { has_global_flag = monarch_MUL_No.02a }
+		}
+		allow = {
+			is_year = 1480
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUL_No.02a
+			define_heir = {
+				name = "Mahmud"
+				monarch_name = "Mahmud"
+				dynasty = "Langa"
+				birth_date = 1460.1.1
+				death_date = 1518.1.1
+				claim = 95
+				ADM = 0
+				DIP = 2
+				MIL = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUL_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUL
+			has_ruler = "Mahmud"
+			NOT = { is_year = 1555 }
+			NOT = { has_global_flag = monarch_MUL_No.03a }
+		}
+		allow = {
+			is_year = 1500
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUL_No.03a
+			define_heir = {
+				name = "Hussain"
+				monarch_name = "Hussain II"
+				dynasty = "Langa"
+				birth_date = 1480.1.1
+				death_date = 1555.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUL_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUL
+			has_ruler = "Hussain II"
+			NOT = { is_year = 1600 }
+			NOT = { has_global_flag = monarch_MUL_No.04a }
+		}
+		allow = {
+			is_year = 1518
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUL_No.04a
+			define_heir = {
+				name = "Ghazi Khan"
+				monarch_name = "Ghazi Khan"
+				dynasty = "Mirrani"
+				birth_date = 1500.1.1
+				death_date = 1600.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 3
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

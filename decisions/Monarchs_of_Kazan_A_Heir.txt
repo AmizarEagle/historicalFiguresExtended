@@ -1,0 +1,467 @@
+country_decisions = {
+
+	monarch_KAZ_No.00a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Ulugh Muhammad"
+			NOT = { has_global_flag = monarch_KAZ_No.00a }
+		}
+		allow = {
+			is_year = 1446
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmudak"
+				birth_date = 1430.1.1
+				dynasty = "Genghisid"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.01a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Mahmudak"
+			NOT = { has_global_flag = monarch_KAZ_No.01a }
+		}
+		allow = {
+			is_year = 1465
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Khalil"
+				monarch_name = "Khalil"
+				dynasty = "Genghisid"
+				birth_date = 1444.1.1
+				death_Date = 1467.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.02a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Khalil"
+			NOT = { has_global_flag = monarch_KAZ_No.02a }
+		}
+		allow = {
+			is_year = 1467
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Ibrahim"
+				monarch_name = "Ibrahim"
+				dynasty = "Genghisid"
+				birth_date = 1445.1.1
+				death_Date = 1479.1.1
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.03a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Ibrahim"
+			NOT = { has_global_flag = monarch_KAZ_No.03a }
+		}
+		allow = {
+			is_year = 1479
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Ilham"
+				monarch_name ="Ilham"
+				dynasty = "Genghisid"
+				birth_date = 1465.1.1
+				death_Date = 1490.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.04a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Ilham"
+			NOT = { has_global_flag = monarch_KAZ_No.04a }
+		}
+		allow = {
+			is_year = 1487
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Amin"
+				dynasty = "Genghisid"
+				adm = 0
+				dip = 2
+				mil = 4
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.05a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Muhammad Amin"
+			NOT = { has_global_flag = monarch_KAZ_No.05a }
+		}
+		allow = {
+			is_year = 1495
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Mamuk"
+				dynasty = "Shaybanid"
+				adm = 0
+				dip = 3
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.06a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Mamuk"
+			NOT = { has_global_flag = monarch_KAZ_No.06a }
+		}
+		allow = {
+			is_year = 1496
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul-Latif"
+				dynasty = "Genghisid"
+				adm = 3
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.07a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Abdul-Latif"
+			NOT = { has_global_flag = monarch_KAZ_No.07a }
+		}
+		allow = {
+			is_year = 1502
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Amin"
+				dynasty = "Genghisid"
+				adm = 0
+				dip = 2
+				mil = 4
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.08a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Muhammad Amin"
+			NOT = { has_global_flag = monarch_KAZ_No.08a }
+		}
+		allow = {
+			is_year = 1519
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Shah Ali"
+				dynasty = "Genghisid"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.09a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Shah Ali"
+			NOT = { has_global_flag = monarch_KAZ_No.09a }
+		}
+		allow = {
+			is_year = 1521
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Sahib"
+				dynasty = "Giray"
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.10a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Sahib"
+			NOT = { has_global_flag = monarch_KAZ_No.10a }
+		}
+		allow = {
+			is_year = 1524
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Safa"
+				dynasty = "Giray"
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.11a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Safa"
+			NOT = { has_global_flag = monarch_KAZ_No.11a }
+		}
+		allow = {
+			is_year = 1532
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Jan Ali"
+				dynasty = "Genghisid"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.12a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Jan Ali"
+			NOT = { has_global_flag = monarch_KAZ_No.12a }
+		}
+		allow = {
+			is_year = 1535
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Safa"
+				dynasty = "Giray"
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.13a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Safa"
+			NOT = { has_global_flag = monarch_KAZ_No.13a }
+		}
+		allow = {
+			is_year = 1549
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Otemesh"
+				dynasty = "Giray"
+				adm = 0
+				dip = 4
+				mil = 2
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.14a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Otemesh"
+			NOT = { has_global_flag = monarch_KAZ_No.14a }
+		}
+		allow = {
+			is_year = 1551
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Shah Ali"
+				dynasty = "Genghisid"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KAZ_No.15a = {
+		major = yes
+		potential = {
+			tag = KAZ
+			has_ruler = "Shah Ali"
+			NOT = { has_global_flag = monarch_KAZ_No.15a }
+		}
+		allow = {
+			is_year = 1552
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KAZ_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Yadigar Muhammad"
+				dynasty = "Genghisid"
+				adm = 1
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

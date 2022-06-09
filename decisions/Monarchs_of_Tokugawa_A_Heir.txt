@@ -1,0 +1,595 @@
+country_decisions = {
+
+	monarch_TKG_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Nobumitsu"
+			NOT = { is_year = 1501 }
+			NOT = { has_global_flag = monarch_TKG_No.00a }
+		}
+		allow = {
+			is_year = 1440
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.00a
+			define_heir = {
+				name = "Chikatada"
+				monarch_name = "Chikatada"
+				dynasty = "Matsudaira"
+				birth_date = 1431.1.1
+				death_date = 1501.9.22
+				claim = 90
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Chikatada"
+			NOT = { is_year = 1544 }
+			NOT = { has_global_flag = monarch_TKG_No.01a }
+		}
+		allow = {
+			is_year = 1488
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.01a
+			define_heir = {
+				name = "Nagachika"
+				monarch_name = "Nagachika"
+				dynasty = "Matsudaira"
+				birth_date = 1473.1.1
+				death_date = 1544.9.9
+				claim = 90
+				adm = 4
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Nagachika"
+			NOT = { is_year = 1531 }
+			NOT = { has_global_flag = monarch_TKG_No.02a }
+		}
+		allow = {
+			is_year = 1501
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.02a
+			define_heir = {
+				name = "Nobutada"
+				monarch_name = "Nobutada"
+				dynasty = "Matsudaira"
+				birth_date = 1490.1.1
+				death_date = 1531.9.8
+				claim = 90
+				adm = 3
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Nobutada"
+			NOT = { is_year = 1535 }
+			NOT = { has_global_flag = monarch_TKG_No.03a }
+		}
+		allow = {
+			is_year = 1511
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.03a
+			define_heir = {
+				name = "Kiyoyasu"
+				monarch_name = "Kiyoyasu"
+				dynasty = "Matsudaira"
+				birth_date = 1511.9.28
+				death_date = 1535.12.29
+				claim = 90
+				adm = 4
+				dip = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Kiyoyasu"
+			NOT = { is_year = 1549 }
+			NOT = { has_global_flag = monarch_TKG_No.04a }
+		}
+		allow = {
+			is_year = 1526
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.04a
+			define_heir = {
+				name = "Hirotada"
+				monarch_name = "Hirotada"
+				dynasty = "Matsudaira"
+				birth_date = 1526.6.9
+				death_date = 1549.4.3
+				claim = 90
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Hirotada"
+			NOT = { is_year = 1616 }
+			NOT = { has_global_flag = monarch_TKG_No.05a }
+		}
+		allow = {
+			is_year = 1543
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.05a
+			define_heir = {
+				name = "Ieyasu"
+				monarch_name = "Ieyasu"
+				dynasty = "Tokugawa"
+				birth_date = 1543.1.31
+				death_date = 1616.5.22
+				claim = 90
+				adm = 6
+				dip = 5
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ieyasu"
+			NOT = { is_year = 1579 }
+			NOT = { has_global_flag = monarch_TKG_No.06a }
+		}
+		allow = {
+			is_year = 1559
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.06a
+			define_heir = {
+				name = "Nobuyasu"
+				monarch_name = "Nobuyasu"
+				dynasty = "Tokugawa"
+				birth_date = 1559.4.13
+				death_date = 1579.10.5
+				claim = 90
+				adm = 4
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ieyasu"
+			NOT = { is_year = 1632 }
+			NOT = { has_global_flag = monarch_TKG_No.07a }
+		}
+		allow = {
+			is_year = 1579
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.07a
+			define_heir = {
+				name = "Hidetada"
+				monarch_name = "Hidetada"
+				dynasty = "Tokugawa"
+				birth_date = 1579.5.2
+				death_date = 1632.3.14
+				claim = 90
+				adm = 5
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Hidetada"
+			NOT = { is_year = 1651 }
+			NOT = { has_global_flag = monarch_TKG_No.08a }
+		}
+		allow = {
+			is_year = 1616
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.08a
+			define_heir = {
+				name = "Iemitsu"
+				monarch_name = "Iemitsu"
+				dynasty = "Tokugawa"
+				birth_date = 1604.8.12
+				death_date = 1651.6.8
+				claim = 90
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Iemitsu"
+			NOT = { is_year = 1680 }
+			NOT = { has_global_flag = monarch_TKG_No.09a }
+		}
+		allow = {
+			is_year = 1641
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.09a
+			define_heir = {
+				name = "Ietsuna"
+				monarch_name = "Ietsuna"
+				dynasty = "Tokugawa"
+				birth_date = 1641.9.7
+				death_date = 1680.6.4
+				claim = 90
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ietsuna"
+			NOT = { is_year = 1709 }
+			NOT = { has_global_flag = monarch_TKG_No.10a }
+		}
+		allow = {
+			is_year = 1680
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.10a
+			define_heir = {
+				name = "Tsunayoshi"
+				monarch_name = "Tsunayoshi"
+				dynasty = "Tokugawa"
+				birth_date = 1646.2.23
+				death_date = 1709.2.9
+				claim = 90
+				adm = 6
+				dip = 5
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Tsunayoshi"
+			NOT = { is_year = 1712 }
+			NOT = { has_global_flag = monarch_TKG_No.11a }
+		}
+		allow = {
+			is_year = 1704
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.11a
+			define_heir = {
+				name = "Ienobu"
+				monarch_name = "Ienobu"
+				dynasty = "Tokugawa"
+				birth_date = 1662.6.11
+				death_date = 1712.11.12
+				claim = 90
+				adm = 4
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ienobu"
+			NOT = { is_year = 1712 }
+			NOT = { has_global_flag = monarch_TKG_No.12a }
+		}
+		allow = {
+			is_year = 1688
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.12a
+			define_heir = {
+				name = "Ietsugu"
+				monarch_name = "Ietsugu"
+				dynasty = "Tokugawa"
+				birth_date = 1709.8.8
+				death_date = 1716.6.19
+				claim = 90
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ietsugu"
+			NOT = { is_year = 1751 }
+			NOT = { has_global_flag = monarch_TKG_No.13a }
+		}
+		allow = {
+			is_year = 1712
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.13a
+			define_heir = {
+				name = "Yoshimune"
+				monarch_name = "Yoshimune"
+				dynasty = "Tokugawa"
+				birth_date = 1684.11.17
+				death_date = 1751.7.12
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Yoshimune"
+			NOT = { is_year = 1761 }
+			NOT = { has_global_flag = monarch_TKG_No.14a }
+		}
+		allow = {
+			is_year = 1716
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.14a
+			define_heir = {
+				name = "Ieshige"
+				monarch_name = "Ieshige"
+				dynasty = "Tokugawa"
+				birth_date = 1712.7.28
+				death_date = 1761.7.13
+				claim = 90
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ieshige"
+			NOT = { is_year = 1786 }
+			NOT = { has_global_flag = monarch_TKG_No.15a }
+		}
+		allow = {
+			is_year = 1751
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.15a
+			define_heir = {
+				name = "Ieharu"
+				monarch_name = "Ieharu"
+				dynasty = "Tokugawa"
+				birth_date = 1737.6.20
+				death_date = 1786.9.17
+				claim = 90
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ieharu"
+			NOT = { is_year = 1841 }
+			NOT = { has_global_flag = monarch_TKG_No.16a }
+		}
+		allow = {
+			is_year = 1781
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.16a
+			define_heir = {
+				name = "Ienari"
+				monarch_name = "Ienari"
+				dynasty = "Tokugawa"
+				birth_date = 1773.11.18
+				death_date = 1841.2.27
+				claim = 90
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TKG_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = TKG AND = { tag = JAP } }
+			has_ruler = "Ienari"
+			NOT = { is_year = 1853 }
+			NOT = { has_global_flag = monarch_TKG_No.17a }
+		}
+		allow = {
+			is_year = 1793
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TKG_No.17a
+			define_heir = {
+				name = "Ieyoshi"
+				monarch_name = "Ieyoshi"
+				dynasty = "Tokugawa"
+				birth_date = 1793.6.22
+				death_date = 1853.7.27
+				claim = 90
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

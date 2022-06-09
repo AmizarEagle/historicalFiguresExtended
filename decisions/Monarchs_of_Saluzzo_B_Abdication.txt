@@ -1,0 +1,127 @@
+country_decisions = {
+
+	monarch_SZO_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SZO
+			has_ruler = "Ludovico I"
+			has_global_flag = monarch_SZO_No.00a
+			NOT = { is_year = 1504 }
+			NOT = { has_global_flag = monarch_SZO_No.00b }
+		}
+		allow = {
+			is_year = 1475
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SZO_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SZO_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SZO
+			has_ruler = "Ludovico II"
+			has_global_flag = monarch_SZO_No.01a
+			NOT = { is_year = 1528 }
+			NOT = { has_global_flag = monarch_SZO_No.01b }
+		}
+		allow = {
+			is_year = 1504
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SZO_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SZO_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SZO
+			has_ruler = "Michele Antonio I"
+			has_global_flag = monarch_SZO_No.02a
+			NOT = { is_year = 1563 }
+			NOT = { has_global_flag = monarch_SZO_No.02b }
+		}
+		allow = {
+			is_year = 1528
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SZO_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SZO_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SZO
+			has_ruler = "Giovanni Ludovico I"
+			has_global_flag = monarch_SZO_No.03a
+			NOT = { is_year = 1537 }
+			NOT = { has_global_flag = monarch_SZO_No.03b }
+		}
+		allow = {
+			is_year = 1529
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SZO_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SZO_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SZO
+			has_ruler = "Francesco I"
+			has_global_flag = monarch_SZO_No.04a
+			NOT = { is_year = 1548 }
+			NOT = { has_global_flag = monarch_SZO_No.04b }
+		}
+		allow = {
+			is_year = 1537
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SZO_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

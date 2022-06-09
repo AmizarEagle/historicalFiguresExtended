@@ -1,0 +1,1860 @@
+country_decisions = {
+
+	monarch_CRI_No.00a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Haji I"
+			NOT = { has_global_flag = monarch_CRI_No.00a }
+		}
+		allow = {
+			is_year = 1466
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Nur Devlet I"
+				dynasty = Giray
+				birth_date = 1420.1.1
+				adm = 0
+				dip = 0
+				mil = 2
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.01a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Nur Devlet I"
+			NOT = { has_global_flag = monarch_CRI_No.01a }
+		}
+		allow = {
+			is_year = 1469
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Mengli I"
+				dynasty = Giray
+				birth_date = 1445.1.1
+				adm = 1
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.02a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Mengli I"
+			NOT = { has_global_flag = monarch_CRI_No.02a }
+		}
+		allow = {
+			is_year = 1475
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Hayder I"
+				dynasty = Giray
+				birth_date = 1438.1.1
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.03a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Hayder I"
+			NOT = { has_global_flag = monarch_CRI_No.03a }
+		}
+		allow = {
+			is_year = 1475
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Nur Devlet I"
+				dynasty = Giray
+				birth_date = 1420.1.1
+				adm = 0
+				dip = 0
+				mil = 2
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.04a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Nur Devlet I"
+			NOT = { has_global_flag = monarch_CRI_No.04a }
+		}
+		allow = {
+			is_year = 1478
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Mengli I"
+				dynasty = Giray
+				birth_date = 1445.1.1
+				adm = 1
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.05a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Mengli I"
+			NOT = { has_global_flag = monarch_CRI_No.05a }
+		}
+		allow = {
+			is_year = 1515
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Mehmed I"
+				dynasty = Giray
+				birth_date = 1465.1.1
+				adm = 1
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.06a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Mehmed I"
+			NOT = { has_global_flag = monarch_CRI_No.06a }
+		}
+		allow = {
+			is_year = 1523
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Ghazi I"
+				dynasty = Giray
+				birth_date = 1504.1.1
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.07a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Ghazi I"
+			NOT = { has_global_flag = monarch_CRI_No.07a }
+		}
+		allow = {
+			is_year = 1524
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Saadet I"
+				dynasty = Giray
+				birth_date = 1494.1.1
+				adm = 3
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.08a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Saadet I"
+			NOT = { has_global_flag = monarch_CRI_No.08a }
+		}
+		allow = {
+			is_year = 1532
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Islam I"
+				dynasty = Giray
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.09a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Islam I"
+			NOT = { has_global_flag = monarch_CRI_No.09a }
+		}
+		allow = {
+			is_year = 1532
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Sahib I"
+				dynasty = Giray
+				birth_date = 1501.1.1
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.10a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Sahib I"
+			NOT = { has_global_flag = monarch_CRI_No.10a }
+		}
+		allow = {
+			is_year = 1551
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Devlet I"
+				dynasty = Giray
+				birth_date = 1512.1.1
+				adm = 2
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.11a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Devlet I"
+			NOT = { has_global_flag = monarch_CRI_No.11a }
+		}
+		allow = {
+			is_year = 1577
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Mehmed II"
+				dynasty = Giray
+				birth_date = 1532.1.1
+				adm = 0
+				dip = 2
+				mil = 2
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.12a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Mehmed II"
+			NOT = { has_global_flag = monarch_CRI_No.12a }
+		}
+		allow = {
+			is_year = 1584
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Saadet II"
+				dynasty = Giray
+				birth_date = 1555.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.13a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Saadet II"
+			NOT = { has_global_flag = monarch_CRI_No.13a }
+		}
+		allow = {
+			is_year = 1584
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Islam II"
+				dynasty = Giray
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.14a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Islam II"
+			NOT = { has_global_flag = monarch_CRI_No.14a }
+		}
+		allow = {
+			is_year = 1588
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Ghazi II"
+				dynasty = Giray
+				birth_date = 1554.1.1
+				adm = 2
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.15a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Ghazi II"
+			NOT = { has_global_flag = monarch_CRI_No.15a }
+		}
+		allow = {
+			is_year = 1596
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Fetih I"
+				dynasty = Giray
+				birth_date = 1557.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.16a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Fetih I"
+			NOT = { has_global_flag = monarch_CRI_No.16a }
+		}
+		allow = {
+			is_year = 1596
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Ghazi II"
+				dynasty = Giray
+				birth_date = 1554.1.1
+				adm = 2
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.17a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Ghazi II"
+			NOT = { has_global_flag = monarch_CRI_No.17a }
+		}
+		allow = {
+			is_year = 1607
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Toqtamish I"
+				dynasty = Giray
+				birth_date = 1589.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.18a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Toqtamish I"
+			NOT = { has_global_flag = monarch_CRI_No.18a }
+		}
+		allow = {
+			is_year = 1608
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Selamet I"
+				dynasty = Giray
+				birth_date = 1558.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.19a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Selamet I"
+			NOT = { has_global_flag = monarch_CRI_No.19a }
+		}
+		allow = {
+			is_year = 1610
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Janibek I"
+				dynasty = Giray
+				birth_date = 1558.1.1
+				adm = 2
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.20a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Janibek I"
+			NOT = { has_global_flag = monarch_CRI_No.20a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Mehmed III"
+				dynasty = Giray
+				birth_date = 1584.1.1
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.21a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Mehmed III"
+			NOT = { has_global_flag = monarch_CRI_No.21a }
+		}
+		allow = {
+			is_year = 1628
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Janibek I"
+				dynasty = Giray
+				birth_date = 1558.1.1
+				adm = 2
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.22a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Janibek I"
+			NOT = { has_global_flag = monarch_CRI_No.22a }
+		}
+		allow = {
+			is_year = 1635
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.22a
+			add_stability = -1
+			define_ruler = {
+				name = "Inayet I"
+				dynasty = Giray
+				birth_date = 1597.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.23a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Inayet I"
+			NOT = { has_global_flag = monarch_CRI_No.23a }
+		}
+		allow = {
+			is_year = 1637
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.23a
+			add_stability = -1
+			define_ruler = {
+				name = "Bahadir I"
+				dynasty = Giray
+				birth_date = 1602.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.24a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Bahadir I"
+			NOT = { has_global_flag = monarch_CRI_No.24a }
+		}
+		allow = {
+			is_year = 1641
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.24a
+			add_stability = -1
+			define_ruler = {
+				name = "Mehmed IV"
+				dynasty = Giray
+				birth_date = 1610.1.1
+				adm = 1
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.25a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Mehmed IV"
+			NOT = { has_global_flag = monarch_CRI_No.25a }
+		}
+		allow = {
+			is_year = 1644
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.25a
+			add_stability = -1
+			define_ruler = {
+				name = "Islam III"
+				dynasty = Giray
+				birth_date = 1604.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.26a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Islam III"
+			NOT = { has_global_flag = monarch_CRI_No.26a }
+		}
+		allow = {
+			is_year = 1654
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.26a
+			add_stability = -1
+			define_ruler = {
+				name = "Mehmed IV"
+				dynasty = Giray
+				birth_date = 1610.1.1
+				adm = 1
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.27a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Mehmed IV"
+			NOT = { has_global_flag = monarch_CRI_No.27a }
+		}
+		allow = {
+			is_year = 1666
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.27a
+			add_stability = -1
+			define_ruler = {
+				name = "Adil I"
+				dynasty = Giray
+				birth_date = 1617.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.28a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Adil I"
+			NOT = { has_global_flag = monarch_CRI_No.28a }
+		}
+		allow = {
+			is_year = 1671
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.28a
+			add_stability = -1
+			define_ruler = {
+				name = "Selim I"
+				dynasty = Giray
+				birth_date = 1631.1.1
+				adm = 3
+				dip = 5
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.29a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Selim I"
+			NOT = { has_global_flag = monarch_CRI_No.29a }
+		}
+		allow = {
+			is_year = 1678
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.29a
+			add_stability = -1
+			define_ruler = {
+				name = "Murad I"
+				dynasty = Giray
+				birth_date = 1627.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.30a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Murad I"
+			NOT = { has_global_flag = monarch_CRI_No.30a }
+		}
+		allow = {
+			is_year = 1683
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.30a
+			add_stability = -1
+			define_ruler = {
+				name = "Haji II"
+				dynasty = Giray
+				birth_date = 1644.1.1
+				adm = 2
+				dip = 2
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.31a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Haji II"
+			NOT = { has_global_flag = monarch_CRI_No.31a }
+		}
+		allow = {
+			is_year = 1684
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.31a
+			add_stability = -1
+			define_ruler = {
+				name = "Selim I"
+				dynasty = Giray
+				birth_date = 1631.1.1
+				adm = 3
+				dip = 5
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.32a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Selim I"
+			NOT = { has_global_flag = monarch_CRI_No.32a }
+		}
+		allow = {
+			is_year = 1691
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.32a
+			add_stability = -1
+			define_ruler = {
+				name = "Saadet III"
+				dynasty = Giray
+				birth_date = 1645.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.33a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Saadet III"
+			NOT = { has_global_flag = monarch_CRI_No.33a }
+		}
+		allow = {
+			is_year = 1691
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.33a
+			add_stability = -1
+			define_ruler = {
+				name = "Safa I"
+				dynasty = Giray
+				birth_date = 1637.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.34a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Safa I"
+			NOT = { has_global_flag = monarch_CRI_No.34a }
+		}
+		allow = {
+			is_year = 1692
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.34a
+			add_stability = -1
+			define_ruler = {
+				name = "Selim I"
+				dynasty = Giray
+				birth_date = 1631.1.1
+				adm = 3
+				dip = 5
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.35a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Selim I"
+			NOT = { has_global_flag = monarch_CRI_No.35a }
+		}
+		allow = {
+			is_year = 1699
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.35a
+			add_stability = -1
+			define_ruler = {
+				name = "Devlet II"
+				dynasty = Giray
+				birth_date = 1648.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.36a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Devlet II"
+			NOT = { has_global_flag = monarch_CRI_No.36a }
+		}
+		allow = {
+			is_year = 1702
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.36a
+			add_stability = -1
+			define_ruler = {
+				name = "Selim I"
+				dynasty = Giray
+				birth_date = 1631.1.1
+				adm = 3
+				dip = 5
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.37a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Selim I"
+			NOT = { has_global_flag = monarch_CRI_No.37a }
+		}
+		allow = {
+			is_year = 1704
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.37a
+			add_stability = -1
+			define_ruler = {
+				name = "Ghazi III"
+				dynasty = Giray
+				birth_date = 1673.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.38a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Ghazi III"
+			NOT = { has_global_flag = monarch_CRI_No.38a }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.38a
+			add_stability = -1
+			define_ruler = {
+				name = "Qaplan I"
+				dynasty = Giray
+				birth_date = 1678.1.1
+				adm = 0
+				dip = 2
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.39a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Qaplan I"
+			NOT = { has_global_flag = monarch_CRI_No.39a }
+		}
+		allow = {
+			is_year = 1709
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.39a
+			add_stability = -1
+			define_ruler = {
+				name = "Devlet II"
+				dynasty = Giray
+				birth_date = 1648.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.40a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Devlet II"
+			NOT = { has_global_flag = monarch_CRI_No.40a }
+		}
+		allow = {
+			is_year = 1713
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.40a
+			add_stability = -1
+			define_ruler = {
+				name = "Qaplan I"
+				dynasty = Giray
+				birth_date = 1678.1.1
+				adm = 0
+				dip = 2
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.41a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Qaplan I"
+			NOT = { has_global_flag = monarch_CRI_No.41a }
+		}
+		allow = {
+			is_year = 1715
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.41a
+			add_stability = -1
+			define_ruler = {
+				name = "Devlet III"
+				dynasty = Giray
+				birth_date = 1647.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.42a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Devlet III"
+			NOT = { has_global_flag = monarch_CRI_No.42a }
+		}
+		allow = {
+			is_year = 1717
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.42a
+			add_stability = -1
+			define_ruler = {
+				name = "Saadet IV"
+				dynasty = Giray
+				birth_date = 1662.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.43a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Saadet IV"
+			NOT = { has_global_flag = monarch_CRI_No.43a }
+		}
+		allow = {
+			is_year = 1724
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.43a
+			add_stability = -1
+			define_ruler = {
+				name = "Mengli II"
+				dynasty = Giray
+				birth_date = 1678.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.44a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Mengli II"
+			NOT = { has_global_flag = monarch_CRI_No.44a }
+		}
+		allow = {
+			is_year = 1730
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.44a
+			add_stability = -1
+			define_ruler = {
+				name = "Qaplan I"
+				dynasty = Giray
+				birth_date = 1678.1.1
+				adm = 0
+				dip = 2
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.45a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Qaplan I"
+			NOT = { has_global_flag = monarch_CRI_No.45a }
+		}
+		allow = {
+			is_year = 1736
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.45a
+			add_stability = -1
+			define_ruler = {
+				name = "Fetih II"
+				dynasty = Giray
+				birth_date = 1696.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.46a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Fetih II"
+			NOT = { has_global_flag = monarch_CRI_No.46a }
+		}
+		allow = {
+			is_year = 1737
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.46a
+			add_stability = -1
+			define_ruler = {
+				name = "Mengli II"
+				dynasty = Giray
+				birth_date = 1678.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.47a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Mengli II"
+			NOT = { has_global_flag = monarch_CRI_No.47a }
+		}
+		allow = {
+			is_year = 1740
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.47a
+			add_stability = -1
+			define_ruler = {
+				name = "Selamet II"
+				dynasty = Giray
+				birth_date = 1691.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.48a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Selamet II"
+			NOT = { has_global_flag = monarch_CRI_No.48a }
+		}
+		allow = {
+			is_year = 1743
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.48a
+			add_stability = -1
+			define_ruler = {
+				name = "Selim II"
+				dynasty = Giray
+				birth_date = 1708.1.1
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.49a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Selim II"
+			NOT = { has_global_flag = monarch_CRI_No.49a }
+		}
+		allow = {
+			is_year = 1748
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.49a
+			add_stability = -1
+			define_ruler = {
+				name = "Arslan I"
+				dynasty = Giray
+				birth_date = 1692.1.1
+				adm = 1
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.50a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Arslan I"
+			NOT = { has_global_flag = monarch_CRI_No.50a }
+		}
+		allow = {
+			is_year = 1756
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.50a
+			add_stability = -1
+			define_ruler = {
+				name = "Halim I"
+				dynasty = Giray
+				birth_date = 1689.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.51a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Halim I"
+			NOT = { has_global_flag = monarch_CRI_No.51a }
+		}
+		allow = {
+			is_year = 1758
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.51a
+			add_stability = -1
+			define_ruler = {
+				name = "Qirim I"
+				dynasty = Giray
+				birth_date = 1717.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.52a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Qirim I"
+			NOT = { has_global_flag = monarch_CRI_No.52a }
+		}
+		allow = {
+			is_year = 1764
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.52a
+			add_stability = -1
+			define_ruler = {
+				name = "Selim III"
+				dynasty = Giray
+				birth_date = 1713.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.53a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Selim III"
+			NOT = { has_global_flag = monarch_CRI_No.53a }
+		}
+		allow = {
+			is_year = 1767
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.53a
+			add_stability = -1
+			define_ruler = {
+				name = "Arslan I"
+				dynasty = Giray
+				birth_date = 1692.1.1
+				adm = 1
+				dip = 4
+				mil = 2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.54a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Arslan I"
+			NOT = { has_global_flag = monarch_CRI_No.54a }
+		}
+		allow = {
+			is_year = 1767
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.54a
+			add_stability = -1
+			define_ruler = {
+				name = "Maqsud"
+				dynasty = Giray
+				birth_date = 1720.1.1
+				adm = 1
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.55a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Maqsud"
+			NOT = { has_global_flag = monarch_CRI_No.55a }
+		}
+		allow = {
+			is_year = 1768
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.55a
+			add_stability = -1
+			define_ruler = {
+				name = "Qirim I"
+				dynasty = Giray
+				birth_date = 1717.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.56a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Qirim I"
+			NOT = { has_global_flag = monarch_CRI_No.56a }
+		}
+		allow = {
+			is_year = 1769
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.56a
+			add_stability = -1
+			define_ruler = {
+				name = "Devlet IV"
+				dynasty = Giray
+				birth_date = 1730.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.57a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Devlet IV"
+			NOT = { has_global_flag = monarch_CRI_No.57a }
+		}
+		allow = {
+			is_year = 1770
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.57a
+			add_stability = -1
+			define_ruler = {
+				name = "Qaplan II"
+				dynasty = Giray
+				birth_date = 1739.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.58a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Qaplan II"
+			NOT = { has_global_flag = monarch_CRI_No.58a }
+		}
+		allow = {
+			is_year = 1770
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.58a
+			add_stability = -1
+			define_ruler = {
+				name = "Selim III"
+				dynasty = Giray
+				birth_date = 1713.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.59a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Selim III"
+			NOT = { has_global_flag = monarch_CRI_No.59a }
+		}
+		allow = {
+			is_year = 1771
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.59a
+			add_stability = -1
+			define_ruler = {
+				name = "Sahib II"
+				dynasty = Giray
+				birth_date = 1726.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.60a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Sahib II"
+			NOT = { has_global_flag = monarch_CRI_No.60a }
+		}
+		allow = {
+			is_year = 1775
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.60a
+			add_stability = -1
+			define_ruler = {
+				name = "Devlet IV"
+				dynasty = Giray
+				birth_date = 1730.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.61a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Devlet IV"
+			NOT = { has_global_flag = monarch_CRI_No.61a }
+		}
+		allow = {
+			is_year = 1777
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.61a
+			add_stability = -1
+			define_ruler = {
+				name = "Shahin I"
+				dynasty = Giray
+				birth_date = 1745.1.1
+				adm = 1
+				dip = 2
+				mil = 2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.62a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Shahin I"
+			NOT = { has_global_flag = monarch_CRI_No.62a }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.62a
+			add_stability = -1
+			define_ruler = {
+				name = "Bahadir II"
+				dynasty = Giray
+				birth_date = 1722.1.1
+				adm = 3
+				dip = 1
+				mil = 2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRI_No.63a = {
+		major = yes
+		potential = {
+			tag = CRI
+			has_ruler = "Bahadir II"
+			NOT = { has_global_flag = monarch_CRI_No.63a }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRI_No.63a
+			add_stability = -1
+			define_ruler = {
+				name = "Shahin I"
+				dynasty = Giray
+				birth_date = 1745.1.1
+				adm = 1
+				dip = 2
+				mil = 2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

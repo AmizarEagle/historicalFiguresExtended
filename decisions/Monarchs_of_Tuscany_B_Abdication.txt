@@ -1,0 +1,227 @@
+country_decisions = {
+
+	monarch_TUS_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Cosimo I"
+			has_global_flag = monarch_TUS_No.00a
+			NOT = { is_year = 1587 }
+			NOT = { has_global_flag = monarch_TUS_No.00b }
+		}
+		allow = {
+			is_year = 1574
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Francesco I"
+			has_global_flag = monarch_TUS_No.01a
+			NOT = { is_year = 1609 }
+			NOT = { has_global_flag = monarch_TUS_No.01b }
+		}
+		allow = {
+			is_year = 1587
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Ferdinando I"
+			has_global_flag = monarch_TUS_No.02a
+			NOT = { is_year = 1621 }
+			NOT = { has_global_flag = monarch_TUS_No.02b }
+		}
+		allow = {
+			is_year = 1609
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Cosimo II"
+			has_global_flag = monarch_TUS_No.03a
+			NOT = { is_year = 1670 }
+			NOT = { has_global_flag = monarch_TUS_No.03b }
+		}
+		allow = {
+			is_year = 1621
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Ferdinando II"
+			has_global_flag = monarch_TUS_No.04a
+			NOT = { is_year = 1723 }
+			NOT = { has_global_flag = monarch_TUS_No.04b }
+		}
+		allow = {
+			is_year = 1670
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Cosimo III"
+			has_global_flag = monarch_TUS_No.05a
+			NOT = { is_year = 1737 }
+			NOT = { has_global_flag = monarch_TUS_No.05b }
+		}
+		allow = {
+			is_year = 1723
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Gian Gastone"
+			has_global_flag = monarch_TUS_No.06a
+			NOT = { is_year = 1765 }
+			NOT = { has_global_flag = monarch_TUS_No.06b }
+		}
+		allow = {
+			is_year = 1737
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Francesco II"
+			has_global_flag = monarch_TUS_No.07a
+			NOT = { is_year = 1790 }
+			NOT = { has_global_flag = monarch_TUS_No.07b }
+		}
+		allow = {
+			is_year = 1765
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TUS_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TUS
+			has_ruler = "Pietro Leopoldo I"
+			has_global_flag = monarch_TUS_No.08a
+			NOT = { is_year = 1812 }
+			NOT = { has_global_flag = monarch_TUS_No.08b }
+		}
+		allow = {
+			is_year = 1790
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TUS_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

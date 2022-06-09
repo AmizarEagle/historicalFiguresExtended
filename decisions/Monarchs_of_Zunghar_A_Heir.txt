@@ -1,0 +1,252 @@
+country_decisions = {
+
+	monarch_ZUN_No.00a = {
+		major = yes
+		potential = {
+			tag = ZUN
+			NOT = { has_global_flag = monarch_ZUN_No.00a }
+		}
+		allow = {
+			is_year = 1634
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ZUN_No.00a
+			define_ruler = {
+				name = "Erdeni Batur"
+				dynasty = "Choros"
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ZUN_No.01a = {
+		major = yes
+		potential = {
+			tag = ZUN
+			has_ruler = "Erdeni Batur"
+			NOT = { has_global_flag = monarch_ZUN_No.01a }
+		}
+		allow = {
+			is_year = 1653
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ZUN_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Sengge"
+				monarch_name = "Sengge"
+				dynasty = "Choros"
+				birth_date = 1630.1.1
+				death_date = 1671.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ZUN_No.02a = {
+		major = yes
+		potential = {
+			tag = ZUN
+			has_ruler = "Sengge"
+			NOT = { has_global_flag = monarch_ZUN_No.02a }
+		}
+		allow = {
+			is_year = 1671
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ZUN_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Galdan Bashigt"
+				monarch_name = "Galdan Bashigt"
+				dynasty = "Choros"
+				birth_date = 1644.1.1
+				death_Date = 1698.9.4
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ZUN_No.03a = {
+		major = yes
+		potential = {
+			tag = ZUN
+			has_ruler = "Galdan Bashigt"
+			NOT = { has_global_flag = monarch_ZUN_No.03a }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ZUN_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Tsewang Rabdan"
+				monarch_name = "Tsewang Rabdan"
+				dynasty = "Choros"
+				birth_date = 1680.1.1
+				death_Date = 1727.12.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ZUN_No.04a = {
+		major = yes
+		potential = {
+			tag = ZUN
+			has_ruler = "Tsewang Rabdan"
+			NOT = { has_global_flag = monarch_ZUN_No.04a }
+		}
+		allow = {
+			is_year = 1727
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ZUN_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Galdan Tseren"
+				monarch_name = "Galdan Tseren"
+				dynasty = "Choros"
+				birth_date = 1690.1.1
+				death_Date = 1745.8.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ZUN_No.05a = {
+		major = yes
+		potential = {
+			tag = ZUN
+			has_ruler = "Galdan Tseren"
+			NOT = { has_global_flag = monarch_ZUN_No.05a }
+		}
+		allow = {
+			is_year = 1745
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ZUN_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Lama Darja"
+				monarch_name = "Lama Darja"
+				dynasty = "Choros"
+				birth_date = 1700.1.1
+				death_Date = 1750.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ZUN_No.06a = {
+		major = yes
+		potential = {
+			tag = ZUN
+			has_ruler = "Lama Darja"
+			NOT = { has_global_flag = monarch_ZUN_No.06a }
+		}
+		allow = {
+			is_year = 1750
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ZUN_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Dawaji"
+				monarch_name = "Dawaji"
+				dynasty = "Choros"
+				birth_date = 1700.1.1
+				death_Date = 1755.10.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ZUN_No.07a = {
+		major = yes
+		potential = {
+			tag = ZUN
+			has_ruler = "Dawaji"
+			NOT = { has_global_flag = monarch_ZUN_No.07a }
+		}
+		allow = {
+			is_year = 1755
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ZUN_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Amursana"
+				monarch_name = "Amursana"
+				dynasty  = "Choros"
+				birth_date = 1750.1.1
+				death_Date = 1756.3.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

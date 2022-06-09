@@ -1,0 +1,540 @@
+country_decisions = {
+
+	monarch_MNG_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Qizhen"
+			NOT = { is_year = 1457 }
+			NOT = { has_global_flag = monarch_MNG_No.00a }
+		}
+		allow = {
+			is_year = 1435
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.00a
+			define_heir = {
+				name = "Qiyu" #Jingtai Emperor
+				monarch_name = "Qiyu"
+				dynasty = "Zhu"
+				birth_date = 1428.9.21
+				death_date = 1457.3.14
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Qiyu"
+			NOT = { is_year = 1464 }
+			NOT = { has_global_flag = monarch_MNG_No.01a }
+		}
+		allow = {
+			is_year = 1445
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.01a
+			define_heir = {
+				name = "Qizhen" #Zhengtong Emperor
+				monarch_name = "Qizhen"
+				dynasty = "Zhu"
+				birth_date = 1427.11.29
+				death_date = 1464.2.23
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Qizhen"
+			NOT = { is_year = 1487 }
+			NOT = { has_global_flag = monarch_MNG_No.02a }
+		}
+		allow = {
+			is_year = 1464
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.02a
+			define_heir = {
+				name = "Jianjun" #Chenghua Emperor
+				monarch_name = "Jianjun"
+				dynasty = "Zhu"
+				birth_date = 1447.12.9
+				death_date = 1487.9.9
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Jianjun"
+			NOT = { is_year = 1505 }
+			NOT = { has_global_flag = monarch_MNG_No.03a }
+		}
+		allow = {
+			is_year = 1470
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.03a
+			define_heir = {
+				name = "Youcheng" #Hongchi Emperor
+				monarch_name = "Youcheng"
+				dynasty = "Zhu"
+				birth_date = 1470.7.30
+				death_date = 1505.6.8
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Youcheng"
+			NOT = { is_year = 1521 }
+			NOT = { has_global_flag = monarch_MNG_No.04a }
+		}
+		allow = {
+			is_year = 1491
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.04a
+			define_heir = {
+				name = "Houzhao" #Zhengde Emperor
+				monarch_name = "Houzhao"
+				dynasty = "Zhu"
+				birth_date = 1491.10.26
+				death_date = 1521.4.20
+				claim = 95
+				adm = 1
+				dip = 4
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Houzhao"
+			NOT = { is_year = 1523 }
+			NOT = { has_global_flag = monarch_MNG_No.05a }
+		}
+		allow = {
+			is_year = 1507
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.05a
+			define_heir = {
+				name = "Houcong" #Jiajing Emperor
+				monarch_name = "Houcong"
+				dynasty = "Zhu"
+				birth_date = 1507.9.16
+				death_date = 1521.4.21
+				claim = 95
+				adm = 3
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Houcong"
+			NOT = { is_year = 1572 }
+			NOT = { has_global_flag = monarch_MNG_No.06a }
+		}
+		allow = {
+			is_year = 1537
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.06a
+			define_heir = {
+				name = "Zaihou" #Longqing Emperor
+				monarch_name = "Zaihou"
+				dynasty = "Zhu"
+				birth_date = 1537.3.4
+				death_date = 1572.7.5
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Zaihou"
+			NOT = { is_year = 1620 }
+			NOT = { has_global_flag = monarch_MNG_No.07a }
+		}
+		allow = {
+			is_year = 1567
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.07a
+			define_heir = {
+				name = "Yijun" #Wanli Emperor
+				monarch_name = "Yijun"
+				dynasty = "Zhu"
+				birth_date = 1563.9.4
+				death_date = 1620.8.18
+				claim = 95
+				adm = 0
+				dip = 3
+				mil = 4
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Yijun"
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_MNG_No.08a }
+		}
+		allow = {
+			is_year = 1582
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.08a
+			define_heir = {
+				name = "Changluo" #Taichang Emperor
+				monarch_name = "Changluo"
+				dynasty = "Zhu"
+				birth_date = 1582.8.28
+				death_date = 1620.9.26
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Changluo"
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_MNG_No.09a }
+		}
+		allow = {
+			is_year = 1620
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.09a
+			define_heir = {
+				name = "Youxiao" #Tianqi Emperor
+				monarch_name = "Youxiao"
+				dynasty = "Zhu"
+				birth_date = 1605.12.23
+				death_date = 1627.10.2
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Youxiao"
+			NOT = { is_year = 1644 }
+			NOT = { has_global_flag = monarch_MNG_No.10a }
+		}
+		allow = {
+			is_year = 1620
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.10a
+			define_heir = {
+				name = "Youjian" #Chongzhen Emperor
+				monarch_name = "Youjian"
+				dynasty = "Zhu"
+				birth_date =  1611.2.6
+				death_date = 1644.4.25
+				claim = 95
+				adm = 0
+				dip = 2
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Youjian"
+			NOT = { is_year = 1645 }
+			NOT = { has_global_flag = monarch_MNG_No.11a }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.11a
+			define_heir = {
+				name = "Yousong" #Hongguang Emperor
+				monarch_name = "Yousong"
+				dynasty = "Zhu"
+				birth_date = 1607.1.1
+				death_date = 1645.8.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Yousong"
+			NOT = { is_year = 1646 }
+			NOT = { has_global_flag = monarch_MNG_No.12a }
+		}
+		allow = {
+			is_year = 1644
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.12a
+			define_heir = {
+				name = "Yujian" #Longwu Emperor
+				monarch_name = "Yujian"
+				dynasty = "Zhu"
+				birth_date = 1602.1.1
+				death_date = 1646.11.18
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Yujian"
+			NOT = { is_year = 1662 }
+			NOT = { has_global_flag = monarch_MNG_No.13a }
+		}
+		allow = {
+			is_year = 1645
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.13a
+			define_heir = {
+				name = "Youlang"
+				monarch_name = "Youlang"
+				dynasty = "Zhu"
+				birth_date = 1623.1.1
+				death_date = 1662.6.6
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Youlang"
+			NOT = { is_year = 1681 }
+			NOT = { has_global_flag = monarch_MNG_No.14a }
+		}
+		allow = {
+			is_year = 1646
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.14a
+			define_heir = {
+				name = "Jing"
+				monarch_name = "Jing"
+				dynasty = "Zheng"
+				birth_date = 1642.11.4
+				death_date = 1681.3.17
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MNG_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MNG
+			has_ruler = "Jing"
+			NOT = { is_year = 1717 }
+			NOT = { has_global_flag = monarch_MNG_No.15a }
+		}
+		allow = {
+			is_year = 1670
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MNG_No.15a
+			define_heir = {
+				name = "Kehshuan"
+				monarch_name = "Kehshuan"
+				dynasty = "Zheng"
+				birth_date = 1670.8.13
+				death_date = 1717.9.22
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

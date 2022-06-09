@@ -1,0 +1,445 @@
+country_decisions = {
+
+	monarch_TRP_No.00a = {
+		major = yes
+		potential = {
+			tag = TRP
+			NOT = { has_global_flag = monarch_TRP_No.00a }
+		}
+		allow = {
+			is_year = 1503
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Oruc Reis"
+				dynasty = "Yakubid"
+				culture = greek
+				adm = 2
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.01a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Oruc Reis"
+			NOT = { has_global_flag = monarch_TRP_No.01a }
+		}
+		allow = {
+			is_year = 1516
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Muslihiddin Reis"
+				dynasty = "Kurtoglu"
+				culture = turkish
+				adm = 2
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.02a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Muslihiddin Reis"
+			NOT = { has_global_flag = monarch_TRP_No.02a }
+		}
+		allow = {
+			is_year = 1541
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Turgut Reis"
+				dynasty = "Dragutli"
+				culture = turkish
+				adm = 1
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.03a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Turgut Reis"
+			NOT = { has_global_flag = monarch_TRP_No.03a }
+		}
+		allow = {
+			is_year = 1551
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Murad"
+				dynasty = "Muradid"
+				culture = turkish
+				adm = 1
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.04a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Murad"
+			NOT = { has_global_flag = monarch_TRP_No.04a }
+		}
+		allow = {
+			is_year = 1581
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Kaid"
+				dynasty = "Kaidid"
+				culture = turkish
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.05a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Kaid"
+			NOT = { has_global_flag = monarch_TRP_No.05a }
+		}
+		allow = {
+			is_year = 1606
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Selim"
+				dynasty = "Kuloglu"
+				culture = turkish
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.06a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Selim"
+			NOT = { has_global_flag = monarch_TRP_No.06a }
+		}
+		allow = {
+			is_year = 1610
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Suleiman"
+				dynasty = "Suleimanid"
+				adm = 0
+				dip = 3
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.07a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Suleiman"
+			NOT = { has_global_flag = monarch_TRP_No.07a }
+		}
+		allow = {
+			is_year = 1620
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Mustafa"
+				dynasty = "Mustafid"
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.08a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Mustafa"
+			NOT = { has_global_flag = monarch_TRP_No.08a }
+		}
+		allow = {
+			is_year = 1672
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Osman"
+				dynasty = "al-Suhali"
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.09a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Osman"
+			NOT = { has_global_flag = monarch_TRP_No.09a }
+		}
+		allow = {
+			is_year = 1701
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Mustafa"
+				dynasty = "Gallipoli"
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.10a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Mustafa"
+			NOT = { has_global_flag = monarch_TRP_No.10a }
+		}
+		allow = {
+			is_year = 1711
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad I"
+				dynasty = "Karamanli"
+				adm = 4
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.11a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Ahmad I"
+			NOT = { has_global_flag = monarch_TRP_No.11a }
+		}
+		allow = {
+			is_year = 1745
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Mehmed"
+				monarch_name = "Mehmed I"
+				dynasty = "Karamanli"
+				birth_date = 1700.1.1
+				death_Date = 1754.7.25
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.12a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "Mehmed I"
+			NOT = { has_global_flag = monarch_TRP_No.12a }
+		}
+		allow = {
+			is_year = 1754
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "'Ali"
+				monarch_name = "'Ali I"
+				dynasty = "Karamanli"
+				birth_date = 1730.1.1
+				death_date = 1793.7.30
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.13a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "'Ali I"
+			NOT = { has_global_flag = monarch_TRP_No.13a }
+		}
+		allow = {
+			is_year = 1793
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "'Ali Borgul"
+				monarch_name = "'Ali Borgul"
+				dynasty = "Karamanli"
+				birth_date = 1750.1.1
+				death_date = 1795.1.22
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TRP_No.14a = {
+		major = yes
+		potential = {
+			tag = TRP
+			has_ruler = "'Ali Borgul"
+			NOT = { has_global_flag = monarch_TRP_No.14a }
+		}
+		allow = {
+			is_year = 1795
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TRP_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Yusuf"
+				monarch_name = "Yusuf"
+				dynasty = "Karamanli"
+				birth_date = 1780.1.1
+				death_date = 1832.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,665 @@
+country_decisions = {
+
+	monarch_OTN_No.00a = {
+		major = yes
+		potential = {
+			tag = OTN
+			NOT = { has_global_flag = monarch_OTN_No.00a }
+		}
+		allow = {
+			is_year = 1574
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.00a
+			define_ruler = {
+				name = "Muhammed"
+				dynasty = "Muhammadid"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.01a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Muhammed"
+			NOT = { has_global_flag = monarch_OTN_No.01a }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Ibrahim"
+				dynasty = "Rodesi"
+				adm = 1
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.02a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Ibrahim"
+			NOT = { has_global_flag = monarch_OTN_No.02a }
+		}
+		allow = {
+			is_year = 1592
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Moussa"
+				dynasty = "Moussadid"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.03a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Moussa"
+			NOT = { has_global_flag = monarch_OTN_No.03a }
+		}
+		allow = {
+			is_year = 1593
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Uthman"
+				dynasty = "Uthmanid"
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.04a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Uthman"
+			NOT = { has_global_flag = monarch_OTN_No.04a }
+		}
+		allow = {
+			is_year = 1610
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Yusuf"
+				dynasty = "Uthmanid"
+				adm = 3
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.05a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Yusuf"
+			NOT = { has_global_flag = monarch_OTN_No.05a }
+		}
+		allow = {
+			is_year = 1628
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Murad I"
+				dynasty = "Muradid"
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.06a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Murad I"
+			NOT = { has_global_flag = monarch_OTN_No.06a }
+		}
+		allow = {
+			is_year = 1631
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad I"
+				dynasty = "Muradid"
+				adm = 2
+				dip = 3
+				mil = 3
+				birth_date = 1580.1.1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.07a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Muhammad I"
+			NOT = { has_global_flag = monarch_OTN_No.07a }
+		}
+		allow = {
+			is_year = 1662
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Murad II"
+				monarch_name = "Murad II"
+				dynasty = "Muradid"
+				birth_date = 1620.1.1
+				death_Date = 1675.1.1
+				claim = 95
+				adm = 2
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.08a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Murad II"
+			NOT = { has_global_flag = monarch_OTN_No.08a }
+		}
+		allow = {
+			is_year = 1675
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad II"
+				monarch_name = "Muhammad II"
+				dynasty = "Muradid"
+				birth_date = 1620.1.1
+				death_Date = 1695.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.09a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Muhammad II"
+			NOT = { has_global_flag = monarch_OTN_No.09a }
+		}
+		allow = {
+			is_year = 1676
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Ali I"
+				dynasty = "Muradid"
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.10a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Ali I"
+			NOT = { has_global_flag = monarch_OTN_No.10a }
+		}
+		allow = {
+			is_year = 1688
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad el-Hafsi"
+				monarch_name = "Muhammad el-Hafsi"
+				dynasty = "Muradid"
+				birth_date = 1640.1.1
+				death_Date = 1688.12.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.11a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Muhammad el-Hafsi"
+			NOT = { has_global_flag = monarch_OTN_No.11a }
+		}
+		allow = {
+			is_year = 1695
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Ramadan"
+				monarch_name = "Ramadan"
+				dynasty = "Muradid"
+				birth_date = 1650.1.1
+				death_Date = 1698.1.1
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.12a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Ramadan"
+			NOT = { has_global_flag = monarch_OTN_No.12a }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Murad III"
+				monarch_name = "Murad III"
+				dynasty = "Muradid"
+				birth_date = 1680.1.1
+				death_Date = 1702.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.13a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Murad III"
+			NOT = { has_global_flag = monarch_OTN_No.13a }
+		}
+		allow = {
+			is_year = 1702
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Ibrahim"
+				monarch_name = "Ibrahim"
+				dynasty = "Muradid"
+				birth_date = 1680.1.1
+				death_Date = 1705.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.14a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Ibrahim"
+			NOT = { has_global_flag = monarch_OTN_No.14a }
+		}
+		allow = {
+			is_year = 1705
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Umar"
+				monarch_name = "Umar"
+				dynasty = "Muradid"
+				birth_date = 1680.1.1
+				death_Date = 1705.6.15
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.15a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Umar"
+			NOT = { has_global_flag = monarch_OTN_No.15a }
+		}
+		allow = {
+			is_year = 1705
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Husayn"
+				dynasty = "Husainid"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.16a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Husayn"
+			NOT = { has_global_flag = monarch_OTN_No.16a }
+		}
+		allow = {
+			is_year = 1735
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Abu"
+				monarch_name = "Abu"
+				dynasty = "Husainid"
+				birth_date = 1688.6.30
+				death_Date = 1756.9.22
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.17a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Abu"
+			NOT = { has_global_flag = monarch_OTN_No.17a }
+		}
+		allow = {
+			is_year = 1756
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad"
+				monarch_name = "Muhammad"
+				dynasty = "Husainid"
+				birth_date = 1710.1.1
+				death_Date = 1759.2.12
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.18a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Muhammad"
+			NOT = { has_global_flag = monarch_OTN_No.18a }
+		}
+		allow = {
+			is_year = 1759
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Ali"
+				monarch_name = "Ali"
+				dynasty = "Husainid"
+				birth_date = 1712.11.24
+				death_Date = 1782.5.26
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.19a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Ali"
+			NOT = { has_global_flag = monarch_OTN_No.19a }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Hammuda"
+				monarch_name = "Hammuda"
+				dynasty = "Husainid"
+				birth_date = 1759.5.26
+				death_Date = 1814.9.15
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.20a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Hammuda"
+			NOT = { has_global_flag = monarch_OTN_No.20a }
+		}
+		allow = {
+			is_year = 1814
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Uthman"
+				monarch_name = "Uthman"
+				dynasty = "Husainid"
+				birth_date = 1784.3.5
+				death_Date = 1814.12.20
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OTN_No.21a = {
+		major = yes
+		potential = {
+			tag = OTN
+			has_ruler = "Uthman"
+			NOT = { has_global_flag = monarch_OTN_No.21a }
+		}
+		allow = {
+			is_year = 1815
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OTN_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmud"
+				dynasty = "Husainid"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,494 @@
+country_decisions = {
+
+	monarch_JOH_No.00a = {
+		major = yes
+		potential = {
+			tag = JOH
+			NOT = { has_global_flag = monarch_JOH_No.00a }
+		}
+		allow = {
+			is_year = 1528
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Alauddin Riayat Shah II"
+				dynasty = "Melaka"
+				adm = 4
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.01a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Alauddin Riayat Shah II"
+			NOT = { has_global_flag = monarch_JOH_No.01a }
+		}
+		allow = {
+			is_year = 1564
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Muzaffar Shah II"
+				monarch_name = "Muzaffar Shah II"
+				dynasty = "Melaka"
+				birth_date = 1523.1.1
+				death_Date = 1570.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.02a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Muzaffar Shah II"
+			NOT = { has_global_flag = monarch_JOH_No.02a }
+		}
+		allow = {
+			is_year = 1570
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Abd al-Jalil Shah"
+				monarch_name = "Abd al-Jalil Shah"
+				dynasty = "Melaka"
+				birth_date = 1562.1.1
+				death_Date = 1571.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.03a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Abd al-Jalil Shah"
+			NOT = { has_global_flag = monarch_JOH_No.03a }
+		}
+		allow = {
+			is_year = 1571
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Abd al-Jalil Shah II"
+				dynasty = "Melaka"
+				adm = 4
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.04a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Abd al-Jalil Shah II"
+			NOT = { has_global_flag = monarch_JOH_No.04a }
+		}
+		allow = {
+			is_year = 1597
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Alauddin Riayat Shah III"
+				monarch_name = "Alauddin Riayat Shah III"
+				dynasty = "Melaka"
+				birth_date = 1575.1.1
+				death_Date = 1615.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.05a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Alauddin Riayat Shah III"
+			NOT = { has_global_flag = monarch_JOH_No.05a }
+		}
+		allow = {
+			is_year = 1615
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdullah Ma'ayat Shah"
+				monarch_name = "Abdullah Ma'ayat Shah"
+				dynasty = "Melaka"
+				birth_date = 1572.1.1
+				death_Date = 1623.3.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.06a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Abdullah Ma'ayat Shah"
+			NOT = { has_global_flag = monarch_JOH_No.06a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Abd al-Jalil Shah III"
+				monarch_name = "Abd al-Jalil Shah III"
+				dynasty = "Melaka"
+				birth_date = 1590.1.1
+				death_Date = 1677.3.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.07a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Abd al-Jalil Shah III"
+			NOT = { has_global_flag = monarch_JOH_No.07a }
+		}
+		allow = {
+			is_year = 1677
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Ibrahim Shah"
+				monarch_name = "Ibrahim Shah"
+				dynasty = "Melaka"
+				birth_date = 1630.1.1
+				death_Date = 1685.2.16
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.08a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Ibrahim Shah"
+			NOT = { has_global_flag = monarch_JOH_No.08a }
+		}
+		allow = {
+			is_year = 1685
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmud Shah II"
+				monarch_name = "Mahmud Shah II"
+				dynasty = "Melaka"
+				birth_date = 1675.1.1
+				death_Date = 1699.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.09a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Mahmud Shah II"
+			NOT = { has_global_flag = monarch_JOH_No.09a }
+		}
+		allow = {
+			is_year = 1699
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Abd al-Jalil Shah IV"
+				dynasty = "Bendahara"
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.10a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Abd al-Jalil Shah IV"
+			NOT = { has_global_flag = monarch_JOH_No.10a }
+		}
+		allow = {
+			is_year = 1720
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Abd al-Jalil Rahmat Shah"
+				dynasty = "Melaka"
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.11a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Abd al-Jalil Rahmat Shah"
+			NOT = { has_global_flag = monarch_JOH_No.11a }
+		}
+		allow = {
+			is_year = 1722
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Abd al-Jalil Muazzam Shah"
+				monarch_name = "Abd al-Jalil Muazzam Shah"
+				dynasty = "Melaka"
+				birth_date = 1710.1.1
+				death_Date = 1761.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.12a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Abd al-Jalil Muazzam Shah"
+			NOT = { has_global_flag = monarch_JOH_No.12a }
+		}
+		allow = {
+			is_year = 1761
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad Riayat Shah"
+				monarch_name = "Ahmad Riayat Shah"
+				dynasty = "Melaka"
+				birth_date = 1730.1.1
+				death_Date = 1761.7.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.13a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Ahmad Riayat Shah"
+			NOT = { has_global_flag = monarch_JOH_No.13a }
+		}
+		allow = {
+			is_year = 1761
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahmud Shah"
+				dynasty = "Melaka"
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.14a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Mahmud Shah"
+			NOT = { has_global_flag = monarch_JOH_No.14a }
+		}
+		allow = {
+			is_year = 1812
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Abd al-Rahman Shah"
+				monarch_name = "Abd al-Rahman Shah"
+				dynasty = "Melaka"
+				birth_date = 1765.1.1
+				death_Date = 1819.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_JOH_No.15a = {
+		major = yes
+		potential = {
+			tag = JOH
+			has_ruler = "Abd al-Rahman Shah"
+			NOT = { has_global_flag = monarch_JOH_No.15a }
+		}
+		allow = {
+			is_year = 1819
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_JOH_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Hussein Shah"
+				monarch_name = "Husseinn Shah"
+				dynasty = "Melaka"
+				birth_date = 1776.1.1
+				death_Date = 1835.9.5
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

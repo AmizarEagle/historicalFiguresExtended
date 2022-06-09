@@ -1,0 +1,238 @@
+country_decisions = {
+
+	monarch_ADA_No.00a = {
+		major = yes
+		potential = {
+			tag = ADA
+			has_ruler = "Badlay"
+			NOT = { has_global_flag = monarch_ADA_No.00a }
+		}
+		allow = {
+			is_year = 1445
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ADA_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Mohammed"
+				dynasty = "Walashma"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ADA_No.01a = {
+		major = yes
+		potential = {
+			tag = ADA
+			has_ruler = "Mohammed"
+			NOT = { has_global_flag = monarch_ADA_No.01a }
+		}
+		allow = {
+			is_year = 1472
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ADA_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Shams"
+				dynasty = "Walashma"
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ADA_No.02a = {
+		major = yes
+		potential = {
+			tag = ADA
+			has_ruler = "Shams"
+			NOT = { has_global_flag = monarch_ADA_No.02a }
+		}
+		allow = {
+			is_year = 1488
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ADA_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Mohamed"
+				dynasty = "Walashma"
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ADA_No.03a = {
+		major = yes
+		potential = {
+			tag = ADA
+			has_ruler = "Mohamed"
+			NOT = { has_global_flag = monarch_ADA_No.03a }
+		}
+		allow = {
+			is_year = 1518
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ADA_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Mahfuz"
+				dynasty = "Karanle"
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ADA_No.04a = {
+		major = yes
+		potential = {
+			tag = ADA
+			has_ruler = "Mahfuz"
+			NOT = { has_global_flag = monarch_ADA_No.04a }
+		}
+		allow = {
+			is_year = 1519
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ADA_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "'Abu"
+				dynasty = "Walashma"
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ADA_No.05a = {
+		major = yes
+		potential = {
+			tag = ADA
+			has_ruler = "'Abu"
+			NOT = { has_global_flag = monarch_ADA_No.05a }
+		}
+		allow = {
+			is_year = 1527
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ADA_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad Gran"
+				dynasty = "Karanle"
+				adm = 1
+				dip = 2
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ADA_No.06a = {
+		major = yes
+		potential = {
+			tag = ADA
+			has_ruler = "Ahmad Gran"
+			NOT = { has_global_flag = monarch_ADA_No.06a }
+		}
+		allow = {
+			is_year = 1543
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ADA_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Bat'iah"
+				dynasty = "Karanle"
+				adm = 1
+				dip = 2
+				mil = 1
+				female = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ADA_No.07a = {
+		major = yes
+		potential = {
+			tag = ADA
+			has_ruler = "Bat'iah"
+			NOT = { has_global_flag = monarch_ADA_No.07a }
+		}
+		allow = {
+			is_year = 1552
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ADA_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Nur"
+				dynasty = "Karanle"
+				adm = 0
+				dip = 1
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

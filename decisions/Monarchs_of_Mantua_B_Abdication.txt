@@ -1,0 +1,302 @@
+country_decisions = {
+
+	monarch_MAN_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Lodovico III il Turco"
+			has_global_flag = monarch_MAN_No.00a
+			NOT = { is_year = 1484 }
+			NOT = { has_global_flag = monarch_MAN_No.00b }
+		}
+		allow = {
+			is_year = 1478
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Federico I"
+			has_global_flag = monarch_MAN_No.01a
+			NOT = { is_year = 1519 }
+			NOT = { has_global_flag = monarch_MAN_No.01b }
+		}
+		allow = {
+			is_year = 1484
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Francesco II"
+			has_global_flag = monarch_MAN_No.02a
+			NOT = { is_year = 1540 }
+			NOT = { has_global_flag = monarch_MAN_No.02b }
+		}
+		allow = {
+			is_year = 1519
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Federico II"
+			has_global_flag = monarch_MAN_No.03a
+			NOT = { is_year = 1550 }
+			NOT = { has_global_flag = monarch_MAN_No.03b }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Francesco III"
+			has_global_flag = monarch_MAN_No.04a
+			NOT = { is_year = 1587 }
+			NOT = { has_global_flag = monarch_MAN_No.04b }
+		}
+		allow = {
+			is_year = 1550
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Guglielmo"
+			has_global_flag = monarch_MAN_No.05a
+			NOT = { is_year = 1612 }
+			NOT = { has_global_flag = monarch_MAN_No.05b }
+		}
+		allow = {
+			is_year = 1587
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Vincenzo I"
+			has_global_flag = monarch_MAN_No.06a
+			NOT = { is_year = 1613 }
+			NOT = { has_global_flag = monarch_MAN_No.06b }
+		}
+		allow = {
+			is_year = 1612
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Francesco IV"
+			has_global_flag = monarch_MAN_No.07a
+			NOT = { is_year = 1626 }
+			NOT = { has_global_flag = monarch_MAN_No.07b }
+		}
+		allow = {
+			is_year = 1613
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Ferdinando"
+			has_global_flag = monarch_MAN_No.08a
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_MAN_No.08b }
+		}
+		allow = {
+			is_year = 1626
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Vincenzo II"
+			has_global_flag = monarch_MAN_No.09a
+			NOT = { is_year = 1637 }
+			NOT = { has_global_flag = monarch_MAN_No.09b }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Carlo I"
+			has_global_flag = monarch_MAN_No.10a
+			NOT = { is_year = 1665 }
+			NOT = { has_global_flag = monarch_MAN_No.10b }
+		}
+		allow = {
+			is_year = 1637
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAN_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MAN
+			has_ruler = "Carlo II"
+			has_global_flag = monarch_MAN_No.11a
+			NOT = { is_year = 1708 }
+			NOT = { has_global_flag = monarch_MAN_No.11b }
+		}
+		allow = {
+			is_year = 1665
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAN_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

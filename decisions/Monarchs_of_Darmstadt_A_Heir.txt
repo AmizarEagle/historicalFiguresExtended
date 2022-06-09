@@ -1,0 +1,431 @@
+country_decisions = {
+
+	monarch_DRM_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Philipp I"
+			NOT = { is_year = 1483 }
+			NOT = { has_global_flag = monarch_DRM_No.00a }
+		}
+		allow = {
+			is_year = 1440
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.00a
+			define_heir = {
+				name = "Heinrich"
+				monarch_name = "Heinrich III"
+				dynasty = "von Hessen"
+				birth_date = 1440.10.15
+				death_date = 1483.1.13
+				claim = 95
+				dip = 3
+				adm = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Heinrich III"
+			NOT = { is_year = 1500 }
+			NOT = { has_global_flag = monarch_DRM_No.01a }
+		}
+		allow = {
+			is_year = 1479
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.01a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm III"
+				dynasty = "von Hessen"
+				birth_date = 1471.9.8
+				death_date = 1500.2.17
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Wilhelm III"
+			NOT = { is_year = 1509 }
+			NOT = { has_global_flag = monarch_DRM_No.02a }
+		}
+		allow = {
+			is_year = 1483
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.02a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm II"
+				dynasty = "von Hessen"
+				birth_date = 1469.4.29
+				death_date = 1509.7.11
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Wilhelm II"
+			NOT = { is_year = 1567 }
+			NOT = { has_global_flag = monarch_DRM_No.03a }
+		}
+		allow = {
+			is_year = 1505
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.03a
+			define_heir = {
+				name = "Philipp"
+				monarch_name = "Philipp I"
+				dynasty = "von Hessen"
+				birth_date = 1504.11.13
+				death_date = 1567.3.31
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Philipp I"
+			NOT = { is_year = 1596 }
+			NOT = { has_global_flag = monarch_DRM_No.04a }
+		}
+		allow = {
+			is_year = 1548
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.04a
+			define_heir = {
+				name = "Georg"
+				monarch_name = "Georg I"
+				dynasty = "von Hessen"
+				birth_date = 1547.9.10
+				death_date = 1596.2.7
+				claim = 95
+				dip = 3
+				adm = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Georg I"
+			NOT = { is_year = 1626 }
+			NOT = { has_global_flag = monarch_DRM_No.05a }
+		}
+		allow = {
+			is_year = 1578
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.05a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig V"
+				dynasty = "von Hessen"
+				birth_date = 1577.9.24
+				death_date = 1626.7.27
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Ludwig V"
+			NOT = { is_year = 1661 }
+			NOT = { has_global_flag = monarch_DRM_No.06a }
+		}
+		allow = {
+			is_year = 1606
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.06a
+			define_heir = {
+				name = "Georg"
+				monarch_name = "Georg II"
+				dynasty = "von Hessen"
+				birth_date = 1605.3.17
+				death_date = 1661.6.11
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Georg II"
+			NOT = { is_year = 1678 }
+			NOT = { has_global_flag = monarch_DRM_No.07a }
+		}
+		allow = {
+			is_year = 1631
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.07a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig VI"
+				dynasty = "von Hessen"
+				birth_date = 1630.1.25
+				death_date = 1678.4.24
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Ludwig VI"
+			NOT = { is_year = 1679 }
+			NOT = { has_global_flag = monarch_DRM_No.08a }
+		}
+		allow = {
+			is_year = 1659
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.08a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig VII"
+				dynasty = "von Hessen"
+				birth_date = 1658.6.22
+				death_date = 1678.8.31
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Ludwig VII"
+			NOT = { is_year = 1739 }
+			NOT = { has_global_flag = monarch_DRM_No.09a }
+		}
+		allow = {
+			is_year = 1678
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.09a
+			define_heir = {
+				name = "Ernst Ludwig"
+				monarch_name = "Ernst Ludwig I"
+				dynasty = "von Hessen"
+				birth_date = 1667.12.15
+				death_date = 1739.9.12
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Ernst Ludwig I"
+			NOT = { is_year = 1768 }
+			NOT = { has_global_flag = monarch_DRM_No.10a }
+		}
+		allow = {
+			is_year = 1692
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.10a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig VIII"
+				dynasty = "von Hessen"
+				birth_date = 1691.4.5
+				death_date = 1768.10.17
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Ludwig VIII"
+			NOT = { is_year = 1790 }
+			NOT = { has_global_flag = monarch_DRM_No.11a }
+		}
+		allow = {
+			is_year = 1720
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.11a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig IX"
+				dynasty = "von Hessen"
+				birth_date = 1719.12.15
+				death_date = 1790.4.6
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DRM_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DRM
+			has_ruler = "Ludwig IX"
+			NOT = { is_year = 1830 }
+			NOT = { has_global_flag = monarch_DRM_No.12a }
+		}
+		allow = {
+			is_year = 1768
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DRM_No.12a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig I"
+				dynasty = "von Hessen"
+				birth_date = 1753.6.14
+				death_date = 1830.4.6
+				claim = 95
+				adm = 4
+				dip = 5
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

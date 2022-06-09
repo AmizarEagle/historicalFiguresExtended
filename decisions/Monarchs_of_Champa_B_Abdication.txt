@@ -1,0 +1,377 @@
+country_decisions = {
+
+	monarch_CHA_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Maija Vijaya"
+			has_global_flag = monarch_CHA_No.00a
+			NOT = { is_year = 1449 }
+			NOT = { has_global_flag = monarch_CHA_No.00b }
+		}
+		allow = {
+			is_year = 1447
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Moho Kouei-Lai"
+			has_global_flag = monarch_CHA_No.01a
+			NOT = { is_year = 1458 }
+			NOT = { has_global_flag = monarch_CHA_No.01b }
+		}
+		allow = {
+			is_year = 1449
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Maha Kui Yu"
+			has_global_flag = monarch_CHA_No.02a
+			NOT = { is_year = 1459 }
+			NOT = { has_global_flag = monarch_CHA_No.02b }
+		}
+		allow = {
+			is_year = 1458
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Maha P'an-lo-yue"
+			has_global_flag = monarch_CHA_No.03a
+			NOT = { is_year = 1471 }
+			NOT = { has_global_flag = monarch_CHA_No.03b }
+		}
+		allow = {
+			is_year = 1460
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "P'an-lo T'u-ts'uan"
+			has_global_flag = monarch_CHA_No.04a
+			NOT = { is_year = 1728 }
+			NOT = { has_global_flag = monarch_CHA_No.04b }
+		}
+		allow = {
+			is_year = 1695
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Saktirai"
+			has_global_flag = monarch_CHA_No.05a
+			NOT = { is_year = 1731 }
+			NOT = { has_global_flag = monarch_CHA_No.05b }
+		}
+		allow = {
+			is_year = 1728
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Ganvuh"
+			has_global_flag = monarch_CHA_No.06a
+			NOT = { is_year = 1734 }
+			NOT = { has_global_flag = monarch_CHA_No.06b }
+		}
+		allow = {
+			is_year = 1731
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Thuttirai"
+			has_global_flag = monarch_CHA_No.07a
+			NOT = { is_year = 1763 }
+			NOT = { has_global_flag = monarch_CHA_No.07b }
+		}
+		allow = {
+			is_year = 1735
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Rattirai"
+			has_global_flag = monarch_CHA_No.08a
+			NOT = { is_year = 1765 }
+			NOT = { has_global_flag = monarch_CHA_No.08b }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Tathun"
+			has_global_flag = monarch_CHA_No.09a
+			NOT = { is_year = 1780 }
+			NOT = { has_global_flag = monarch_CHA_No.09b }
+		}
+		allow = {
+			is_year = 1765
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Tithuntirai I"
+			has_global_flag = monarch_CHA_No.10a
+			NOT = { is_year = 1783 }
+			NOT = { has_global_flag = monarch_CHA_No.10b }
+		}
+		allow = {
+			is_year = 1780
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Tithuntirai II"
+			has_global_flag = monarch_CHA_No.11a
+			NOT = { is_year = 1786 }
+			NOT = { has_global_flag = monarch_CHA_No.11b }
+		}
+		allow = {
+			is_year = 1783
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Chei Krei Brei"
+			has_global_flag = monarch_CHA_No.12a
+			NOT = { is_year = 1787 }
+			NOT = { has_global_flag = monarch_CHA_No.12b }
+		}
+		allow = {
+			is_year = 1786
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Tithun"
+			has_global_flag = monarch_CHA_No.13a
+			NOT = { is_year = 1799 }
+			NOT = { has_global_flag = monarch_CHA_No.13b }
+		}
+		allow = {
+			is_year = 1793
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CHA_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = CHA
+			has_ruler = "Lathun"
+			has_global_flag = monarch_CHA_No.14a
+			NOT = { is_year = 1822 }
+			NOT = { has_global_flag = monarch_CHA_No.14b }
+		}
+		allow = {
+			is_year = 1799
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CHA_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

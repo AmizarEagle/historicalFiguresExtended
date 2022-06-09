@@ -1,0 +1,702 @@
+country_decisions = {
+
+	monarch_LNA_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Tilokaracha"
+			has_global_flag = monarch_LNA_No.00a
+			NOT = { is_year = 1495 }
+			NOT = { has_global_flag = monarch_LNA_No.00b }
+		}
+		allow = {
+			is_year = 1487
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Yotchiangrai"
+			has_global_flag = monarch_LNA_No.01a
+			NOT = { is_year = 1526 }
+			NOT = { has_global_flag = monarch_LNA_No.01b }
+		}
+		allow = {
+			is_year = 1495
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Kaeo"
+			has_global_flag = monarch_LNA_No.02a
+			NOT = { is_year = 1538 }
+			NOT = { has_global_flag = monarch_LNA_No.02b }
+		}
+		allow = {
+			is_year = 1526
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Ket"
+			has_global_flag = monarch_LNA_No.03a
+			NOT = { is_year = 1543 }
+			NOT = { has_global_flag = monarch_LNA_No.03b }
+		}
+		allow = {
+			is_year = 1538
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Saikham"
+			has_global_flag = monarch_LNA_No.04a
+			NOT = { is_year = 1545 }
+			NOT = { has_global_flag = monarch_LNA_No.04b }
+		}
+		allow = {
+			is_year = 1543
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Ket"
+			has_global_flag = monarch_LNA_No.05a
+			NOT = { is_year = 1546 }
+			NOT = { has_global_flag = monarch_LNA_No.05b }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Chiraprapha"
+			has_global_flag = monarch_LNA_No.06a
+			NOT = { is_year = 1547 }
+			NOT = { has_global_flag = monarch_LNA_No.06b }
+		}
+		allow = {
+			is_year = 1546
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Setthathirat"
+			has_global_flag = monarch_LNA_No.07a
+			NOT = { is_year = 1564 }
+			NOT = { has_global_flag = monarch_LNA_No.07b }
+		}
+		allow = {
+			is_year = 1547
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Mekuti"
+			has_global_flag = monarch_LNA_No.08a
+			NOT = { is_year = 1578 }
+			NOT = { has_global_flag = monarch_LNA_No.08b }
+		}
+		allow = {
+			is_year = 1564
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Wisutthathewi"
+			has_global_flag = monarch_LNA_No.09a
+			NOT = { is_year = 1607 }
+			NOT = { has_global_flag = monarch_LNA_No.09b }
+		}
+		allow = {
+			is_year = 1578
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Nawrahta Minsaw"
+			has_global_flag = monarch_LNA_No.10a
+			NOT = { is_year = 1615 }
+			NOT = { has_global_flag = monarch_LNA_No.10b }
+		}
+		allow = {
+			is_year = 1607
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phra Choi"
+			has_global_flag = monarch_LNA_No.11a
+			NOT = { is_year = 1613 }
+			NOT = { has_global_flag = monarch_LNA_No.11b }
+		}
+		allow = {
+			is_year = 1608
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phra Chaiyathip"
+			has_global_flag = monarch_LNA_No.12a
+			NOT = { is_year = 1615 }
+			NOT = { has_global_flag = monarch_LNA_No.12b }
+		}
+		allow = {
+			is_year = 1613
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phra Choi"
+			has_global_flag = monarch_LNA_No.13a
+			NOT = { is_year = 1631 }
+			NOT = { has_global_flag = monarch_LNA_No.13b }
+		}
+		allow = {
+			is_year = 1615
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Sisongmueang"
+			has_global_flag = monarch_LNA_No.14a
+			NOT = { is_year = 1655 }
+			NOT = { has_global_flag = monarch_LNA_No.14b }
+		}
+		allow = {
+			is_year = 1631
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Luangthipphanet"
+			has_global_flag = monarch_LNA_No.15a
+			NOT = { is_year = 1659 }
+			NOT = { has_global_flag = monarch_LNA_No.15b }
+		}
+		allow = {
+			is_year = 1655
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phra Saenmueang"
+			has_global_flag = monarch_LNA_No.16a
+			NOT = { is_year = 1672 }
+			NOT = { has_global_flag = monarch_LNA_No.16b }
+		}
+		allow = {
+			is_year = 1659
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phrae"
+			has_global_flag = monarch_LNA_No.17a
+			NOT = { is_year = 1675 }
+			NOT = { has_global_flag = monarch_LNA_No.17b }
+		}
+		allow = {
+			is_year = 1672
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.18b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Ingsemang"
+			has_global_flag = monarch_LNA_No.18a
+			NOT = { is_year = 1707 }
+			NOT = { has_global_flag = monarch_LNA_No.18b }
+		}
+		allow = {
+			is_year = 1675
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.19b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Cheputarai"
+			has_global_flag = monarch_LNA_No.19a
+			NOT = { is_year = 1727 }
+			NOT = { has_global_flag = monarch_LNA_No.19b }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.19b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.20b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Mangraenara"
+			has_global_flag = monarch_LNA_No.20a
+			NOT = { is_year = 1759 }
+			NOT = { has_global_flag = monarch_LNA_No.20b }
+		}
+		allow = {
+			is_year = 1727
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.20b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.21b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Ong Kham"
+			has_global_flag = monarch_LNA_No.21a
+			NOT = { is_year = 1761 }
+			NOT = { has_global_flag = monarch_LNA_No.21b }
+		}
+		allow = {
+			is_year = 1759
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.21b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.22b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Ong Chan"
+			has_global_flag = monarch_LNA_No.22a
+			NOT = { is_year = 1763 }
+			NOT = { has_global_flag = monarch_LNA_No.22b }
+		}
+		allow = {
+			is_year = 1761
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.22b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.23b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Khihut"
+			has_global_flag = monarch_LNA_No.23a
+			NOT = { is_year = 1768 }
+			NOT = { has_global_flag = monarch_LNA_No.23b }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.23b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.24b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Po Aphaikhamini"
+			has_global_flag = monarch_LNA_No.24a
+			NOT = { is_year = 1774 }
+			NOT = { has_global_flag = monarch_LNA_No.24b }
+		}
+		allow = {
+			is_year = 1768
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.24b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.25b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Po Mayunguan"
+			has_global_flag = monarch_LNA_No.25a
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_LNA_No.25b }
+		}
+		allow = {
+			is_year = 1774
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.25b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.26b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Phraya Chaban"
+			has_global_flag = monarch_LNA_No.26a
+			NOT = { is_year = 1813 }
+			NOT = { has_global_flag = monarch_LNA_No.26b }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.26b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LNA_No.27b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LNA
+			has_ruler = "Kawila"
+			has_global_flag = monarch_LNA_No.27a
+			NOT = { is_year = 1822 }
+			NOT = { has_global_flag = monarch_LNA_No.27b }
+		}
+		allow = {
+			is_year = 1813
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LNA_No.27b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

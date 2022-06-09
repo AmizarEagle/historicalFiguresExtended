@@ -1,0 +1,779 @@
+country_decisions = {
+
+	monarch_AYU_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Borommaracha II"
+			NOT = { is_year = 1488 }
+			NOT = { has_global_flag = monarch_AYU_No.00a }
+		}
+		allow = {
+			is_year = 1431
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.00a
+			define_heir = {
+				name = "Trailok"
+				monarch_name = "Trailok"
+				dynasty = "Suphannaphum"
+				birth_date = 1431.1.1
+				death_date = 1488.1.1
+				claim = 95
+				adm = 6
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Trailok"
+			NOT = { is_year = 1491 }
+			NOT = { has_global_flag = monarch_AYU_No.01a }
+		}
+		allow = {
+			is_year = 1473
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.01a
+			define_heir = {
+				name = "Borommaracha"
+				monarch_name = "Borommaracha III"
+				dynasty = "Suphannaphum"
+				claim = 95
+				birth_date = 1470.1.1
+				death_date = 1491.1.1
+				adm = 1
+				dip = 3
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Borommaracha III"
+			NOT = { is_year = 1529 }
+			NOT = { has_global_flag = monarch_AYU_No.02a }
+		}
+		allow = {
+			is_year = 1488
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.02a
+			define_heir = {
+				name = "Ramathibodi"
+				monarch_name = "Rama T'ibodi II"
+				dynasty = "Suphannaphum"
+				birth_date = 1473.1.1
+				death_date = 1529.7.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Rama T'ibodi II"
+			NOT = { is_year = 1533 }
+			NOT = { has_global_flag = monarch_AYU_No.03a }
+		}
+		allow = {
+			is_year = 1515
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.03a
+			define_heir = {
+				name = "Athittayawong"
+				monarch_name = "Borommaracha IV"
+				dynasty = "Suphannaphum"
+				birth_date = 1515.1.1
+				death_date = 1533.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Borommaracha IV"
+			NOT = { is_year = 1534 }
+			NOT = { has_global_flag = monarch_AYU_No.04a }
+		}
+		allow = {
+			is_year = 1529
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.04a
+			define_heir = {
+				name = "Ratsada"
+				monarch_name = "Ratsada"
+				dynasty = "Suphannaphum"
+				birth_date = 1528.1.1
+				death_date = 1534.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Ratsada"
+			NOT = { is_year = 1546 }
+			NOT = { has_global_flag = monarch_AYU_No.05a }
+		}
+		allow = {
+			is_year = 1533
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.05a
+			define_heir = {
+				name = "Chairacha"
+				monarch_name = "Chairacha"
+				dynasty = "Suphannaphum"
+				birth_date = 1520.1.1
+				death_date = 1546.6.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Chairacha"
+			NOT = { is_year = 1548 }
+			NOT = { has_global_flag = monarch_AYU_No.06a }
+		}
+		allow = {
+			is_year = 1535
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.06a
+			define_heir = {
+				name = "Keo Fa"
+				monarch_name = "Keo Fa"
+				dynasty = "Suphannaphum"
+				birth_date = 1535.1.1
+				death_date = 1548.11.12
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Keo Fa"
+			NOT = { is_year = 1569 }
+			NOT = { has_global_flag = monarch_AYU_No.07a }
+		}
+		allow = {
+			is_year = 1547
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.07a
+			define_heir = {
+				name = "Mahin"
+				monarch_name = "Mahin"
+				dynasty = "Suphannaphum"
+				birth_date = 1539.1.1
+				death_date = 1569.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Mahin"
+			NOT = { is_year = 1590 }
+			NOT = { has_global_flag = monarch_AYU_No.08a }
+		}
+		allow = {
+			is_year = 1568
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.08a
+			define_heir = {
+				name = "Thammaracha"
+				monarch_name = "Thammaracha I"
+				dynasty = "Sukhothai"
+				birth_date = 1535.4.25
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Thammaracha I"
+			NOT = { is_year = 1605 }
+			NOT = { has_global_flag = monarch_AYU_No.09a }
+		}
+		allow = {
+			is_year = 1569
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.09a
+			define_heir = {
+				name = "Naresuen"
+				monarch_name = "Naresuen"
+				dynasty = "Sukhothai"
+				birth_date = 1555.4.25
+				death_date = 1605.4.7
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Naresuen"
+			NOT = { is_year = 1610 }
+			NOT = { has_global_flag = monarch_AYU_No.10a }
+		}
+		allow = {
+			is_year = 1590
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.10a
+			define_heir = {
+				name = "Ekathotsarot"
+				monarch_name = "Ekathotsarot"
+				dynasty = "Sukhothai"
+				birth_date = 1556.1.1
+				death_date = 1610.1.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Ekathotsarot"
+			NOT = { is_year = 1611 }
+			NOT = { has_global_flag = monarch_AYU_No.11a }
+		}
+		allow = {
+			is_year = 1605
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.11a
+			define_heir = {
+				name = "Si Saowaphak"
+				monarch_name = "Si Saowaphak"
+				dynasty = "Sukhothai"
+				birth_date = 1580.1.1
+				death_date = 1611.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Si Saowaphak"
+			NOT = { is_year = 1629 }
+			NOT = { has_global_flag = monarch_AYU_No.12a }
+		}
+		allow = {
+			is_year = 1611
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.12a
+			define_heir = {
+				name = "Chettha"
+				monarch_name = "Chettha"
+				dynasty = "Sukhothai"
+				birth_date = 1613.1.1
+				death_date = 1629.8.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Chettha"
+			NOT = { is_year = 1640 }
+			NOT = { has_global_flag = monarch_AYU_No.13a }
+		}
+		allow = {
+			is_year = 1628
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.13a
+			define_heir = {
+				name = "Athittayawong"
+				monarch_name = "Athittayawong"
+				dynasty = "Sukhothai"
+				birth_date = 1618.1.1
+				death_date = 1640.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Athittayawong"
+			NOT = { is_year = 1688 }
+			NOT = { has_global_flag = monarch_AYU_No.14a }
+		}
+		allow = {
+			is_year = 1629
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.14a
+			define_heir = {
+				name = "Chao Fa Jai"
+				monarch_name = "Chao Fa Jai"
+				dynasty = "Prasat Thong"
+				birth_date = 1629.1.1
+				death_date = 1688.7.11
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Chao Fa Jai"
+			NOT = { is_year = 1703 }
+			NOT = { has_global_flag = monarch_AYU_No.15a }
+		}
+		allow = {
+			is_year = 1656
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.15a
+			define_heir = {
+				name = "Phetracha"
+				monarch_name = "Phetracha"
+				dynasty = "Ban Phlu Luang"
+				birth_date = 1632.1.1
+				death_date = 1703.2.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Phetracha"
+			NOT = { is_year = 1709 }
+			NOT = { has_global_flag = monarch_AYU_No.16a }
+		}
+		allow = {
+			is_year = 1688
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.16a
+			define_heir = {
+				name = "Phrachao Suea"
+				monarch_name = "Suriyenthrathibodi"
+				dynasty = "Ban Phlu Luang"
+				birth_date = 1680.1.1 # Actual unknown
+				death_date = 1709.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Suriyenthrathibodi"
+			NOT = { is_year = 1733 }
+			NOT = { has_global_flag = monarch_AYU_No.17a }
+		}
+		allow = {
+			is_year = 1703
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.17a
+			define_heir = {
+				name = "Thai Sa"
+				monarch_name = "Thai Sa"
+				dynasty = "Ban Phlu Luang"
+				birth_date = 1680.1.1
+				death_date = 1733.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Thai Sa"
+			NOT = { is_year = 1758 }
+			NOT = { has_global_flag = monarch_AYU_No.18a }
+		}
+		allow = {
+			is_year = 1709
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.18a
+			define_heir = {
+				name = "Boromakot"
+				monarch_name = "Boromakot"
+				dynasty = "Ban Phlu Luang"
+				birth_date = 1680.1.1
+				death_date = 1758.4.14
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Boromakot"
+			NOT = { is_year = 1759 }
+			NOT = { has_global_flag = monarch_AYU_No.19a }
+		}
+		allow = {
+			is_year = 1734
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.19a
+			define_heir = {
+				name = "Ekkathat"
+				monarch_name = "Ekkathat"
+				dynasty = "Ban Phlu Luang"
+				birth_date = 1700.1.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.20a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Ekkathat"
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_AYU_No.20a }
+		}
+		allow = {
+			is_year = 1759
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.20a
+			define_heir = {
+				name = "Taksin"
+				monarch_name = "Taksin"
+				dynasty = "Thonburi"
+				birth_date = 1720.1.1
+				claim = 95
+				ADM = 4
+				DIP = 4
+				MIL = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.21a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Taksin"
+			NOT = { is_year = 1809 }
+			NOT = { has_global_flag = monarch_AYU_No.21a }
+		}
+		allow = {
+			is_year = 1768
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.21a
+			define_heir = {
+				name = "Rama"
+				monarch_name = "Rama I"
+				dynasty = "Chakri"
+				birth_date = 1740.1.1
+				claim = 95
+				ADM = 5
+				DIP = 3
+				MIL = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AYU_No.22a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AYU
+			has_ruler = "Rama I"
+			NOT = { is_year = 1824 }
+			NOT = { has_global_flag = monarch_AYU_No.22a }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AYU_No.22a
+			define_heir = {
+				name = "Buddha Loetla Nabhalai"
+				monarch_name = "Rama II"
+				dynasty = "Chakri" 
+				birth_date = 1767.2.24
+				death_date = 1824.7.21
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

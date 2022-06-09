@@ -1,0 +1,252 @@
+country_decisions = {
+
+	monarch_ODA_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ODA
+			has_ruler = "Hisanaga"
+			has_global_flag = monarch_ODA_No.00a
+			NOT = { is_year = 1495 }
+			NOT = { has_global_flag = monarch_ODA_No.00b }
+		}
+		allow = {
+			is_year = 1465
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ODA_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ODA_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ODA
+			has_ruler = "Toshisada"
+			has_global_flag = monarch_ODA_No.01a
+			NOT = { is_year = 1496 }
+			NOT = { has_global_flag = monarch_ODA_No.01b }
+		}
+		allow = {
+			is_year = 1495
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ODA_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ODA_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ODA
+			has_ruler = "Tosada"
+			has_global_flag = monarch_ODA_No.02a
+			NOT = { is_year = 1503 }
+			NOT = { has_global_flag = monarch_ODA_No.02b }
+		}
+		allow = {
+			is_year = 1496
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ODA_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ODA_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ODA
+			has_ruler = "Tomura"
+			has_global_flag = monarch_ODA_No.03a
+			NOT = { is_year = 1513 }
+			NOT = { has_global_flag = monarch_ODA_No.03b }
+		}
+		allow = {
+			is_year = 1503
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ODA_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ODA_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ODA
+			has_ruler = "Tatsusada"
+			has_global_flag = monarch_ODA_No.04a
+			NOT = { is_year = 1520 }
+			NOT = { has_global_flag = monarch_ODA_No.04b }
+		}
+		allow = {
+			is_year = 1513
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ODA_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ODA_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ODA
+			has_ruler = "Tatsukatsu"
+			has_global_flag = monarch_ODA_No.05a
+			NOT = { is_year = 1538 }
+			NOT = { has_global_flag = monarch_ODA_No.05b }
+		}
+		allow = {
+			is_year = 1520
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ODA_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ODA_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ODA
+			has_ruler = "Nobusada"
+			has_global_flag = monarch_ODA_No.06a
+			NOT = { is_year = 1552 }
+			NOT = { has_global_flag = monarch_ODA_No.06b }
+		}
+		allow = {
+			is_year = 1527
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ODA_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ODA_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ODA
+			has_ruler = "Nobuhide"
+			has_global_flag = monarch_ODA_No.07a
+			NOT = { is_year = 1582 }
+			NOT = { has_global_flag = monarch_ODA_No.07b }
+		}
+		allow = {
+			is_year = 1552
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ODA_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ODA_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ODA
+			has_ruler = "Nobunaga"
+			has_global_flag = monarch_ODA_No.08a
+			NOT = { is_year = 1598 }
+			NOT = { has_global_flag = monarch_ODA_No.08b }
+		}
+		allow = {
+			is_year = 1582
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ODA_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_ODA_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = ODA
+			has_ruler = "Hideyoshi"
+			has_global_flag = monarch_ODA_No.09a
+			NOT = { is_year = 1615 }
+			NOT = { has_global_flag = monarch_ODA_No.09b }
+		}
+		allow = {
+			is_year = 1598
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ODA_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,652 @@
+country_decisions = {
+
+	monarch_BAN_No.00a = {
+		major = yes
+		potential = {
+			tag = BAN
+			NOT = { has_global_flag = monarch_BAN_No.00a }
+		}
+		allow = {
+			is_year = 1525
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Maulana Hasanudin"
+				dynasty = "Gunungjati"
+				dip = 2
+				mil = 2
+				adm = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.01a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Maulana Hasanudin"
+			NOT = { has_global_flag = monarch_BAN_No.01a }
+		}
+		allow = {
+			is_year = 1552
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Maulana Yusuf"
+				monarch_name = "Maulana Yusuf"
+				dynasty = "Gunungjati"
+				birth_date = 1520.1.1
+				death_Date = 1570.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.02a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Maulana Yusuf"
+			NOT = { has_global_flag = monarch_BAN_No.02a }
+		}
+		allow = {
+			is_year = 1570
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Maulana Muhammad"
+				monarch_name = "Maulana Muhammad"
+				dynasty = "Gunungjati"
+				birth_date = 1542.1.1
+				death_date = 1580.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.03a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Maulana Muhammad"
+			NOT = { has_global_flag = monarch_BAN_No.03a }
+		}
+		allow = {
+			is_year = 1580
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul Mufakir"
+				monarch_name = "Abdul Mufakir"
+				dynasty = "Gunungjati"
+				birth_date = 1560.1.1
+				death_date = 1598.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.04a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Abdul Mufakir"
+			NOT = { has_global_flag = monarch_BAN_No.04a }
+		}
+		allow = {
+			is_year = 1598
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul Ma'ali"
+				monarch_name = "Abdul Ma'ali"
+				dynasty = "Gunungjati"
+				birth_date = 1580.1.1
+				death_date = 1640.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.05a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Abdul Ma'ali"
+			NOT = { has_global_flag = monarch_BAN_No.05a }
+		}
+		allow = {
+			is_year = 1640
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Ageng Tirtayasa"
+				monarch_name = "Ageng Tirtayasa"
+				dynasty = "Gunungjati"
+				birth_date = 1598.1.1
+				death_date = 1651.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.06a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Ageng Tirtayasa"
+			NOT = { has_global_flag = monarch_BAN_No.06a }
+		}
+		allow = {
+			is_year = 1651
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Abunasr"
+				monarch_name = "Haji Abunasr"
+				dynasty = "Gunungjati"
+				birth_date = 1620.1.1
+				death_date = 1672.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.07a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Haji Abunasr"
+			NOT = { has_global_flag = monarch_BAN_No.07a }
+		}
+		allow = {
+			is_year = 1672
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "bul Fadhal"
+				monarch_name = "bul Fadhal"
+				dynasty = "Gunungjati"
+				birth_date = 1651.1.1
+				death_date = 1687.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.08a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "bul Fadhal"
+			NOT = { has_global_flag = monarch_BAN_No.08a }
+		}
+		allow = {
+			is_year = 1687
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul Mahasin"
+				monarch_name = "Abdul Mahasin"
+				dynasty = "Gunungjati"
+				birth_date = 1672.1.1
+				death_date = 1690.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.09a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Abdul Mahasin"
+			NOT = { has_global_flag = monarch_BAN_No.09a }
+		}
+		allow = {
+			is_year = 1690
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhamad Syifa"
+				monarch_name = "Muhamad Syifa"
+				dynasty = "Gunungjati"
+				birth_date = 1660.1.1
+				death_date = 1733.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.10a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Muhamad Syifa"
+			NOT = { has_global_flag = monarch_BAN_No.10a }
+		}
+		allow = {
+			is_year = 1733
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Syarifudin Ratu"
+				monarch_name = "Syarifudin Ratu"
+				dynasty = "Gunungjati"
+				birth_date = 1690.1.1
+				death_date = 1750.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.11a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Syarifudin Ratu"
+			NOT = { has_global_flag = monarch_BAN_No.11a }
+		}
+		allow = {
+			is_year = 1750
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Wasizainul"
+				monarch_name = "Muhammad Wasizainul"
+				dynasty = "Gunungjati"
+				birth_date = 1713.1.1
+				death_date = 1752.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.12a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Muhammad Wasizainul"
+			NOT = { has_global_flag = monarch_BAN_No.12a }
+		}
+		allow = {
+			is_year = 1752
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Arief"
+				monarch_name = "Muhammad Arief"
+				dynasty = "Gunungjati"
+				birth_date = 1730.1.1
+				death_date = 1773.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.13a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Muhammad Arief"
+			NOT = { has_global_flag = monarch_BAN_No.13a }
+		}
+		allow = {
+			is_year = 1773
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul Mafakin"
+				monarch_name = "Abdul Mafakin"
+				dynasty = "Gunungjati"
+				birth_date = 1752.1.1
+				death_date = 1799.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.14a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Abdul Mafakin"
+			NOT = { has_global_flag = monarch_BAN_No.14a }
+		}
+		allow = {
+			is_year = 1799
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhyidin Zainussolihin"
+				monarch_name = "Muhyidin Zainussolihin"
+				dynasty = "Gunungjati"
+				birth_date = 1773.1.1
+				death_date = 1801.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.15a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Muhyidin Zainussolihin"
+			NOT = { has_global_flag = monarch_BAN_No.15a }
+		}
+		allow = {
+			is_year = 1801
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Ishaq"
+				monarch_name = "Muhammad Ishaq"
+				dynasty = "Gunungjati"
+				birth_date = 1793.1.1
+				death_date = 1802.1.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.16a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Muhammad Ishaq"
+			NOT = { has_global_flag = monarch_BAN_No.16a }
+		}
+		allow = {
+			is_year = 1802
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Wakil Pangeran"
+				dynasty = "Gunungjati"
+				dip = 2
+				mil = 0
+				adm = 2
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.17a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Wakil Pangeran"
+			NOT = { has_global_flag = monarch_BAN_No.17a }
+		}
+		allow = {
+			is_year = 1803
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Aliyuddin II"
+				dynasty = "Gunungjati"
+				dip = 2
+				mil = 2
+				adm = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.18a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Aliyuddin II"
+			NOT = { has_global_flag = monarch_BAN_No.18a }
+		}
+		allow = {
+			is_year = 1808
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Wakil Pangeran"
+				dynasty = "Gunungjati"
+				dip = 0
+				mil = 2
+				adm = 3
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.19a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Wakil Pangeran"
+			NOT = { has_global_flag = monarch_BAN_No.19a }
+		}
+		allow = {
+			is_year = 1809
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Syafiuddin"
+				dynasty = "Gunungjati"
+				dip = 1
+				mil = 2
+				adm = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BAN_No.20a = {
+		major = yes
+		potential = {
+			tag = BAN
+			has_ruler = "Muhammad Syafiuddin"
+			NOT = { has_global_flag = monarch_BAN_No.20a }
+		}
+		allow = {
+			is_year = 1813
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BAN_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Rafiuddin"
+				dynasty = "Gunungjati"
+				dip = 3
+				mil = 2
+				adm = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

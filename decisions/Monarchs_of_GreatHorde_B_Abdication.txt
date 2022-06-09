@@ -1,0 +1,51 @@
+country_decisions = {
+
+	monarch_GOL_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = GOL
+			has_global_flag = monarch_GOL_No.00a
+			NOT = { is_year = 1481 }
+			NOT = { has_global_flag = monarch_GOL_No.00b }
+		}
+		allow = {
+			is_year = 1459
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_GOL_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_GOL_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = GOL
+			has_ruler = "Ahmad I"
+			has_global_flag = monarch_GOL_No.01a
+			NOT = { is_year = 1529 }
+			NOT = { has_global_flag = monarch_GOL_No.01b }
+		}
+		allow = {
+			is_year = 1481
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_GOL_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

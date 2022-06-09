@@ -1,0 +1,718 @@
+country_decisions = {
+
+	monarch_BUK_No.00a = {
+		major = yes
+		potential = {
+			tag = BUK
+			NOT = { has_global_flag = monarch_BUK_No.00a }
+		}
+		allow = {
+			is_year = 1510
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Kochkunju" 
+				dynasty = "Shaybanid"
+				dip = 1 
+				adm = 2 
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.01a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Kochkunju"
+			NOT = { has_global_flag = monarch_BUK_No.01a }
+		}
+		allow = {
+			is_year = 1530
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Abu Said" 
+				dynasty = "Shaybanid"
+				dip = 1 
+				adm = 1 
+				mil = 1 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.02a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Abu Said"
+			NOT = { has_global_flag = monarch_BUK_No.02a }
+		}
+		allow = {
+			is_year = 1533
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Ubaydulla" 
+				dynasty = "Shaybanid"
+				dip = 2 
+				adm = 2 
+				mil = 4 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.03a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Ubaydulla"
+			NOT = { has_global_flag = monarch_BUK_No.03a }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdulla I" 
+				dynasty = "Shaybanid"
+				dip = 1 
+				adm = 1 
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.04a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Abdulla I"
+			NOT = { has_global_flag = monarch_BUK_No.04a }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul-Aziz" 
+				dynasty = "Shaybanid"
+				dip = 1 
+				adm = 1 
+				mil = 2 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.05a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Abdul-Aziz"
+			NOT = { has_global_flag = monarch_BUK_No.05a }
+		}
+		allow = {
+			is_year = 1550
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul-Latif" 
+				dynasty = "Shaybanid"
+				dip = 1 
+				adm = 1 
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.06a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Abdul-Latif"
+			NOT = { has_global_flag = monarch_BUK_No.06a }
+		}
+		allow = {
+			is_year = 1551
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Navruz Ahmad" 
+				dynasty = "Shaybanid"
+				dip = 1 
+				adm = 1 
+				mil = 2 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.07a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Navruz Ahmad"
+			NOT = { has_global_flag = monarch_BUK_No.07a }
+		}
+		allow = {
+			is_year = 1556
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Pir Muhammad I" 
+				dynasty = "Shaybanid"
+				dip = 1 
+				adm = 1 
+				mil = 1 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.08a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Pir Muhammad I"
+			NOT = { has_global_flag = monarch_BUK_No.08a }
+		}
+		allow = {
+			is_year = 1561
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Iskandar" 
+				dynasty = "Shaybanid"
+				dip = 1 
+				adm = 3 
+				mil = 1 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.09a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Iskandar"
+			NOT = { has_global_flag = monarch_BUK_No.09a }
+		}
+		allow = {
+			is_year = 1583
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdulla II" 
+				dynasty = "Shaybanid"
+				dip = 3 
+				adm = 3 
+				mil = 4 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.10a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Abdulla II"
+			NOT = { has_global_flag = monarch_BUK_No.10a }
+		}
+		allow = {
+			is_year = 1598
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul-Mumin" 
+				dynasty = "Shaybanid"
+				dip = 0 
+				adm = 0 
+				mil = 3
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.11a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Abdul-Mumin"
+			NOT = { has_global_flag = monarch_BUK_No.11a }
+		}
+		allow = {
+			is_year = 1598
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Pir Muhammad II" 
+				dynasty = "Shaybanid"
+				dip = 0 
+				adm = 0 
+				mil = 0 
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.12a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Pir Muhammad II"
+			NOT = { has_global_flag = monarch_BUK_No.12a }
+		}
+		allow = {
+			is_year = 1601
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Baqi Muhammad" 
+				dynasty = "Genghisid"
+				dip = 2 
+				adm = 2 
+				mil = 2 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.13a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Baqi Muhammad"
+			NOT = { has_global_flag = monarch_BUK_No.13a }
+		}
+		allow = {
+			is_year = 1606
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Vali Muhammad" 
+				dynasty = "Genghisid"
+				dip = 1 
+				adm = 0 
+				mil = 1
+				max_random_adm = 0				
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.14a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Vali Muhammad"
+			NOT = { has_global_flag = monarch_BUK_No.14a }
+		}
+		allow = {
+			is_year = 1611
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Imam Quli" 
+				dynasty = "Genghisid"
+				dip = 3 
+				adm = 0 
+				mil = 2 
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.15a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Imam Quli"
+			NOT = { has_global_flag = monarch_BUK_No.15a }
+		}
+		allow = {
+			is_year = 1641
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Nadir Muhammad" 
+				dynasty = "Genghisid"
+				dip = 2 
+				adm = 0 
+				mil = 2 
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.16a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Nadir Muhammad"
+			NOT = { has_global_flag = monarch_BUK_No.16a }
+		}
+		allow = {
+			is_year = 1645
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul-Aziz" 
+				dynasty = "Genghisid"
+				dip = 2 
+				adm = 2 
+				mil = 3 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.17a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Abdul-Aziz"
+			NOT = { has_global_flag = monarch_BUK_No.17a }
+		}
+		allow = {
+			is_year = 1681
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Subhan Quli" 
+				dynasty = "Genghisid"
+				dip = 1 
+				adm = 1 
+				mil = 1 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.18a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Subhan Quli"
+			NOT = { has_global_flag = monarch_BUK_No.18a }
+		}
+		allow = {
+			is_year = 1702
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Ubaydulla II" 
+				dynasty = "Genghisid"
+				dip = 0 
+				adm = 0 
+				mil = 0 
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.19a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Ubaydulla II"
+			NOT = { has_global_flag = monarch_BUK_No.19a }
+		}
+		allow = {
+			is_year = 1711
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Abu'l-Feiz" 
+				dynasty = "Genghisid"
+				dip = 0 
+				adm = 0 
+				mil = 0 
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.20a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Abu'l-Feiz"
+			NOT = { has_global_flag = monarch_BUK_No.20a }
+		}
+		allow = {
+			is_year = 1747
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Abdul-Mumin" 
+				dynasty = "Genghisid"
+				dip = 0 
+				adm = 0 
+				mil = 0 
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.21a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Abdul-Mumin"
+			NOT = { has_global_flag = monarch_BUK_No.21a }
+		}
+		allow = {
+			is_year = 1751
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Muhammad Rahim"
+				dynasty = "Manghit"
+				dip = 2 
+				adm = 3 
+				mil = 4 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.22a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Muhammad Rahim"
+			NOT = { has_global_flag = monarch_BUK_No.22a }
+		}
+		allow = {
+			is_year = 1758
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.22a
+			add_stability = -1
+			define_ruler = {
+				name = "Daniyal" 
+				dynasty = "Manghit"
+				dip = 4 
+				adm = 3 
+				mil = 3 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.23a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Daniyal"
+			NOT = { has_global_flag = monarch_BUK_No.23a }
+		}
+		allow = {
+			is_year = 1785
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.23a
+			add_stability = -1
+			define_ruler = {
+				name = "Shahmurad" 
+				dynasty = "Manghit"
+				dip = 3 
+				adm = 5 
+				mil = 3 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_BUK_No.24a = {
+		major = yes
+		potential = {
+			tag = BUK
+			has_ruler = "Shahmurad"
+			NOT = { has_global_flag = monarch_BUK_No.24a }
+		}
+		allow = {
+			is_year = 1799
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUK_No.24a
+			add_stability = -1
+			define_ruler = {
+				name = "Haydar" 
+				dynasty = "Manghit"
+				dip = 1 
+				adm = 1 
+				mil = 2 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

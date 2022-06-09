@@ -1,0 +1,135 @@
+country_decisions = {
+
+	monarch_SUK_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SUK
+			has_ruler = "Thammaracha IV"
+			NOT = { is_year = 1488 }
+			NOT = { has_global_flag = monarch_SUK_No.00a }
+		}
+		allow = {
+			is_year = 1437
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SUK_No.00a
+			define_heir = {
+				name = "Trailok"
+				monarch_name = "Trailok"
+				dynasty = "Suphannaphum"
+				birth_date = 1431.1.1
+				death_date = 1488.1.1
+				claim = 95
+				adm = 6
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SUK_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SUK
+			has_ruler = "Trailok"
+			NOT = { is_year = 1491 }
+			NOT = { has_global_flag = monarch_SUK_No.01a }
+		}
+		allow = {
+			is_year = 1473
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SUK_No.01a
+			define_heir = {
+				name = "Borommaracha"
+				monarch_name = "Borommaracha III"
+				dynasty = "Suphannaphum"
+				claim = 95
+				birth_date = 1470.1.1
+				death_date = 1491.1.1
+				adm = 1
+				dip = 3
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SUK_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SUK
+			has_ruler = "Borommaracha III"
+			NOT = { is_year = 1529 }
+			NOT = { has_global_flag = monarch_SUK_No.02a }
+		}
+		allow = {
+			is_year = 1488
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SUK_No.02a
+			define_heir = {
+				name = "Ramathibodi"
+				monarch_name = "Rama T'ibodi II"
+				dynasty = "Suphannaphum"
+				birth_date = 1473.1.1
+				death_date = 1529.7.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SUK_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SUK
+			has_ruler = "Rama T'ibodi II"
+			NOT = { is_year = 1533 }
+			NOT = { has_global_flag = monarch_SUK_No.03a }
+		}
+		allow = {
+			is_year = 1515
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SUK_No.03a
+			define_heir = {
+				name = "Athittayawong"
+				monarch_name = "Borommaracha IV"
+				dynasty = "Suphannaphum"
+				birth_date = 1515.1.1
+				death_date = 1533.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

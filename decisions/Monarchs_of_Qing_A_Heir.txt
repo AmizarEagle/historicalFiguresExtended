@@ -1,0 +1,434 @@
+country_decisions = {
+
+	monarch_QNG_No.00a = {
+		major = yes
+		potential = {
+			OR = { OR = { government = monarchy AND = { government = tribal } } AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Cungsan"
+			NOT = { is_year = 1506 }
+			NOT = { has_global_flag = monarch_QNG_No.00a }
+		}
+		allow = {
+			is_year = 1433
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.00a
+			define_heir = {
+				name = "Tolo"
+				monarch_name = "Tolo"
+				dynasty = "Aisin Gioro"
+				birth_date = 1433.1.1
+				death_date = 1506.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.01a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Tolo"
+			NOT = { is_year = 1522 }
+			NOT = { has_global_flag = monarch_QNG_No.01a }
+		}
+		allow = {
+			is_year = 1467
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.01a
+			define_heir = {
+				name = "Sibeoci Fiyanggu"
+				monarch_name = "Sibeoci Fiyanggu"
+				dynasty = "Aisin Gioro"
+				birth_date = 1467.1.1
+				death_date = 1522.1.1
+				claim = 95
+				adm = 3
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.02a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Sibeoci Fiyanggu"
+			NOT = { is_year = 1542 }
+			NOT = { has_global_flag = monarch_QNG_No.02a }
+		}
+		allow = {
+			is_year = 1481
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.02a
+			define_heir = {
+				name = "Fuman"
+				monarch_name = "Fuman"
+				dynasty = "Aisin Gioro"
+				birth_date = 1481.1.1
+				death_date = 1542.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.03a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Fuman"
+			NOT = { is_year = 1571 }
+			NOT = { has_global_flag = monarch_QNG_No.03a }
+		}
+		allow = {
+			is_year = 1522
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.03a
+			define_heir = {
+				name = "Giocangga"
+				monarch_name = "Giocangga"
+				dynasty = "Aisin Gioro"
+				birth_date = 1522.1.1
+				death_date = 1571.1.1
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.04a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Giocangga"
+			NOT = { is_year = 1583 }
+			NOT = { has_global_flag = monarch_QNG_No.04a }
+		}
+		allow = {
+			is_year = 1542
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.04a
+			define_heir = {
+				name = "Taksi"
+				monarch_name = "Taksi"
+				dynasty = "Aisin Gioro"
+				birth_date = 1532.1.1
+				death_date = 1583.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.05a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Taksi"
+			NOT = { is_year = 1626 }
+			NOT = { has_global_flag = monarch_QNG_No.05a }
+		}
+		allow = {
+			is_year = 1571
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.05a
+			define_heir = {
+				name = "Nurhachi"
+				monarch_name = "Nurhachi"
+				dynasty = "Aisin Gioro"
+				birth_date = 1559.2.21
+				death_date = 1626.9.30
+				claim = 95
+				adm = 5
+				dip = 4
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.06a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Nurhachi"
+			NOT = { is_year = 1643 }
+			NOT = { has_global_flag = monarch_QNG_No.06a }
+		}
+		allow = {
+			is_year = 1592
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.06a
+			define_heir = {
+				name = "Huang Taiji"
+				monarch_name = "Huang Taiji"
+				dynasty = "Aisin Gioro"
+				birth_date = 1592.11.28
+				death_date = 1643.9.21
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.07a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Huang Taiji"
+			NOT = { is_year = 1661 }
+			NOT = { has_global_flag = monarch_QNG_No.07a }
+		}
+		allow = {
+			is_year = 1638
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.07a
+			define_heir = {
+				name = "Fulin"
+				monarch_name = "Fulin"
+				dynasty = "Aisin Gioro"
+				birth_date = 1638.3.15
+				death_date = 1661.2.5
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.08a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Fulin"
+			NOT = { is_year = 1722 }
+			NOT = { has_global_flag = monarch_QNG_No.08a }
+		}
+		allow = {
+			is_year = 1654
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.08a
+			define_heir = {
+				name = "Hiowan Yei"
+				monarch_name = "Hiowan Yei"
+				dynasty = "Aisin Gioro"
+				birth_date = 1654.5.4
+				death_date = 1722.12.20
+				claim = 95
+				adm = 6
+				dip = 5
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.09a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Hiowan Yei"
+			NOT = { is_year = 1735 }
+			NOT = { has_global_flag = monarch_QNG_No.09a }
+		}
+		allow = {
+			is_year = 1678
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.09a
+			define_heir = {
+				name = "In Jen"
+				monarch_name = "In Jen"
+				dynasty = "Aisin Gioro"
+				birth_date = 1678.12.13
+				death_date = 1735.10.8
+				claim = 95
+				adm = 5
+				dip = 5
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.10a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "In Jen"
+			NOT = { is_year = 1799 }
+			NOT = { has_global_flag = monarch_QNG_No.10a }
+		}
+		allow = {
+			is_year = 1722
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.10a
+			define_heir = {
+				name = "Hung Li"
+				monarch_name = "Hung Li"
+				dynasty = "Aisin Gioro"
+				birth_date = 1711.9.25
+				death_date = 1799.2.7
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.11a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Hung Li"
+			NOT = { is_year = 1820 }
+			NOT = { has_global_flag = monarch_QNG_No.11a }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.11a
+			define_heir = {
+				name = "Yong Yan"
+				monarch_name = "Yong Yan"
+				dynasty = "Aisin Gioro"
+				birth_date = 1760.11.13
+				death_date = 1820.9.2
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_QNG_No.12a = {
+		major = yes
+		potential = {
+			OR = { government = monarchy AND = { government = tribal } }
+			OR = { tag = QNG AND = { tag = MCH } }
+			has_ruler = "Yong Yan"
+			NOT = { is_year = 1850 }
+			NOT = { has_global_flag = monarch_QNG_No.12a }
+		}
+		allow = {
+			is_year = 1796
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_QNG_No.12a
+			define_heir = {
+				name = "Min Ning"
+				monarch_name = "Min Ning"
+				dynasty = "Aisin Gioro"
+				birth_date = 1782.9.16
+				death_date = 1850.2.25
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

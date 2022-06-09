@@ -1,0 +1,640 @@
+country_decisions = {
+
+	monarch_KOR_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Sejong Do"
+			NOT = { is_year = 1452 }
+			NOT = { has_global_flag = monarch_KOR_No.00a }
+		}
+		allow = {
+			is_year = 1418
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.00a
+			define_heir = {
+				name = "Hyang"
+				monarch_name = "Hyang"
+				dynasty = "Yi"
+				birth_date = 1414.11.15
+				death_date = 1452.6.1
+				claim = 95
+				dip = 1
+				adm = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Hyang"
+			NOT = { is_year = 1457 }
+			NOT = { has_global_flag = monarch_KOR_No.01a }
+		}
+		allow = {
+			is_year = 1450
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.01a
+			define_heir = {
+				name = "Hongwi"
+				monarch_name = "Hongwi"
+				dynasty = "Yi"
+				birth_date = 1441.1.1
+				death_date = 1457.1.1
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Hongwi"
+			NOT = { is_year = 1468 }
+			NOT = { has_global_flag = monarch_KOR_No.02a }
+		}
+		allow = {
+			is_year = 1452
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.02a
+			define_heir = {
+				name = "Yu"
+				monarch_name = "Yu"
+				dynasty = "Yi"
+				birth_date = 1417.1.1
+				death_date = 1468.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yu"
+			NOT = { is_year = 1469 }
+			NOT = { has_global_flag = monarch_KOR_No.03a }
+		}
+		allow = {
+			is_year = 1456
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.03a
+			define_heir = {
+				name = "Gwang"
+				monarch_name = "Gwang"
+				dynasty = "Yi"
+				birth_date = 1450.1.1
+				death_date = 1469.1.10
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Gwang"
+			NOT = { is_year = 1494 }
+			NOT = { has_global_flag = monarch_KOR_No.04a }
+		}
+		allow = {
+			is_year = 1468
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.04a
+			define_heir = {
+				name = "Hyeol"
+				monarch_name = "Hyeol"
+				dynasty = "Yi"
+				birth_date = 1457.1.1
+				death_date = 1494.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Hyeol"
+			NOT = { is_year = 1506 }
+			NOT = { has_global_flag = monarch_KOR_No.05a }
+		}
+		allow = {
+			is_year = 1476
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.05a
+			define_heir = {
+				name = "Yung"
+				monarch_name = "Yung"
+				dynasty = "Yi"
+				birth_date = 1476.1.1
+				death_date = 1506.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yung"
+			NOT = { is_year = 1544 }
+			NOT = { has_global_flag = monarch_KOR_No.06a }
+		}
+		allow = {
+			is_year = 1495
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.06a
+			define_heir = {
+				name = "Yeok"
+				monarch_name = "Yeok"
+				dynasty = "Yi"
+				birth_date = 1488.1.1
+				death_date = 1544.12.5
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yeok"
+			NOT = { is_year = 1545 }
+			NOT = { has_global_flag = monarch_KOR_No.07a }
+		}
+		allow = {
+			is_year = 1544
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.07a
+			define_heir = {
+				name = "Ho" #Injong
+				dynasty = "Yi"
+				adm = 2
+				dip = 1
+				mil = 1
+				birth_date = 1515.1.1
+				death_date = 1545.8.18
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Ho"
+			NOT = { is_year = 1567 }
+			NOT = { has_global_flag = monarch_KOR_No.08a }
+		}
+		allow = {
+			is_year = 1544
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.08a
+			define_heir = {
+				name = "Hwan"
+				monarch_name = "Hwan"
+				dynasty = "Yi"
+				birth_date = 1534.1.1
+				death_date = 1567.8.13
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Hwan"
+			NOT = { is_year = 1608 }
+			NOT = { has_global_flag = monarch_KOR_No.09a }
+		}
+		allow = {
+			is_year = 1552
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.09a
+			define_heir = {
+				name = "Yeon"
+				monarch_name = "Yeon"
+				dynasty = "Yi"
+				birth_date = 1552.1.1
+				death_date = 1608.3.7
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yeon"
+			NOT = { is_year = 1641 }
+			NOT = { has_global_flag = monarch_KOR_No.10a }
+		}
+		allow = {
+			is_year = 1574
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.10a
+			define_heir = {
+				name = "Hon"
+				monarch_name = "Hon"
+				dynasty = "Yi"
+				birth_date = 1574.1.1
+				death_date = 1641.1.1
+				claim = 95
+				adm = 1
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Hon"
+			NOT = { is_year = 1649 }
+			NOT = { has_global_flag = monarch_KOR_No.11a }
+		}
+		allow = {
+			is_year = 1622
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.11a
+			define_heir = {
+				name = "Jong"
+				monarch_name = "Jong"
+				dynasty = "Yi"
+				birth_date = 1595.12.7
+				death_date = 1649.6.17
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Jong"
+			NOT = { is_year = 1658 }
+			NOT = { has_global_flag = monarch_KOR_No.12a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.12a
+			define_heir = {
+				name = "Ho"
+				monarch_name = "Ho"
+				dynasty = "Yi"
+				birth_date = 1619.1.1
+				death_date = 1659.6.24
+				claim = 95
+				adm = 3
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Ho"
+			NOT = { is_year = 1674 }
+			NOT = { has_global_flag = monarch_KOR_No.13a }
+		}
+		allow = {
+			is_year = 1649
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.13a
+			define_heir = {
+				name = "Yon" 
+				monarch_name = "Yon"
+				dynasty = "Yi"
+				birth_date = 1641.1.1
+				death_date = 1674.9.19
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yon"
+			NOT = { is_year = 1720 }
+			NOT = { has_global_flag = monarch_KOR_No.14a }
+		}
+		allow = {
+			is_year = 1661
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.14a
+			define_heir = {
+				name = "Sun"
+				monarch_name = "Sun"
+				dynasty = "Yi"
+				birth_date = 1661.8.15
+				death_date = 1720.7.13
+				claim = 95
+				adm = 3
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Sun"
+			NOT = { is_year = 1724 }
+			NOT = { has_global_flag = monarch_KOR_No.15a }
+		}
+		allow = {
+			is_year = 1688
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.15a
+			define_heir = {
+				name = "Yun" #Gyeongjong
+				monarch_name = "Yun"
+				dynasty = "Yi"
+				adm = 1
+				dip = 0
+				mil = 1
+				birth_date = 1688.1.1
+				death_date = 1724.10.7
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yun"
+			NOT = { is_year = 1776 }
+			NOT = { has_global_flag = monarch_KOR_No.16a }
+		}
+		allow = {
+			is_year = 1720
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.16a
+			define_heir = {
+				name = "Geum"
+				monarch_name = "Geum"
+				dynasty = "Yi"
+				birth_date = 1694.9.13
+				death_date = 1776.3.5
+				claim = 95
+				adm = 4
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Geum"
+			NOT = { is_year = 1800 }
+			NOT = { has_global_flag = monarch_KOR_No.17a }
+		}
+		allow = {
+			is_year = 1752
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.17a
+			define_heir = {
+				name = "San"
+				monarch_name = "San"
+				dynasty = "Yi"
+				birth_date = 1752.9.22
+				death_date = 1800.6.28
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "San"
+			NOT = { is_year = 1834 }
+			NOT = { has_global_flag = monarch_KOR_No.18a }
+		}
+		allow = {
+			is_year = 1790
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.18
+			define_heir = {
+				name = "Gong"
+				monarch_name = "Gong"
+				dynasty = "Yi"
+				birth_date = 1790.1.1
+				death_date = 1834.1.1
+				claim = 95
+				adm = 2
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

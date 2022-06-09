@@ -1,0 +1,73 @@
+country_decisions = {
+
+	monarch_DLH_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DLH
+			NOT = { is_year = 1517 }
+			NOT = { has_global_flag = monarch_DLH_No.00a }
+		}
+		allow = {
+			is_year = 1555
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DLH_No.00a
+			define_heir = {
+				name = "Nizam Khan"
+				monarch_name = "Sikandar Shah"
+				dynasty = "Lodi"
+				culture = afghani
+				birth_date = 1450.1.1
+				death_Date = 1517.11.21
+				claim = 95
+				ADM = 0
+				DIP = 1
+				MIL = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DLH_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = DLH
+			has_ruler = "Sikandar Shah"
+			NOT = { is_year = 1526 }
+			NOT = { has_global_flag = monarch_DLH_No.01a }
+		}
+		allow = {
+			is_year = 1489
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DLH_No.01a
+			define_heir = {
+				name = "Ibrahim Shah"
+				monarch_name = "Ibrahim Shah I"
+				dynasty = "Lodi"
+				culture = afghani
+				birth_date = 1489.1.1
+				death_Date = 1526.4.21
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

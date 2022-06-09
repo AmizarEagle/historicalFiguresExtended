@@ -1,0 +1,294 @@
+country_decisions = {
+
+	monarch_PGR_No.00a = {
+		major = yes
+		potential = {
+			tag = PGR
+			has_ruler = "Puti Panjang Rambut II"
+			NOT = { has_global_flag = monarch_PGR_No.00a }
+		}
+		allow = {
+			is_year = 1470
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PGR_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Dewang Sri Ramawarna"
+				monarch_name = "Dewang Sri Ramawarna"
+				dynasty = "Mauli"
+				birth_date = 1440.1.1
+				death_date = 1519.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PGR_No.01a = {
+		major = yes
+		potential = {
+			tag = PGR
+			has_ruler = "Dewang Sri Ramawarna"
+			NOT = { has_global_flag = monarch_PGR_No.01a }
+		}
+		allow = {
+			is_year = 1500
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PGR_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Dewang Sri Dewarna" #Came to power through a coup d'etat
+				dynasty = "Mauli"
+				adm = 3
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PGR_No.02a = {
+		major = yes
+		potential = {
+			tag = PGR
+			has_ruler = "Dewang Sri Dewarna"
+			NOT = { has_global_flag = monarch_PGR_No.02a }
+		}
+		allow = {
+			is_year = 1539
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PGR_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Dewang Sri Megowarna"
+				monarch_name = "Dewang Sri Megowarna"
+				dynasty = "Mauli"
+				birth_date = 1520.1.1
+				death_date = 1580.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PGR_No.03a = {
+		major = yes
+		potential = {
+			tag = PGR
+			has_ruler = "Dewang Sri Megowarna"
+			NOT = { has_global_flag = monarch_PGR_No.03a }
+		}
+		allow = {
+			is_year = 1570
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PGR_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Indo Naro"
+				monarch_name = "Indo Naro"
+				dynasty = "Mauli"
+				birth_date = 1555.1.1
+				death_date = 1605.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PGR_No.04a = {
+		major = yes
+		potential = {
+			tag = PGR
+			has_ruler = "Indo Naro"
+			NOT = { has_global_flag = monarch_PGR_No.04a }
+		}
+		allow = {
+			is_year = 1605
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PGR_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Alif Khalifatullah"
+				dynasty = "Mauli"
+				adm = 4
+				dip = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PGR_No.05a = {
+		major = yes
+		potential = {
+			tag = PGR
+			has_ruler = "Alif Khalifatullah"
+			NOT = { has_global_flag = monarch_PGR_No.05a }
+		}
+		allow = {
+			is_year = 1668
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PGR_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmadsyah"
+				dynasty = "Mauli"
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PGR_No.06a = {
+		major = yes
+		potential = {
+			tag = PGR
+			has_ruler = "Ahmadsyah"
+			NOT = { has_global_flag = monarch_PGR_No.06a }
+		}
+		allow = {
+			is_year = 1674
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PGR_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Indermasyah"
+				dynasty = "Mauli"
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PGR_No.07a = {
+		major = yes
+		potential = {
+			tag = PGR
+			has_ruler = "Indermasyah"
+			NOT = { has_global_flag = monarch_PGR_No.07a }
+		}
+		allow = {
+			is_year = 1730
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PGR_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Indermasyah II" # fictional
+				dynasty = "Mauli"
+				adm = 1
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PGR_No.08a = {
+		major = yes
+		potential = {
+			tag = PGR
+			has_ruler = "Indermasyah II"
+			NOT = { has_global_flag = monarch_PGR_No.08a }
+		}
+		allow = {
+			is_year = 1780
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PGR_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Muningsyah"
+				dynasty = "Mauli"
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PGR_No.09a = {
+		major = yes
+		potential = {
+			tag = PGR
+			has_ruler = "Muningsyah"
+			NOT = { has_global_flag = monarch_PGR_No.09a }
+		}
+		allow = {
+			is_year = 1821
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PGR_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Tangkal Alam Bagagar"
+				dynasty = "Mauli"
+				adm = 2
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

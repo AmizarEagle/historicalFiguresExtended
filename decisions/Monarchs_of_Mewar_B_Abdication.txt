@@ -1,0 +1,502 @@
+country_decisions = {
+
+	monarch_MER_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Kumbhakarna Singh"
+			has_global_flag = monarch_MER_No.00a
+			NOT = { is_year = 1473 }
+			NOT = { has_global_flag = monarch_MER_No.00b }
+		}
+		allow = {
+			is_year = 1468
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Udai Singh I"
+			has_global_flag = monarch_MER_No.01a
+			NOT = { is_year = 1509 }
+			NOT = { has_global_flag = monarch_MER_No.01b }
+		}
+		allow = {
+			is_year = 1473
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Raimal Singh"
+			has_global_flag = monarch_MER_No.02a
+			NOT = { is_year = 1528 }
+			NOT = { has_global_flag = monarch_MER_No.02b }
+		}
+		allow = {
+			is_year = 1509
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Sangram Singh I"
+			has_global_flag = monarch_MER_No.03a
+			NOT = { is_year = 1531 }
+			NOT = { has_global_flag = monarch_MER_No.03b }
+		}
+		allow = {
+			is_year = 1528
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Ratan Singh I"
+			has_global_flag = monarch_MER_No.04a
+			NOT = { is_year = 1537 }
+			NOT = { has_global_flag = monarch_MER_No.04b }
+		}
+		allow = {
+			is_year = 1531
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Vikramaditya Singh"
+			has_global_flag = monarch_MER_No.05a
+			NOT = { is_year = 1572 }
+			NOT = { has_global_flag = monarch_MER_No.05b }
+		}
+		allow = {
+			is_year = 1537
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Udai Singh II"
+			has_global_flag = monarch_MER_No.06a
+			NOT = { is_year = 1597 }
+			NOT = { has_global_flag = monarch_MER_No.06b }
+		}
+		allow = {
+			is_year = 1572
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Pratap Singh II"
+			has_global_flag = monarch_MER_No.07a
+			NOT = { is_year = 1620 }
+			NOT = { has_global_flag = monarch_MER_No.07b }
+		}
+		allow = {
+			is_year = 1597
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Amar Singh I"
+			has_global_flag = monarch_MER_No.08a
+			NOT = { is_year = 1628 }
+			NOT = { has_global_flag = monarch_MER_No.08b }
+		}
+		allow = {
+			is_year = 1620
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Karan Singh"
+			has_global_flag = monarch_MER_No.09a
+			NOT = { is_year = 1652 }
+			NOT = { has_global_flag = monarch_MER_No.09b }
+		}
+		allow = {
+			is_year = 1628
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Jagat Singh I"
+			has_global_flag = monarch_MER_No.10a
+			NOT = { is_year = 1680 }
+			NOT = { has_global_flag = monarch_MER_No.10b }
+		}
+		allow = {
+			is_year = 1652
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Raj Singh I"
+			has_global_flag = monarch_MER_No.11a
+			NOT = { is_year = 1698 }
+			NOT = { has_global_flag = monarch_MER_No.11b }
+		}
+		allow = {
+			is_year = 1680
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Jai Singh"
+			has_global_flag = monarch_MER_No.12a
+			NOT = { is_year = 1710 }
+			NOT = { has_global_flag = monarch_MER_No.12b }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Amar Singh II"
+			has_global_flag = monarch_MER_No.13a
+			NOT = { is_year = 1734 }
+			NOT = { has_global_flag = monarch_MER_No.13b }
+		}
+		allow = {
+			is_year = 1710
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Sangram Singh II"
+			has_global_flag = monarch_MER_No.14a
+			NOT = { is_year = 1751 }
+			NOT = { has_global_flag = monarch_MER_No.14b }
+		}
+		allow = {
+			is_year = 1734
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Jagat Singh II"
+			has_global_flag = monarch_MER_No.15a
+			NOT = { is_year = 1753 }
+			NOT = { has_global_flag = monarch_MER_No.15b }
+		}
+		allow = {
+			is_year = 1751
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Pratap Singh II"
+			has_global_flag = monarch_MER_No.16a
+			NOT = { is_year = 1780 }
+			NOT = { has_global_flag = monarch_MER_No.16b }
+		}
+		allow = {
+			is_year = 1753
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Raj Singh II"
+			has_global_flag = monarch_MER_No.17a
+			NOT = { is_year = 1773 }
+			NOT = { has_global_flag = monarch_MER_No.17b }
+		}
+		allow = {
+			is_year = 1761
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.18b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Ari Singh"
+			has_global_flag = monarch_MER_No.18a
+			NOT = { is_year = 1778 }
+			NOT = { has_global_flag = monarch_MER_No.18b }
+		}
+		allow = {
+			is_year = 1773
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MER_No.19b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MER
+			has_ruler = "Hammir Singh II"
+			has_global_flag = monarch_MER_No.19a
+			NOT = { is_year = 1828 }
+			NOT = { has_global_flag = monarch_MER_No.19b }
+		}
+		allow = {
+			is_year = 1778
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MER_No.19b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

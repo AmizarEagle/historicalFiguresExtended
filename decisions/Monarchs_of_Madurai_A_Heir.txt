@@ -1,0 +1,478 @@
+country_decisions = {
+
+	monarch_PAP_No.00a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Vira"
+			NOT = { has_global_flag = monarch_PAP_No.00a }
+		}
+		allow = {
+			is_year = 1475
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Vira II"
+				monarch_name = "Vira II"
+				dynasty = "Pandya"
+				birth_date = 1430.1.1
+				death_Date = 1516.1.1
+				claim = 95
+				ADM = 4
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.01a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Vira II"
+			NOT = { has_global_flag = monarch_PAP_No.01a }
+		}
+		allow = {
+			is_year = 1516
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Parakrama II"
+				monarch_name = "Parakrama II"
+				dynasty = "Pandya"
+				birth_date = 1450.1.1
+				death_Date = 1543.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.02a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Parakrama II"
+			NOT = { has_global_flag = monarch_PAP_No.02a }
+		}
+		allow = {
+			is_year = 1529
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Vishvanatha"
+				dynasty = "Nayaka"
+				ADM = 4
+				DIP = 4
+				MIL = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.03a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Vishvanatha"
+			NOT = { has_global_flag = monarch_PAP_No.03a }
+		}
+		allow = {
+			is_year = 1564
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Kumara Periaya Krishnappa"
+				monarch_name = "Kumara Periaya Krishnappa"
+				dynasty = "Nayaka"
+				birth_date = 1527.1.1
+				death_Date = 1572.1.1
+				claim = 95
+				ADM = 1
+				DIP = 2
+				MIL = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.04a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Kumara Periaya Krishnappa"
+			NOT = { has_global_flag = monarch_PAP_No.04a }
+		}
+		allow = {
+			is_year = 1572
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Krishnappa Periaya"
+				monarch_name = "Krishnappa Periaya"
+				dynasty = "Nayaka"
+				birth_date = 1560.1.1
+				death_Date = 1595.3.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.05a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Krishnappa Periaya"
+			NOT = { has_global_flag = monarch_PAP_No.05a }
+		}
+		allow = {
+			is_year = 1595
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Lingayya Kumara"
+				monarch_name = "Lingayya Kumara"
+				dynasty = "Nayaka"
+				birth_date = 1570.1.1
+				death_Date = 1601.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.06a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Lingayya Kumara"
+			NOT = { has_global_flag = monarch_PAP_No.06a }
+		}
+		allow = {
+			is_year = 1601
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Mutu Krishnappa"
+				monarch_name = "Mutu Krishnappa"
+				dynasty = "Nayaka"
+				birth_date = 1590.1.1
+				death_Date = 1609.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.07a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Mutu Krishnappa"
+			NOT = { has_global_flag = monarch_PAP_No.07a }
+		}
+		allow = {
+			is_year = 1609
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Muttu Virappa I"
+				monarch_name = "Muttu Virappa I"
+				dynasty = "Nayaka"
+				birth_date = 1590.1.1
+				death_Date = 1623.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.08a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Muttu Virappa I"
+			NOT = { has_global_flag = monarch_PAP_No.08a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Tirumala"
+				dynasty = "Nayaka"
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.09a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Tirumala"
+			NOT = { has_global_flag = monarch_PAP_No.09a }
+		}
+		allow = {
+			is_year = 1659
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Muttu Virappa II"
+				dynasty = "Nayaka"
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.10a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Muttu Virappa II"
+			NOT = { has_global_flag = monarch_PAP_No.10a }
+		}
+		allow = {
+			is_year = 1662
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Chokkanatha I"
+				dynasty = "Nayaka"
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.11a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Chokkanatha I"
+			NOT = { has_global_flag = monarch_PAP_No.11a }
+		}
+		allow = {
+			is_year = 1678
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Muttu Linga"
+				dynasty = "Nayaka"
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.12a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Muttu Linga"
+			NOT = { has_global_flag = monarch_PAP_No.12a }
+		}
+		allow = {
+			is_year = 1680
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Chokkanatha I"
+				dynasty = "Nayaka"
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.13a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Chokkanatha I"
+			NOT = { has_global_flag = monarch_PAP_No.13a }
+		}
+		allow = {
+			is_year = 1682
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Muttu Varappa III"
+				dynasty = "Nayaka"
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.14a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Muttu Varappa III"
+			NOT = { has_global_flag = monarch_PAP_No.14a }
+		}
+		allow = {
+			is_year = 1689
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Chokkanatha II"
+				dynasty = "Nayaka"
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PAP_No.15a = {
+		major = yes
+		potential = {
+			tag = PAP
+			has_ruler = "Chokkanatha II"
+			NOT = { has_global_flag = monarch_PAP_No.15a }
+		}
+		allow = {
+			is_year = 1731
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Minakshi"
+				dynasty = "Nayaka"
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

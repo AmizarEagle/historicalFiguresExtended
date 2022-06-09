@@ -1,0 +1,66 @@
+country_decisions = {
+
+	monarch_LBV_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LBV
+			has_ruler = "Heinrich XVI"
+			NOT = { is_year = 1479 }
+			NOT = { has_global_flag = monarch_LBV_No.00a }
+		}
+		allow = {
+			is_year = 1417
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LBV_No.00a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig IX"
+				dynasty = "von Wittelsbach"
+				birth_date = 1417.2.23
+				death_date = 1479.1.18
+				adm = 4
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LBV_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LBV
+			has_ruler = "Ludwig IX"
+			NOT = { is_year = 1503 }
+			NOT = { has_global_flag = monarch_LBV_No.01a }
+		}
+		allow = {
+			is_year = 1455
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LBV_No.01a
+			define_heir = {
+				name = "Georg"
+				monarch_name = "Georg I"
+				dynasty = "von Wittelsbach"
+				birth_date = 1455.8.15
+				death_date = 1503.12.1
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

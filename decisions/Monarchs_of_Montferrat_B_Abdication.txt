@@ -1,0 +1,202 @@
+country_decisions = {
+
+	monarch_MFA_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MFA
+			has_ruler = "Gian Giacomo"
+			has_global_flag = monarch_MFA_No.00a
+			NOT = { is_year = 1464 }
+			NOT = { has_global_flag = monarch_MFA_No.00b }
+		}
+		allow = {
+			is_year = 1445
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MFA_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MFA_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MFA
+			has_ruler = "Giovanni IV"
+			has_global_flag = monarch_MFA_No.01a
+			NOT = { is_year = 1483 }
+			NOT = { has_global_flag = monarch_MFA_No.01b }
+		}
+		allow = {
+			is_year = 1464
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MFA_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MFA_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MFA
+			has_ruler = "Guglielmo VIII"
+			has_global_flag = monarch_MFA_No.02a
+			NOT = { is_year = 1494 }
+			NOT = { has_global_flag = monarch_MFA_No.02b }
+		}
+		allow = {
+			is_year = 1483
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MFA_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MFA_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MFA
+			has_ruler = "Bonifacio III"
+			has_global_flag = monarch_MFA_No.03a
+			NOT = { is_year = 1518 }
+			NOT = { has_global_flag = monarch_MFA_No.03b }
+		}
+		allow = {
+			is_year = 1594
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MFA_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MFA_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MFA
+			has_ruler = "Guglielmo IX"
+			has_global_flag = monarch_MFA_No.04a
+			NOT = { is_year = 1530 }
+			NOT = { has_global_flag = monarch_MFA_No.04b }
+		}
+		allow = {
+			is_year = 1518
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MFA_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MFA_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MFA
+			has_ruler = "Bonifacio IV"
+			has_global_flag = monarch_MFA_No.05a
+			NOT = { is_year = 1533 }
+			NOT = { has_global_flag = monarch_MFA_No.05b }
+		}
+		allow = {
+			is_year = 1530
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MFA_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MFA_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MFA
+			has_ruler = "Giangiorgio I"
+			has_global_flag = monarch_MFA_No.06a
+			NOT = { is_year = 1566 }
+			NOT = { has_global_flag = monarch_MFA_No.06b }
+		}
+		allow = {
+			is_year = 1533
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MFA_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MFA_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MFA
+			has_ruler = "Margherita"
+			has_global_flag = monarch_MFA_No.07a
+			NOT = { is_year = 1550 }
+			NOT = { has_global_flag = monarch_MFA_No.07b }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MFA_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

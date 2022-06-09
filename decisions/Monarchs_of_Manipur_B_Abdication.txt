@@ -1,0 +1,402 @@
+country_decisions = {
+
+	monarch_MLB_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Ningthou Khama"
+			has_global_flag = monarch_MLB_No.00a
+			NOT = { is_year = 1507 }
+			NOT = { has_global_flag = monarch_MLB_No.00b }
+		}
+		allow = {
+			is_year = 1467
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Senbi Kiyamba"
+			has_global_flag = monarch_MLB_No.01a
+			NOT = { is_year = 1511 }
+			NOT = { has_global_flag = monarch_MLB_No.01b }
+		}
+		allow = {
+			is_year = 1507
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Koiremba"
+			has_global_flag = monarch_MLB_No.02a
+			NOT = { is_year = 1522 }
+			NOT = { has_global_flag = monarch_MLB_No.02b }
+		}
+		allow = {
+			is_year = 1511
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Ching-Khong"
+			has_global_flag = monarch_MLB_No.03a
+			NOT = { is_year = 1523 }
+			NOT = { has_global_flag = monarch_MLB_No.03b }
+		}
+		allow = {
+			is_year = 1522
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Nongyin Phaba"
+			has_global_flag = monarch_MLB_No.04a
+			NOT = { is_year = 1596 }
+			NOT = { has_global_flag = monarch_MLB_No.04b }
+		}
+		allow = {
+			is_year = 1561
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Mungyamba"
+			has_global_flag = monarch_MLB_No.05a
+			NOT = { is_year = 1651 }
+			NOT = { has_global_flag = monarch_MLB_No.05b }
+		}
+		allow = {
+			is_year = 1596
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Khangemba"
+			has_global_flag = monarch_MLB_No.06a
+			NOT = { is_year = 1665 }
+			NOT = { has_global_flag = monarch_MLB_No.06b }
+		}
+		allow = {
+			is_year = 1651
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Khunjaoba"
+			has_global_flag = monarch_MLB_No.07a
+			NOT = { is_year = 1696 }
+			NOT = { has_global_flag = monarch_MLB_No.07b }
+		}
+		allow = {
+			is_year = 1665
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Paikhomba"
+			has_global_flag = monarch_MLB_No.08a
+			NOT = { is_year = 1708 }
+			NOT = { has_global_flag = monarch_MLB_No.08b }
+		}
+		allow = {
+			is_year = 1696
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Charairongba"
+			has_global_flag = monarch_MLB_No.09a
+			NOT = { is_year = 1747 }
+			NOT = { has_global_flag = monarch_MLB_No.09b }
+		}
+		allow = {
+			is_year = 1708
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Pamheiba"
+			has_global_flag = monarch_MLB_No.10a
+			NOT = { is_year = 1751 }
+			NOT = { has_global_flag = monarch_MLB_No.10b }
+		}
+		allow = {
+			is_year = 1747
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Chit-sai"
+			has_global_flag = monarch_MLB_No.11a
+			NOT = { is_year = 1763 }
+			NOT = { has_global_flag = monarch_MLB_No.11b }
+		}
+		allow = {
+			is_year = 1752
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Maramba"
+			has_global_flag = monarch_MLB_No.12a
+			NOT = { is_year = 1798 }
+			NOT = { has_global_flag = monarch_MLB_No.12b }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Ching-thang Khomba"
+			has_global_flag = monarch_MLB_No.13a
+			NOT = { is_year = 1801 }
+			NOT = { has_global_flag = monarch_MLB_No.13b }
+		}
+		allow = {
+			is_year = 1798
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Labeinachandra"
+			has_global_flag = monarch_MLB_No.14a
+			NOT = { is_year = 1804 }
+			NOT = { has_global_flag = monarch_MLB_No.14b }
+		}
+		allow = {
+			is_year = 1801
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MLB_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MLB
+			has_ruler = "Madhuchandra"
+			has_global_flag = monarch_MLB_No.15a
+			NOT = { is_year = 1814 }
+			NOT = { has_global_flag = monarch_MLB_No.15b }
+		}
+		allow = {
+			is_year = 1804
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MLB_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

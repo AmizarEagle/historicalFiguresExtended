@@ -1,0 +1,695 @@
+country_decisions = {
+
+	monarch_HSE_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Hsam Si-Li"
+			NOT = { is_year = 1474 }
+			NOT = { has_global_flag = monarch_HSE_No.00a }
+		}
+		allow = {
+			is_year = 1441
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.00a
+			define_heir = {
+				name = "Ai Lao Hkham"
+				monarch_name = "Ai Lao Hkham"
+				dynasty = "Kengtung"
+				birth_date = 1430.1.1
+				death_date = 1474.1.1
+				claim = 95
+				ADM = 3
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Ai Lao Hkham"
+			NOT = { is_year = 1501 }
+			NOT = { has_global_flag = monarch_HSE_No.01a }
+		}
+		allow = {
+			is_year = 1456
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.01a
+			define_heir = {
+				name = "Ai Lao"
+				monarch_name = "Ai Lao"
+				dynasty = "Kengtung"
+				birth_date = 1450.1.1
+				death_date = 1501.1.1
+				claim = 95
+				ADM = 3
+				DIP = 3
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Ai Lao"
+			NOT = { is_year = 1506 }
+			NOT = { has_global_flag = monarch_HSE_No.02a }
+		}
+		allow = {
+			is_year = 1474
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.02a
+			define_heir = {
+				name = "Sao Naw Kiao"
+				monarch_name = "Sao Naw Kiao"
+				dynasty = "Kengtung"
+				birth_date = 1474.1.1
+				death_date = 1506.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Naw Kiao"
+			NOT = { is_year = 1511 }
+			NOT = { has_global_flag = monarch_HSE_No.03a }
+		}
+		allow = {
+			is_year = 1501
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.03a
+			define_heir = {
+				name = "Hsai Hkaw"
+				monarch_name = "Hsai Hkaw"
+				dynasty = "Kengtung"
+				birth_date = 1478.1.1
+				death_date = 1511.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Hsai Hkaw"
+			NOT = { is_year = 1516 }
+			NOT = { has_global_flag = monarch_HSE_No.04a }
+		}
+		allow = {
+			is_year = 1506
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.04a
+			define_heir = {
+				name = "Hsai Hpom"
+				monarch_name = "Hsai Hpom"
+				dynasty = "Kengtung"
+				birth_date = 1480.1.1
+				death_date = 1516.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Hsai Hpom"
+			NOT = { is_year = 1519 }
+			NOT = { has_global_flag = monarch_HSE_No.05a }
+		}
+		allow = {
+			is_year = 1511
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.05a
+			define_heir = {
+				name = "Sao Hsam"
+				monarch_name = "Sao Hsam"
+				dynasty = "Kengtung"
+				birth_date = 1483.1.1
+				death_date = 1519.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Hsam"
+			NOT = { is_year = 1523 }
+			NOT = { has_global_flag = monarch_HSE_No.06a }
+		}
+		allow = {
+			is_year = 1516
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.06a
+			define_heir = {
+				name = "Sao Kham Mu"
+				monarch_name = "Sao Kham Mu"
+				dynasty = "Kengtung"
+				birth_date = 1495.1.1
+				death_date = 1523.1.1
+				claim = 95
+				ADM = 3
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Kham Mu"
+			NOT = { is_year = 1560 }
+			NOT = { has_global_flag = monarch_HSE_No.07a }
+		}
+		allow = {
+			is_year = 1519
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.07a
+			define_heir = {
+				name = "Hpaya Kiao"
+				monarch_name = "Hpaya Kiao"
+				dynasty = "Kengtung"
+				birth_date = 1510.1.1
+				death_date = 1560.1.1
+				claim = 95
+				ADM = 3
+				DIP = 3
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Hpaya Kiao"
+			NOT = { is_year = 1598 }
+			NOT = { has_global_flag = monarch_HSE_No.08a }
+		}
+		allow = {
+			is_year = 1540
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.08a
+			define_heir = {
+				name = "Sao Mong Hka"
+				monarch_name = "Sao Mong Hka"
+				dynasty = "Kengtung"
+				birth_date = 1540.1.1
+				death_date = 1598.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Mong Hka"
+			NOT = { is_year = 1620 }
+			NOT = { has_global_flag = monarch_HSE_No.09a }
+		}
+		allow = {
+			is_year = 1560
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.09a
+			define_heir = {
+				name = "Sao Hkham Tao"
+				monarch_name = "Sao Hkham Tao"
+				dynasty = "Kengtung"
+				birth_date = 1560.1.1
+				death_date = 1620.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Hkham Tao"
+			NOT = { is_year = 1637 }
+			NOT = { has_global_flag = monarch_HSE_No.10a }
+		}
+		allow = {
+			is_year = 1598
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.10a
+			define_heir = {
+				name = "Sao Mong Hkak"
+				monarch_name = "Sao Mong Hkak"
+				dynasty = "Kengtung"
+				birth_date = 1580.1.1
+				death_date = 1637.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Mong Hkak"
+			NOT = { is_year = 1650 }
+			NOT = { has_global_flag = monarch_HSE_No.11a }
+		}
+		allow = {
+			is_year = 1620
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.11a
+			define_heir = {
+				name = "Sao On"
+				monarch_name = "Sao On"
+				dynasty = "Kengtung"
+				birth_date = 1600.1.1
+				death_date = 1650.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao On"
+			NOT = { is_year = 1670 }
+			NOT = { has_global_flag = monarch_HSE_No.12a }
+		}
+		allow = {
+			is_year = 1637
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.12a
+			define_heir = {
+				name = "Sao In Hkam"
+				monarch_name = "Sao In Hkam"
+				dynasty = "Kengtung"
+				birth_date = 1620.1.1
+				death_date = 1670.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao In Hkam"
+			NOT = { is_year = 1670 }
+			NOT = { has_global_flag = monarch_HSE_No.13a }
+		}
+		allow = {
+			is_year = 1650
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.13a
+			define_heir = {
+				name = "Sao Awk"
+				monarch_name = "Sao Awk"
+				dynasty = "Kengtung"
+				birth_date = 1640.1.1
+				death_date = 1670.1.1
+				claim = 95
+				ADM = 1
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Awk"
+			NOT = { is_year = 1710 }
+			NOT = { has_global_flag = monarch_HSE_No.14a }
+		}
+		allow = {
+			is_year = 1670
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.14a
+			define_heir = {
+				name = "Sao Mong Saik"
+				monarch_name = "Sao Mong Saik"
+				dynasty = "Kengtung"
+				birth_date = 1660.1.1
+				death_date = 1710.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Mong Saik"
+			NOT = { is_year = 1730 }
+			NOT = { has_global_flag = monarch_HSE_No.15a }
+		}
+		allow = {
+			is_year = 1690
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.15a
+			define_heir = {
+				name = "Sao Hsam Hpi"
+				monarch_name = "Sao Hsam Hpi"
+				dynasty = "Kengtung"
+				birth_date = 1680.1.1
+				death_date = 1730.1.1
+				claim = 95
+				ADM = 1
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Hsam Hpi"
+			NOT = { is_year = 1740 }
+			NOT = { has_global_flag = monarch_HSE_No.16a }
+		}
+		allow = {
+			is_year = 1710
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.16a
+			define_heir = {
+				name = "Maung Nyo"
+				monarch_name = "Maung Nyo"
+				dynasty = "Kengtung"
+				birth_date = 1700.1.1
+				death_date = 1740.1.1
+				claim = 95
+				ADM = 1
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Maung Nyo"
+			NOT = { is_year = 1760 }
+			NOT = { has_global_flag = monarch_HSE_No.17a }
+		}
+		allow = {
+			is_year = 1730
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.17a
+			define_heir = {
+				name = "Sao Mong Sin"
+				monarch_name = "Sao Mong Sin"
+				dynasty = "Kengtung"
+				birth_date = 1720.1.1
+				death_date = 1760.1.1
+				claim = 95
+				ADM = 1
+				DIP = 1
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Mong Sin"
+			NOT = { is_year = 1787 }
+			NOT = { has_global_flag = monarch_HSE_No.18a }
+		}
+		allow = {
+			is_year = 1740
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.18a
+			define_heir = {
+				name = "Sao Mong Hsam"
+				monarch_name = "Sao Mong Hsam"
+				dynasty = "Kengtung"
+				birth_date = 1740.1.1
+				death_date = 1787.1.1
+				claim = 95
+				ADM = 2
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Mong Hsam"
+			NOT = { is_year = 1804 }
+			NOT = { has_global_flag = monarch_HSE_No.19a }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.19a
+			define_heir = {
+				name = "Sao Kawng Tai"
+				monarch_name = "Sao Kawng Tai"
+				dynasty = "Kengtung"
+				birth_date = 1760.1.1
+				death_date = 1804.1.1
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_HSE_No.20a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = HSE
+			has_ruler = "Sao Kawng Tai"
+			NOT = { is_year = 1857 }
+			NOT = { has_global_flag = monarch_HSE_No.20a }
+		}
+		allow = {
+			is_year = 1787
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HSE_No.20a
+			define_heir = {
+				name = "Sao Maha Hkanan"
+				monarch_name = "Sao Maha Hkanan"
+				dynasty = "Kengtung"
+				birth_date = 1780.1.1
+				death_date = 1857.1.1
+				claim = 95
+				ADM = 1
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

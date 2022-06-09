@@ -1,0 +1,877 @@
+country_decisions = {
+
+	monarch_LXA_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Sai Tia Kaphut"
+			NOT = { is_year = 1486 }
+			NOT = { has_global_flag = monarch_LXA_No.00a }
+		}
+		allow = {
+			is_year = 1438
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.00a
+			define_heir = {
+				name = "Theng Kham"
+				monarch_name = "Theng Kham"
+				dynasty = "Khun Lo"
+				birth_date = 1430.1.1
+				death_Date = 1486.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Theng Kham"
+			NOT = { is_year = 1496 }
+			NOT = { has_global_flag = monarch_LXA_No.01a }
+		}
+		allow = {
+			is_year = 1479
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.01a
+			define_heir = {
+				name = "Laasaenthai"
+				monarch_name = "Laasaenthai"
+				dynasty = "Khun Lo"
+				birth_date = 1470.1.1
+				death_Date = 1496.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Laasaenthai"
+			NOT = { is_year = 1501 }
+			NOT = { has_global_flag = monarch_LXA_No.02a }
+		}
+		allow = {
+			is_year = 1486
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.02a
+			define_heir = {
+				name = "Sompou"
+				monarch_name = "Sompou"
+				dynasty = "Khun Lo"
+				birth_date = 1480.1.1
+				death_date = 1501.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Sompou"
+			NOT = { is_year = 1520 }
+			NOT = { has_global_flag = monarch_LXA_No.03a }
+		}
+		allow = {
+			is_year = 1496
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.03a
+			define_heir = {
+				name = "Visunarat"
+				monarch_name = "Visunarat"
+				dynasty = "Khun Lo"
+				birth_date = 1490.1.1
+				death_Date = 1520.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Visunarat"
+			NOT = { is_year = 1548 }
+			NOT = { has_global_flag = monarch_LXA_No.04a }
+		}
+		allow = {
+			is_year = 1501
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.04a
+			define_heir = {
+				name = "Photisarat"
+				monarch_name = "Photisarat I"
+				dynasty = "Khun Lo"
+				birth_date = 1501.1.1
+				death_Date = 1548.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Photisarat I"
+			NOT = { is_year = 1571 }
+			NOT = { has_global_flag = monarch_LXA_No.05a }
+		}
+		allow = {
+			is_year = 1520
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.05a
+			define_heir = {
+				name = "Setthathirat"
+				monarch_name = "Setthathirat I"
+				dynasty = "Khun Lo"
+				birth_date = 1520.1.1
+				death_Date = 1571.1.1
+				claim = 95
+				adm = 5
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Setthathirat I"
+			NOT = { is_year = 1575 }
+			NOT = { has_global_flag = monarch_LXA_No.06a }
+		}
+		allow = {
+			is_year = 1548
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.06a
+			define_heir = {
+				name = "Saensurin"
+				monarch_name = "Saensurin"
+				dynasty = "Khun Lo"
+				birth_date = 1530.1.1
+				death_date = 1582.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Saensurin"
+			NOT = { is_year = 1579 }
+			NOT = { has_global_flag = monarch_LXA_No.07a }
+		}
+		allow = {
+			is_year = 1571
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.07a
+			define_heir = {
+				name = "Maha Oupahat"
+				monarch_name = "Maha Oupahat"
+				dynasty = "Khun Lo"
+				birth_date = 1565.1.1
+				death_date = 1580.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Maha Oupahat"
+			NOT = { is_year = 1582 }
+			NOT = { has_global_flag = monarch_LXA_No.08a }
+		}
+		allow = {
+			is_year = 1575
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.08a
+			define_heir = {
+				name = "Saensurin"
+				monarch_name = "Saensurin"
+				dynasty = "Khun Lo"
+				birth_date = 1530.1.1
+				death_date = 1582.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Saensurin"
+			NOT = { is_year = 1591 }
+			NOT = { has_global_flag = monarch_LXA_No.09a }
+		}
+		allow = {
+			is_year = 1580
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.09a
+			define_heir = {
+				name = "Nakhon Noi"
+				monarch_name = "Nakhon Noi"
+				dynasty = "Khun Lo"
+				birth_date = 1560.1.1
+				death_Date = 1591.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Nakhon Noi"
+			NOT = { is_year = 1596 }
+			NOT = { has_global_flag = monarch_LXA_No.10a }
+		}
+		allow = {
+			is_year = 1582
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.10a
+			define_heir = {
+				name = "Nokeo Koumanh"
+				monarch_name = "Nokeo Koumanh"
+				dynasty = "Khun Lo"
+				birth_date = 1570.1.1
+				death_Date = 1596.1.1
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Nokeo Koumanh"
+			NOT = { is_year = 1622 }
+			NOT = { has_global_flag = monarch_LXA_No.11a }
+		}
+		allow = {
+			is_year = 1591
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.11a
+			define_heir = {
+				name = "Thammikarat"
+				monarch_name = "Thammikarat"
+				dynasty = "Khun Lo"
+				birth_date = 1590.1.1
+				death_Date = 1622.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Thammikarat"
+			NOT = { is_year = 1623 }
+			NOT = { has_global_flag = monarch_LXA_No.12a }
+		}
+		allow = {
+			is_year = 1596
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.12a
+			define_heir = {
+				name = "Upanyuvarat"
+				monarch_name = "Upanyuvarat"
+				dynasty = "Khun Lo"
+				birth_date = 1590.1.1
+				death_Date = 1623.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Upanyuvarat"
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_LXA_No.13a }
+		}
+		allow = {
+			is_year = 1622
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.13a
+			define_heir = {
+				name = "Photisarat"
+				monarch_name = "Photisarat II"
+				dynasty = "Khun Lo"
+				birth_date = 1600.1.1
+				death_Date = 1627.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Photisarat II"
+			NOT = { is_year = 1629 }
+			NOT = { has_global_flag = monarch_LXA_No.14a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.14a
+			define_heir = {
+				name = "Mon Keo"
+				monarch_name = "Mon Keo"
+				birth_date = 1600.1.1
+				death_Date = 1629.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Mon Keo"
+			NOT = { is_year = 1633 }
+			NOT = { has_global_flag = monarch_LXA_No.15a }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.15a
+			define_heir = {
+				name = "Tone Kham"
+				monarch_name = "Tone Kham"
+				birth_date = 1590.1.1
+				death_Date = 1633.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Tone Kham"
+			NOT = { is_year = 1637 }
+			NOT = { has_global_flag = monarch_LXA_No.16a }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.16a
+			define_heir = {
+				name = "Vichai"
+				monarch_name = "Vichai"
+				dynasty = "Khun Lo"
+				birth_date = 1580.1.1
+				death_Date = 1637.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Vichai"
+			NOT = { is_year = 1694 }
+			NOT = { has_global_flag = monarch_LXA_No.17a }
+		}
+		allow = {
+			is_year = 1633
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.17a
+			define_heir = {
+				name = "Sourigna Vongsa"
+				monarch_name = "Sourigna Vongsa"
+				dynasty = "Khun Lo"
+				birth_date = 1620.1.1
+				death_Date = 1694.1.1
+				claim = 95
+				adm = 5
+				dip = 5
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Sourigna Vongsa"
+			NOT = { is_year = 1695 }
+			NOT = { has_global_flag = monarch_LXA_No.18a }
+		}
+		allow = {
+			is_year = 1650
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.18a
+			define_heir = {
+				name = "Tian Thala"
+				monarch_name ="Tian Thala"
+				dynasty = "Khun Lo"
+				birth_date = 1650.1.1
+				death_Date = 1695.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Tian Thala"
+			NOT = { is_year = 1698 }
+			NOT = { has_global_flag = monarch_LXA_No.19a }
+		}
+		allow = {
+			is_year = 1694
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.19a
+			define_heir = {
+				name = "Nan Tharat"
+				monarch_name ="Nan Tharat"
+				dynasty = "Khun Lo"
+				birth_date = 1656.1.1
+				death_Date = 1698.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.20a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Nan Tharat"
+			NOT = { is_year = 1730 }
+			NOT = { has_global_flag = monarch_LXA_No.20a }
+		}
+		allow = {
+			is_year = 1694
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.20a
+			define_heir = {
+				name = "Setthathirat"
+				monarch_name ="Setthathirat II"
+				dynasty = "Khun Lo"
+				birth_date = 1673.1.1
+				death_Date = 1730.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.21a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Setthathirat II"
+			NOT = { is_year = 1767 }
+			NOT = { has_global_flag = monarch_LXA_No.21a }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.21a
+			define_heir = {
+				name = "Ong Long"
+				monarch_name ="Ong Long"
+				dynasty = "Khun Lo"
+				birth_date = 1691.1.1
+				death_Date = 1767.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.22a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Ong Long"
+			NOT = { is_year = 1781 }
+			NOT = { has_global_flag = monarch_LXA_No.22a }
+		}
+		allow = {
+			is_year = 1730
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.22a
+			define_heir = {
+				name = "Setthathirat"
+				monarch_name ="Setthathirat III"
+				dynasty = "Khun Lo"
+				birth_date = 1715.1.1
+				death_Date = 1781.11.21
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.23a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Setthathirat III"
+			NOT = { is_year = 1795 }
+			NOT = { has_global_flag = monarch_LXA_No.23a }
+		}
+		allow = {
+			is_year = 1767
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.23a
+			define_heir = {
+				name = "Setthathirat"
+				monarch_name ="Setthathirat IV"
+				dynasty = "Khun Lo"
+				birth_date = 1756.1.1
+				death_Date = 1795.2.2
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.24a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Setthathirat IV"
+			NOT = { is_year = 1805 }
+			NOT = { has_global_flag = monarch_LXA_No.24a }
+		}
+		allow = {
+			is_year = 1781
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.24a
+			define_heir = {
+				name = "Setthathirat"
+				monarch_name ="Setthathirat V"
+				dynasty = "Khun Lo"
+				birth_date = 1779.1.1
+				death_Date = 1805.2.7
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_LXA_No.25a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = LXA
+			has_ruler = "Setthathirat V"
+			NOT = { is_year = 1828 }
+			NOT = { has_global_flag = monarch_LXA_No.25a }
+		}
+		allow = {
+			is_year = 1795
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LXA_No.25a
+			define_heir = {
+				name = "Anouvong"
+				monarch_name ="Anouvong"
+				dynasty = "Khun Lo"
+				birth_date = 1782.1.1
+				death_Date = 1828.12.11
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

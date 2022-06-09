@@ -1,0 +1,390 @@
+country_decisions = {
+
+	monarch_AHM_No.00a = {
+		major = yes
+		potential = {
+			tag = AHM
+			NOT = { has_global_flag = monarch_AHM_No.00a }
+		}
+		allow = {
+			is_year = 1490
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad Shah I"
+				dynasty = "Nizam Shahi"
+				ADM = 4
+				DIP = 6
+				MIL = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AHM_No.01a = {
+		major = yes
+		potential = {
+			tag = AHM
+			has_ruler = "Ahmad Shah I"
+			NOT = { has_global_flag = monarch_AHM_No.01a }
+		}
+		allow = {
+			is_year = 1508
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Burhan I Shah"
+				monarch_name = "Burhan I Shah"
+				dynasty = "Nizam Shahi"
+				birth_date = 1501.1.1
+				death_date = 1553.12.30
+				claim = 95
+				ADM = 2
+				DIP = 4
+				MIL = 3
+				religion = shiite
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AHM_No.02a = {
+		major = yes
+		potential = {
+			tag = AHM
+			has_ruler = "Burhan I Shah"
+			NOT = { has_global_flag = monarch_AHM_No.02a }
+		}
+		allow = {
+			is_year = 1565
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Murtaza Shah I"
+				monarch_name = "Murtaza Shah I"
+				dynasty = "Nizam Shahi"
+				birth_date = 1554.1.1
+				death_date = 1588.6.11
+				claim = 95
+				ADM = 2
+				DIP = 3
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AHM_No.03a = {
+		major = yes
+		potential = {
+			tag = AHM
+			has_ruler = "Murtaza Shah I"
+			NOT = { has_global_flag = monarch_AHM_No.03a }
+		}
+		allow = {
+			is_year = 1588
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Maran Husayn Shah II"
+				monarch_name = "Maran Husayn Shah II"
+				dynasty = "Nizam Shahi"
+				birth_date = 1565.6.6
+				death_date = 1589.3.8
+				claim = 95
+				ADM = 3
+				DIP = 1
+				MIL = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AHM_No.04a = {
+		major = yes
+		potential = {
+			tag = AHM
+			has_ruler = "Maran Husayn Shah II"
+			NOT = { has_global_flag = monarch_AHM_No.04a }
+		}
+		allow = {
+			is_year = 1589
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Isma'il"
+				monarch_name = "Isma'il"
+				dynasty = "Nizam Shahi"
+				birth_date = 1588.6.11
+				death_date = 1591.4.27
+				claim = 95
+				ADM = 2
+				DIP = 1
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AHM_No.05a = {
+		major = yes
+		potential = {
+			tag = AHM
+			has_ruler = "Isma'il"
+			NOT = { has_global_flag = monarch_AHM_No.05a }
+		}
+		allow = {
+			is_year = 1591
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Burhan Shah II"
+				monarch_name = "Burhan Shah II"
+				dynasty = "Nizam Shahi"
+				birth_date = 1570.1.1
+				death_date = 1595.4.18
+				claim = 95
+				ADM = 1
+				DIP = 2
+				MIL = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AHM_No.06a = {
+		major = yes
+		potential = {
+			tag = AHM
+			has_ruler = "Burhan Shah II"
+			NOT = { has_global_flag = monarch_AHM_No.06a }
+		}
+		allow = {
+			is_year = 1595
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Ibrahim Shah"
+				monarch_name = "Ibrahim Shah"
+				dynasty = "Nizam Shahi"
+				birth_date = 1576.1.1
+				death_date = 1595.7.25
+				claim = 95
+				ADM = 2
+				DIP = 0
+				MIL = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AHM_No.07a = {
+		major = yes
+		potential = {
+			tag = AHM
+			has_ruler = "Ibrahim Shah"
+			NOT = { has_global_flag = monarch_AHM_No.07a }
+		}
+		allow = {
+			is_year = 1595
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Ahmad Shah"
+				monarch_name = "Ahmad Shah"
+				dynasty = "Nizam Shahi"
+				birth_date = 1580.1.1
+				death_date = 1596.2.1
+				claim = 95
+				ADM = 0
+				DIP = 0
+				MIL = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AHM_No.08a = {
+		major = yes
+		potential = {
+			tag = AHM
+			has_ruler = "Ahmad Shah"
+			NOT = { has_global_flag = monarch_AHM_No.08a }
+		}
+		allow = {
+			is_year = 1596
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Bahadur Shah"
+				monarch_name = "Bahadur Shah"
+				dynasty = "Nizam Shahi"
+				birth_date = 1582.1.1
+				death_date = 1600.8.10
+				claim = 95
+				ADM = 3
+				DIP = 2
+				MIL = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AHM_No.09a = {
+		major = yes
+		potential = {
+			tag = AHM
+			has_ruler = "Bahadur Shah"
+			NOT = { has_global_flag = monarch_AHM_No.09a }
+		}
+		allow = {
+			is_year = 1600
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Murtaza Shah II"
+				monarch_name = "Murtaza Shah II"
+				dynasty = "Nizam Shahi"
+				birth_date = 1580.1.1
+				death_date = 1610.1.1
+				claim = 95
+				ADM = 3
+				DIP = 1
+				MIL = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AHM_No.10a = {
+		major = yes
+		potential = {
+			tag = AHM
+			has_ruler = "Murtaza Shah II"
+			NOT = { has_global_flag = monarch_AHM_No.10a }
+		}
+		allow = {
+			is_year = 1610
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Burhan"
+				monarch_name = "Burhan Shah III"
+				dynasty = "Nizam Shahi"
+				birth_date = 1590.1.1
+				death_date = 1631.1.1
+				claim = 95
+				ADM = 3
+				DIP = 0
+				MIL = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AHM_No.11a = {
+		major = yes
+		potential = {
+			tag = AHM
+			has_ruler = "Burhan Shah III"
+			NOT = { has_global_flag = monarch_AHM_No.11a }
+		}
+		allow = {
+			is_year = 1631
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AHM_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Husayn Shah II"
+				monarch_name = "Husayn Shah II"
+				dynasty = "Nizam Shahi"
+				birth_date = 1615.1.1
+				death_date = 1633.7.27
+				claim = 95
+				ADM = 1
+				DIP = 0
+				MIL = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,327 @@
+country_decisions = {
+
+	monarch_NSA_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Philipp II"
+			has_global_flag = monarch_NSA_No.00a
+			NOT = { is_year = 1523 }
+			NOT = { has_global_flag = monarch_NSA_No.00b }
+		}
+		allow = {
+			is_year = 1492
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Ludwig I"
+			has_global_flag = monarch_NSA_No.01a
+			NOT = { is_year = 1559 }
+			NOT = { has_global_flag = monarch_NSA_No.01b }
+		}
+		allow = {
+			is_year = 1523
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Philipp III"
+			has_global_flag = monarch_NSA_No.02a
+			NOT = { is_year = 1593 }
+			NOT = { has_global_flag = monarch_NSA_No.02b }
+		}
+		allow = {
+			is_year = 1559
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Albert"
+			has_global_flag = monarch_NSA_No.03a
+			NOT = { is_year = 1602 }
+			NOT = { has_global_flag = monarch_NSA_No.03b }
+		}
+		allow = {
+			is_year = 1593
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Philipp IV"
+			has_global_flag = monarch_NSA_No.04a
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_NSA_No.04b }
+		}
+		allow = {
+			is_year = 1602
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Ludwig II"
+			has_global_flag = monarch_NSA_No.05a
+			NOT = { is_year = 1640 }
+			NOT = { has_global_flag = monarch_NSA_No.05b }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Wilhelm Ludwig"
+			has_global_flag = monarch_NSA_No.06a
+			NOT = { is_year = 1655 }
+			NOT = { has_global_flag = monarch_NSA_No.06b }
+		}
+		allow = {
+			is_year = 1629
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Ernst Casimir I"
+			has_global_flag = monarch_NSA_No.07a
+			NOT = { is_year = 1675 }
+			NOT = { has_global_flag = monarch_NSA_No.07b }
+		}
+		allow = {
+			is_year = 1655
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Friedrich"
+			has_global_flag = monarch_NSA_No.08a
+			NOT = { is_year = 1719 }
+			NOT = { has_global_flag = monarch_NSA_No.08b }
+		}
+		allow = {
+			is_year = 1675
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Johann Ernst"
+			has_global_flag = monarch_NSA_No.09a
+			NOT = { is_year = 1753 }
+			NOT = { has_global_flag = monarch_NSA_No.09b }
+		}
+		allow = {
+			is_year = 1719
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Karl August"
+			has_global_flag = monarch_NSA_No.10a
+			NOT = { is_year = 1788 }
+			NOT = { has_global_flag = monarch_NSA_No.10b }
+		}
+		allow = {
+			is_year = 1753
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Karl Christian"
+			has_global_flag = monarch_NSA_No.11a
+			NOT = { is_year = 1816 }
+			NOT = { has_global_flag = monarch_NSA_No.11b }
+		}
+		allow = {
+			is_year = 1788
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Friedrich Wilhelm"
+			has_global_flag = monarch_NSA_No.12a
+			NOT = { is_year = 1839 }
+			NOT = { has_global_flag = monarch_NSA_No.12b }
+		}
+		allow = {
+			is_year = 1816
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

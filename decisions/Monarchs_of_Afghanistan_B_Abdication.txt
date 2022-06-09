@@ -1,0 +1,326 @@
+country_decisions = {
+
+	monarch_AFG_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_global_flag = monarch_AFG_No.00a
+			NOT = { is_year = 1708 }
+			NOT = { has_global_flag = monarch_AFG_No.00b }
+		}
+		allow = {
+			is_year = 1707
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Mir Ways I"
+			has_global_flag = monarch_AFG_No.01a
+			NOT = { is_year = 1716 }
+			NOT = { has_global_flag = monarch_AFG_No.01b }
+		}
+		allow = {
+			is_year = 1715
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Mir 'Abd al-'Aziz I"
+			has_global_flag = monarch_AFG_No.02a
+			NOT = { is_year = 1725 }
+			NOT = { has_global_flag = monarch_AFG_No.02b }
+		}
+		allow = {
+			is_year = 1716
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Mir Mahmud I"
+			has_global_flag = monarch_AFG_No.03a
+			NOT = { is_year = 1729 }
+			NOT = { has_global_flag = monarch_AFG_No.03b }
+		}
+		allow = {
+			is_year = 1725
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Mir Ashraf I"
+			has_global_flag = monarch_AFG_No.04a
+			NOT = { is_year = 1738 }
+			NOT = { has_global_flag = monarch_AFG_No.04b }
+		}
+		allow = {
+			is_year = 1729
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Mir Husayn I"
+			has_global_flag = monarch_AFG_No.05a
+			NOT = { is_year = 1772 }
+			NOT = { has_global_flag = monarch_AFG_No.05b }
+		}
+		allow = {
+			is_year = 1747
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Ahmad Shah I"
+			has_global_flag = monarch_AFG_No.06a
+			NOT = { is_year = 1793 }
+			NOT = { has_global_flag = monarch_AFG_No.06b }
+		}
+		allow = {
+			is_year = 1772
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Taimur Shah I"
+			has_global_flag = monarch_AFG_No.07a
+			NOT = { is_year = 1801 }
+			NOT = { has_global_flag = monarch_AFG_No.07b }
+		}
+		allow = {
+			is_year = 1793
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Zaman Shah I"
+			has_global_flag = monarch_AFG_No.08a
+			NOT = { is_year = 1803 }
+			NOT = { has_global_flag = monarch_AFG_No.08b }
+		}
+		allow = {
+			is_year = 1801
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Mahmud Shah I"
+			has_global_flag = monarch_AFG_No.09a
+			NOT = { is_year = 1809 }
+			NOT = { has_global_flag = monarch_AFG_No.09b }
+		}
+		allow = {
+			is_year = 1803
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Shuja Shah I"
+			has_global_flag = monarch_AFG_No.10a
+			NOT = { is_year = 1818 }
+			NOT = { has_global_flag = monarch_AFG_No.10b }
+		}
+		allow = {
+			is_year = 1809
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Mahmud Shah I"
+			has_global_flag = monarch_AFG_No.11a
+			NOT = { is_year = 1819 }
+			NOT = { has_global_flag = monarch_AFG_No.11b }
+		}
+		allow = {
+			is_year = 1818
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_AFG_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = AFG
+			has_ruler = "Ali Shah I"
+			has_global_flag = monarch_AFG_No.12a
+			NOT = { is_year = 1830 }
+			NOT = { has_global_flag = monarch_AFG_No.12b }
+		}
+		allow = {
+			is_year = 1819
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_AFG_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

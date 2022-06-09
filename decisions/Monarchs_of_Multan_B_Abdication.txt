@@ -1,0 +1,127 @@
+country_decisions = {
+
+	monarch_MUL_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUL
+			has_ruler = "Qutbudin"
+			has_global_flag = monarch_MUL_No.00a
+			NOT = { is_year = 1480 }
+			NOT = { has_global_flag = monarch_MUL_No.00b }
+		}
+		allow = {
+			is_year = 1460
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUL_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUL_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUL
+			has_ruler = "Hussain I"
+			has_global_flag = monarch_MUL_No.01a
+			NOT = { is_year = 1500 }
+			NOT = { has_global_flag = monarch_MUL_No.01b }
+		}
+		allow = {
+			is_year = 1480
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUL_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUL_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUL
+			has_ruler = "Firuzshah"
+			has_global_flag = monarch_MUL_No.02a
+			NOT = { is_year = 1518 }
+			NOT = { has_global_flag = monarch_MUL_No.02b }
+		}
+		allow = {
+			is_year = 1500
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUL_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUL_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUL
+			has_ruler = "Mahmud"
+			has_global_flag = monarch_MUL_No.03a
+			NOT = { is_year = 1555 }
+			NOT = { has_global_flag = monarch_MUL_No.03b }
+		}
+		allow = {
+			is_year = 1518
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUL_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MUL_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MUL
+			has_ruler = "Hussain II"
+			has_global_flag = monarch_MUL_No.04a
+			NOT = { is_year = 1600 }
+			NOT = { has_global_flag = monarch_MUL_No.04b }
+		}
+		allow = {
+			is_year = 1555
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MUL_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

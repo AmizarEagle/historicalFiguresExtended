@@ -1,0 +1,510 @@
+country_decisions = {
+
+	monarch_OIR_No.00a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Esen"
+			NOT = { has_global_flag = monarch_OIR_No.00a }
+		}
+		allow = {
+			is_year = 1454
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Amasanj"
+				dynasty = "Choros"
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.01a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Amasanj"
+			NOT = { has_global_flag = monarch_OIR_No.01a }
+		}
+		allow = {
+			is_year = 1455
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Ush Temur"
+				dynasty = "Choros"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.02a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Ush Temur"
+			NOT = { has_global_flag = monarch_OIR_No.02a }
+		}
+		allow = {
+			is_year = 1469
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Ismayil"
+				dynasty = "Choros"
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.03a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Ismayil"
+			NOT = { has_global_flag = monarch_OIR_No.03a }
+		}
+		allow = {
+			is_year = 1483
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Khishig"
+				dynasty = "Choros"
+				adm = 2
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.04a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Khishig"
+			NOT = { has_global_flag = monarch_OIR_No.04a }
+		}
+		allow = {
+			is_year = 1500
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Iburai"
+				dynasty = "Choros"
+				adm = 3
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.05a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Iburai"
+			NOT = { has_global_flag = monarch_OIR_No.05a }
+		}
+		allow = {
+			is_year = 1530
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Arkhan"
+				dynasty = "Choros"
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.06a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Arkhan"
+			NOT = { has_global_flag = monarch_OIR_No.06a }
+		}
+		allow = {
+			is_year = 1560
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Baatar"
+				dynasty = "Choros"
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.07a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Baatar"
+			NOT = { has_global_flag = monarch_OIR_No.07a }
+		}
+		allow = {
+			is_year = 1590
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Gushi"
+				dynasty = "Choros"
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.08a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Gushi"
+			NOT = { has_global_flag = monarch_OIR_No.08a }
+		}
+		allow = {
+			is_year = 1619
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Khara Khula"
+				dynasty = "Choros"
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.09a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Khara Khula"
+			NOT = { has_global_flag = monarch_OIR_No.09a }
+		}
+		allow = {
+			is_year = 1634
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Erdeni Batur"
+				monarch_name = "Erdeni Batur"
+				dynasty = "Choros"
+				birth_date = 1600.1.1
+				death_Date = 1653.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.10a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Erdeni Batur"
+			NOT = { has_global_flag = monarch_OIR_No.10a }
+		}
+		allow = {
+			is_year = 1653
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Sengge"
+				monarch_name = "Sengge"
+				dynasty = "Choros"
+				birth_date = 1630.1.1
+				death_date = 1671.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.11a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Sengge"
+			NOT = { has_global_flag = monarch_OIR_No.11a }
+		}
+		allow = {
+			is_year = 1671
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Galdan Bashigt"
+				monarch_name = "Galdan Bashigt"
+				dynasty = "Choros"
+				birth_date = 1644.1.1
+				death_Date = 1698.9.4
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.12a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Galdan Bashigt"
+			NOT = { has_global_flag = monarch_OIR_No.12a }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Tsewang Rabdan"
+				monarch_name = "Tsewang Rabdan"
+				dynasty = "Choros"
+				birth_date = 1680.1.1
+				death_Date = 1727.12.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.13a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Tsewang Rabdan"
+			NOT = { has_global_flag = monarch_OIR_No.13a }
+		}
+		allow = {
+			is_year = 1727
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Galdan Tseren"
+				monarch_name = "Galdan Tseren"
+				dynasty = "Choros"
+				birth_date = 1690.1.1
+				death_Date = 1745.8.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.14a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Galdan Tseren"
+			NOT = { has_global_flag = monarch_OIR_No.14a }
+		}
+		allow = {
+			is_year = 1745
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Lama Darja"
+				monarch_name = "Lama Darja"
+				dynasty = "Choros"
+				birth_date = 1700.1.1
+				death_Date = 1750.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.15a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Lama Darja"
+			NOT = { has_global_flag = monarch_OIR_No.15a }
+		}
+		allow = {
+			is_year = 1750
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Dawaji"
+				monarch_name = "Dawaji"
+				dynasty = "Choros"
+				birth_date = 1700.1.1
+				death_Date = 1755.10.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_OIR_No.16a = {
+		major = yes
+		potential = {
+			tag = OIR
+			has_ruler = "Dawaji"
+			NOT = { has_global_flag = monarch_OIR_No.16a }
+		}
+		allow = {
+			is_year = 1755
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_OIR_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Amursana"
+				monarch_name = "Amursana"
+				dynasty  = "Choros"
+				birth_date = 1750.1.1
+				death_Date = 1756.3.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

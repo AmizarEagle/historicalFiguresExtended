@@ -1,0 +1,141 @@
+country_decisions = {
+
+	monarch_DMK_No.00a = {
+		major = yes
+		potential = {
+			tag = DMK
+			NOT = { has_global_flag = monarch_DMK_No.00a }
+		}
+		allow = {
+			is_year = 1475
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DMK_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Raden Patah"
+				dynasty = "Demak"
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DMK_No.01a = {
+		major = yes
+		potential = {
+			tag = DMK
+			has_ruler = "Raden Patah"
+			NOT = { has_global_flag = monarch_DMK_No.01a }
+		}
+		allow = {
+			is_year = 1518
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DMK_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Pati Unus"
+				dynasty = "Demak"
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DMK_No.02a = {
+		major = yes
+		potential = {
+			tag = DMK
+			has_ruler = "Pati Unus"
+			NOT = { has_global_flag = monarch_DMK_No.02a }
+		}
+		allow = {
+			is_year = 1521
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DMK_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Trenggana"
+				dynasty = "Demak"
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DMK_No.03a = {
+		major = yes
+		potential = {
+			tag = DMK
+			has_ruler = "Trenggana"
+			NOT = { has_global_flag = monarch_DMK_No.03a }
+		}
+		allow = {
+			is_year = 1548
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DMK_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Sunan Prawata"
+				dynasty = "Demak"
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DMK_No.04a = {
+		major = yes
+		potential = {
+			tag = DMK
+			has_ruler = "Sunan Prawata"
+			NOT = { has_global_flag = monarch_DMK_No.04a }
+		}
+		allow = {
+			is_year = 1568
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DMK_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Arya Penangsang"
+				dynasty = "Pajang"
+				adm = 2
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

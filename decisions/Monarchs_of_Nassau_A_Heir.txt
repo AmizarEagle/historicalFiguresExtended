@@ -1,0 +1,431 @@
+country_decisions = {
+
+	monarch_NSA_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Philipp II"
+			NOT = { is_year = 1523 }
+			NOT = { has_global_flag = monarch_NSA_No.00a }
+		}
+		allow = {
+			is_year = 1473
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.00a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig I"
+				dynasty = "von Nassau"
+				birth_date = 1473.5.28
+				death_date = 1523.5.28
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Ludwig I"
+			NOT = { is_year = 1559 }
+			NOT = { has_global_flag = monarch_NSA_No.01a }
+		}
+		allow = {
+			is_year = 1504
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.01a
+			define_heir = {
+				name = "Philipp"
+				monarch_name = "Philipp III"
+				dynasty = "von Nassau"
+				birth_date = 1504.9.20
+				death_date = 1559.10.4
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Philipp III"
+			NOT = { is_year = 1593 }
+			NOT = { has_global_flag = monarch_NSA_No.02a }
+		}
+		allow = {
+			is_year = 1537
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.02a
+			define_heir = {
+				name = "Albert"
+				monarch_name = "Albert"
+				dynasty = "von Nassau"
+				birth_date = 1537.12.26
+				death_date = 1593.11.11
+				claim = 95
+				adm = 5
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Albert"
+			NOT = { is_year = 1602 }
+			NOT = { has_global_flag = monarch_NSA_No.03a }
+		}
+		allow = {
+			is_year = 1559
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.03a
+			define_heir = {
+				name = "Philipp"
+				monarch_name = "Philipp IV"
+				dynasty = "von Nassau"
+				birth_date = 1542.10.14
+				death_date = 1602.3.12
+				claim = 95
+				adm = 3
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Philipp IV"
+			NOT = { is_year = 1627 }
+			NOT = { has_global_flag = monarch_NSA_No.04a }
+		}
+		allow = {
+			is_year = 1593
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.04a
+			define_heir = {
+				name = "Ludwig"
+				monarch_name = "Ludwig II"
+				dynasty = "von Nassau"
+				birth_date = 1565.8.9
+				death_date = 1627.11.8
+				claim = 95
+				adm = 4
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Ludwig II"
+			NOT = { is_year = 1640 }
+			NOT = { has_global_flag = monarch_NSA_No.05a }
+		}
+		allow = {
+			is_year = 1627
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.05a
+			define_heir = {
+				name = "Wilhelm Ludwig"
+				monarch_name = "Wilhelm Ludwig"
+				dynasty = "von Nassau"
+				birth_date = 1590.12.18
+				death_date = 1640.8.22
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Wilhelm Ludwig"
+			NOT = { is_year = 1655 }
+			NOT = { has_global_flag = monarch_NSA_No.06a }
+		}
+		allow = {
+			is_year = 1628
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.06a
+			define_heir = {
+				name = "Ernst Casimir"
+				monarch_name = "Ernst Casimir I"
+				dynasty = "von Nassau"
+				birth_date = 1607.11.15
+				death_date = 1655.4.16
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Ernst Casimir I"
+			NOT = { is_year = 1675 }
+			NOT = { has_global_flag = monarch_NSA_No.07a }
+		}
+		allow = {
+			is_year = 1640
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.07a
+			define_heir = {
+				name = "Friedrich"
+				monarch_name = "Friedrich"
+				dynasty = "von Nassau"
+				birth_date = 1640.4.26
+				death_date = 1675.9.8
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Friedrich"
+			NOT = { is_year = 1719 }
+			NOT = { has_global_flag = monarch_NSA_No.08a }
+		}
+		allow = {
+			is_year = 1664
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.08a
+			define_heir = {
+				name = "Johann Ernst"
+				monarch_name = "Johann Ernst"
+				dynasty = "von Nassau"
+				birth_date = 1664.6.13
+				death_date = 1719.2.27
+				claim = 95
+				adm = 1
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Johann Ernst"
+			NOT = { is_year = 1753 }
+			NOT = { has_global_flag = monarch_NSA_No.09a }
+		}
+		allow = {
+			is_year = 1675
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.09a
+			define_heir = {
+				name = "Karl August"
+				monarch_name = "Karl August"
+				dynasty = "von Nassau"
+				birth_date = 1685.9.17
+				death_date = 1753.11.9
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Karl August"
+			NOT = { is_year = 1788 }
+			NOT = { has_global_flag = monarch_NSA_No.10a }
+		}
+		allow = {
+			is_year = 1735
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.10a
+			define_heir = {
+				name = "Karl Christian"
+				monarch_name = "Karl Christian"
+				dynasty = "von Nassau"
+				birth_date = 1735.1.16
+				death_date = 1788.11.28
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Karl Christian"
+			NOT = { is_year = 1816 }
+			NOT = { has_global_flag = monarch_NSA_No.11a }
+		}
+		allow = {
+			is_year = 1768
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.11a
+			define_heir = {
+				name = "Friedrich Wilhelm"
+				monarch_name = "Friedrich Wilhelm"
+				dynasty = "von Nassau"
+				birth_date = 1768.10.25
+				death_date = 1816.1.9
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_NSA_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = NSA
+			has_ruler = "Friedrich Wilhelm"
+			NOT = { is_year = 1839 }
+			NOT = { has_global_flag = monarch_NSA_No.12a }
+		}
+		allow = {
+			is_year = 1792
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NSA_No.12a
+			define_heir = {
+				name = "Wilhelm"
+				monarch_name = "Wilhelm"
+				dynasty = "von Nassau"
+				birth_date = 1792.6.14
+				death_date = 1839.8.30
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

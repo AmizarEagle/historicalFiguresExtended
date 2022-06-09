@@ -1,0 +1,35 @@
+country_decisions = {
+
+	monarch_STP_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STP
+			has_ruler = "Bogislaw III"
+			NOT = { is_year = 1459 }
+			NOT = { has_global_flag = monarch_STP_No.00a }
+		}
+		allow = {
+			is_year = 1418
+			is_lesSTP_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STP_No.00a
+			define_heir = {
+				name = "Eryk"
+				monarch_name = "Eryk I"
+				dynasty = "Gryf"
+				birth_date = 1381.1.1
+				death_date = 1459.5.3
+				adm = 1
+				dip = 2
+				mil = 3
+				claim = 95
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

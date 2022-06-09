@@ -1,0 +1,165 @@
+country_decisions = {
+
+	monarch_MAJ_No.00a = {
+		major = yes
+		potential = {
+			tag = MAJ
+			has_ruler = "Suhita"
+			NOT = { has_global_flag = monarch_MAJ_No.00a }
+		}
+		allow = {
+			is_year = 1447
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAJ_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Kertawijaya"
+				monarch_name = "Kertawijaya"
+				dynasty = "Rajasanagara"
+				birth_date = 1429.1.1
+				death_date = 1451.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAJ_No.01a = {
+		major = yes
+		potential = {
+			tag = MAJ
+			has_ruler = "Kertawijaya"
+			NOT = { has_global_flag = monarch_MAJ_No.01a }
+		}
+		allow = {
+			is_year = 1451
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAJ_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Rajasawardhana"
+				monarch_name = "Rajasawardhana"
+				dynasty = "Rajasanagara"
+				birth_date = 1431.1.1
+				death_date = 1456.1.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAJ_No.02a = {
+		major = yes
+		potential = {
+			tag = MAJ
+			has_ruler = "Rajasawardhana"
+			NOT = { has_global_flag = monarch_MAJ_No.02a }
+		}
+		allow = {
+			is_year = 1456
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAJ_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Girishawardhana"
+				monarch_name = "Girishawardhana"
+				dynasty = "Rajasanagara"
+				birth_date = 1436.1.1
+				death_date = 1466.1.1
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAJ_No.03a = {
+		major = yes
+		potential = {
+			tag = MAJ
+			has_ruler = "Girishawardhana"
+			NOT = { has_global_flag = monarch_MAJ_No.03a }
+		}
+		allow = {
+			is_year = 1466
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAJ_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Singhawikramawardhana"
+				monarch_name = "Singhawikramawardhana"
+				dynasty = "Rajasanagara"
+				birth_date = 1446.1.1
+				death_date = 1474.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MAJ_No.04a = {
+		major = yes
+		potential = {
+			tag = MAJ
+			has_ruler = "Singhawikramawardhana"
+			NOT = { has_global_flag = monarch_MAJ_No.04a }
+		}
+		allow = {
+			is_year = 1474
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MAJ_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Girindrawardhana"
+				monarch_name = "Girindrawardhana"
+				dynasty = "Rajasanagara"
+				birth_date = 1454.1.1
+				death_date = 1498.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

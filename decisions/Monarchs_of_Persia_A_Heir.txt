@@ -1,0 +1,847 @@
+country_decisions = {
+
+	monarch_PER_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Jafar"
+			NOT = { is_year = 1460 }
+			NOT = { has_global_flag = monarch_PER_No.00a }
+		}
+		allow = {
+			is_year = 1443
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.00a
+			define_heir = {
+				name = "Joneid"
+				monarch_name = "Joneid I"
+				dynasty = "Safavid"
+				birth_date = 1410.1.1
+				adm = 1
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Joneid I"
+			NOT = { is_year = 1483 }
+			NOT = { has_global_flag = monarch_PER_No.01a }
+		}
+		allow = {
+			is_year = 1447
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.01a
+			define_heir = {
+				name = "Haidar"
+				monarch_name = "Haidar I"
+				dynasty = "Safavid"
+				birth_date = 1430.1.1
+				adm = 4
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Haidar I"
+			NOT = { is_year = 1524 }
+			NOT = { has_global_flag = monarch_PER_No.02a }
+		}
+		allow = {
+			is_year = 1487
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.02a
+			define_heir = {
+				name = "Ismail"
+				monarch_name = "Ismail I"
+				birth_date = 1487.1.1
+				dynasty = "Safavid"
+				adm = 6
+				dip = 5
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Ismail I"
+			NOT = { is_year = 1576 }
+			NOT = { has_global_flag = monarch_PER_No.03a }
+		}
+		allow = {
+			is_year = 1514
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.03a
+			define_heir = {
+				name = "Tahmasp"
+				monarch_name = "Tahmasp I"
+				dynasty = "Safavid"
+				birth_date = 1514.2.22
+				adm = 2
+				dip = 0
+				mil = 3
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.04a = {
+		major = yes
+		potential = {
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Tahmasp I"
+			NOT = { is_year = 1577 }
+			NOT = { has_global_flag = monarch_PER_No.04a }
+		}
+		allow = {
+			is_year = 1537
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.04a
+			define_heir = {
+				name = "Ismail"
+				monarch_name = "Ismail II"
+				dynasty = "Safavid"
+				birth_date = 1537.5.31
+				adm = 1
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Ismail II"
+			NOT = { is_year = 1587 }
+			NOT = { has_global_flag = monarch_PER_No.05a }
+		}
+		allow = {
+			is_year = 1576
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.05a
+			define_heir = {
+				name = "Muhammad Khudabanda"
+				monarch_name = "Muhammad Khudabanda I"
+				dynasty = "Safavid"
+				birth_date = 1532.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Muhammad Khudabanda I"
+			NOT = { is_year = 1629 }
+			NOT = { has_global_flag = monarch_PER_No.06a }
+		}
+		allow = {
+			is_year = 1577
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.06a
+			define_heir = {
+				name = "Abbas"
+				monarch_name = "Abbas I"
+				dynasty = "Safavid"
+				birth_date = 1571.1.27
+				death_date = 1629.1.19
+				claim = 95
+				adm = 6
+				dip = 5
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Abbas I"
+			NOT = { is_year = 1642 }
+			NOT = { has_global_flag = monarch_PER_No.07a }
+		}
+		allow = {
+			is_year = 1611
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.07a
+			define_heir = {
+				name = "Safi"
+				monarch_name = "Safi I"
+				dynasty = "Safavid"
+				birth_date = 1611.1.1
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Safi I"
+			NOT = { is_year = 1666 }
+			NOT = { has_global_flag = monarch_PER_No.08a }
+		}
+		allow = {
+			is_year = 1632
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.08a
+			define_heir = {
+				name = "Abbas"
+				monarch_name = "Abbas II"
+				dynasty = "Safavid"
+				birth_date = 1632.8.30
+				adm = 3
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Abbas II"
+			NOT = { is_year = 1664 }
+			NOT = { has_global_flag = monarch_PER_No.09a }
+		}
+		allow = {
+			is_year = 1649
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.09a
+			define_heir = {
+				name = "Suleiman"
+				monarch_name = "Suleiman I"
+				dynasty = "Safavid"
+				birth_date = 1648.2.1
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.10a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Suleiman I"
+			NOT = { is_year = 1722 }
+			NOT = { has_global_flag = monarch_PER_No.10a }
+		}
+		allow = {
+			is_year = 1669
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.10a
+			define_heir = {
+				name = "Sultan Husain"
+				monarch_name = "Sultan Husain I"
+				dynasty = "Safavid"
+				birth_date = 1668.10.1
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.11a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Sultan Husain I"
+			NOT = { is_year = 1740 }
+			NOT = { has_global_flag = monarch_PER_No.11a }
+		}
+		allow = {
+			is_year = 1704
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.11a
+			define_heir = {
+				name = "Tahmasp"
+				monarch_name = "Tahmasp II"
+				dynasty = "Safavid"
+				birth_date = 1704.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.12a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Tahmasp II"
+			NOT = { is_year = 1739 }
+			NOT = { has_global_flag = monarch_PER_No.12a }
+		}
+		allow = {
+			is_year = 1730
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.12a
+			define_heir = {
+				name = "Abbas"
+				monarch_name = "Abbas III"
+				dynasty = "Safavid"
+				birth_date = 1732.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.13a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Abbas III"
+			NOT = { is_year = 1747 }
+			NOT = { has_global_flag = monarch_PER_No.13a }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.13a
+			define_heir = {
+				name = "Nadir"
+				monarch_name = "Nadir I"
+				dynasty = "Afsharid"
+				birth_date = 1698.1.1
+				claim = 95
+				adm = 2
+				dip = 4
+				mil = 6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.14a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Nadir I"
+			NOT = { is_year = 1748 }
+			NOT = { has_global_flag = monarch_PER_No.14a }
+		}
+		allow = {
+			is_year = 1719
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.14a
+			define_heir = {
+				name = "Adil"
+				monarch_name = "Adil I"
+				dynasty = "Afsharid"
+				birth_date = 1719.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.15a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Adil I"
+			NOT = { is_year = 1749 }
+			NOT = { has_global_flag = monarch_PER_No.15a }
+		}
+		allow = {
+			is_year = 1747
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.15a
+			define_heir = {
+				name = "Ibrahim"
+				monarch_name = "Ibrahim I"
+				dynasty = "Afsharid"
+				birth_date = 1717.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.16a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Ibrahim I"
+			NOT = { is_year = 1796 }
+			NOT = { has_global_flag = monarch_PER_No.16a }
+		}
+		allow = {
+			is_year = 1748
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.16a
+			define_heir = {
+				name = "Shah Rukh"
+				monarch_name = "Shah Rukh I"
+				dynasty = "Afsharid"
+				birth_date = 1734.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.17a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Shah Rukh I"
+			NOT = { is_year = 1756 }
+			NOT = { has_global_flag = monarch_PER_No.17a }
+		}
+		allow = {
+			is_year = 1749
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.17a
+			define_heir = {
+				name = "Ismail"
+				monarch_name = "Ismail III"
+				dynasty = "Afsharid"
+				birth_date = 1734.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.18a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Ismail III"
+			NOT = { is_year = 1779 }
+			NOT = { has_global_flag = monarch_PER_No.18a }
+		}
+		allow = {
+			is_year = 1750
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.18a
+			define_heir = {
+				name = "Karim Khan"
+				monarch_name = "Karim Khan I"
+				dynasty = "Zand"
+				birth_date = 1705.1.1
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.19a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Karim Khan I"
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_PER_No.19a }
+		}
+		allow = {
+			is_year = 1756
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.19a
+			define_heir = {
+				name = "Zaki Khan"
+				monarch_name = "Zaki Khan I"
+				dynasty = "Zand"
+				birth_date = 1760.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 1
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.20a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Zaki Khan I"
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_PER_No.20a }
+		}
+		allow = {
+			is_year = 1779
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.20a
+			define_heir = {
+				name = "Sadeq Khan"
+				monarch_name = "Sadeq Khan I"
+				dynasty = "Zand"
+				birth_date = 1755.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.21a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Sadeq Khan I"
+			NOT = { is_year = 1785 }
+			NOT = { has_global_flag = monarch_PER_No.21a }
+		}
+		allow = {
+			is_year = 1780
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.21a
+			define_heir = {
+				name = "Ali Morad"
+				monarch_name = "Ali Morad I"
+				dynasty = "Zand"
+				birth_date = 1720.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.22a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Ali Morad I"
+			NOT = { is_year = 1789 }
+			NOT = { has_global_flag = monarch_PER_No.22a }
+		}
+		allow = {
+			is_year = 1781
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.22a
+			define_heir = {
+				name = "Ja'far Khan"
+				monarch_name = "Ja'far Khan I"
+				dynasty = "Zand"
+				birth_date = 1760.1.1
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.23a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Ja'far Khan I"
+			NOT = { is_year = 1794 }
+			NOT = { has_global_flag = monarch_PER_No.23a }
+		}
+		allow = {
+			is_year = 1785
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.23a
+			define_heir = {
+				name = "Lotf Ali Khan"
+				monarch_name = "Lotf Ali Khan I"
+				dynasty = "Zand"
+				birth_date = 1769.1.1
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.24a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Lotf Ali Khan I"
+			NOT = { is_year = 1797 }
+			NOT = { has_global_flag = monarch_PER_No.24a }
+		}
+		allow = {
+			is_year = 1789
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.24a
+			define_heir = {
+				name = "Aga Muhammad"
+				monarch_name = "Aga Muhammad I"
+				dynasty = "Qajar"
+				birth_date = 1769.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 3
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_PER_No.25a = {
+		major = yes
+		potential = {
+			government = monarchy
+			OR = { tag = PER AND = { tag = ARL } }
+			has_ruler = "Aga Muhammad I"
+			NOT = { is_year = 1834 }
+			NOT = { has_global_flag = monarch_PER_No.25a }
+		}
+		allow = {
+			is_year = 1797
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PER_No.25a
+			define_heir = {
+				name = "Fath Ali"
+				monarch_name = "Fath Ali I"
+				dynasty = "Qajar"
+				birth_date = 1769.1.1
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

@@ -1,0 +1,774 @@
+country_decisions = {
+
+	monarch_DAI_No.00a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Nguyen Long"
+			NOT = { has_global_flag = monarch_DAI_No.00a }
+		}
+		allow = {
+			is_year = 1459
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Nghi Dan"
+				dynasty = "Le"
+				adm = 0
+				dip = 0
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.01a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Nghi Dan"
+			NOT = { has_global_flag = monarch_DAI_No.01a }
+		}
+		allow = {
+			is_year = 1460
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Tu Thanh" #Lê Thanh Tong
+				dynasty = "Le"
+				adm = 5
+				dip = 4
+				mil = 4
+				birth_date = 1442.1.1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.02a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Tu Thanh"
+			NOT = { has_global_flag = monarch_DAI_No.02a }
+		}
+		allow = {
+			is_year = 1497
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Tranh" #Lê Hien Tong
+				dynasty = "Le"
+				adm = 1
+				dip = 1
+				mil = 0
+				birth_date = 1460.1.1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.03a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Tranh"
+			NOT = { has_global_flag = monarch_DAI_No.03a }
+		}
+		allow = {
+			is_year = 1504
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Thuan" #Lê Tuc Tong
+				dynasty = "Le"
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.04a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Thuan"
+			NOT = { has_global_flag = monarch_DAI_No.04a }
+		}
+		allow = {
+			is_year = 1505
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Tuan"
+				dynasty = "Le"
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.05a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Tuan"
+			NOT = { has_global_flag = monarch_DAI_No.05a }
+		}
+		allow = {
+			is_year = 1510
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Oanh" #Tuong Duc
+				dynasty = "Le"
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.06a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Oanh"
+			NOT = { has_global_flag = monarch_DAI_No.06a }
+		}
+		allow = {
+			is_year = 1516
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Y" #Le Chieu Tong
+				dynasty = "Le"
+				adm = 0
+				dip = 0
+				mil = 0
+				birth_date = 1496.1.1
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.07a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Y"
+			NOT = { has_global_flag = monarch_DAI_No.07a }
+		}
+		allow = {
+			is_year = 1522
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Xuan" #Cung Hoang
+				dynasty = "Le"
+				birth_date = 1506.1.1
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.08a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Xuan"
+			NOT = { has_global_flag = monarch_DAI_No.08a }
+		}
+		allow = {
+			is_year = 1527
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Dang Dung"
+				dynasty = "Mac"
+				adm = 3
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.09a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Dang Dung"
+			NOT = { has_global_flag = monarch_DAI_No.09a }
+		}
+		allow = {
+			is_year = 1529
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Dang Doanh"
+				birth_date = 1500.1.1
+				dynasty = "Mac"
+				adm = 2
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.10a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Dang Doanh"
+			NOT = { has_global_flag = monarch_DAI_No.10a }
+		}
+		allow = {
+			is_year = 1541
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Phuc Hai"
+				birth_date = 1531.1.1
+				dynasty = "Mac"
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.11a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Phuc Hai"
+			NOT = { has_global_flag = monarch_DAI_No.11a }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Phuc Nguyen"
+				dynasty = "Mac"
+				birth_date = 1535.1.1
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.12a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Phuc Nguyen"
+			NOT = { has_global_flag = monarch_DAI_No.12a }
+		}
+		allow = {
+			is_year = 1561
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Mau Hop"
+				birth_date = 1558.1.1
+				dynasty = "Mac"
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.13a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Mau Hop"
+			NOT = { has_global_flag = monarch_DAI_No.13a }
+		}
+		allow = {
+			is_year = 1592
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Kinh Chi"
+				dynasty = "Mac"
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.14a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Kinh Chi"
+			NOT = { has_global_flag = monarch_DAI_No.14a }
+		}
+		allow = {
+			is_year = 1593
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Kinh Cung"
+				dynasty = "Mac"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.15a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Kinh Cung"
+			NOT = { has_global_flag = monarch_DAI_No.15a }
+		}
+		allow = {
+			is_year = 1625
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Kinh Khoan"
+				dynasty = "Mac"
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.16a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Kinh Khoan"
+			NOT = { has_global_flag = monarch_DAI_No.16a }
+		}
+		allow = {
+			is_year = 1638
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Kinh Vu"
+				dynasty = "Mac"
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.17a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Kinh Vu"
+			NOT = { has_global_flag = monarch_DAI_No.17a }
+		}
+		allow = {
+			is_year = 1677
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Duy Hop"
+				dynasty = "Le"
+				adm = 0
+				dip = 1
+				mil = 0
+				max_random_adm = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.18a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Duy Hop"
+			NOT = { has_global_flag = monarch_DAI_No.18a }
+		}
+		allow = {
+			is_year = 1705
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Duy Duong"
+				birth_date = 1676.1.1
+				dynasty = "Le"
+				adm = 1
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.19a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Duy Duong"
+			NOT = { has_global_flag = monarch_DAI_No.19a }
+		}
+		allow = {
+			is_year = 1729
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Duy Phuong"
+				birth_date = 1705.5.23
+				dynasty = "Le"
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.20a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Duy Phuong"
+			NOT = { has_global_flag = monarch_DAI_No.20a }
+		}
+		allow = {
+			is_year = 1732
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Duy Toung"
+				dynasty = "Le"
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.21a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Duy Toung"
+			NOT = { has_global_flag = monarch_DAI_No.21a }
+		}
+		allow = {
+			is_year = 1735
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Duy Than"
+				dynasty = "Le"
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.22a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Duy Than"
+			NOT = { has_global_flag = monarch_DAI_No.22a }
+		}
+		allow = {
+			is_year = 1740
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.22a
+			add_stability = -1
+			define_ruler = {
+				name = "Duy Dieu"
+				dynasty = "Le"
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.23a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Duy Dieu"
+			NOT = { has_global_flag = monarch_DAI_No.23a }
+		}
+		allow = {
+			is_year = 1776
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.23a
+			add_stability = -1
+			define_ruler = {
+				name = "Duy Khiem"
+				birth_date = 1765.1.1
+				dynasty = "Lê"
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.24a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Duy Khiem"
+			NOT = { has_global_flag = monarch_DAI_No.24a }
+		}
+		allow = {
+			is_year = 1788
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.24a
+			add_stability = -1
+			define_ruler = {
+				name = "Hue"
+				dynasty = "Nguyen"
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_DAI_No.25a = {
+		major = yes
+		potential = {
+			tag = DAI
+			has_ruler = "Hue"
+			NOT = { has_global_flag = monarch_DAI_No.25a }
+		}
+		allow = {
+			is_year = 1792
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAI_No.25a
+			add_stability = -1
+			define_ruler = {
+				name = "Quang Toan"
+				dynasty = "Nguyen"
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,334 @@
+country_decisions = {
+
+	monarch_MSS_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MSS
+			has_ruler = "Iacopo I"
+			NOT = { is_year = 1519 }
+			NOT = { has_global_flag = monarch_MSS_No.00a }
+		}
+		allow = {
+			is_year = 1444
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MSS_No.00a
+			define_heir = {
+				name = "Alberico"
+				monarch_name = "Alberico II"
+				dynasty = "Malaspina"
+				birth_date = 1444.1.1
+				death_date = 1519.1.1
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MSS_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MSS
+			has_ruler = "Alberico II"
+			NOT = { is_year = 1553 }
+			NOT = { has_global_flag = monarch_MSS_No.01a }
+		}
+		allow = {
+			is_year = 1497
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MSS_No.01a
+			define_heir = {
+				name = "Ricciarda"
+				monarch_name = "Ricciarda I"
+				dynasty = "Cybo-Malaspina"
+				birth_date = 1497.1.1
+				death_date = 1553.6.15
+				claim = 95
+				adm = 5
+				dip = 6
+				mil = 2
+				female = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MSS_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MSS
+			has_ruler = "Ricciarda I"
+			NOT = { is_year = 1623 }
+			NOT = { has_global_flag = monarch_MSS_No.02a }
+		}
+		allow = {
+			is_year = 1534
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MSS_No.02a
+			define_heir = {
+				name = "Alberico"
+				monarch_name = "Alberico I"
+				dynasty = "Cybo-Malaspina"
+				birth_date = 1534.1.1
+				death_date = 1623.1.1
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MSS_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MSS
+			has_ruler = "Alberico I"
+			NOT = { is_year = 1662 }
+			NOT = { has_global_flag = monarch_MSS_No.03a }
+		}
+		allow = {
+			is_year = 1581
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MSS_No.03a
+			define_heir = {
+				name = "Carlo"
+				monarch_name = "Carlo I"
+				dynasty = "Cybo-Malaspina"
+				birth_date = 1581.11.18
+				death_date = 1662.2.13
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MSS_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MSS
+			has_ruler = "Carlo I"
+			NOT = { is_year = 1690 }
+			NOT = { has_global_flag = monarch_MSS_No.04a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MSS_No.04a
+			define_heir = {
+				name = "Alberico"
+				monarch_name = "Alberico II"
+				dynasty = "Cybo-Malaspina"
+				birth_date = 1623.1.1
+				death_date = 1690.1.1
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MSS_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MSS
+			has_ruler = "Alberico II"
+			NOT = { is_year = 1710 }
+			NOT = { has_global_flag = monarch_MSS_No.05a }
+		}
+		allow = {
+			is_year = 1662
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MSS_No.05a
+			define_heir = {
+				name = "Carlo"
+				monarch_name = "Carlo II"
+				dynasty = "Cybo-Malaspina"
+				birth_date = 1662.1.1
+				death_date = 1710.1.1
+				claim = 95
+				adm = 2
+				dip = 4
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MSS_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MSS
+			has_ruler = "Carlo II"
+			NOT = { is_year = 1715 }
+			NOT = { has_global_flag = monarch_MSS_No.06a }
+		}
+		allow = {
+			is_year = 1690
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MSS_No.06a
+			define_heir = {
+				name = "Alberico"
+				monarch_name = "Alberico III"
+				dynasty = "Cybo-Malaspina"
+				birth_date = 1666.1.1
+				death_date = 1715.1.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MSS_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MSS
+			has_ruler = "Alberico III"
+			NOT = { is_year = 1731 }
+			NOT = { has_global_flag = monarch_MSS_No.07a }
+		}
+		allow = {
+			is_year = 1710
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MSS_No.07a
+			define_heir = {
+				name = "Alderamo"
+				monarch_name = "Alderamo I"
+				dynasty = "Cybo-Malaspina"
+				birth_date = 1685.1.1
+				death_date = 1731.1.1
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MSS_No.08a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MSS
+			has_ruler = "Alderamo I"
+			NOT = { is_year = 1790 }
+			NOT = { has_global_flag = monarch_MSS_No.08a }
+		}
+		allow = {
+			is_year = 1725
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MSS_No.08a
+			define_heir = {
+				name = "Maria Teresa"
+				monarch_name = "Maria Teresa I"
+				dynasty = "Cybo-Malaspina"
+				birth_date = 1725.6.29
+				death_date = 1790.12.29
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 2
+				female = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MSS_No.09a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = MSS
+			has_ruler = "Maria Teresa I"
+			NOT = { is_year = 1829 }
+			NOT = { has_global_flag = monarch_MSS_No.09a }
+		}
+		allow = {
+			is_year = 1751
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MSS_No.09a
+			define_heir = {
+				name = "Maria Beatrice"
+				monarch_name = "Maria Beatrice I"
+				dynasty = "d'Este"
+				birth_date = 1750.4.7
+				death_date = 1829.11.14
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,266 @@
+country_decisions = {
+
+	monarch_SHL_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SHL
+			has_ruler = "Adolf IX"
+			NOT = { is_year = 1587 }
+			NOT = { has_global_flag = monarch_SHL_No.00a }
+		}
+		allow = {
+			is_year = 1568
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SHL_No.00a
+			define_heir = {
+				name = "Friedrich"
+				monarch_name = "Friedrich II"
+				dynasty = "von Holstein-Gottorop"
+				birth_date = 1568.4.21
+				death_date = 1587.6.15
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SHL_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SHL
+			has_ruler = "Friedrich II"
+			NOT = { is_year = 1590 }
+			NOT = { has_global_flag = monarch_SHL_No.01a }
+		}
+		allow = {
+			is_year = 1586
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SHL_No.01a
+			define_heir = {
+				name = "Philipp"
+				monarch_name = "Philipp"
+				dynasty = "von Holstein-Gottorp"
+				birth_date = 1570.8.10
+				death_date = 1590.10.18
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SHL_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SHL
+			has_ruler = "Philipp"
+			NOT = { is_year = 1616 }
+			NOT = { has_global_flag = monarch_SHL_No.02a }
+		}
+		allow = {
+			is_year = 1587
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SHL_No.02a
+			define_heir = {
+				name = "Johann Adolf"
+				monarch_name = "Johann Adolf"
+				dynasty = "von Holstein-Gottorp"
+				birth_date = 1575.2.27
+				death_date = 1616.3.31
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SHL_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SHL
+			has_ruler = "Johann Adolf"
+			NOT = { is_year = 1659 }
+			NOT = { has_global_flag = monarch_SHL_No.03a }
+		}
+		allow = {
+			is_year = 1597
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SHL_No.03a
+			define_heir = {
+				name = "Friedrich"
+				monarch_name = "Friedrich III"
+				dynasty = "von Holstein-Gottorp"
+				birth_date = 1597.12.22
+				death_date = 1659.8.10
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SHL_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SHL
+			has_ruler = "Friedrich III"
+			NOT = { is_year = 1695 }
+			NOT = { has_global_flag = monarch_SHL_No.04a }
+		}
+		allow = {
+			is_year = 1641
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SHL_No.04a
+			define_heir = {
+				name = "Christian Albrecht"
+				monarch_name = "Christian Albrecht"
+				dynasty = "von Holstein-Gottorp"
+				birth_date = 1641.2.3
+				death_date = 1695.1.6
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SHL_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SHL
+			has_ruler = "Christian Albrecht"
+			NOT = { is_year = 1702 }
+			NOT = { has_global_flag = monarch_SHL_No.05a }
+		}
+		allow = {
+			is_year = 1671
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SHL_No.05a
+			define_heir = {
+				name = "Friedrich"
+				monarch_name = "Friedrich IV"
+				dynasty = "von Holstein-Gottorop"
+				birth_date = 1671.10.18
+				death_date = 1702.7.20
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SHL_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SHL
+			has_ruler = "Friedrich IV"
+			NOT = { is_year = 1739 }
+			NOT = { has_global_flag = monarch_SHL_No.06a }
+		}
+		allow = {
+			is_year = 1700
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SHL_No.06a
+			define_heir = {
+				name = "Karl Friedrich"
+				monarch_name = "Karl Friedrich"
+				dynasty = "von Holstein-Gottorp"
+				birth_date = 1700.4.30
+				death_date = 1739.6.18
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_SHL_No.07a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = SHL
+			has_ruler = "Karl Friedrich"
+			NOT = { is_year = 1762 }
+			NOT = { has_global_flag = monarch_SHL_No.07a }
+		}
+		allow = {
+			is_year = 1728
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SHL_No.07a
+			define_heir = {
+				name = "Karl Peter Ulrich"
+				monarch_name = "Karl Peter Ulrich"
+				dynasty = "von Holstein-Gottorp"
+				birth_date = 1728.2.21
+				death_date = 1762.7.17
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

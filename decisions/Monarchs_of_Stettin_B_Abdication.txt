@@ -1,0 +1,252 @@
+country_decisions = {
+
+	monarch_STE_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Joachim I"
+			has_global_flag = monarch_STE_No.00a
+			NOT = { is_year = 1464 }
+			NOT = { has_global_flag = monarch_STE_No.00b }
+		}
+		allow = {
+			is_year = 1451
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Ota III"
+			has_global_flag = monarch_STE_No.01a
+			NOT = { is_year = 1474 }
+			NOT = { has_global_flag = monarch_STE_No.01b }
+		}
+		allow = {
+			is_year = 1464
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Eryk II"
+			has_global_flag = monarch_STE_No.02a
+			NOT = { is_year = 1523 }
+			NOT = { has_global_flag = monarch_STE_No.02b }
+		}
+		allow = {
+			is_year = 1474
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Boguslaw X"
+			has_global_flag = monarch_STE_No.03a
+			NOT = { is_year = 1573 }
+			NOT = { has_global_flag = monarch_STE_No.03b }
+		}
+		allow = {
+			is_year = 1523
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Barnim XI"
+			has_global_flag = monarch_STE_No.04a
+			NOT = { is_year = 1600 }
+			NOT = { has_global_flag = monarch_STE_No.04b }
+		}
+		allow = {
+			is_year = 1573
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Johann Friedrich"
+			has_global_flag = monarch_STE_No.05a
+			NOT = { is_year = 1603 }
+			NOT = { has_global_flag = monarch_STE_No.05b }
+		}
+		allow = {
+			is_year = 1600
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Barnim XII"
+			has_global_flag = monarch_STE_No.06a
+			NOT = { is_year = 1606 }
+			NOT = { has_global_flag = monarch_STE_No.06b }
+		}
+		allow = {
+			is_year = 1603
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Boguslaw XIII"
+			has_global_flag = monarch_STE_No.07a
+			NOT = { is_year = 1618 }
+			NOT = { has_global_flag = monarch_STE_No.07b }
+		}
+		allow = {
+			is_year = 1606
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Filip II"
+			has_global_flag = monarch_STE_No.08a
+			NOT = { is_year = 1620 }
+			NOT = { has_global_flag = monarch_STE_No.08b }
+		}
+		allow = {
+			is_year = 1618
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_STE_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = STE
+			has_ruler = "Franciszek I"
+			has_global_flag = monarch_STE_No.09a
+			NOT = { is_year = 1637 }
+			NOT = { has_global_flag = monarch_STE_No.09b }
+		}
+		allow = {
+			is_year = 1620
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_STE_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,262 @@
+country_decisions = {
+
+	monarch_CRB_No.00a = {
+		major = yes
+		potential = {
+			tag = CRB
+			has_ruler = "Ki Gedeng Tapa"
+			NOT = { has_global_flag = monarch_CRB_No.00a }
+		}
+		allow = {
+			is_year = 1445
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRB_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Ki Gedheng Danusela"
+				dynasty = "Muara Jati"
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRB_No.01a = {
+		major = yes
+		potential = {
+			tag = CRB
+			has_ruler = "Ki Gedheng Danusela"
+			NOT = { has_global_flag = monarch_CRB_No.01a }
+		}
+		allow = {
+			is_year = 1447
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRB_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Cakrabuana"
+				dynasty = "Muara Jati"
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRB_No.02a = {
+		major = yes
+		potential = {
+			tag = CRB
+			has_ruler = "Cakrabuana"
+			NOT = { has_global_flag = monarch_CRB_No.02a }
+		}
+		allow = {
+			is_year = 1479
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRB_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Sharif Hidayatullah"
+				monarch_name = "Sharif Hidayatullah"
+				dynasty = "Muara Jati"
+				birth_date = 1448.1.1
+				death_Date = 1568.1.1
+				claim = 95
+				adm = 4
+				dip = 5
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRB_No.03a = {
+		major = yes
+		potential = {
+			tag = CRB
+			has_ruler = "Sharif Hidayatullah"
+			NOT = { has_global_flag = monarch_CRB_No.03a }
+		}
+		allow = {
+			is_year = 1568
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRB_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Fatahillah"
+				dynasty = "Muara Jati"
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRB_No.04a = {
+		major = yes
+		potential = {
+			tag = CRB
+			has_ruler = "Fatahillah"
+			NOT = { has_global_flag = monarch_CRB_No.04a }
+		}
+		allow = {
+			is_year = 1570
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRB_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Pangeran Mas"
+				monarch_name = "Pangeran Mas"
+				dynasty = "Muara Jati"
+				birth_date = 1552.1.1
+				death_Date = 1649.1.1
+				claim = 95
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRB_No.05a = {
+		major = yes
+		potential = {
+			tag = CRB
+			has_ruler = "Pangeran Mas"
+			NOT = { has_global_flag = monarch_CRB_No.05a }
+		}
+		allow = {
+			is_year = 1649
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRB_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Rasmi"
+				dynasty = "Muara Jati"
+				adm = 2
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRB_No.06a = {
+		major = yes
+		potential = {
+			tag = CRB
+			has_ruler = "Rasmi"
+			NOT = { has_global_flag = monarch_CRB_No.06a }
+		}
+		allow = {
+			is_year = 1677
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRB_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Martawijaya"
+				dynasty = "Muara Jati"
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRB_No.07a = {
+		major = yes
+		potential = {
+			tag = CRB
+			has_ruler = "Martawijaya"
+			NOT = { has_global_flag = monarch_CRB_No.07a }
+		}
+		allow = {
+			is_year = 1703
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRB_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Kanoman"
+				dynasty = "Muara Jati"
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_CRB_No.08a = {
+		major = yes
+		potential = {
+			tag = CRB
+			has_ruler = "Kanoman"
+			NOT = { has_global_flag = monarch_CRB_No.08a }
+		}
+		allow = {
+			is_year = 1798
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_CRB_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Anom"
+				dynasty = "Muara Jati"
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,233 @@
+country_decisions = {
+
+	monarch_WOL_No.00a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WOL
+			has_ruler = "Wartislaw IX"
+			NOT = { is_year = 1474 }
+			NOT = { has_global_flag = monarch_WOL_No.00a }
+		}
+		allow = {
+			is_year = 1427
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WOL_No.00a
+			define_heir = {
+				name = "Eryk"
+				monarch_name = "Eryk II"
+				dynasty = "Gryf"
+				birth_date = 1427.1.1
+				death_date = 1474.7.5
+				adm = 1
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WOL_No.01a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WOL
+			has_ruler = "Eryk II"
+			NOT = { is_year = 1523 }
+			NOT = { has_global_flag = monarch_WOL_No.01a }
+		}
+		allow = {
+			is_year = 1464
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WOL_No.01a
+			define_heir = {
+				name = "Boguslaw"
+				monarch_name = "Boguslaw X"
+				dynasty = "Gryf"
+				birth_date = 1454.6.3
+				death_date = 1523.10.5
+				claim = 95
+				adm = 4
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WOL_No.02a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WOL
+			has_ruler = "Boguslaw X"
+			NOT = { is_year = 1531 }
+			NOT = { has_global_flag = monarch_WOL_No.02a }
+		}
+		allow = {
+			is_year = 1493
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WOL_No.02a
+			define_heir = {
+				name = "Georg"
+				monarch_name = "Georg I"
+				dynasty = "Gryf"
+				birth_date = 1493.4.11
+				death_date = 1531.5.10
+				claim = 95
+				adm = 3
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WOL_No.03a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WOL
+			has_ruler = "Georg I"
+			NOT = { is_year = 1560 }
+			NOT = { has_global_flag = monarch_WOL_No.03a }
+		}
+		allow = {
+			is_year = 1515
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WOL_No.03a
+			define_heir = {
+				name = "Filip"
+				monarch_name = "Filip I"
+				dynasty = "Gryf"
+				birth_date = 1515.10.21
+				death_date = 1560.2.14
+				claim = 95
+				dip = 2
+				adm = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WOL_No.04a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WOL
+			has_ruler = "Filip I"
+			NOT = { is_year = 1592 }
+			NOT = { has_global_flag = monarch_WOL_No.04a }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WOL_No.04a
+			define_heir = {
+				name = "Ernst Ludwig"
+				monarch_name = "Ernst Ludwig I"
+				dynasty = "Gryf"
+				birth_date = 1545.11.20
+				death_date = 1592.6.17
+				claim = 95
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WOL_No.05a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WOL
+			has_ruler = "Ernst Ludwig I"
+			NOT = { is_year = 1625 }
+			NOT = { has_global_flag = monarch_WOL_No.05a }
+		}
+		allow = {
+			is_year = 1584
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WOL_No.05a
+			define_heir = {
+				name = "Filip Julius"
+				monarch_name = "Filip Julius I"
+				dynasty = "Gryf"
+				birth_date = 1584.12.27
+				death_date = 1625.2.6
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_WOL_No.06a = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = WOL
+			has_ruler = "Filip Julius I"
+			NOT = { is_year = 1637 }
+			NOT = { has_global_flag = monarch_WOL_No.06a }
+		}
+		allow = {
+			is_year = 1592
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_WOL_No.06a
+			define_heir = {
+				name = "Boguslaw"
+				monarch_name = "Boguslaw XIV"
+				dynasty = "Gryf"
+				birth_date = 1580.3.31
+				death_date = 1637.3.10
+				claim = 95
+				adm = 3
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

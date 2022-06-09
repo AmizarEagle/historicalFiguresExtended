@@ -1,0 +1,653 @@
+country_decisions = {
+
+	monarch_MTR_No.00a = {
+		major = yes
+		potential = {
+			tag = MTR
+			NOT = { has_global_flag = monarch_MTR_No.00a }
+		}
+		allow = {
+			is_year = 1451
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Rajasavardhana"
+				dynasty = "Majapahit"
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.01a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Rajasavardhana"
+			NOT = { has_global_flag = monarch_MTR_No.01a }
+		}
+		allow = {
+			is_year = 1456
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Hyang Purvavisesa"
+				monarch_name = "Hyang Purvavisesa"
+				dynasty = "Majapahit"
+				birth_date = 1430.1.1
+				death_Date = 1466.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.02a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Hyang Purvavisesa"
+			NOT = { has_global_flag = monarch_MTR_No.02a }
+		}
+		allow = {
+			is_year = 1466
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Bhre Pandan Solar"
+				monarch_name = "Bhre Pandan Solar"
+				dynasty = "Majapahit"
+				birth_date = 1430.1.1
+				death_Date = 1478.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.03a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Bhre Pandan Solar"
+			NOT = { has_global_flag = monarch_MTR_No.03a }
+		}
+		allow = {
+			is_year = 1478
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Raden Patah Senapati"
+				monarch_name = "Raden Patah Senapati"
+				dynasty = "Majapahit"
+				birth_date = 1450.1.1
+				death_Date = 1518.1.1
+				claim = 95
+				adm = 2
+				dip = 3
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.04a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Raden Patah Senapati"
+			NOT = { has_global_flag = monarch_MTR_No.04a }
+		}
+		allow = {
+			is_year = 1518
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Pengeran Sabrang Lar"
+				monarch_name = "Pengeran Sabrang Lar"
+				dynasty = "Majapahit"
+				birth_date = 1470.1.1
+				death_Date = 1521.1.1
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.05a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Pengeran Sabrang Lar"
+			NOT = { has_global_flag = monarch_MTR_No.05a }
+		}
+		allow = {
+			is_year = 1521
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Pengeran Sutan Tranganna"
+				monarch_name = "Pengeran Sutan Tranganna"
+				dynasty = "Matarama"
+				birth_date = 1500.1.1
+				death_Date = 1546.1.1
+				claim = 95
+				adm = 6
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.06a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Pengeran Sutan Tranganna"
+			NOT = { has_global_flag = monarch_MTR_No.06a }
+		}
+		allow = {
+			is_year = 1546
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Pengeran Sultan Prawata"
+				monarch_name = "Pengeran Sultan Prawata"
+				dynasty = "Matarama"
+				birth_date = 1520.1.1
+				death_Date = 1547.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.07a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Pengeran Sultan Prawata"
+			NOT = { has_global_flag = monarch_MTR_No.07a }
+		}
+		allow = {
+			is_year = 1547
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Aria Pangiri"
+				monarch_name = "Aria Pangiri"
+				dynasty = "Matarama"
+				birth_date = 1530.1.1
+				death_Date = 1568.1.1
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.08a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Aria Pangiri"
+			NOT = { has_global_flag = monarch_MTR_No.08a }
+		}
+		allow = {
+			is_year = 1568
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Pangeran Mas"
+				monarch_name = "Pangeran Mas"
+				dynasty = "Matarama"
+				birth_date = 1550.1.1
+				death_Date = 1582.1.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.09a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Pangeran Mas"
+			NOT = { has_global_flag = monarch_MTR_No.09a }
+		}
+		allow = {
+			is_year = 1582
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Panembahan Ingalasa"
+				monarch_name = "Panembahan Ingalasa"
+				dynasty = "Mataram"
+				birth_date = 1570.1.1
+				death_Date = 1601.7.30
+				claim = 95
+				adm = 1
+				dip = 1
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.10a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Panembahan Ingalasa"
+			NOT = { has_global_flag = monarch_MTR_No.10a }
+		}
+		allow = {
+			is_year = 1601
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Panembahan Krapyak"
+				monarch_name = "Panembahan Krapyak"
+				dynasty = "Matarama"
+				birth_date = 1560.1.1
+				death_Date = 1613.9.21
+				claim = 95
+				adm = 2
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.11a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Panembahan Krapyak"
+			NOT = { has_global_flag = monarch_MTR_No.11a }
+		}
+		allow = {
+			is_year = 1613
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Sultan Agung"
+				monarch_name = "Sultan Agung"
+				dynasty = "Matarama"
+				birth_date = 1590.1.1
+				death_date = 1643.2.1
+				claim = 95
+				adm = 3
+				dip = 5
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.12a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Sultan Agung"
+			NOT = { has_global_flag = monarch_MTR_No.12a }
+		}
+		allow = {
+			is_year = 1643
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Amangkurat I"
+				monarch_name = "Amangkurat I"
+				dynasty = "Matarama"
+				birth_date = 1630.1.1
+				death_Date = 1677.1.1
+				claim = 95
+				adm = 1
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.13a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Amangkurat I"
+			NOT = { has_global_flag = monarch_MTR_No.13a }
+		}
+		allow = {
+			is_year = 1677
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Amangkurat II"
+				monarch_name = "Amangkurat II"
+				dynasty = "Matarama"
+				birth_date = 1650.1.1
+				death_Date = 1703.11.2
+				claim = 95
+				adm = 3
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.14a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Amangkurat II"
+			NOT = { has_global_flag = monarch_MTR_No.14a }
+		}
+		allow = {
+			is_year = 1703
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Amangkurat III"
+				monarch_name = "Amangkurat III"
+				dynasty = "Matarama"
+				birth_date = 1680.1.1
+				death_Date = 1705.1.1
+				claim = 95
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.15a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Amangkurat III"
+			NOT = { has_global_flag = monarch_MTR_No.15a }
+		}
+		allow = {
+			is_year = 1705
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Pakubuwana I"
+				monarch_name = "Pakubuwana I"
+				dynasty = "Matarama"
+				birth_date = 1700.1.1
+				death_Date = 1719.2.1
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 2
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.16a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Pakubuwana I"
+			NOT = { has_global_flag = monarch_MTR_No.16a }
+		}
+		allow = {
+			is_year = 1719
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Amangkurat IV"
+				monarch_name = "Amangkurat IV"
+				dynasty = "Matarama"
+				birth_date = 1680.1.1
+				death_Date = 1726.1.1
+				claim = 95
+				adm = 2
+				dip = 0
+				mil = 1
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.17a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Amangkurat IV"
+			NOT = { has_global_flag = monarch_MTR_No.17a }
+		}
+		allow = {
+			is_year = 1726
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Pakubuwana"
+				monarch_name = "Pakubuwana II"
+				dynasty = "Matarama"
+				birth_date = 1700.1.1
+				death_Date = 1749.12.17
+				claim = 95
+				adm = 0
+				dip = 0
+				mil = 2
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.18a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Pakubuwana II"
+			NOT = { has_global_flag = monarch_MTR_No.18a }
+		}
+		allow = {
+			is_year = 1749
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Pakubuwana III"
+				monarch_name = "Pakubuwana III"
+				dynasty = "Matarama"
+				birth_date = 1730.1.1
+				death_Date = 1788.9.27
+				claim = 95
+				adm = 1
+				dip = 0
+				mil = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_MTR_No.19a = {
+		major = yes
+		potential = {
+			tag = MTR
+			has_ruler = "Pakubuwana III"
+			NOT = { has_global_flag = monarch_MTR_No.19a }
+		}
+		allow = {
+			is_year = 1788
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_MTR_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Pakubuwana IV"
+				dynasty = "Matarama"
+				adm = 1
+				dip = 1
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

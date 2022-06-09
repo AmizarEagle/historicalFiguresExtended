@@ -1,0 +1,702 @@
+country_decisions = {
+
+	monarch_TAU_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Tarabya"
+			has_global_flag = monarch_TAU_No.00a
+			NOT = { is_year = 1451 }
+			NOT = { has_global_flag = monarch_TAU_No.00b }
+		}
+		allow = {
+			is_year = 1446
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Minkhaung"
+			has_global_flag = monarch_TAU_No.01a
+			NOT = { is_year = 1459 }
+			NOT = { has_global_flag = monarch_TAU_No.01b }
+		}
+		allow = {
+			is_year = 1451
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Minnge Kyawhtin"
+			has_global_flag = monarch_TAU_No.02a
+			NOT = { is_year = 1466 }
+			NOT = { has_global_flag = monarch_TAU_No.02b }
+		}
+		allow = {
+			is_year = 1459
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Thiri Zaya Thura"
+			has_global_flag = monarch_TAU_No.03a
+			NOT = { is_year = 1470 }
+			NOT = { has_global_flag = monarch_TAU_No.03b }
+		}
+		allow = {
+			is_year = 1466
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Letya Zala Thingyan"
+			has_global_flag = monarch_TAU_No.04a
+			NOT = { is_year = 1481 }
+			NOT = { has_global_flag = monarch_TAU_No.04b }
+		}
+		allow = {
+			is_year = 1470
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Sithu Kyawhtin"
+			has_global_flag = monarch_TAU_No.05a
+			NOT = { is_year = 1485 }
+			NOT = { has_global_flag = monarch_TAU_No.05b }
+		}
+		allow = {
+			is_year = 1481
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Min Sithu"
+			has_global_flag = monarch_TAU_No.06a
+			NOT = { is_year = 1530 }
+			NOT = { has_global_flag = monarch_TAU_No.06b }
+		}
+		allow = {
+			is_year = 1485
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Mingyinyo"
+			has_global_flag = monarch_TAU_No.07a
+			NOT = { is_year = 1550 }
+			NOT = { has_global_flag = monarch_TAU_No.07b }
+		}
+		allow = {
+			is_year = 1530
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Tabinshwehti"
+			has_global_flag = monarch_TAU_No.08a
+			NOT = { is_year = 1581 }
+			NOT = { has_global_flag = monarch_TAU_No.08b }
+		}
+		allow = {
+			is_year = 1550
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Bayinnaung"
+			has_global_flag = monarch_TAU_No.09a
+			NOT = { is_year = 1600 }
+			NOT = { has_global_flag = monarch_TAU_No.09b }
+		}
+		allow = {
+			is_year = 1581
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Nanda Bayin"
+			has_global_flag = monarch_TAU_No.10a
+			NOT = { is_year = 1606 }
+			NOT = { has_global_flag = monarch_TAU_No.10b }
+		}
+		allow = {
+			is_year = 1599
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Nyaungyan Min"
+			has_global_flag = monarch_TAU_No.11a
+			NOT = { is_year = 1628 }
+			NOT = { has_global_flag = monarch_TAU_No.11b }
+		}
+		allow = {
+			is_year = 1606
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Anaukpetlun"
+			has_global_flag = monarch_TAU_No.12a
+			NOT = { is_year = 1629 }
+			NOT = { has_global_flag = monarch_TAU_No.12b }
+		}
+		allow = {
+			is_year = 1628
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Minyedeippa"
+			has_global_flag = monarch_TAU_No.13a
+			NOT = { is_year = 1647 }
+			NOT = { has_global_flag = monarch_TAU_No.13b }
+		}
+		allow = {
+			is_year = 1629
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Thaulun"
+			has_global_flag = monarch_TAU_No.14a
+			NOT = { is_year = 1661 }
+			NOT = { has_global_flag = monarch_TAU_No.14b }
+		}
+		allow = {
+			is_year = 1647
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Pindale"
+			has_global_flag = monarch_TAU_No.15a
+			NOT = { is_year = 1672 }
+			NOT = { has_global_flag = monarch_TAU_No.15b }
+		}
+		allow = {
+			is_year = 1661
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Pye"
+			has_global_flag = monarch_TAU_No.16a
+			NOT = { is_year = 1673 }
+			NOT = { has_global_flag = monarch_TAU_No.16b }
+		}
+		allow = {
+			is_year = 1672
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Narawara"
+			has_global_flag = monarch_TAU_No.17a
+			NOT = { is_year = 1698 }
+			NOT = { has_global_flag = monarch_TAU_No.17b }
+		}
+		allow = {
+			is_year = 1673
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.18b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Minyekyawdin"
+			has_global_flag = monarch_TAU_No.18a
+			NOT = { is_year = 1714 }
+			NOT = { has_global_flag = monarch_TAU_No.18b }
+		}
+		allow = {
+			is_year = 1698
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.19b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Sanay"
+			has_global_flag = monarch_TAU_No.19a
+			NOT = { is_year = 1733 }
+			NOT = { has_global_flag = monarch_TAU_No.19b }
+		}
+		allow = {
+			is_year = 1714
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.19b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.20b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Taninganway"
+			has_global_flag = monarch_TAU_No.20a
+			NOT = { is_year = 1754 }
+			NOT = { has_global_flag = monarch_TAU_No.20b }
+		}
+		allow = {
+			is_year = 1733
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.20b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.21b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Mahadhammaraza Dipadi"
+			has_global_flag = monarch_TAU_No.21a
+			NOT = { is_year = 1760 }
+			NOT = { has_global_flag = monarch_TAU_No.21b }
+		}
+		allow = {
+			is_year = 1752
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.21b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.22b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Alaungpaya"
+			has_global_flag = monarch_TAU_No.22a
+			NOT = { is_year = 1763 }
+			NOT = { has_global_flag = monarch_TAU_No.22b }
+		}
+		allow = {
+			is_year = 1760
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.22b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.23b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Naugdawgyi"
+			has_global_flag = monarch_TAU_No.23a
+			NOT = { is_year = 1776 }
+			NOT = { has_global_flag = monarch_TAU_No.23b }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.23b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.24b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Hsinbyushin"
+			has_global_flag = monarch_TAU_No.24a
+			NOT = { is_year = 1782 }
+			NOT = { has_global_flag = monarch_TAU_No.24b }
+		}
+		allow = {
+			is_year = 1776
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.24b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.25b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Singu"
+			has_global_flag = monarch_TAU_No.25a
+			NOT = { is_year = 1783 }
+			NOT = { has_global_flag = monarch_TAU_No.25b }
+		}
+		allow = {
+			is_year = 1782
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.25b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.26b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Phaungkaza"
+			has_global_flag = monarch_TAU_No.26a
+			NOT = { is_year = 1819 }
+			NOT = { has_global_flag = monarch_TAU_No.26b }
+		}
+		allow = {
+			is_year = 1783
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.26b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_TAU_No.27b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = TAU
+			has_ruler = "Bodawpaya"
+			has_global_flag = monarch_TAU_No.27a
+			NOT = { is_year = 1846 }
+			NOT = { has_global_flag = monarch_TAU_No.27b }
+		}
+		allow = {
+			is_year = 1819
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_TAU_No.27b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

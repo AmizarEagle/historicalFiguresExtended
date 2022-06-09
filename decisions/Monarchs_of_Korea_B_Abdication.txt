@@ -1,0 +1,477 @@
+country_decisions = {
+
+	monarch_KOR_No.00b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Sejong Do"
+			has_global_flag = monarch_KOR_No.00a
+			NOT = { is_year = 1452 }
+			NOT = { has_global_flag = monarch_KOR_No.00b }
+		}
+		allow = {
+			is_year = 1450
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.01b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Hyang"
+			has_global_flag = monarch_KOR_No.01a
+			NOT = { is_year = 1457 }
+			NOT = { has_global_flag = monarch_KOR_No.01b }
+		}
+		allow = {
+			is_year = 1452
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.02b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Hongwi"
+			has_global_flag = monarch_KOR_No.02a
+			NOT = { is_year = 1468 }
+			NOT = { has_global_flag = monarch_KOR_No.02b }
+		}
+		allow = {
+			is_year = 1456
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.03b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yu"
+			has_global_flag = monarch_KOR_No.03a
+			NOT = { is_year = 1469 }
+			NOT = { has_global_flag = monarch_KOR_No.03b }
+		}
+		allow = {
+			is_year = 1468
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.04b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Gwang"
+			has_global_flag = monarch_KOR_No.04a
+			NOT = { is_year = 1494 }
+			NOT = { has_global_flag = monarch_KOR_No.04b }
+		}
+		allow = {
+			is_year = 1469
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.05b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Hyeol"
+			has_global_flag = monarch_KOR_No.05a
+			NOT = { is_year = 1506 }
+			NOT = { has_global_flag = monarch_KOR_No.05b }
+		}
+		allow = {
+			is_year = 1495
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.06b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yung"
+			has_global_flag = monarch_KOR_No.06a
+			NOT = { is_year = 1544 }
+			NOT = { has_global_flag = monarch_KOR_No.06b }
+		}
+		allow = {
+			is_year = 1506
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.07b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yeok"
+			has_global_flag = monarch_KOR_No.07a
+			NOT = { is_year = 1545 }
+			NOT = { has_global_flag = monarch_KOR_No.07b }
+		}
+		allow = {
+			is_year = 1544
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.08b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Ho"
+			has_global_flag = monarch_KOR_No.08a
+			NOT = { is_year = 1567 }
+			NOT = { has_global_flag = monarch_KOR_No.08b }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.09b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Hwan"
+			has_global_flag = monarch_KOR_No.09a
+			NOT = { is_year = 1608 }
+			NOT = { has_global_flag = monarch_KOR_No.09b }
+		}
+		allow = {
+			is_year = 1567
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.10b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yeon"
+			has_global_flag = monarch_KOR_No.10a
+			NOT = { is_year = 1641 }
+			NOT = { has_global_flag = monarch_KOR_No.10b }
+		}
+		allow = {
+			is_year = 1608
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.11b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Hon"
+			has_global_flag = monarch_KOR_No.11a
+			NOT = { is_year = 1649 }
+			NOT = { has_global_flag = monarch_KOR_No.11b }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.12b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Jong"
+			has_global_flag = monarch_KOR_No.12a
+			NOT = { is_year = 1658 }
+			NOT = { has_global_flag = monarch_KOR_No.12b }
+		}
+		allow = {
+			is_year = 1649
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.13b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Ho"
+			has_global_flag = monarch_KOR_No.13a
+			NOT = { is_year = 1674 }
+			NOT = { has_global_flag = monarch_KOR_No.13b }
+		}
+		allow = {
+			is_year = 1659
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.14b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yon"
+			has_global_flag = monarch_KOR_No.14a
+			NOT = { is_year = 1720 }
+			NOT = { has_global_flag = monarch_KOR_No.14b }
+		}
+		allow = {
+			is_year = 1674
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.15b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Sun"
+			has_global_flag = monarch_KOR_No.15a
+			NOT = { is_year = 1724 }
+			NOT = { has_global_flag = monarch_KOR_No.15b }
+		}
+		allow = {
+			is_year = 1720
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.16b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Yun"
+			has_global_flag = monarch_KOR_No.16a
+			NOT = { is_year = 1776 }
+			NOT = { has_global_flag = monarch_KOR_No.16b }
+		}
+		allow = {
+			is_year = 1724
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.17b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "Geum"
+			has_global_flag = monarch_KOR_No.17a
+			NOT = { is_year = 1800 }
+			NOT = { has_global_flag = monarch_KOR_No.17b }
+		}
+		allow = {
+			is_year = 1776
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.17
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_KOR_No.18b = {
+		major = yes
+		potential = {
+			government = monarchy
+			tag = KOR
+			has_ruler = "San"
+			has_global_flag = monarch_KOR_No.18a
+			NOT = { is_year = 1834 }
+			NOT = { has_global_flag = monarch_KOR_No.18b }
+		}
+		allow = {
+			is_year = 1800
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_KOR_No.18
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
