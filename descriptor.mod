@@ -1,6 +1,6 @@
-version="1.30"
+version="1.33"
 tags={
 	"Historical"
 }
 name="Historical Figures Extended"
-supported_version="1.30.4"
+supported_version="1.33.3"

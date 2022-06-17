@@ -1,0 +1,1501 @@
+country_decisions = {
+
+	monarch_VEN_No.00a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Francesco Foscari"
+			NOT = { has_global_flag = monarch_VEN_No.00a }
+		}
+		allow = {
+			is_year = 1457
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.00a
+			add_stability = -1
+			define_ruler = {
+				name = "Pasquale Malipiero"
+				birth_date = 1392.1.1
+				adm = 2
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.01a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Pasquale Malipiero"
+			NOT = { has_global_flag = monarch_VEN_No.01a }
+		}
+		allow = {
+			is_year = 1462
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.01a
+			add_stability = -1
+			define_ruler = {
+				name = "Cristoforo Moro"
+				birth_date = 1390.1.1
+				adm = 2
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.02a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Cristoforo Moro"
+			NOT = { has_global_flag = monarch_VEN_No.02a }
+		}
+		allow = {
+			is_year = 1471
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.02a
+			add_stability = -1
+			define_ruler = {
+				name = "Nicolo Tron"
+				birth_date = 1399.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.03a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Nicolo Tron"
+			NOT = { has_global_flag = monarch_VEN_No.03a }
+		}
+		allow = {
+			is_year = 1473
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.03a
+			add_stability = -1
+			define_ruler = {
+				name = "Nicolo Marcello"
+				birth_date = 1399.1.1
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.04a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Nicolo Marcello"
+			NOT = { has_global_flag = monarch_VEN_No.04a }
+		}
+		allow = {
+			is_year = 1474
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.04a
+			add_stability = -1
+			define_ruler = {
+				name = "Pietro Mocenigo"
+				birth_date = 1406.1.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.05a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Pietro Mocenigo"
+			NOT = { has_global_flag = monarch_VEN_No.05a }
+		}
+		allow = {
+			is_year = 1476
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.05a
+			add_stability = -1
+			define_ruler = {
+				name = "Andrea Vendamin"
+				birth_date = 1393.1.1
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.06a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Andrea Vendamin"
+			NOT = { has_global_flag = monarch_VEN_No.06a }
+		}
+		allow = {
+			is_year = 1478
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.06a
+			add_stability = -1
+			define_ruler = {
+				name = "Giovanni Mocenigo"
+				birth_date = 1409.1.1
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.07a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Giovanni Mocenigo"
+			NOT = { has_global_flag = monarch_VEN_No.07a }
+		}
+		allow = {
+			is_year = 1485
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.07a
+			add_stability = -1
+			define_ruler = {
+				name = "Marco Barbango"
+				birth_date = 1413.1.1
+				adm = 0
+				dip = 0
+				mil = 2
+				max_random_adm = 0
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.08a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Marco Barbango"
+			NOT = { has_global_flag = monarch_VEN_No.08a }
+		}
+		allow = {
+			is_year = 1486
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.08a
+			add_stability = -1
+			define_ruler = {
+				name = "Agostino Barbango"
+				birth_date = 1420.1.1
+				adm = 4
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.09a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Agostino Barbango"
+			NOT = { has_global_flag = monarch_VEN_No.09a }
+		}
+		allow = {
+			is_year = 1501
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.09a
+			add_stability = -1
+			define_ruler = {
+				name = "Antonio Grimani"
+				birth_date = 1434.12.28
+				adm = 2
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.10a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Antonio Grimani"
+			NOT = { has_global_flag = monarch_VEN_No.10a }
+		}
+		allow = {
+			is_year = 1523
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.10a
+			add_stability = -1
+			define_ruler = {
+				name = "Andrea Gritti"
+				birth_date = 1455.1.1
+				adm = 4
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.11a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Andrea Gritti"
+			NOT = { has_global_flag = monarch_VEN_No.11a }
+		}
+		allow = {
+			is_year = 1539
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.11a
+			add_stability = -1
+			define_ruler = {
+				name = "Pietro Lando"
+				birth_date = 1462.1.1
+				adm = 4
+				dip = 3
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.12a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Pietro Lando"
+			NOT = { has_global_flag = monarch_VEN_No.12a }
+		}
+		allow = {
+			is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.12a
+			add_stability = -1
+			define_ruler = {
+				name = "Franco Donato"
+				birth_date = 1468.1.1
+				adm = 4
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.13a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Franco Donato"
+			NOT = { has_global_flag = monarch_VEN_No.13a }
+		}
+		allow = {
+			is_year = 1553
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.13a
+			add_stability = -1
+			define_ruler = {
+				name = "Francesco Venier"
+				birth_date = 1489.1.1
+				adm = 4
+				dip = 2
+				mil = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.14a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Francesco Venier"
+			NOT = { has_global_flag = monarch_VEN_No.14a }
+		}
+		allow = {
+			is_year = 1556
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.14a
+			add_stability = -1
+			define_ruler = {
+				name = "Laurenti Priuli"
+				birth_date = 1489.1.1
+				adm = 6
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.15a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Laurenti Priuli"
+			NOT = { has_global_flag = monarch_VEN_No.15a }
+		}
+		allow = {
+			is_year = 1559
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.15a
+			add_stability = -1
+			define_ruler = {
+				name = "Girolamo Priuli"
+				birth_date = 1486.1.1
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.16a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Girolamo Priuli"
+			NOT = { has_global_flag = monarch_VEN_No.16a }
+		}
+		allow = {
+			is_year = 1567
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.16a
+			add_stability = -1
+			define_ruler = {
+				name = "Pietro Loredan"
+				birth_date = 1482.1.1
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.17a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Pietro Loredan"
+			NOT = { has_global_flag = monarch_VEN_No.17a }
+		}
+		allow = {
+			is_year = 1570
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.17a
+			add_stability = -1
+			define_ruler = {
+				name = "Alvise Mocenigo I"
+				birth_date = 1507.10.26
+				adm = 4
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.18a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Alvise Mocenigo I"
+			NOT = { has_global_flag = monarch_VEN_No.18a }
+		}
+		allow = {
+			is_year = 1577
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.18a
+			add_stability = -1
+			define_ruler = {
+				name = "Sebastiano Venier"
+				birth_date = 1496.1.1
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.19a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Sebastiano Venier"
+			NOT = { has_global_flag = monarch_VEN_No.19a }
+		}
+		allow = {
+			is_year = 1578
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.19a
+			add_stability = -1
+			define_ruler = {
+				name = "Nicolo da Ponte"
+				birth_date = 1491.1.15
+				adm = 4
+				dip = 4
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.20a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Nicolo da Ponte"
+			NOT = { has_global_flag = monarch_VEN_No.20a }
+		}
+		allow = {
+			is_year = 1585
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.20a
+			add_stability = -1
+			define_ruler = {
+				name = "Pasquale Cicogna"
+				birth_date = 1509.5.27
+				adm = 4
+				dip = 0
+				mil = 2
+				max_random_dip = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.21a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Pasquale Cicogna"
+			NOT = { has_global_flag = monarch_VEN_No.21a }
+		}
+		allow = {
+			is_year = 1595
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.21a
+			add_stability = -1
+			define_ruler = {
+				name = "Marino Grimani"
+				birth_date = 1532.7.1
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.22a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Marino Grimani"
+			NOT = { has_global_flag = monarch_VEN_No.22a }
+		}
+		allow = {
+			is_year = 1605
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.22a
+			add_stability = -1
+			define_ruler = {
+				name = "Leonardo Loredano II"
+				birth_date = 1536.2.12
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.23a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Leonardo Loredano II"
+			NOT = { has_global_flag = monarch_VEN_No.23a }
+		}
+		allow = {
+			is_year = 1612
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.23a
+			add_stability = -1
+			define_ruler = {
+				name = "Marco Memo"
+				birth_date = 1536.11.11
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.24a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Marco Memo"
+			NOT = { has_global_flag = monarch_VEN_No.24a }
+		}
+		allow = {
+			is_year = 1615
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.24a
+			add_stability = -1
+			define_ruler = {
+				name = "Giovanni Bembo"
+				birth_date = 1543.8.21
+				adm = 1
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.25a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Giovanni Bembo"
+			NOT = { has_global_flag = monarch_VEN_No.25a }
+		}
+		allow = {
+			is_year = 1618
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.25a
+			add_stability = -1
+			define_ruler = {
+				name = "Nicolo Donato"
+				birth_date = 1539.1.28
+				adm = 4
+				dip = 2
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.26a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Nicolo Donato"
+			NOT = { has_global_flag = monarch_VEN_No.26a }
+		}
+		allow = {
+			is_year = 1618
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.26a
+			add_stability = -1
+			define_ruler = {
+				name = "Antonio Priulo"
+				birth_date = 1548.5.10
+				adm = 1
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.27a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Antonio Priulo"
+			NOT = { has_global_flag = monarch_VEN_No.27a }
+		}
+		allow = {
+			is_year = 1623
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.27a
+			add_stability = -1
+			define_ruler = {
+				name = "Franco Contarini"
+				birth_date = 1556.11.28
+				adm = 1
+				dip = 4
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.28a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Franco Contarini"
+			NOT = { has_global_flag = monarch_VEN_No.28a }
+		}
+		allow = {
+			is_year = 1624
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.28a
+			add_stability = -1
+			define_ruler = {
+				name = "Giovanni Cornari I"
+				birth_date = 1551.11.11
+				adm = 0
+				dip = 3
+				mil = 3
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.29a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Giovanni Cornari I"
+			NOT = { has_global_flag = monarch_VEN_No.29a }
+		}
+		allow = {
+			is_year = 1629
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.29a
+			add_stability = -1
+			define_ruler = {
+				name = "Nicolo Contarini"
+				birth_date = 1553.9.26
+				adm = 0
+				dip = 2
+				mil = 4
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.30a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Nicolo Contarini"
+			NOT = { has_global_flag = monarch_VEN_No.30a }
+		}
+		allow = {
+			is_year = 1631
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.30a
+			add_stability = -1
+			define_ruler = {
+				name = "Francesco Erizzo"
+				birth_date = 1566.2.18
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.31a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Francesco Erizzo"
+			NOT = { has_global_flag = monarch_VEN_No.31a }
+		}
+		allow = {
+			is_year = 1646
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.31a
+			add_stability = -1
+			define_ruler = {
+				name = "Francesco Molino"
+				birth_date = 1575.4.21
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.32a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Francesco Molino"
+			NOT = { has_global_flag = monarch_VEN_No.32a }
+		}
+		allow = {
+			is_year = 1655
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.32a
+			add_stability = -1
+			define_ruler = {
+				name = "Carlo Contarini"
+				birth_date = 1580.7.5
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.33a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Carlo Contarini"
+			NOT = { has_global_flag = monarch_VEN_No.33a }
+		}
+		allow = {
+			is_year = 1656
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.33a
+			add_stability = -1
+			define_ruler = {
+				name = "Francesco Cornello"
+				birth_date = 1585.3.6
+				adm = 0
+				dip = 0
+				mil = 0
+				max_random_adm = 0
+				max_random_dip = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.34a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Francesco Cornello"
+			NOT = { has_global_flag = monarch_VEN_No.34a }
+		}
+		allow = {
+			is_year = 1656
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.34a
+			add_stability = -1
+			define_ruler = {
+				name = "Bertuccio Valiero"
+				birth_date = 1596.7.1
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.35a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Bertuccio Valiero"
+			NOT = { has_global_flag = monarch_VEN_No.35a }
+		}
+		allow = {
+			is_year = 1658
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.35a
+			add_stability = -1
+			define_ruler = {
+				name = "Giovanni Pesaro"
+				birth_date = 1589.9.1
+				adm = 0
+				dip = 1
+				mil = 1
+				max_random_adm = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.36a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Giovanni Pesaro"
+			NOT = { has_global_flag = monarch_VEN_No.36a }
+		}
+		allow = {
+			is_year = 1659
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.36a
+			add_stability = -1
+			define_ruler = {
+				name = "Domenico II Contarini"
+				birth_date = 1585.1.28
+				adm = 1
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.37a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Domenico II Contarini"
+			NOT = { has_global_flag = monarch_VEN_No.37a }
+		}
+		allow = {
+			is_year = 1675
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.37a
+			add_stability = -1
+			define_ruler = {
+				name = "Nicolo Sagredo"
+				birth_date = 1606.12.8
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.38a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Nicolo Sagredo"
+			NOT = { has_global_flag = monarch_VEN_No.38a }
+		}
+		allow = {
+			is_year = 1676
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.38a
+			add_stability = -1
+			define_ruler = {
+				name = "Alvise Contarini"
+				birth_date = 1601.10.24
+				adm = 1
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.39a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Alvise Contarini"
+			NOT = { has_global_flag = monarch_VEN_No.39a }
+		}
+		allow = {
+			is_year = 1684
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.39a
+			add_stability = -1
+			define_ruler = {
+				name = "Marcantonio Giustiniani"
+				birth_date = 1619.3.2
+				adm = 3
+				dip = 2
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.40a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Marcantonio Giustiniani"
+			NOT = { has_global_flag = monarch_VEN_No.40a }
+		}
+		allow = {
+			is_year = 1688
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.40a
+			add_stability = -1
+			define_ruler = {
+				name = "Francesco Morosini"
+				birth_date = 1619.2.25
+				adm = 3
+				dip = 2
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.41a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Francesco Morosini"
+			NOT = { has_global_flag = monarch_VEN_No.41a }
+		}
+		allow = {
+			is_year = 1694
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.41a
+			add_stability = -1
+			define_ruler = {
+				name = "Silvestro Valiero"
+				birth_date = 1630.3.28
+				adm = 1
+				dip = 2
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.42a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Silvestro Valiero"
+			NOT = { has_global_flag = monarch_VEN_No.42a }
+		}
+		allow = {
+			is_year = 1700
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.42a
+			add_stability = -1
+			define_ruler = {
+				name = "Alvise II Mocenigo"
+				birth_date = 1628.1.3
+				adm = 2
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.43a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Alvise II Mocenigo"
+			NOT = { has_global_flag = monarch_VEN_No.43a }
+		}
+		allow = {
+			is_year = 1709
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.43a
+			add_stability = -1
+			define_ruler = {
+				name = "Giovanni Cornaro II"
+				birth_date = 1647.8.4
+				adm = 1
+				dip = 1
+				mil = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.44a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Giovanni Cornaro II"
+			NOT = { has_global_flag = monarch_VEN_No.44a }
+		}
+		allow = {
+			is_year = 1722
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.44a
+			add_stability = -1
+			define_ruler = {
+				name = "Alvise III Mocenigo"
+				birth_date = 1662.8.29
+				adm = 1
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.45a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Alvise III Mocenigo"
+			NOT = { has_global_flag = monarch_VEN_No.45a }
+		}
+		allow = {
+			is_year = 1732
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.45a
+			add_stability = -1
+			define_ruler = {
+				name = "Carlo Ruzzini"
+				birth_date = 1653.11.11
+				adm = 2
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.46a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Carlo Ruzzini"
+			NOT = { has_global_flag = monarch_VEN_No.46a }
+		}
+		allow = {
+			is_year = 1735
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.46a
+			add_stability = -1
+			define_ruler = {
+				name = "Alvise Pisani"
+				birth_date = 1664.1.1
+				adm = 2
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.47a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Alvise Pisani"
+			NOT = { has_global_flag = monarch_VEN_No.47a }
+		}
+		allow = {
+			is_year = 1741
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.47a
+			add_stability = -1
+			define_ruler = {
+				name = "Pietro Grimani"
+				birth_date = 1677.10.5
+				adm = 1
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.48a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Pietro Grimani"
+			NOT = { has_global_flag = monarch_VEN_No.48a }
+		}
+		allow = {
+			is_year = 1752
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.48a
+			add_stability = -1
+			define_ruler = {
+				name = "Francesco Loredan"
+				birth_date = 1685.2.9
+				adm = 2
+				dip = 3
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.49a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Francesco Loredan"
+			NOT = { has_global_flag = monarch_VEN_No.49a }
+		}
+		allow = {
+			is_year = 1762
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.49a
+			add_stability = -1
+			define_ruler = {
+				name = "Marco Foscarini"
+				birth_date = 1696.2.4
+				adm = 1
+				dip = 1
+				mil = 0
+				max_random_mil = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.50a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Marco Foscarini"
+			NOT = { has_global_flag = monarch_VEN_No.50a }
+		}
+		allow = {
+			is_year = 1763
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.50a
+			add_stability = -1
+			define_ruler = {
+				name = "Alvise IV Mocenigo"
+				birth_date = 1701.5.19
+				adm = 2
+				dip = 4
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.51a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Alvise IV Mocenigo"
+			NOT = { has_global_flag = monarch_VEN_No.51a }
+		}
+		allow = {
+			is_year = 1778
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.51a
+			add_stability = -1
+			define_ruler = {
+				name = "Paulo Rainiero"
+				birth_date = 1710.11.21
+				adm = 2
+				dip = 4
+				mil = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarch_VEN_No.52a = {
+		major = yes
+		potential = {
+			tag = VEN
+			has_ruler = "Paulo Rainiero"
+			NOT = { has_global_flag = monarch_VEN_No.52a }
+		}
+		allow = {
+			is_year = 1789
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_VEN_No.52a
+			add_stability = -1
+			define_ruler = {
+				name = "Ludovico Manin"
+				birth_date = 1725.5.14
+				adm = 1
+				dip = 5
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
