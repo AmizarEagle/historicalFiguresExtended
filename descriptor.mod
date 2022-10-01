@@ -3,4 +3,4 @@ tags={
 	"Historical"
 }
 name="Historical Figures Extended"
-supported_version="1.33.3"
+supported_version="1.33.*"
